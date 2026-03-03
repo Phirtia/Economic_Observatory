@@ -6,6 +6,8 @@ document: <https://lsecloud-my.sharepoint.com/:w:/r/personal/p_rodrigues-da-silv
 
 # Variables
 
+Labels:
+
 - Gross value added per hour worked
 - Gross median weekly pay
 - Employment rate aged 16 to 64 years (Great Britain)
