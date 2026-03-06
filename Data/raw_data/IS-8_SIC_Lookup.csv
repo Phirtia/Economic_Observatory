@@ -1,0 +1,88 @@
+﻿SIC,Digit level,Description,IS8 sector,Frontier sector
+20,2,Manufacture of chemicals and chemical products,Advanced manufacturing,
+26,2,"Manufacture of computer, electronic and optical products",Advanced manufacturing,
+27,2,Manufacture of electrical equipment,Advanced manufacturing,
+28,2,Manufacture of machinery and equipment not elsewhere classified,Advanced manufacturing,
+29,2,"Manufacture of motor vehicles, trailers and semi-trailers",Advanced manufacturing,Automotive manufacturing
+30,2,Manufacture of other transport equipment,Advanced manufacturing,
+58,2,Publishing activities,Creative Industries,
+59,2,"Motion picture, video and television programme production; sound recording and music publishing activities",Creative Industries,
+60,2,Programming and broadcasting activities,Creative Industries,
+90,2,"Creative, arts, and entertainment activities",Creative Industries,"Music, peforming, and visual arts"
+58,2,Publishing activities,Digital and Technology,
+59,2,"Motion picture, video, and television programme production; sound recording; music publishing activities",Digital and Technology,
+60,2,Programming and broadcasting activities,Digital and Technology,
+61,2,Telecommunications,Digital and Technology,
+62,2,"Computer programming, consultancy, and related activities",Digital and Technology,
+63,2,Information service activities,Digital and Technology,
+64,2,"Financial service activities, except insurance and pension funding",Financial Services,
+65,2,"Insurance, reinsurance, and pension funding, except compulsory social security",Financial Services,
+66,2,Activities auxiliary to financial services and insurance activities,Financial Services,Asset management and wholesale services
+21,2,Manufacture of basic pharmaceutical products and pharmaceutical preparations,Life Sciences,
+69,2,Legal and accounting activities,Professional and Business Services,
+70,2,Activities of head offices; management consultancy activities,Professional and Business Services,
+71,2,Architectural and engineering activities; technical testing and analysis,Professional and Business Services,
+72,2,Scientific research and development,Professional and Business Services,
+73,2,Advertising and market research,Professional and Business Services,
+74,2,"Other professional, scientific, and technical activities",Professional and Business Services,
+77,2,Rental and leasing activities,Professional and Business Services,
+78,2,Employment activities,Professional and Business Services,
+82,2,"Office administrative, office support, and other business support activities",Professional and Business Services,
+303,3,Manufacture of air and spacecraft and related machinery,Advanced manufacturing,Aerospace manufacturing
+283,3,Manufacture of agricultural and forestry machinery,Advanced manufacturing,Agritech
+272,3,Manufacture of batteries and accumulators,Advanced manufacturing,Batteries
+731,3,Advertising,Creative Industries,Advertising and marketing
+741,3,Specialised design activities,Creative Industries,
+742,3,Photographic activities,Creative Industries,
+743,3,Translation and interpretation activities,Creative Industries,
+591,3,"Motion picture, video, and television programme activities",Creative Industries,Film and TV
+602,3,Television programming and broadcasting activities,Creative Industries,Film and TV
+592,3,Sound recording and music publishing activities,Creative Industries,"Music, peforming, and visual arts"
+5821,3,Publishing of computer games,Creative Industries,Video games
+254,3,Manufacture of weapons and ammunition,Defence sector,
+304,3,Manufacture of military fighting vehicles,Defence sector,
+261,3,Manufacture of electronic components and boards,Digital and Technology,
+262,3,Manufacture of computers and peripheral equipment,Digital and Technology,
+263,3,Manufacture of communication equipment,Digital and Technology,
+264,3,Manufacture of consumer electronics,Digital and Technology,
+268,3,Manufacture of magnetic and optical media,Digital and Technology,
+279,3,Manufacture of other electrical equipment,Digital and Technology,
+465,3,Wholesale of information and communication equipment,Digital and Technology,
+712,3,Technical testing and analysis,Digital and Technology,
+721,3,Research and experimental development on natural sciences and engineering,Digital and Technology,
+951,3,Repair of computers and communication equipment,Digital and Technology,
+663,3,Fund management activities,Financial Services,Asset management and wholesale services
+643,3,"Trusts, funds, and similar financial entities",Financial Services,Capital markets and retail investment
+642,3,Activities of holding companies,Financial Services,Capital markets and retail investment
+266,3,"Manufacture of irradiation, electromedical, and electrotherapeutic equipment",Life Sciences,
+325,3,Manufacture of medical and dental instruments and supplies,Life Sciences,
+692,3,"Accounting, bookkeeping, and auditing activities; tax consultancy",Professional and Business Services,"Accounting, audit and tax consultancy"
+691,3,Legal activities,Professional and Business Services,Legal services
+702,3,Management consultancy activities,Professional and Business Services,Management consultancy
+3316,4,Repair and maintenance of aircraft and spacecraft,Advanced manufacturing,Aerospace manufacturing
+3212,4,Manufacture of jewellery and related articles,Creative Industries,
+6201,4,Computer programming activities,Creative Industries,
+6202,4,Computer consultancy activities,Creative Industries,
+7021,4,Public relations and communication activities,Creative Industries,Advertising and marketing
+7111,4,Architectural activities,Creative Industries,
+8552,4,Cultural education,Creative Industries,"Music, peforming, and visual arts"
+9101,4,Library and archive activities,Creative Industries,
+9102,4,Museum activities,Creative Industries,
+2731,4,Manufacture of fibre optic cables,Digital and Technology,
+2732,4,Manufacture of other electronic and electric wires and cables,Digital and Technology,
+7112,4,Engineering activities and related technical consultancy,Digital and Technology,
+6499,4,"Other financial service activities, except insurance and pension funding, not elsewhere classified",Financial Services,Capital markets and retail investment
+6611,4,Administration of financial markets,Financial Services,Capital markets and retail investment
+6612,4,Security and commodity contracts brokerage,Financial Services,Capital markets and retail investment
+6512,4,Non-life insurance,Financial Services,Insurance and reinsurance markets
+6621,4,Risk and damage evaluation,Financial Services,Insurance and reinsurance markets
+6622,4,Activities of insurance agents and brokers,Financial Services,Insurance and reinsurance markets
+7211,4,Research and experimental development on biotechnology,Life Sciences,
+62011,5,Ready-made interactive leisure and entertainment software development,Creative Industries,Video games
+26511,5,"Manufacture of electronic instruments and appliances for measuring, testing, and navigation, except industrial process control equipment",Digital and Technology,
+26512,5,Manufacture of electronic industrial process control equipment,Digital and Technology,
+26513,5,"Manufacture of non-electronic instruments and appliances for measuring, testing, and navigation, except industrial process control equipment",Digital and Technology,
+26701,5,Manufacture of optical precision instruments,Digital and Technology,
+64191,5,Banks,Financial Services,Capital markets and retail investment
+64301,5,Activities of investment trusts,Financial Services,Capital markets and retail investment
+65202,5,Non-life reinsurance,Financial Services,Insurance and reinsurance markets
