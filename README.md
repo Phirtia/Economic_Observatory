@@ -8,26 +8,27 @@ document: <https://lsecloud-my.sharepoint.com/:w:/r/personal/p_rodrigues-da-silv
 
 Labels:
 
+We need to think more about these variables. Which of them we can justify more "accuracy" that are invariance over time
 - Gross value added per hour worked
 - Gross median weekly pay
-- Employment rate aged 16 to 64 years (Great Britain)
+- Employment rate aged 16 to 64 years (Great Britain) (it could be)
 - Employment rate aged 16 to 64 years (Northern Ireland)
-- Modelled unemployment rate aged 16 years and over
-- Gross disposable household income, per head
-- Births of new enterprises
-- Deaths of enterprises
-- Active enterprises
-- High growth enterprises
-- Total value of UK exports
-- Inward foreign direct investment (FDI)
-- Outward foreign direct investment (FDI)
+- Modelled unemployment rate aged 16 years and over (it could be, but need to understand how they model unemployment)
+- Gross disposable household income, per head (it could be)
+- Births of new enterprises (it could be --> From view this one of the most important)
+- Deaths of enterprises (it could be --> From view this one of the most important)
+- Active enterprises (it could be --> From view this one of the most important)
+- High growth enterprises (it could be --> From view this one of the most important)
+- Total value of UK exports (maybe is important?)
+- Inward foreign direct investment (FDI) (it could be --> From view this one of the most important)
+- Outward foreign direct investment (FDI) (it could be --> From view this one of the most important)
 - Public-funded gross regional capital and non-capital expenditure on research and development
-- Average travel time to nearest employment centre with 500 to 4999 jobs available by public transport or walking
-- Average travel time to nearest employment centre with 500 to 4999 jobs available by car
-- Average travel time to nearest employment centre with 500 to 4999 jobs available by cycle
-- Premises with gigabit capable broadband
-- 4G coverage provided by at least one mobile network provider
-- Percentage of pupils at the end of key stage 2 meeting the expected standard in reading, writing and maths
+- Average travel time to nearest employment centre with 500 to 4999 jobs available by public transport or walking (it could be --> From view this one of the most important)
+- Average travel time to nearest employment centre with 500 to 4999 jobs available by car (it could be --> From view this one of the most important)
+- Average travel time to nearest employment centre with 500 to 4999 jobs available by cycle (it could be --> From view this one of the most important)
+- Premises with gigabit capable broadband (it measures the availability of high-speed internet infrastructure.) (it could be --> From view this one of the most important)
+- 4G coverage provided by at least one mobile network provider (it could be --> From view this one of the most important)
+- Percentage of pupils at the end of key stage 2 meeting the expected standard in reading, writing and maths (Out of all 11-year-olds finishing primary school, what percentage have reached the government's minimum acceptable level in the three core subjects?)
 - Young people achieving GCSEs (and equivalent qualifications) in English and maths by age 19
 - State-funded schools rated good or outstanding
 - Persistent absences for all pupils
@@ -42,6 +43,8 @@ Labels:
 - Proportion of the population aged 16 to 64 with National Vocational Qualification (NVQ) level 3+ qualifications (Great Britain)
 - Proportion of the population aged 16 to 64 with National Vocational Qualification (NVQ) level 3+ qualifications (Northern Ireland)
 - 19+ further education and skills participation (per 100,000 population)
+======================================================================================================
+Following variables related to long term growth ? and we can justify that are not high time-variant?
 - Female healthy life expectancy
 - Male healthy life expectancy
 - Adults that currently smoke cigarettes
@@ -55,6 +58,7 @@ Labels:
 - Average feeling that things done in life are worthwhile rating
 - Average happiness rating
 - Average anxiety rating
+====================================================================================================
 - Net additions to the housing stock (per 1,000 stock)
 - Homicide Offences (rate per million population)
 - Percentage of the population living in an area covered by the highest level of devolution
