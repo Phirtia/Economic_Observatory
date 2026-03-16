@@ -1,0 +1,21 @@
+name: pp422
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.13
+  - pandas
+  - pyarrow
+  - geopandas
+  - openpyxl
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - scipy
+  - statsmodels
+  - jupyter
+  - jupyterlab
+  - pyyaml
+  - pip:
+    - pyarrow
