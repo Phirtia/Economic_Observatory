@@ -4,39 +4,38 @@
 
 # --- Paths ---
 paths:
-  raw_data: "raw_data"
-  processed_data: "processed_data"
+  raw_data: "data/raw_data"
+  processed_data: "data/processed_data"
   output: "output"
   src: "src"
   notebooks: "notebooks"
-  tests: "tests"
   documentation: "documentation"
 
   # Raw data subfolders
-  boundaries: "raw_data/boundaries"
-  business_counts: "raw_data/business_counts"
-  employee_counts: "raw_data/employee_counts"
-  local_indicators: "raw_data/local_indicators"
+  boundaries: "data/raw_data/boundaries"
+  business_counts: "data/raw_data/business_counts"
+  employee_counts: "data/raw_data/employee_counts"
+  local_indicators: "data/raw_data/local_indicators"
 
   # Raw files
-  business_counts_lad: "raw_data/business_counts/Business_counts_IS8_LADs.parquet"
-  business_counts_msoa: "raw_data/business_counts/Business_counts_IS8_MSOAs.parquet"
-  employee_counts_lad: "raw_data/employee_counts/Employee_counts_IS8_LADs.parquet"
-  employee_counts_msoa: "raw_data/employee_counts/Employee_counts_IS8_MSOAs.parquet"
-  sic_lookup: "raw_data/IS-8_SIC_Lookup.csv"
-  ons_indicators: "raw_data/local_indicators/ONS_local_indicators_package.xlsx"
+  business_counts_lad: "data/raw_data/business_counts/Business_counts_IS8_LADs.parquet"
+  business_counts_msoa: "data/raw_data/business_counts/Business_counts_IS8_MSOAs.parquet"
+  employee_counts_lad: "data/raw_data/employee_counts/Employee_counts_IS8_LADs.parquet"
+  employee_counts_msoa: "data/raw_data/employee_counts/Employee_counts_IS8_MSOAs.parquet"
+  sic_lookup: "data/raw_data/IS-8_SIC_Lookup.csv"
+  ons_indicators: "data/raw_data/local_indicators/ONS_local_indicators_package.xlsx"
 
   # Boundary files
-  lad_boundaries: "raw_data/boundaries/UK_Local_Authority_Districts_December_2023_Boundaries_UK_BGC_2537431731774104276.geojson"
-  msoa_boundaries: "raw_data/boundaries/Middle_layer_Super_Output_Areas_December_2021_Boundaries_EW_BGC_V3_-4477917303172606123.geojson"
-  iz_boundaries: "raw_data/boundaries/SG_IZ_2022.geojson"
-  msoa_to_ca: "raw_data/boundaries/MSOA_to_English_combined_authorities.csv"
-  iz_to_council: "raw_data/boundaries/IZ2022_to_council_area.csv"
-  msoa_lookup: "raw_data/boundaries/MSOA_(2011)_to_MSOA_(2021)_to_Local_Authority_District_(2022)_Exact_Fit_Lookup_for_EW_(V2).csv"
+  lad_boundaries: "data/raw_data/boundaries/UK_Local_Authority_Districts_December_2023_Boundaries_UK_BGC_2537431731774104276.geojson"
+  msoa_boundaries: "data/raw_data/boundaries/Middle_layer_Super_Output_Areas_December_2021_Boundaries_EW_BGC_V3_-4477917303172606123.geojson"
+  iz_boundaries: "data/raw_data/boundaries/SG_IZ_2022.geojson"
+  msoa_to_ca: "data/raw_data/boundaries/MSOA_to_English_combined_authorities.csv"
+  iz_to_council: "data/raw_data/boundaries/IZ2022_to_council_area.csv"
+  msoa_lookup: "data/raw_data/boundaries/MSOA_(2011)_to_MSOA_(2021)_to_Local_Authority_District_(2022)_Exact_Fit_Lookup_for_EW_(V2).csv"
 
   # Processed files
-  analysis_panel: "processed_data/analysis_panel.parquet"
-  indicators_panel: "processed_data/indicators_panel.parquet"
+  analysis_panel: "data/processed_data/analysis_panel.parquet"
+  indicators_panel: "data/processed_data/indicators_panel.parquet"
 
 # --- Analysis parameters ---
 parameters:
