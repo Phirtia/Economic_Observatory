@@ -1,6 +1,7 @@
 import pandas as pd
 from pathlib import Path
 from src.loader import DataLoader
+from src.indicators import IndicatorBuilder
 
 
 class DataProcessor:
@@ -20,6 +21,7 @@ class DataProcessor:
         self.config = config
         self.paths = config["paths"]
         self.loader = DataLoader(config)
+        self.indicator_builder = IndicatorBuilder(config)
 
     def _save(self, df: pd.DataFrame, key: str):
         path = Path(self.paths[key])
@@ -64,7 +66,6 @@ class DataProcessor:
         """
         df = df_raw.copy()
         df.columns = range(df.shape[1])
-        # find header row (contains 'Area Code')
         header_row = None
         for i, row in df.iterrows():
             if any("Area Code" in str(v) for v in row.values):
@@ -75,15 +76,12 @@ class DataProcessor:
         df.columns = df.iloc[header_row]
         df = df.iloc[header_row + 1:].reset_index(drop=True)
         df = df.rename(columns={df.columns[0]: "GEOGRAPHY_CODE"})
-        # keep only LAD-level rows (E, W, S prefixes at district level)
         df = df[df["GEOGRAPHY_CODE"].astype(str).str.match(r"^[EWS]\d{8}$")]
         df = df.replace("na", pd.NA)
         df = df.replace("NA", pd.NA)
-        # convert all non-geography columns to numeric where possible
         for col in df.columns:
             if col != "GEOGRAPHY_CODE":
                 df[col] = pd.to_numeric(df[col], errors="coerce")
-        # keep only GEOGRAPHY_CODE and numeric columns that have at least some values
         numeric_cols = [c for c in df.columns if c != "GEOGRAPHY_CODE" and df[c].notna().any()]
         df = df[["GEOGRAPHY_CODE"] + numeric_cols]
         return df
@@ -99,7 +97,6 @@ class DataProcessor:
             if df.empty or len(df.columns) < 2:
                 continue
             col_name = sheet_name.lower().replace(" ", "_").replace("&", "and")
-            # take the first numeric value column
             val_cols = [c for c in df.columns if c != "GEOGRAPHY_CODE"]
             if not val_cols:
                 continue
@@ -140,7 +137,7 @@ class DataProcessor:
         emp = self.aggregate_to_is8(emp)
         emp = emp.rename(columns={"OBS_VALUE": "EMPLOYEES"})
 
-        # process business counts (no SIZE_BAND aggregation yet)
+        # process business counts
         bus = self.filter_lad_only(bus)
         bus = self.standardise_sector_names(bus)
         bus = self.aggregate_to_is8(bus)
@@ -155,6 +152,9 @@ class DataProcessor:
 
         # reconcile boundaries
         panel = self.reconcile_boundaries(panel, crosswalk)
+
+        # build indicators
+        panel = self.indicator_builder.build_indicators(panel)
 
         # save
         self._save(panel, "analysis_panel")

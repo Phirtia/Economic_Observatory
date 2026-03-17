@@ -35,7 +35,6 @@ paths:
 
   # Processed files
   analysis_panel: "data/processed_data/analysis_panel.parquet"
-  indicators_panel: "data/processed_data/indicators_panel.parquet"
 
 # --- Analysis parameters ---
 parameters:

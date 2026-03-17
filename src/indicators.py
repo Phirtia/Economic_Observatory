@@ -1,23 +1,14 @@
 import pandas as pd
 import numpy as np
-from pathlib import Path
-from src.loader import DataLoader
-from src.processor import DataProcessor
 
 
 class IndicatorBuilder:
 
     def __init__(self, config: dict):
         self.config = config
-        self.paths = config["paths"]
         self.params = config["parameters"]
 
-    def _save(self, df: pd.DataFrame, key: str):
-        path = Path(self.paths[key])
-        path.parent.mkdir(parents=True, exist_ok=True)
-        df.to_parquet(path, index=False)
-
-    # --- Location Quotient ---
+    # --- Location Quotient (employment) ---
 
     def compute_location_quotient(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -60,7 +51,7 @@ class IndicatorBuilder:
         df = df.drop(columns=["TOTAL_EMP", "NAT_IS8_EMP", "NAT_TOTAL_EMP"])
         return df
 
-    # --- Business count LQ ---
+    # --- Location Quotient (business count) ---
 
     def compute_lq_bus(self, df: pd.DataFrame) -> pd.DataFrame:
         """
@@ -102,6 +93,8 @@ class IndicatorBuilder:
         df = df.drop(columns=["TOTAL_BUS", "NAT_IS8_BUS", "NAT_TOTAL_BUS"])
         return df
 
+    # --- Employment share ---
+
     def compute_employment_share(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         IS8 employment as share of total LAD employment.
@@ -130,7 +123,6 @@ class IndicatorBuilder:
         y0_bus = self.params["growth_start_year_bus"]
         y1 = self.params["growth_end_year"]
 
-        # employment growth
         emp_base = df[df["YEAR"] == y0_emp][
             ["GEOGRAPHY_CODE", "IS8_SECTOR", "EMPLOYEES"]
         ].rename(columns={"EMPLOYEES": "EMP_START"})
@@ -143,7 +135,6 @@ class IndicatorBuilder:
         emp_growth["cagr_emp"] = (emp_growth["EMP_END"] / emp_growth["EMP_START"]) ** (1 / n_emp) - 1
         emp_growth = emp_growth.drop(columns=["EMP_START", "EMP_END"])
 
-        # business count growth
         bus_base = df[df["YEAR"] == y0_bus][
             ["GEOGRAPHY_CODE", "IS8_SECTOR", "BUSINESSES"]
         ].rename(columns={"BUSINESSES": "BUS_START"})
@@ -180,8 +171,7 @@ class IndicatorBuilder:
     def compute_related_variety(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         SIC adjacency-based relatedness index per LAD.
-        To be implemented in Step 6 after SIC adjacency approach is finalised.
-        See Open Questions in workplan.
+        To be implemented after SIC adjacency approach is finalised.
         """
         df = df.copy()
         df["related_variety"] = np.nan
@@ -193,7 +183,7 @@ class IndicatorBuilder:
         """
         Firm size distribution per LAD x IS8 sector.
         Requires SIZE_BAND data from business counts.
-        To be implemented in Step 6.
+        To be implemented later.
         """
         df = df.copy()
         df["size_large_share"] = np.nan
@@ -208,12 +198,11 @@ class IndicatorBuilder:
         df = self.compute_lq_bus(df)
         df = self.compute_employment_share(df)
         df = self.compute_location_quotient(df)
-        # now remove Total rows
+        # remove Total rows
         df = df[df["IS8_SECTOR"] != "Total"].copy()
         df = self.compute_growth_rates(df)
         df = self.compute_business_density(df)
         df = self.compute_related_variety(df)
         df = self.compute_size_distribution(df)
-        self._save(df, "indicators_panel")
         print(f"Indicators built: {df.shape[0]:,} rows x {df.shape[1]} columns")
         return df

@@ -1,13 +1,5 @@
-import yaml
-from pathlib import Path
-from src.loader import DataLoader
+from src.loader import load_config
 from src.processor import DataProcessor
-from src.indicators import IndicatorBuilder
-
-
-def load_config(path: str = "config.yml") -> dict:
-    with open(path, "r") as f:
-        return yaml.safe_load(f)
 
 
 def print_menu():
@@ -36,12 +28,7 @@ def main():
             processor.build_panel()
 
         elif choice == "2":
-            print("\n[IndicatorBuilder] Building indicators...")
-            loader = DataLoader(config)
-            processor = DataProcessor(config)
-            panel = processor.build_panel()
-            builder = IndicatorBuilder(config)
-            builder.build_indicators(panel)
+            print("\n[Step 7] Descriptive analysis — coming soon.")
 
         elif choice == "3":
             print("\n[Step 7] Descriptive analysis — coming soon.")
