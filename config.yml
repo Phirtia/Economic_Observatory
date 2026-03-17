@@ -39,13 +39,13 @@ paths:
 # --- Analysis parameters ---
 parameters:
   # Year range available in data
-  business_counts_years: [2016, 2025]
-  employee_counts_years: [2015, 2024]
+  business_counts_years: [2016, 2022]
+  employee_counts_years: [2016, 2022]
 
   # Years to use for growth calculations (start and end)
-  growth_start_year_emp: 2015
+  growth_start_year_emp: 2016
   growth_start_year_bus: 2016
-  growth_end_year: 2024
+  growth_end_year: 2022
 
   # Primary unit of analysis (confirmed in Step 4)
   primary_geography: "LAD"  # MSOA reserved for mapping only
