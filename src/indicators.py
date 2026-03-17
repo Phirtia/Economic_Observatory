@@ -1,5 +1,6 @@
 import pandas as pd
 import numpy as np
+from pathlib import Path
 
 
 class IndicatorBuilder:
@@ -113,58 +114,64 @@ class IndicatorBuilder:
 
     # --- Growth rates ---
 
+    def _first_nonzero_base(
+        self,
+        df: pd.DataFrame,
+        value_col: str,
+        y0: int,
+        y1: int
+    ) -> pd.DataFrame:
+        """
+        For each LAD x IS8 sector, find the first year >= y0 where value_col > 0.
+        Returns a dataframe with GEOGRAPHY_CODE, IS8_SECTOR, <value_col>_START, BASE_YEAR.
+        Falls back to NaN if no non-zero value exists in [y0, y1-1].
+        """
+        candidates = (
+            df[(df["YEAR"] >= y0) & (df["YEAR"] < y1) & (df[value_col] > 0)]
+            .sort_values("YEAR")
+            .groupby(["GEOGRAPHY_CODE", "IS8_SECTOR"], as_index=False)
+            .first()[["GEOGRAPHY_CODE", "IS8_SECTOR", "YEAR", value_col]]
+            .rename(columns={"YEAR": "BASE_YEAR", value_col: f"{value_col}_START"})
+        )
+        return candidates
+
     def compute_growth_rates(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Computes point-to-point growth and CAGR for employment and business counts.
-        Uses separate start years for employment and business counts from config.
+        Log-diff growth from first non-zero year to end year, per LAD x IS8 sector.
+        If y0 is zero, walks forward year by year until a non-zero value is found.
+        CAGR is annualised using the actual number of years between base and end year.
         """
         df = df.copy()
         y0_emp = self.params["growth_start_year_emp"]
         y0_bus = self.params["growth_start_year_bus"]
         y1 = self.params["growth_end_year"]
 
-        emp_base = df[df["YEAR"] == y0_emp][
-            ["GEOGRAPHY_CODE", "IS8_SECTOR", "EMPLOYEES"]
-        ].rename(columns={"EMPLOYEES": "EMP_START"})
+        # employment growth
+        emp_base = self._first_nonzero_base(df, "EMPLOYEES", y0_emp, y1)
         emp_end = df[df["YEAR"] == y1][
             ["GEOGRAPHY_CODE", "IS8_SECTOR", "EMPLOYEES"]
-        ].rename(columns={"EMPLOYEES": "EMP_END"})
+        ].rename(columns={"EMPLOYEES": "EMPLOYEES_END"})
         emp_growth = emp_base.merge(emp_end, on=["GEOGRAPHY_CODE", "IS8_SECTOR"], how="inner")
-        n_emp = y1 - y0_emp
-        emp_growth["growth_emp"] = (emp_growth["EMP_END"] - emp_growth["EMP_START"]) / emp_growth["EMP_START"]
-        emp_growth["cagr_emp"] = (emp_growth["EMP_END"] / emp_growth["EMP_START"]) ** (1 / n_emp) - 1
-        emp_growth = emp_growth.drop(columns=["EMP_START", "EMP_END"])
+        emp_growth["n_emp"] = y1 - emp_growth["BASE_YEAR"]
+        emp_growth["growth_emp"] = (emp_growth["EMPLOYEES_END"] - emp_growth["EMPLOYEES_START"]) / emp_growth["EMPLOYEES_START"]
+        emp_growth["cagr_emp"] = (emp_growth["EMPLOYEES_END"] / emp_growth["EMPLOYEES_START"]) ** (1 / emp_growth["n_emp"]) - 1
+        emp_growth = emp_growth[["GEOGRAPHY_CODE", "IS8_SECTOR", "growth_emp", "cagr_emp"]]
 
-        bus_base = df[df["YEAR"] == y0_bus][
-            ["GEOGRAPHY_CODE", "IS8_SECTOR", "BUSINESSES"]
-        ].rename(columns={"BUSINESSES": "BUS_START"})
+        # business count growth
+        bus_base = self._first_nonzero_base(df, "BUSINESSES", y0_bus, y1)
         bus_end = df[df["YEAR"] == y1][
             ["GEOGRAPHY_CODE", "IS8_SECTOR", "BUSINESSES"]
-        ].rename(columns={"BUSINESSES": "BUS_END"})
+        ].rename(columns={"BUSINESSES": "BUSINESSES_END"})
         bus_growth = bus_base.merge(bus_end, on=["GEOGRAPHY_CODE", "IS8_SECTOR"], how="inner")
-        n_bus = y1 - y0_bus
-        bus_growth["growth_bus"] = (bus_growth["BUS_END"] - bus_growth["BUS_START"]) / bus_growth["BUS_START"]
-        bus_growth["cagr_bus"] = (bus_growth["BUS_END"] / bus_growth["BUS_START"]) ** (1 / n_bus) - 1
-        bus_growth = bus_growth.drop(columns=["BUS_START", "BUS_END"])
+        bus_growth["n_bus"] = y1 - bus_growth["BASE_YEAR"]
+        bus_growth["growth_bus"] = (bus_growth["BUSINESSES_END"] - bus_growth["BUSINESSES_START"]) / bus_growth["BUSINESSES_START"]
+        bus_growth["cagr_bus"] = (bus_growth["BUSINESSES_END"] / bus_growth["BUSINESSES_START"]) ** (1 / bus_growth["n_bus"]) - 1
+        bus_growth = bus_growth[["GEOGRAPHY_CODE", "IS8_SECTOR", "growth_bus", "cagr_bus"]]
 
         df = df.merge(emp_growth, on=["GEOGRAPHY_CODE", "IS8_SECTOR"], how="left")
         df = df.merge(bus_growth, on=["GEOGRAPHY_CODE", "IS8_SECTOR"], how="left")
         return df
 
-    # --- Business density ---
-
-    def compute_business_density(self, df: pd.DataFrame) -> pd.DataFrame:
-        """
-        IS8 businesses per 1,000 working-age population.
-        Requires working-age population column from ONS indicators.
-        Column name TBC after ONS sheet parsing — placeholder uses 'working_age_pop'.
-        """
-        df = df.copy()
-        if "working_age_pop" not in df.columns:
-            df["business_density"] = np.nan
-            return df
-        df["business_density"] = df["BUSINESSES"] / (df["working_age_pop"] / 1000)
-        return df
 
     # --- Related variety (placeholder) ---
 
@@ -177,17 +184,46 @@ class IndicatorBuilder:
         df["related_variety"] = np.nan
         return df
 
-    # --- Size distribution (placeholder) ---
+    # --- Size distribution ---
 
     def compute_size_distribution(self, df: pd.DataFrame) -> pd.DataFrame:
         """
-        Firm size distribution per LAD x IS8 sector.
-        Requires SIZE_BAND data from business counts.
-        To be implemented later.
+        Share of micro and large businesses out of total businesses per LAD x IS8 sector x year.
+        Loads raw business counts directly to access SIZE_BAND before it is aggregated away.
         """
-        df = df.copy()
-        df["size_large_share"] = np.nan
-        df["size_micro_share"] = np.nan
+        path = Path(__file__).resolve().parent.parent / self.config["paths"]["business_counts_lad"]
+        bus_raw = pd.read_parquet(path)
+
+        # filter to LAD level and year range
+        lad_type = "local authorities: district / unitary (as of April 2023)"
+        y0 = self.params["growth_start_year_emp"]
+        y1 = self.params["growth_end_year"]
+        bus_raw = bus_raw[bus_raw["GEOGRAPHY_TYPE"] == lad_type].copy()
+        bus_raw = bus_raw[(bus_raw["YEAR"] >= y0) & (bus_raw["YEAR"] <= y1)]
+
+        group_cols = ["YEAR", "GEOGRAPHY_CODE", "IS8_SECTOR", "SIZE_BAND"]
+        bus_raw = bus_raw.groupby(group_cols, as_index=False)["OBS_VALUE"].sum()
+
+        # pivot size bands into columns
+        bus_pivot = bus_raw.pivot_table(
+            index=["YEAR", "GEOGRAPHY_CODE", "IS8_SECTOR"],
+            columns="SIZE_BAND",
+            values="OBS_VALUE",
+            aggfunc="sum"
+        ).reset_index()
+        bus_pivot.columns.name = None
+
+        # compute total and shares
+        size_cols = ["large", "medium", "micro", "small"]
+        bus_pivot["total_bus"] = bus_pivot[size_cols].sum(axis=1)
+        bus_pivot["size_large_share"] = bus_pivot["large"] / bus_pivot["total_bus"].replace(0, pd.NA)
+        bus_pivot["size_micro_share"] = bus_pivot["micro"] / bus_pivot["total_bus"].replace(0, pd.NA)
+
+        keep = ["YEAR", "GEOGRAPHY_CODE", "IS8_SECTOR", "size_large_share", "size_micro_share"]
+        bus_pivot = bus_pivot[keep]
+        bus_pivot["GEOGRAPHY_CODE"] = bus_pivot["GEOGRAPHY_CODE"].astype(str)
+
+        df = df.merge(bus_pivot, on=["YEAR", "GEOGRAPHY_CODE", "IS8_SECTOR"], how="left")
         return df
 
     # --- Orchestrator ---
@@ -201,7 +237,6 @@ class IndicatorBuilder:
         # remove Total rows
         df = df[df["IS8_SECTOR"] != "Total"].copy()
         df = self.compute_growth_rates(df)
-        df = self.compute_business_density(df)
         df = self.compute_related_variety(df)
         df = self.compute_size_distribution(df)
         print(f"Indicators built: {df.shape[0]:,} rows x {df.shape[1]} columns")
