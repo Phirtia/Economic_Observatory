@@ -6,11 +6,10 @@ def print_menu():
     print("\n" + "="*50)
     print("  PP422 — Regional Opportunities in Frontier Industries")
     print("="*50)
-    print("  1. Build analysis panel (DataProcessor)")
-    print("  2. Build indicators (IndicatorBuilder)")
-    print("  3. Descriptive analysis        [coming soon]")
-    print("  4. Regression analysis         [coming soon]")
-    print("  5. Generate maps               [coming soon]")
+    print("  1. Build analysis panel")
+    print("  2. Descriptive analysis        [coming soon]")
+    print("  3. Regression analysis         [coming soon]")
+    print("  4. Generate maps               [coming soon]")
     print("  0. Exit")
     print("="*50)
 
@@ -31,12 +30,9 @@ def main():
             print("\n[Step 7] Descriptive analysis — coming soon.")
 
         elif choice == "3":
-            print("\n[Step 7] Descriptive analysis — coming soon.")
-
-        elif choice == "4":
             print("\n[Step 8] Regression analysis — coming soon.")
 
-        elif choice == "5":
+        elif choice == "4":
             print("\n[Step 10] Map generation — coming soon.")
 
         elif choice == "0":
