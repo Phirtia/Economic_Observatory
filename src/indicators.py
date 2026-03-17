@@ -9,7 +9,7 @@ class IndicatorBuilder:
         self.config = config
         self.params = config["parameters"]
 
-    def _load_national_totals(self) -> tuple[pd.DataFrame, pd.DataFrame]:
+    def _load_national_totals(self) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame, pd.DataFrame]:
         """
         Load GB-level employment and business totals per IS8 sector per year.
         Uses Great Britain country row as the national benchmark for LQ computation.
@@ -36,8 +36,9 @@ class IndicatorBuilder:
         nat_bus_is8 = bus[bus["IS8_SECTOR"] != "Total"].rename(columns={"OBS_VALUE": "NAT_IS8_BUS"})
         nat_bus_total = bus[bus["IS8_SECTOR"] == "Total"][["YEAR", "OBS_VALUE"]].rename(columns={"OBS_VALUE": "NAT_TOTAL_BUS"})
 
-        return (nat_emp_is8, nat_emp_total, nat_bus_is8, nat_bus_total)
+        return nat_emp_is8, nat_emp_total, nat_bus_is8, nat_bus_total
 
+    # --- Location Quotient (employment) ---
 
     def compute_location_quotient(self, df: pd.DataFrame, nat_emp_is8: pd.DataFrame, nat_emp_total: pd.DataFrame) -> pd.DataFrame:
         """
@@ -158,7 +159,6 @@ class IndicatorBuilder:
         df = df.merge(bus_growth, on=["GEOGRAPHY_CODE", "IS8_SECTOR"], how="left")
         return df
 
-
     # --- Related variety ---
 
     def compute_related_variety(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -256,14 +256,21 @@ class IndicatorBuilder:
 
     def build_indicators(self, panel: pd.DataFrame) -> pd.DataFrame:
         df = panel.copy()
+
+        # load national totals once — needed by both LQ methods
+        nat_emp_is8, nat_emp_total, nat_bus_is8, nat_bus_total = self._load_national_totals()
+
         # both emp_share and lq_emp need Total rows — compute before removing them
-        df = self.compute_lq_bus(df)
+        df = self.compute_lq_bus(df, nat_bus_is8, nat_bus_total)
         df = self.compute_employment_share(df)
-        df = self.compute_location_quotient(df)
+        df = self.compute_location_quotient(df, nat_emp_is8, nat_emp_total)
+
         # remove Total rows
         df = df[df["IS8_SECTOR"] != "Total"].copy()
+
         df = self.compute_growth_rates(df)
         df = self.compute_related_variety(df)
         df = self.compute_size_distribution(df)
+
         print(f"Indicators built: {df.shape[0]:,} rows x {df.shape[1]} columns")
         return df
