@@ -6,16 +6,6 @@ from src.indicators import IndicatorBuilder
 
 class DataProcessor:
 
-    SECTOR_MAP = {
-        "Advanced manufacturing":             "Advanced Manufacturing",
-        "Creative Industries":                "Creative Industries",
-        "Defence sector":                     "Defence",
-        "Digital and Technology":             "Digital and Technologies",
-        "Financial Services":                 "Financial Services",
-        "Life Sciences":                      "Life Sciences",
-        "Professional and Business Services": "Professional and Business Services",
-    }
-
     # Repeated geographic label columns in ONS file — keep first, drop rest
     GEO_LABEL_PATTERNS = [
         "county or unitary authority",
@@ -54,7 +44,8 @@ class DataProcessor:
 
     def standardise_sector_names(self, df: pd.DataFrame) -> pd.DataFrame:
         df = df.copy()
-        df["IS8_SECTOR"] = df["IS8_SECTOR"].map(self.SECTOR_MAP).fillna(df["IS8_SECTOR"])
+        sector_map = self.config["parameters"]["sector_map"]
+        df["IS8_SECTOR"] = df["IS8_SECTOR"].map(sector_map).fillna(df["IS8_SECTOR"])
         return df
 
     # --- Step 4: aggregate to IS8 level ---

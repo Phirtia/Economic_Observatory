@@ -50,6 +50,16 @@ parameters:
   # Primary unit of analysis (confirmed in Step 4)
   primary_geography: "LAD"  # MSOA reserved for mapping only
 
+  # Raw → standardised IS8 sector name mapping
+  sector_map:
+    "Advanced manufacturing":             "Advanced Manufacturing"
+    "Creative Industries":                "Creative Industries"
+    "Defence sector":                     "Defence"
+    "Digital and Technology":             "Digital and Technologies"
+    "Financial Services":                 "Financial Services"
+    "Life Sciences":                      "Life Sciences"
+    "Professional and Business Services": "Professional and Business Services"
+
   # IS8 sector names (standardised)
   is8_sectors:
     - "Advanced Manufacturing"

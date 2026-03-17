@@ -194,6 +194,10 @@ class IndicatorBuilder:
         path = Path(__file__).resolve().parent.parent / self.config["paths"]["business_counts_lad"]
         bus_raw = pd.read_parquet(path)
 
+        # standardise sector names to match panel
+        sector_map = self.config["parameters"]["sector_map"]
+        bus_raw["IS8_SECTOR"] = bus_raw["IS8_SECTOR"].map(sector_map).fillna(bus_raw["IS8_SECTOR"])
+
         # filter to LAD level and year range
         lad_type = "local authorities: district / unitary (as of April 2023)"
         y0 = self.params["growth_start_year_emp"]
