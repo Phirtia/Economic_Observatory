@@ -16,7 +16,8 @@ dependencies:
   - statsmodels
   - jupyter
   - jupyterlab
+  - ipywidgets
+  - mplcursors
   - pyyaml
   - pip:
     - pyarrow
-    - fastparquet
