@@ -6,24 +6,52 @@ class RegionMapper:
     """
     Maps candidate city regions to their constituent LAD codes.
     Handles English combined authorities via MSOA→CA lookup,
-    Glasgow City Region via Scottish council areas,
-    and Cardiff-Newport via LAD name matching.
+    and non-CA regions via LAD name matching against the panel.
     """
 
-    GLASGOW_COUNCILS = [
-        'Glasgow City', 'East Dunbartonshire', 'West Dunbartonshire',
-        'North Lanarkshire', 'South Lanarkshire', 'East Renfrewshire',
-        'Renfrewshire', 'Inverclyde'
-    ]
-
-    CARDIFF_NEWPORT = ['Cardiff', 'Newport']
-
+    # --- CA lookup regions (matched via CAUTH23NM in the CA lookup file) ---
     CA_NAME_MAP = {
         'South Yorkshire MCA':   'South Yorkshire',
         'West Midlands CA':      'West Midlands',
         'West Yorkshire CA':     'West Yorkshire',
         'Greater Manchester CA': 'Greater Manchester',
         'West of England CA':    'West of England',
+        'Liverpool City Region': 'Liverpool City Region',
+    }
+
+    # --- Name-match regions (matched via GEOGRAPHY_NAME in the panel) ---
+    NAME_MATCH_REGIONS = {
+        'London': [
+            'Barking and Dagenham', 'Barnet', 'Bexley', 'Brent', 'Bromley',
+            'Camden', 'City of London', 'Croydon', 'Ealing', 'Enfield',
+            'Greenwich', 'Hackney', 'Hammersmith and Fulham', 'Haringey',
+            'Harrow', 'Havering', 'Hillingdon', 'Hounslow', 'Islington',
+            'Kensington and Chelsea', 'Kingston upon Thames', 'Lambeth',
+            'Lewisham', 'Merton', 'Newham', 'Redbridge', 'Richmond upon Thames',
+            'Southwark', 'Sutton', 'Tower Hamlets', 'Waltham Forest',
+            'Wandsworth', 'Westminster'
+        ],
+        'North East CA': [
+            'Newcastle upon Tyne', 'Gateshead', 'Sunderland', 'South Tyneside',
+            'North Tyneside', 'County Durham', 'Northumberland'
+        ],
+        'East Midlands CA': [
+            'Derby', 'Nottingham', 'Leicester', 'Rutland'
+        ],
+        'Glasgow City Region': [
+            'Glasgow City', 'East Dunbartonshire', 'West Dunbartonshire',
+            'North Lanarkshire', 'South Lanarkshire', 'East Renfrewshire',
+            'Renfrewshire', 'Inverclyde'
+        ],
+        'Cardiff-Newport': [
+            'Cardiff', 'Newport'
+        ],
+        'Edinburgh City Region': [
+            'City of Edinburgh', 'East Lothian', 'Midlothian', 'West Lothian'
+        ],
+        'Cambridge Sub-Region': [
+            'Cambridge', 'South Cambridgeshire'
+        ],
     }
 
     def __init__(self, config: dict, panel: pd.DataFrame):
@@ -44,24 +72,31 @@ class RegionMapper:
         ca_lookup = self._load_ca_lookup()
         region_map = {}
 
-        # English combined authorities
+        # --- CA lookup regions ---
+        ca_not_found = []
         for region, ca_name in self.CA_NAME_MAP.items():
             codes = ca_lookup[ca_lookup['CAUTH23NM'] == ca_name]['LAD23CD'].tolist()
+            if codes:
+                region_map[region] = codes
+            else:
+                ca_not_found.append(f"  {region} (looked up as '{ca_name}')")
+
+        if ca_not_found:
+            print(f"[RegionMapper] WARNING — not found in CA lookup (will be skipped):")
+            for msg in ca_not_found:
+                print(msg)
+
+        # --- Name-match regions ---
+        for region, lad_names in self.NAME_MATCH_REGIONS.items():
+            codes = (
+                self.panel[self.panel['GEOGRAPHY_NAME'].isin(lad_names)]
+                ['GEOGRAPHY_CODE'].unique().tolist()
+            )
+            matched = self.panel[self.panel['GEOGRAPHY_CODE'].isin(codes)]['GEOGRAPHY_NAME'].unique().tolist()
+            missing = [n for n in lad_names if n not in matched]
+            if missing:
+                print(f"[RegionMapper] WARNING — {region}: LADs not found in panel: {missing}")
             region_map[region] = codes
-
-        # Glasgow City Region
-        glasgow_codes = (
-            self.panel[self.panel['GEOGRAPHY_NAME'].isin(self.GLASGOW_COUNCILS)]
-            ['GEOGRAPHY_CODE'].unique().tolist()
-        )
-        region_map['Glasgow City Region'] = glasgow_codes
-
-        # Cardiff-Newport
-        cardiff_codes = (
-            self.panel[self.panel['GEOGRAPHY_NAME'].isin(self.CARDIFF_NEWPORT)]
-            ['GEOGRAPHY_CODE'].unique().tolist()
-        )
-        region_map['Cardiff-Newport'] = cardiff_codes
 
         self._region_map = region_map
         return region_map
