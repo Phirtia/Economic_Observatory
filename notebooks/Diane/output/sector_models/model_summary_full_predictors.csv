@@ -1,0 +1,25 @@
+sector,outcome,n,lambda_lasso,lambda_enet,l1_ratio,n_selected
+Advanced Manufacturing,lq_emp,239,0.023645,0.02223,1.0,15
+Advanced Manufacturing,lq_bus,239,0.008302,0.056899,0.1,16
+Advanced Manufacturing,growth_emp,239,0.029836,0.056899,0.5,3
+Advanced Manufacturing,growth_bus,239,0.016681,0.017575,0.9,3
+Creative Industries,lq_emp,239,0.004642,0.11514,0.1,21
+Creative Industries,lq_bus,239,0.00163,0.013895,0.1,29
+Creative Industries,growth_emp,239,10.0,0.071969,0.1,0
+Creative Industries,growth_bus,239,0.006579,0.006866,0.95,6
+Digital and Technologies,lq_emp,239,0.013219,0.11514,0.1,17
+Digital and Technologies,lq_bus,239,0.001292,0.001326,1.0,28
+Digital and Technologies,growth_emp,239,0.010476,0.09103,0.1,15
+Digital and Technologies,growth_bus,239,0.002915,0.028118,0.1,16
+Financial Services,lq_emp,239,0.037649,0.232995,0.1,9
+Financial Services,lq_bus,239,0.013219,0.02223,0.5,14
+Financial Services,growth_emp,239,0.037649,0.035565,1.0,3
+Financial Services,growth_bus,239,0.023645,0.232995,0.1,4
+Life Sciences,lq_emp,177,0.170735,0.232995,0.7,5
+Life Sciences,lq_bus,177,0.053367,0.056899,1.0,10
+Life Sciences,growth_emp,177,0.170735,0.294705,0.5,7
+Life Sciences,growth_bus,176,0.042292,0.071969,0.5,10
+Professional and Business Services,lq_emp,239,0.010476,0.09103,0.1,17
+Professional and Business Services,lq_bus,239,0.006579,0.006866,0.95,14
+Professional and Business Services,growth_emp,239,10.0,10.0,0.1,0
+Professional and Business Services,growth_bus,239,0.011768,0.010985,1.0,1

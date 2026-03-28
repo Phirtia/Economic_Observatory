@@ -1,0 +1,37 @@
+sector,outcome,n,lambda_lasso,lambda_enet,l1_ratio,n_selected
+Advanced Manufacturing,lq_emp,290,0.095455,0.596362,0.1,6
+Advanced Manufacturing,lq_bus,290,0.004642,0.005429,0.9,11
+Advanced Manufacturing,growth_emp,290,10.0,10.0,0.1,0
+Advanced Manufacturing,growth_bus,290,0.009326,0.071969,0.1,8
+Advanced Manufacturing,cagr_bus,290,0.001292,0.001326,0.95,7
+Advanced Manufacturing,cagr_emp,290,10.0,10.0,0.1,0
+Creative Industries,lq_emp,290,0.042292,0.232995,0.1,6
+Creative Industries,lq_bus,290,0.01485,0.11514,0.1,9
+Creative Industries,growth_emp,290,10.0,10.0,0.1,0
+Creative Industries,growth_bus,290,0.009326,0.008685,1.0,2
+Creative Industries,cagr_bus,290,0.000911,0.001048,0.9,5
+Creative Industries,cagr_emp,290,10.0,10.0,0.1,0
+Digital and Technologies,lq_emp,290,0.021049,0.11514,0.1,9
+Digital and Technologies,lq_bus,290,0.013219,0.11514,0.1,9
+Digital and Technologies,growth_emp,290,0.0001,0.11514,0.1,5
+Digital and Technologies,growth_bus,290,0.0001,0.0001,0.1,13
+Digital and Technologies,cagr_bus,290,0.0001,0.0001,0.1,13
+Digital and Technologies,cagr_emp,290,0.0001,0.0001,0.1,12
+Financial Services,lq_emp,290,0.059948,0.372759,0.1,3
+Financial Services,lq_bus,290,0.004132,0.02223,0.1,10
+Financial Services,growth_emp,290,0.029836,0.294705,0.1,1
+Financial Services,growth_bus,290,0.023645,0.232995,0.1,2
+Financial Services,cagr_bus,290,0.003678,0.005429,0.7,1
+Financial Services,cagr_emp,290,10.0,10.0,0.1,0
+Life Sciences,lq_emp,290,0.029836,0.145635,0.1,10
+Life Sciences,lq_bus,290,0.016681,0.071969,0.1,9
+Life Sciences,growth_emp,284,0.48626,0.596362,0.1,0
+Life Sciences,growth_bus,252,0.021049,0.09103,0.1,8
+Life Sciences,cagr_bus,252,0.013219,0.013895,0.9,6
+Life Sciences,cagr_emp,284,0.021049,0.184207,0.1,5
+Professional and Business Services,lq_emp,290,0.009326,0.056899,0.1,10
+Professional and Business Services,lq_bus,290,0.008302,0.071969,0.1,9
+Professional and Business Services,growth_emp,290,0.01485,0.028118,0.5,3
+Professional and Business Services,growth_bus,290,0.006579,0.006866,1.0,4
+Professional and Business Services,cagr_bus,290,0.00163,0.001677,0.95,2
+Professional and Business Services,cagr_emp,290,0.002057,0.002121,0.9,3

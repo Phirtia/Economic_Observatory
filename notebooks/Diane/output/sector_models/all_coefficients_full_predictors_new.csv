@@ -1,0 +1,469 @@
+variable,sector,outcome,selected,lasso_coef,enet_coef
+level_3+_qualifications,Advanced Manufacturing,lq_emp,0,-0.0,-0.009143738650702504
+gcse_by_age_19,Advanced Manufacturing,lq_emp,0,0.0,0.0
+apprenticeship_starts,Advanced Manufacturing,lq_emp,1,0.15552649225316464,0.11662185034292394
+apprenticeship_achievements,Advanced Manufacturing,lq_emp,1,0.12229434520893742,0.11759571298838374
+fe_and_skills_participation,Advanced Manufacturing,lq_emp,0,0.0,0.0
+new_enterprises,Advanced Manufacturing,lq_emp,0,-0.0,-0.040306351966508995
+deaths_of_enterprises,Advanced Manufacturing,lq_emp,1,-0.02077342692453168,-0.05314811015902585
+active_enterprises,Advanced Manufacturing,lq_emp,1,-0.09345681099234039,-0.05464005513084771
+high_growth_enterprises,Advanced Manufacturing,lq_emp,0,-0.0,-0.0
+broadband_availability,Advanced Manufacturing,lq_emp,0,0.0,0.0
+4g_area_coverage,Advanced Manufacturing,lq_emp,1,-0.17151248982170494,-0.1351617757065772
+net_additions,Advanced Manufacturing,lq_emp,1,0.1850024610343733,0.1395977912253671
+related_variety,Advanced Manufacturing,lq_emp,0,0.0,0.033124848030729216
+level_3+_qualifications,Advanced Manufacturing,lq_bus,1,-0.06768641482512297,-0.06734592272613879
+gcse_by_age_19,Advanced Manufacturing,lq_bus,1,-0.04931906983155272,-0.048970412470106243
+apprenticeship_starts,Advanced Manufacturing,lq_bus,1,0.14098375084334397,0.1407185063175353
+apprenticeship_achievements,Advanced Manufacturing,lq_bus,0,0.0,0.0
+fe_and_skills_participation,Advanced Manufacturing,lq_bus,1,-0.036694333032793014,-0.03625212117544761
+new_enterprises,Advanced Manufacturing,lq_bus,1,-0.0751553169853785,-0.07284898332041165
+deaths_of_enterprises,Advanced Manufacturing,lq_bus,1,-0.03036902573137182,-0.031298555497853806
+active_enterprises,Advanced Manufacturing,lq_bus,0,-0.0,-0.0
+high_growth_enterprises,Advanced Manufacturing,lq_bus,1,0.02389801738976716,0.022316126779453035
+broadband_availability,Advanced Manufacturing,lq_bus,1,-0.011925809574079762,-0.01187637363573191
+4g_area_coverage,Advanced Manufacturing,lq_bus,1,0.01979832754854722,0.01944258322621514
+net_additions,Advanced Manufacturing,lq_bus,1,0.006901319227122306,0.006795787030705602
+related_variety,Advanced Manufacturing,lq_bus,1,0.14591541699670188,0.1456262972835807
+level_3+_qualifications,Advanced Manufacturing,growth_emp,0,0.0,0.0
+gcse_by_age_19,Advanced Manufacturing,growth_emp,0,0.0,0.0
+apprenticeship_starts,Advanced Manufacturing,growth_emp,0,0.0,0.0
+apprenticeship_achievements,Advanced Manufacturing,growth_emp,0,0.0,0.0
+fe_and_skills_participation,Advanced Manufacturing,growth_emp,0,0.0,0.0
+new_enterprises,Advanced Manufacturing,growth_emp,0,0.0,0.0
+deaths_of_enterprises,Advanced Manufacturing,growth_emp,0,0.0,0.0
+active_enterprises,Advanced Manufacturing,growth_emp,0,0.0,0.0
+high_growth_enterprises,Advanced Manufacturing,growth_emp,0,0.0,0.0
+broadband_availability,Advanced Manufacturing,growth_emp,0,0.0,0.0
+4g_area_coverage,Advanced Manufacturing,growth_emp,0,0.0,0.0
+net_additions,Advanced Manufacturing,growth_emp,0,0.0,0.0
+related_variety,Advanced Manufacturing,growth_emp,0,0.0,0.0
+level_3+_qualifications,Advanced Manufacturing,growth_bus,1,0.0107703650800036,0.0118347483548427
+gcse_by_age_19,Advanced Manufacturing,growth_bus,0,0.0,0.00022707283295703628
+apprenticeship_starts,Advanced Manufacturing,growth_bus,1,-0.01648239057523308,-0.01741163762561145
+apprenticeship_achievements,Advanced Manufacturing,growth_bus,1,-0.021634342213065365,-0.020505810021733746
+fe_and_skills_participation,Advanced Manufacturing,growth_bus,1,0.03373011178599526,0.033386214545214295
+new_enterprises,Advanced Manufacturing,growth_bus,0,0.0,0.003955858322520141
+deaths_of_enterprises,Advanced Manufacturing,growth_bus,0,0.0,-0.0
+active_enterprises,Advanced Manufacturing,growth_bus,0,-0.0,-0.0
+high_growth_enterprises,Advanced Manufacturing,growth_bus,1,0.028632570595139177,0.02563548680345801
+broadband_availability,Advanced Manufacturing,growth_bus,1,0.012309963720239512,0.013812920512941364
+4g_area_coverage,Advanced Manufacturing,growth_bus,1,-0.0013373374622717633,-0.0038800510086149935
+net_additions,Advanced Manufacturing,growth_bus,0,0.0,0.0
+related_variety,Advanced Manufacturing,growth_bus,1,0.040065695306343935,0.03913411419309096
+level_3+_qualifications,Advanced Manufacturing,cagr_bus,1,0.0011321868423151437,0.0011612061243933582
+gcse_by_age_19,Advanced Manufacturing,cagr_bus,0,0.0,0.0
+apprenticeship_starts,Advanced Manufacturing,cagr_bus,0,-0.0,-0.0
+apprenticeship_achievements,Advanced Manufacturing,cagr_bus,1,-0.005500373378360289,-0.005552644214502023
+fe_and_skills_participation,Advanced Manufacturing,cagr_bus,1,0.005062815839372298,0.00511925254405003
+new_enterprises,Advanced Manufacturing,cagr_bus,0,0.0,0.0
+deaths_of_enterprises,Advanced Manufacturing,cagr_bus,0,-0.0,-0.0
+active_enterprises,Advanced Manufacturing,cagr_bus,0,-0.0,-0.0
+high_growth_enterprises,Advanced Manufacturing,cagr_bus,1,0.004152925737954597,0.0041478087042114056
+broadband_availability,Advanced Manufacturing,cagr_bus,1,0.0011724601549988024,0.0011990047798170417
+4g_area_coverage,Advanced Manufacturing,cagr_bus,1,-0.000710743488694901,-0.0007623670810227216
+net_additions,Advanced Manufacturing,cagr_bus,0,0.0,0.0
+related_variety,Advanced Manufacturing,cagr_bus,1,0.009000956710696175,0.009038508806311036
+level_3+_qualifications,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+gcse_by_age_19,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+apprenticeship_starts,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+apprenticeship_achievements,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+fe_and_skills_participation,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+new_enterprises,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+deaths_of_enterprises,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+active_enterprises,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+high_growth_enterprises,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+broadband_availability,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+4g_area_coverage,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+net_additions,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+related_variety,Advanced Manufacturing,cagr_emp,0,0.0,0.0
+level_3+_qualifications,Creative Industries,lq_emp,1,0.20698656240558705,0.1783630527341679
+gcse_by_age_19,Creative Industries,lq_emp,1,0.059309300674071974,0.07546724612285557
+apprenticeship_starts,Creative Industries,lq_emp,1,-0.04633743108654629,-0.08303260493442441
+apprenticeship_achievements,Creative Industries,lq_emp,1,-0.11383399253382005,-0.08903458432072175
+fe_and_skills_participation,Creative Industries,lq_emp,0,0.0,0.0
+new_enterprises,Creative Industries,lq_emp,0,-0.0,-0.0
+deaths_of_enterprises,Creative Industries,lq_emp,0,-0.0,-0.0
+active_enterprises,Creative Industries,lq_emp,0,-0.0,0.0
+high_growth_enterprises,Creative Industries,lq_emp,1,0.20520756447982721,0.1881446081652982
+broadband_availability,Creative Industries,lq_emp,1,0.03912222774182366,0.05231336182519817
+4g_area_coverage,Creative Industries,lq_emp,0,0.0,0.00548460425546928
+net_additions,Creative Industries,lq_emp,0,0.0,0.0
+related_variety,Creative Industries,lq_emp,0,-0.0,-0.006086101924643935
+level_3+_qualifications,Creative Industries,lq_bus,1,0.19525536179994926,0.1762422728970566
+gcse_by_age_19,Creative Industries,lq_bus,1,0.05939321105395804,0.06573917540627694
+apprenticeship_starts,Creative Industries,lq_bus,1,-0.08546270855975548,-0.0923069563451138
+apprenticeship_achievements,Creative Industries,lq_bus,1,-0.10307585192674447,-0.09454148743748608
+fe_and_skills_participation,Creative Industries,lq_bus,1,0.009046871613631411,0.006603342906508209
+new_enterprises,Creative Industries,lq_bus,0,0.0,0.0
+deaths_of_enterprises,Creative Industries,lq_bus,0,0.0,0.0
+active_enterprises,Creative Industries,lq_bus,0,0.0,0.0021790862356077354
+high_growth_enterprises,Creative Industries,lq_bus,1,0.09411468244000505,0.09188644933684825
+broadband_availability,Creative Industries,lq_bus,1,0.038446795545829644,0.03995484977149074
+4g_area_coverage,Creative Industries,lq_bus,1,0.011990271547189844,0.014901268047807524
+net_additions,Creative Industries,lq_bus,1,-0.003136591090906918,-0.005666764925545603
+related_variety,Creative Industries,lq_bus,0,-0.0,0.0
+level_3+_qualifications,Creative Industries,growth_emp,0,0.0,0.0
+gcse_by_age_19,Creative Industries,growth_emp,0,0.0,0.0
+apprenticeship_starts,Creative Industries,growth_emp,0,0.0,0.0
+apprenticeship_achievements,Creative Industries,growth_emp,0,0.0,0.0
+fe_and_skills_participation,Creative Industries,growth_emp,0,0.0,0.0
+new_enterprises,Creative Industries,growth_emp,0,0.0,0.0
+deaths_of_enterprises,Creative Industries,growth_emp,0,0.0,0.0
+active_enterprises,Creative Industries,growth_emp,0,0.0,0.0
+high_growth_enterprises,Creative Industries,growth_emp,0,0.0,0.0
+broadband_availability,Creative Industries,growth_emp,0,0.0,0.0
+4g_area_coverage,Creative Industries,growth_emp,0,0.0,0.0
+net_additions,Creative Industries,growth_emp,0,0.0,0.0
+related_variety,Creative Industries,growth_emp,0,0.0,0.0
+level_3+_qualifications,Creative Industries,growth_bus,0,-0.0,-0.0
+gcse_by_age_19,Creative Industries,growth_bus,0,-0.0,-2.2367482179356373e-05
+apprenticeship_starts,Creative Industries,growth_bus,0,0.0,0.0
+apprenticeship_achievements,Creative Industries,growth_bus,0,-0.0,-0.0
+fe_and_skills_participation,Creative Industries,growth_bus,1,0.006502895867107436,0.0071369565427446945
+new_enterprises,Creative Industries,growth_bus,0,0.0,0.0
+deaths_of_enterprises,Creative Industries,growth_bus,0,0.0,0.0
+active_enterprises,Creative Industries,growth_bus,0,0.0,0.0
+high_growth_enterprises,Creative Industries,growth_bus,0,0.0,0.0
+broadband_availability,Creative Industries,growth_bus,0,-0.0,-0.0
+4g_area_coverage,Creative Industries,growth_bus,0,-0.0,-0.0
+net_additions,Creative Industries,growth_bus,0,0.0,0.0
+related_variety,Creative Industries,growth_bus,1,0.023102207706686955,0.02374493379336784
+level_3+_qualifications,Creative Industries,cagr_bus,0,-0.0,-0.0
+gcse_by_age_19,Creative Industries,cagr_bus,1,-0.00034610187697007303,-0.0003163781064147173
+apprenticeship_starts,Creative Industries,cagr_bus,0,0.0,0.0
+apprenticeship_achievements,Creative Industries,cagr_bus,0,-0.0,-0.0
+fe_and_skills_participation,Creative Industries,cagr_bus,1,0.0015299641321863684,0.0014994168810953546
+new_enterprises,Creative Industries,cagr_bus,0,0.0,0.0
+deaths_of_enterprises,Creative Industries,cagr_bus,0,0.0,0.0
+active_enterprises,Creative Industries,cagr_bus,0,-0.0,-0.0
+high_growth_enterprises,Creative Industries,cagr_bus,1,0.00014844827704715106,0.0001223645201058748
+broadband_availability,Creative Industries,cagr_bus,0,-0.0,-0.0
+4g_area_coverage,Creative Industries,cagr_bus,0,-0.0,-0.0
+net_additions,Creative Industries,cagr_bus,1,0.0006434583861844675,0.0005929552800777604
+related_variety,Creative Industries,cagr_bus,1,0.0044381314951845025,0.004406382787116116
+level_3+_qualifications,Creative Industries,cagr_emp,0,0.0,0.0
+gcse_by_age_19,Creative Industries,cagr_emp,0,0.0,0.0
+apprenticeship_starts,Creative Industries,cagr_emp,0,0.0,0.0
+apprenticeship_achievements,Creative Industries,cagr_emp,0,0.0,0.0
+fe_and_skills_participation,Creative Industries,cagr_emp,0,0.0,0.0
+new_enterprises,Creative Industries,cagr_emp,0,0.0,0.0
+deaths_of_enterprises,Creative Industries,cagr_emp,0,0.0,0.0
+active_enterprises,Creative Industries,cagr_emp,0,0.0,0.0
+high_growth_enterprises,Creative Industries,cagr_emp,0,0.0,0.0
+broadband_availability,Creative Industries,cagr_emp,0,0.0,0.0
+4g_area_coverage,Creative Industries,cagr_emp,0,0.0,0.0
+net_additions,Creative Industries,cagr_emp,0,0.0,0.0
+related_variety,Creative Industries,cagr_emp,0,0.0,0.0
+level_3+_qualifications,Digital and Technologies,lq_emp,1,0.13693944617275147,0.13157107872353627
+gcse_by_age_19,Digital and Technologies,lq_emp,1,0.08682726413132219,0.08709767837485673
+apprenticeship_starts,Digital and Technologies,lq_emp,0,-0.0,-0.021771600206078785
+apprenticeship_achievements,Digital and Technologies,lq_emp,1,-0.060145765076381155,-0.04469146566563311
+fe_and_skills_participation,Digital and Technologies,lq_emp,1,-0.05015441510446671,-0.05332703544126611
+new_enterprises,Digital and Technologies,lq_emp,1,-0.1420229062218364,-0.08124231278437741
+deaths_of_enterprises,Digital and Technologies,lq_emp,0,-0.0,-0.03761255730889345
+active_enterprises,Digital and Technologies,lq_emp,0,-0.0,-0.004611784518238306
+high_growth_enterprises,Digital and Technologies,lq_emp,1,0.1874777089746459,0.16400452939112692
+broadband_availability,Digital and Technologies,lq_emp,1,0.13005674548007712,0.12390923747903788
+4g_area_coverage,Digital and Technologies,lq_emp,1,0.011937894899520938,0.022382669341656173
+net_additions,Digital and Technologies,lq_emp,1,0.054748447959861994,0.058703404729147396
+related_variety,Digital and Technologies,lq_emp,0,-0.0,-0.0023913141531159343
+level_3+_qualifications,Digital and Technologies,lq_bus,1,0.12442662111334031,0.11217516597761383
+gcse_by_age_19,Digital and Technologies,lq_bus,1,0.06446832284526752,0.06310836992719376
+apprenticeship_starts,Digital and Technologies,lq_bus,0,-0.0,-0.023526758800800726
+apprenticeship_achievements,Digital and Technologies,lq_bus,1,-0.06957839523664387,-0.04857202656417444
+fe_and_skills_participation,Digital and Technologies,lq_bus,1,-0.012705622137611358,-0.013782193592048828
+new_enterprises,Digital and Technologies,lq_bus,0,-0.0,-0.0
+deaths_of_enterprises,Digital and Technologies,lq_bus,0,-0.0,-0.0
+active_enterprises,Digital and Technologies,lq_bus,0,0.0,0.0
+high_growth_enterprises,Digital and Technologies,lq_bus,1,0.029314390110580003,0.03095477599689692
+broadband_availability,Digital and Technologies,lq_bus,1,0.07231167828589344,0.06907899334314882
+4g_area_coverage,Digital and Technologies,lq_bus,1,0.013535487493867522,0.01655293142839387
+net_additions,Digital and Technologies,lq_bus,1,0.0003222929785108902,0.00220965300784566
+related_variety,Digital and Technologies,lq_bus,1,-0.05568108050020508,-0.05344111261239735
+level_3+_qualifications,Digital and Technologies,growth_emp,1,0.03054239743581915,0.0098422840354554
+gcse_by_age_19,Digital and Technologies,growth_emp,0,0.008572243428211156,-0.0
+apprenticeship_starts,Digital and Technologies,growth_emp,0,0.015533599352683107,-0.0
+apprenticeship_achievements,Digital and Technologies,growth_emp,1,-0.03962641771872896,-0.01492323787446904
+fe_and_skills_participation,Digital and Technologies,growth_emp,0,0.0076242391872128916,0.0
+new_enterprises,Digital and Technologies,growth_emp,0,0.08130864709404587,0.0
+deaths_of_enterprises,Digital and Technologies,growth_emp,0,0.15722763659282002,0.0
+active_enterprises,Digital and Technologies,growth_emp,0,-0.32471392924558895,-0.0
+high_growth_enterprises,Digital and Technologies,growth_emp,1,0.12519345431219087,0.030105909214930556
+broadband_availability,Digital and Technologies,growth_emp,0,-0.017113450145302925,-0.0
+4g_area_coverage,Digital and Technologies,growth_emp,0,-0.013245611156291798,-0.0
+net_additions,Digital and Technologies,growth_emp,1,0.03854174987583691,0.024188890999059097
+related_variety,Digital and Technologies,growth_emp,1,0.03549659530856684,0.012211004499913905
+level_3+_qualifications,Digital and Technologies,growth_bus,1,0.010425323358528707,0.010669121341419613
+gcse_by_age_19,Digital and Technologies,growth_bus,1,-0.0012788452601885868,-0.0011537721701165894
+apprenticeship_starts,Digital and Technologies,growth_bus,1,-0.0019274889342283741,-0.001813441288424407
+apprenticeship_achievements,Digital and Technologies,growth_bus,1,-0.00598939782788971,-0.005798471904717241
+fe_and_skills_participation,Digital and Technologies,growth_bus,1,-0.0021722398561467727,-0.0026637177799257363
+new_enterprises,Digital and Technologies,growth_bus,1,0.07527789334374817,0.07769315085071093
+deaths_of_enterprises,Digital and Technologies,growth_bus,1,0.02382867083702614,0.02772801574013271
+active_enterprises,Digital and Technologies,growth_bus,1,-0.11516117338717119,-0.1224786472173944
+high_growth_enterprises,Digital and Technologies,growth_bus,1,0.047855151416996033,0.04927432499004043
+broadband_availability,Digital and Technologies,growth_bus,1,-0.014384626183358949,-0.014794895238926948
+4g_area_coverage,Digital and Technologies,growth_bus,1,-0.007840678319108374,-0.007963544429098827
+net_additions,Digital and Technologies,growth_bus,1,0.011641955107640028,0.011630295018334853
+related_variety,Digital and Technologies,growth_bus,1,0.020706631802590237,0.020940094222925327
+level_3+_qualifications,Digital and Technologies,cagr_bus,1,0.0015482748446189608,0.001801997863107594
+gcse_by_age_19,Digital and Technologies,cagr_bus,1,-0.00044382445150619853,-0.00028549319437601257
+apprenticeship_starts,Digital and Technologies,cagr_bus,1,-0.00024647366464045756,-0.00011912639176655906
+apprenticeship_achievements,Digital and Technologies,cagr_bus,1,-0.0013541729797725867,-0.0011417841519189838
+fe_and_skills_participation,Digital and Technologies,cagr_bus,1,-0.00020162067683300857,-0.0007348262337017767
+new_enterprises,Digital and Technologies,cagr_bus,1,0.00938106270280085,0.012189665282184273
+deaths_of_enterprises,Digital and Technologies,cagr_bus,1,0.0009561866634883809,0.004993712211867983
+active_enterprises,Digital and Technologies,cagr_bus,1,-0.011906866015132923,-0.019812186750024847
+high_growth_enterprises,Digital and Technologies,cagr_bus,1,0.0064125322368692485,0.007918325478056576
+broadband_availability,Digital and Technologies,cagr_bus,1,-0.00200464281930989,-0.00244224887203346
+4g_area_coverage,Digital and Technologies,cagr_bus,1,-0.0013495834134887791,-0.0014729908684306806
+net_additions,Digital and Technologies,cagr_bus,1,0.002175717674923758,0.002160289039619347
+related_variety,Digital and Technologies,cagr_bus,1,0.0037891358620261223,0.004037799831591693
+level_3+_qualifications,Digital and Technologies,cagr_emp,1,0.004662624074240668,0.004887665823633179
+gcse_by_age_19,Digital and Technologies,cagr_emp,0,0.0,0.0005900147881758815
+apprenticeship_starts,Digital and Technologies,cagr_emp,1,0.0014788034808715042,0.003429056917797736
+apprenticeship_achievements,Digital and Technologies,cagr_emp,1,-0.005587151275004833,-0.007145283285601257
+fe_and_skills_participation,Digital and Technologies,cagr_emp,1,0.0010950055857459865,0.0007853225469636308
+new_enterprises,Digital and Technologies,cagr_emp,1,0.006881677342637499,0.009505970693710827
+deaths_of_enterprises,Digital and Technologies,cagr_emp,1,0.020077640639044967,0.02399253612300735
+active_enterprises,Digital and Technologies,cagr_emp,1,-0.03925040874564533,-0.046919631987426644
+high_growth_enterprises,Digital and Technologies,cagr_emp,1,0.01767221826653676,0.019242216506077905
+broadband_availability,Digital and Technologies,cagr_emp,1,-0.0023364920641311287,-0.002868161207194129
+4g_area_coverage,Digital and Technologies,cagr_emp,1,-0.0020596206638810004,-0.002265457236217149
+net_additions,Digital and Technologies,cagr_emp,1,0.006868210657662587,0.0068241670891069466
+related_variety,Digital and Technologies,cagr_emp,1,0.005098002727587869,0.005457165274745253
+level_3+_qualifications,Financial Services,lq_emp,0,0.0,0.0
+gcse_by_age_19,Financial Services,lq_emp,0,0.0,0.0019419948301797204
+apprenticeship_starts,Financial Services,lq_emp,0,-0.0,-0.0014700978492153557
+apprenticeship_achievements,Financial Services,lq_emp,0,-0.0,-0.011280777390138276
+fe_and_skills_participation,Financial Services,lq_emp,0,-0.0,-0.0
+new_enterprises,Financial Services,lq_emp,0,0.0,0.023417157362504975
+deaths_of_enterprises,Financial Services,lq_emp,1,0.0015734814116147569,0.020356959364907074
+active_enterprises,Financial Services,lq_emp,0,0.0,0.005692499081778915
+high_growth_enterprises,Financial Services,lq_emp,1,0.1174994340004947,0.07508103543271856
+broadband_availability,Financial Services,lq_emp,0,0.0,0.0
+4g_area_coverage,Financial Services,lq_emp,0,0.0,0.0
+net_additions,Financial Services,lq_emp,0,0.0,0.0
+related_variety,Financial Services,lq_emp,1,0.05989970226493492,0.05349264940578418
+level_3+_qualifications,Financial Services,lq_bus,0,0.0,0.0
+gcse_by_age_19,Financial Services,lq_bus,1,0.007256226405539553,0.01028957044753948
+apprenticeship_starts,Financial Services,lq_bus,1,0.01674853560274133,0.03586515057717547
+apprenticeship_achievements,Financial Services,lq_bus,1,-0.04156438191280509,-0.058355453178713115
+fe_and_skills_participation,Financial Services,lq_bus,1,-0.05842444872656256,-0.060708421277670364
+new_enterprises,Financial Services,lq_bus,1,-0.09461995884158506,-0.08567428428744907
+deaths_of_enterprises,Financial Services,lq_bus,0,-0.0,-0.0
+active_enterprises,Financial Services,lq_bus,0,-0.0,-0.0
+high_growth_enterprises,Financial Services,lq_bus,1,0.2743602919185044,0.26459455840242446
+broadband_availability,Financial Services,lq_bus,1,0.08615089449292615,0.08472206716742034
+4g_area_coverage,Financial Services,lq_bus,1,0.024239409632652337,0.024988466513051845
+net_additions,Financial Services,lq_bus,1,0.025563788287916105,0.02629728833871246
+related_variety,Financial Services,lq_bus,1,-0.11494396762747836,-0.11461649642604699
+level_3+_qualifications,Financial Services,growth_emp,0,-0.0,-0.0
+gcse_by_age_19,Financial Services,growth_emp,0,-0.0,-0.0
+apprenticeship_starts,Financial Services,growth_emp,0,-0.0,-0.0
+apprenticeship_achievements,Financial Services,growth_emp,0,-0.0,-0.0
+fe_and_skills_participation,Financial Services,growth_emp,0,0.0,0.0
+new_enterprises,Financial Services,growth_emp,0,0.0,0.0
+deaths_of_enterprises,Financial Services,growth_emp,0,0.0,0.0
+active_enterprises,Financial Services,growth_emp,0,-0.0,-0.0
+high_growth_enterprises,Financial Services,growth_emp,0,-0.0,-0.0
+broadband_availability,Financial Services,growth_emp,0,-0.0,-0.0
+4g_area_coverage,Financial Services,growth_emp,0,0.0,0.0
+net_additions,Financial Services,growth_emp,1,0.019286594227232223,0.015532731066432662
+related_variety,Financial Services,growth_emp,0,-0.0,-0.0
+level_3+_qualifications,Financial Services,growth_bus,0,0.0,0.0
+gcse_by_age_19,Financial Services,growth_bus,0,0.0,0.0
+apprenticeship_starts,Financial Services,growth_bus,0,0.0,0.0
+apprenticeship_achievements,Financial Services,growth_bus,0,0.0,0.0
+fe_and_skills_participation,Financial Services,growth_bus,0,-0.0,-0.0
+new_enterprises,Financial Services,growth_bus,0,0.0,0.0
+deaths_of_enterprises,Financial Services,growth_bus,0,0.0,0.0
+active_enterprises,Financial Services,growth_bus,0,0.0,0.0
+high_growth_enterprises,Financial Services,growth_bus,0,0.0,0.0
+broadband_availability,Financial Services,growth_bus,0,-0.0,-0.0
+4g_area_coverage,Financial Services,growth_bus,0,0.0,0.0
+net_additions,Financial Services,growth_bus,1,0.028006548256436024,0.023506900263717132
+related_variety,Financial Services,growth_bus,1,-0.011079193104222297,-0.009665988163460433
+level_3+_qualifications,Financial Services,cagr_bus,0,0.0,0.0
+gcse_by_age_19,Financial Services,cagr_bus,0,0.0,0.0
+apprenticeship_starts,Financial Services,cagr_bus,0,0.0,0.0
+apprenticeship_achievements,Financial Services,cagr_bus,0,0.0,0.0
+fe_and_skills_participation,Financial Services,cagr_bus,0,-0.0,-0.0
+new_enterprises,Financial Services,cagr_bus,0,-0.0,-0.0
+deaths_of_enterprises,Financial Services,cagr_bus,0,-0.0,-0.0
+active_enterprises,Financial Services,cagr_bus,0,0.0,0.0
+high_growth_enterprises,Financial Services,cagr_bus,0,0.0,0.0
+broadband_availability,Financial Services,cagr_bus,0,-0.0,-0.0
+4g_area_coverage,Financial Services,cagr_bus,0,0.0,0.0
+net_additions,Financial Services,cagr_bus,1,0.003594454601161938,0.0034671150128292322
+related_variety,Financial Services,cagr_bus,0,-0.0,-0.0
+level_3+_qualifications,Financial Services,cagr_emp,0,0.0,0.0
+gcse_by_age_19,Financial Services,cagr_emp,0,0.0,0.0
+apprenticeship_starts,Financial Services,cagr_emp,0,0.0,0.0
+apprenticeship_achievements,Financial Services,cagr_emp,0,0.0,0.0
+fe_and_skills_participation,Financial Services,cagr_emp,0,0.0,0.0
+new_enterprises,Financial Services,cagr_emp,0,0.0,0.0
+deaths_of_enterprises,Financial Services,cagr_emp,0,0.0,0.0
+active_enterprises,Financial Services,cagr_emp,0,0.0,0.0
+high_growth_enterprises,Financial Services,cagr_emp,0,0.0,0.0
+broadband_availability,Financial Services,cagr_emp,0,0.0,0.0
+4g_area_coverage,Financial Services,cagr_emp,0,0.0,0.0
+net_additions,Financial Services,cagr_emp,0,0.0,0.0
+related_variety,Financial Services,cagr_emp,0,0.0,0.0
+level_3+_qualifications,Life Sciences,lq_emp,0,0.0,0.0024667450874520935
+gcse_by_age_19,Life Sciences,lq_emp,1,0.11763639333920414,0.12291591665049183
+apprenticeship_starts,Life Sciences,lq_emp,0,0.0,0.0
+apprenticeship_achievements,Life Sciences,lq_emp,1,0.05174068502823412,0.05456481617302766
+fe_and_skills_participation,Life Sciences,lq_emp,1,-0.22587782619223704,-0.21226136697511133
+new_enterprises,Life Sciences,lq_emp,1,-0.08761343522919472,-0.11716858150588298
+deaths_of_enterprises,Life Sciences,lq_emp,1,-0.2120114105644373,-0.1275256171561271
+active_enterprises,Life Sciences,lq_emp,0,-0.0,-0.07556651445610883
+high_growth_enterprises,Life Sciences,lq_emp,1,0.022517446861337522,0.06699075367413151
+broadband_availability,Life Sciences,lq_emp,1,0.20686285622578715,0.18952991724758605
+4g_area_coverage,Life Sciences,lq_emp,1,-0.15260159375727064,-0.14521901046345384
+net_additions,Life Sciences,lq_emp,1,0.01854041687821105,0.02961424577185461
+related_variety,Life Sciences,lq_emp,1,0.28450347842072393,0.25957329304924526
+level_3+_qualifications,Life Sciences,lq_bus,1,0.17455883348922951,0.17806528582149891
+gcse_by_age_19,Life Sciences,lq_bus,1,-0.0519647467623949,-0.06416655341303387
+apprenticeship_starts,Life Sciences,lq_bus,0,-0.0,-0.020155415182717542
+apprenticeship_achievements,Life Sciences,lq_bus,0,0.0,0.01587163746907351
+fe_and_skills_participation,Life Sciences,lq_bus,1,-0.11000074231137315,-0.11382199332187153
+new_enterprises,Life Sciences,lq_bus,0,-0.0,-0.07046603664080586
+deaths_of_enterprises,Life Sciences,lq_bus,1,-0.18031373648632934,-0.11528996354065087
+active_enterprises,Life Sciences,lq_bus,1,-0.0850884366820026,-0.09635127728504544
+high_growth_enterprises,Life Sciences,lq_bus,1,0.10066529004034018,0.1277978460748382
+broadband_availability,Life Sciences,lq_bus,1,0.1404595977223797,0.1442971036043914
+4g_area_coverage,Life Sciences,lq_bus,0,0.0,0.0
+net_additions,Life Sciences,lq_bus,1,0.05414434278289756,0.06056147080584391
+related_variety,Life Sciences,lq_bus,1,0.37127514507538406,0.34932952447980414
+level_3+_qualifications,Life Sciences,growth_emp,0,0.0,0.03993309521124114
+gcse_by_age_19,Life Sciences,growth_emp,0,0.0,0.07141180754026559
+apprenticeship_starts,Life Sciences,growth_emp,0,0.0,-0.0
+apprenticeship_achievements,Life Sciences,growth_emp,0,0.0,-0.02586468998040665
+fe_and_skills_participation,Life Sciences,growth_emp,0,0.0,-0.2525827160303898
+new_enterprises,Life Sciences,growth_emp,0,0.0,-0.021461094400775402
+deaths_of_enterprises,Life Sciences,growth_emp,0,0.0,-0.038105124392712346
+active_enterprises,Life Sciences,growth_emp,0,0.0,-0.02943142137532911
+high_growth_enterprises,Life Sciences,growth_emp,0,0.0,0.0
+broadband_availability,Life Sciences,growth_emp,0,0.0,0.22737228359506673
+4g_area_coverage,Life Sciences,growth_emp,0,0.0,0.0
+net_additions,Life Sciences,growth_emp,0,0.0,-0.18077097142348744
+related_variety,Life Sciences,growth_emp,0,0.0,0.0
+level_3+_qualifications,Life Sciences,growth_bus,1,0.15475119555679254,0.15614303674266858
+gcse_by_age_19,Life Sciences,growth_bus,1,-0.043541977882294164,-0.05501923932781525
+apprenticeship_starts,Life Sciences,growth_bus,0,-0.0,0.0
+apprenticeship_achievements,Life Sciences,growth_bus,1,-0.006006132840172715,-0.01775388952591117
+fe_and_skills_participation,Life Sciences,growth_bus,1,-0.009981364755292736,-0.02920758438630445
+new_enterprises,Life Sciences,growth_bus,0,-0.0,-0.0
+deaths_of_enterprises,Life Sciences,growth_bus,1,-0.0839301865604712,-0.07274373217582984
+active_enterprises,Life Sciences,growth_bus,0,-0.0,-0.046683476156236615
+high_growth_enterprises,Life Sciences,growth_bus,1,0.016401868143465875,0.06490669835220647
+broadband_availability,Life Sciences,growth_bus,1,0.0817245843064809,0.08744068653625083
+4g_area_coverage,Life Sciences,growth_bus,0,-0.0,-0.0046255186881195174
+net_additions,Life Sciences,growth_bus,0,-0.0,-0.007750557646489178
+related_variety,Life Sciences,growth_bus,1,0.35694309785472594,0.33074493031572466
+level_3+_qualifications,Life Sciences,cagr_bus,1,0.03721409598630635,0.037802141527669635
+gcse_by_age_19,Life Sciences,cagr_bus,0,0.0,0.0
+apprenticeship_starts,Life Sciences,cagr_bus,0,0.0,0.0
+apprenticeship_achievements,Life Sciences,cagr_bus,0,-0.0,-0.0
+fe_and_skills_participation,Life Sciences,cagr_bus,0,-0.0,-0.0
+new_enterprises,Life Sciences,cagr_bus,0,0.0,0.0
+deaths_of_enterprises,Life Sciences,cagr_bus,0,0.0,0.0
+active_enterprises,Life Sciences,cagr_bus,1,0.005460188771710465,0.005774613775441545
+high_growth_enterprises,Life Sciences,cagr_bus,0,0.0,0.0
+broadband_availability,Life Sciences,cagr_bus,1,0.04349882945700582,0.04415301756010959
+4g_area_coverage,Life Sciences,cagr_bus,1,-0.015087407144104241,-0.016049885060682615
+net_additions,Life Sciences,cagr_bus,1,-0.0019455796114681576,-0.002603013181706697
+related_variety,Life Sciences,cagr_bus,1,0.10671728381635848,0.106884304303329
+level_3+_qualifications,Life Sciences,cagr_emp,1,0.021370806258053272,0.01884572068116511
+gcse_by_age_19,Life Sciences,cagr_emp,0,0.0,0.0
+apprenticeship_starts,Life Sciences,cagr_emp,0,-0.0,-0.0
+apprenticeship_achievements,Life Sciences,cagr_emp,0,-0.0,-0.0
+fe_and_skills_participation,Life Sciences,cagr_emp,1,-0.006280760197283503,-0.008576652932665883
+new_enterprises,Life Sciences,cagr_emp,0,0.0,0.0
+deaths_of_enterprises,Life Sciences,cagr_emp,0,0.0,0.0
+active_enterprises,Life Sciences,cagr_emp,0,0.0,0.0
+high_growth_enterprises,Life Sciences,cagr_emp,1,0.0038523582309705003,0.005707419547002492
+broadband_availability,Life Sciences,cagr_emp,1,0.009755211506451523,0.0109599304391483
+4g_area_coverage,Life Sciences,cagr_emp,0,-0.0,-0.0
+net_additions,Life Sciences,cagr_emp,0,-0.0,-0.0
+related_variety,Life Sciences,cagr_emp,1,0.005293924513666798,0.006400862851768535
+level_3+_qualifications,Professional and Business Services,lq_emp,1,0.016766770228964573,0.021513815105316702
+gcse_by_age_19,Professional and Business Services,lq_emp,1,0.06896706078001717,0.06466273085815989
+apprenticeship_starts,Professional and Business Services,lq_emp,0,-0.0,-0.013952506557129459
+apprenticeship_achievements,Professional and Business Services,lq_emp,1,-0.04420184669228359,-0.03348373775144952
+fe_and_skills_participation,Professional and Business Services,lq_emp,1,-0.05295305268267125,-0.0501242929258561
+new_enterprises,Professional and Business Services,lq_emp,0,-0.0,-0.0
+deaths_of_enterprises,Professional and Business Services,lq_emp,0,-0.0,-0.0
+active_enterprises,Professional and Business Services,lq_emp,1,-0.027761450957392787,-0.024816527827065744
+high_growth_enterprises,Professional and Business Services,lq_emp,1,0.15333497593746667,0.14457153362140085
+broadband_availability,Professional and Business Services,lq_emp,1,0.08636332363704105,0.08488394831020978
+4g_area_coverage,Professional and Business Services,lq_emp,1,0.006066745184445273,0.010240435199693988
+net_additions,Professional and Business Services,lq_emp,1,0.02566085850039649,0.02820354587304501
+related_variety,Professional and Business Services,lq_emp,1,-0.015859322336142758,-0.01795052861482782
+level_3+_qualifications,Professional and Business Services,lq_bus,1,0.0814350084497746,0.07767377362078773
+gcse_by_age_19,Professional and Business Services,lq_bus,1,0.04571955570933601,0.04665128266855407
+apprenticeship_starts,Professional and Business Services,lq_bus,1,-0.01891611472255587,-0.024598803615916397
+apprenticeship_achievements,Professional and Business Services,lq_bus,1,-0.03573930941194996,-0.031068299002990837
+fe_and_skills_participation,Professional and Business Services,lq_bus,1,-0.008771863637991801,-0.01022459681427526
+new_enterprises,Professional and Business Services,lq_bus,0,0.0,0.0
+deaths_of_enterprises,Professional and Business Services,lq_bus,0,0.0,0.0
+active_enterprises,Professional and Business Services,lq_bus,0,0.0,0.0
+high_growth_enterprises,Professional and Business Services,lq_bus,1,0.046497695717179675,0.04560161178791616
+broadband_availability,Professional and Business Services,lq_bus,1,0.03517845595417958,0.03437387099755445
+4g_area_coverage,Professional and Business Services,lq_bus,1,0.014071110106612772,0.0150252789986289
+net_additions,Professional and Business Services,lq_bus,0,-0.0,-0.0
+related_variety,Professional and Business Services,lq_bus,1,-0.08202845818712791,-0.07806999334751376
+level_3+_qualifications,Professional and Business Services,growth_emp,0,0.0,0.0
+gcse_by_age_19,Professional and Business Services,growth_emp,0,0.0,0.0
+apprenticeship_starts,Professional and Business Services,growth_emp,0,0.0,0.0
+apprenticeship_achievements,Professional and Business Services,growth_emp,0,0.0,0.0
+fe_and_skills_participation,Professional and Business Services,growth_emp,1,-0.016388510070809253,-0.016940551709305047
+new_enterprises,Professional and Business Services,growth_emp,0,0.0,0.0
+deaths_of_enterprises,Professional and Business Services,growth_emp,0,0.0,0.0
+active_enterprises,Professional and Business Services,growth_emp,0,0.0,0.0
+high_growth_enterprises,Professional and Business Services,growth_emp,1,0.014537519119084973,0.015172046099693245
+broadband_availability,Professional and Business Services,growth_emp,0,-0.0,-0.0
+4g_area_coverage,Professional and Business Services,growth_emp,1,-0.009087827287209508,-0.009755159685486972
+net_additions,Professional and Business Services,growth_emp,0,0.0,0.0
+related_variety,Professional and Business Services,growth_emp,0,-0.0,-0.0
+level_3+_qualifications,Professional and Business Services,growth_bus,0,-0.0,-0.0
+gcse_by_age_19,Professional and Business Services,growth_bus,0,0.0,0.0
+apprenticeship_starts,Professional and Business Services,growth_bus,0,-0.0,-0.0
+apprenticeship_achievements,Professional and Business Services,growth_bus,0,-0.0,-0.0
+fe_and_skills_participation,Professional and Business Services,growth_bus,0,-0.0,-0.0
+new_enterprises,Professional and Business Services,growth_bus,0,0.0,0.0
+deaths_of_enterprises,Professional and Business Services,growth_bus,0,0.0,0.0
+active_enterprises,Professional and Business Services,growth_bus,0,0.0,0.0
+high_growth_enterprises,Professional and Business Services,growth_bus,1,0.006104264458886708,0.005748092199696031
+broadband_availability,Professional and Business Services,growth_bus,1,-0.0006401981497778964,-0.0002990612060353055
+4g_area_coverage,Professional and Business Services,growth_bus,1,-0.0013583390179726829,-0.0011750477955082255
+net_additions,Professional and Business Services,growth_bus,0,0.0,0.0
+related_variety,Professional and Business Services,growth_bus,1,0.01607335333744397,0.015728054273797955
+level_3+_qualifications,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+gcse_by_age_19,Professional and Business Services,cagr_bus,0,0.0,0.0
+apprenticeship_starts,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+apprenticeship_achievements,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+fe_and_skills_participation,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+new_enterprises,Professional and Business Services,cagr_bus,0,0.0,0.0
+deaths_of_enterprises,Professional and Business Services,cagr_bus,0,0.0,0.0
+active_enterprises,Professional and Business Services,cagr_bus,0,0.0,0.0
+high_growth_enterprises,Professional and Business Services,cagr_bus,1,0.00046028097917544714,0.0004970920532086988
+broadband_availability,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+4g_area_coverage,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+net_additions,Professional and Business Services,cagr_bus,0,-0.0,-0.0
+related_variety,Professional and Business Services,cagr_bus,1,0.0021874432926399607,0.0022241099378408234
+level_3+_qualifications,Professional and Business Services,cagr_emp,0,0.0,0.0
+gcse_by_age_19,Professional and Business Services,cagr_emp,0,0.0,0.0
+apprenticeship_starts,Professional and Business Services,cagr_emp,0,0.0,0.0
+apprenticeship_achievements,Professional and Business Services,cagr_emp,0,0.0,0.0
+fe_and_skills_participation,Professional and Business Services,cagr_emp,1,-0.002284872781269287,-0.0024189911600372817
+new_enterprises,Professional and Business Services,cagr_emp,0,0.0,0.0
+deaths_of_enterprises,Professional and Business Services,cagr_emp,0,0.0,0.0
+active_enterprises,Professional and Business Services,cagr_emp,0,0.0,0.0
+high_growth_enterprises,Professional and Business Services,cagr_emp,1,0.002928416313935431,0.0030967866648526385
+broadband_availability,Professional and Business Services,cagr_emp,0,-0.0,-5.339273421138349e-05
+4g_area_coverage,Professional and Business Services,cagr_emp,1,-0.0019797086740956046,-0.002111930075219676
+net_additions,Professional and Business Services,cagr_emp,0,0.0,0.0
+related_variety,Professional and Business Services,cagr_emp,0,-0.0,-0.0

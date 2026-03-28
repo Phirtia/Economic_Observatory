@@ -1,0 +1,37 @@
+sector,outcome,outcome_label,n,n_selected,lambda,cv_r2_mean,cv_r2_std,cv_rmse_mean,cv_rmse_std,cv_mae_mean,cv_mae_std,r2_insample
+Advanced Manufacturing,lq_emp,Presence — Employment LQ,290,6,0.107227,-0.068,0.253,1.204,-0.562,0.74,-0.165,0.177
+Advanced Manufacturing,lq_bus,Presence — Business LQ,290,11,0.004977,0.351,0.071,0.358,-0.044,0.269,-0.018,0.399
+Advanced Manufacturing,growth_emp,Growth — Employment,290,0,100.0,-0.048,0.058,0.394,-0.112,0.243,-0.012,0.0
+Advanced Manufacturing,growth_bus,Growth — Business,290,8,0.008697,-0.135,0.318,0.272,-0.057,0.184,-0.03,0.119
+Advanced Manufacturing,cagr_bus,CAGR -- Business,290,7,0.001233,-0.053,0.25,0.039,-0.006,0.029,-0.004,0.148
+Advanced Manufacturing,cagr_emp,CAGR -- Employment,290,0,100.0,-0.029,0.036,0.059,-0.007,0.041,-0.002,0.0
+Creative Industries,lq_emp,Presence — Employment LQ,290,6,0.046416,0.269,0.355,0.586,-0.142,0.344,-0.052,0.496
+Creative Industries,lq_bus,Presence — Business LQ,290,9,0.015199,0.598,0.092,0.315,-0.044,0.22,-0.017,0.685
+Creative Industries,growth_emp,Growth — Employment,290,0,100.0,-0.103,0.171,0.255,-0.027,0.197,-0.027,0.0
+Creative Industries,growth_bus,Growth — Business,290,3,0.008697,0.011,0.054,0.103,-0.018,0.076,-0.007,0.101
+Creative Industries,cagr_bus,CAGR -- Business,290,5,0.000933,0.023,0.059,0.016,-0.002,0.012,-0.001,0.124
+Creative Industries,cagr_emp,CAGR -- Employment,290,0,100.0,-0.097,0.152,0.04,-0.005,0.031,-0.004,0.0
+Digital and Technologies,lq_emp,Presence — Employment LQ,290,9,0.023101,0.286,0.191,0.506,-0.113,0.335,-0.035,0.387
+Digital and Technologies,lq_bus,Presence — Business LQ,290,9,0.013219,0.495,0.159,0.247,-0.037,0.182,-0.011,0.61
+Digital and Technologies,growth_emp,Growth — Employment,290,13,0.0001,-0.026,0.13,0.233,-0.019,0.176,-0.013,0.171
+Digital and Technologies,growth_bus,Growth — Business,290,13,0.0001,-0.057,0.115,0.099,-0.019,0.073,-0.01,0.244
+Digital and Technologies,cagr_bus,CAGR -- Business,290,13,0.0001,-0.018,0.072,0.017,-0.003,0.013,-0.002,0.23
+Digital and Technologies,cagr_emp,CAGR -- Employment,290,12,0.0001,0.002,0.083,0.036,-0.003,0.028,-0.002,0.172
+Financial Services,lq_emp,Presence — Employment LQ,290,3,0.061359,0.007,0.054,0.601,-0.238,0.374,-0.055,0.1
+Financial Services,lq_bus,Presence — Business LQ,290,10,0.004329,0.228,0.188,0.336,-0.078,0.227,-0.03,0.373
+Financial Services,growth_emp,Growth — Employment,290,1,0.030539,-0.017,0.017,0.378,-0.106,0.263,-0.036,0.01
+Financial Services,growth_bus,Growth — Business,290,2,0.023101,-0.068,0.121,0.224,-0.081,0.146,-0.024,0.051
+Financial Services,cagr_bus,CAGR -- Business,290,1,0.003765,-0.031,0.092,0.032,-0.006,0.022,-0.003,0.037
+Financial Services,cagr_emp,CAGR -- Employment,290,0,100.0,-0.031,0.029,0.06,-0.007,0.045,-0.005,0.0
+Life Sciences,lq_emp,Presence — Employment LQ,290,10,0.030539,0.025,0.029,1.647,-0.272,1.024,-0.061,0.102
+Life Sciences,lq_bus,Presence — Business LQ,290,9,0.017475,0.226,0.039,0.822,-0.29,0.454,-0.046,0.276
+Life Sciences,growth_emp,Growth — Employment,284,0,100.0,-0.386,0.296,2.918,-1.993,1.471,-0.441,0.0
+Life Sciences,growth_bus,Growth — Business,252,8,0.020092,0.237,0.073,0.652,-0.083,0.479,-0.028,0.352
+Life Sciences,cagr_bus,CAGR -- Business,252,6,0.013219,0.137,0.038,0.328,-0.018,0.232,-0.008,0.195
+Life Sciences,cagr_emp,CAGR -- Employment,284,5,0.020092,-0.038,0.032,0.318,-0.162,0.166,-0.06,0.025
+Professional and Business Services,lq_emp,Presence — Employment LQ,290,10,0.01,0.345,0.054,0.293,-0.063,0.198,-0.029,0.444
+Professional and Business Services,lq_bus,Presence — Business LQ,290,9,0.007565,0.703,0.057,0.142,-0.019,0.106,-0.009,0.775
+Professional and Business Services,growth_emp,Growth — Employment,290,3,0.015199,-0.038,0.055,0.277,-0.113,0.185,-0.033,0.019
+Professional and Business Services,growth_bus,Growth — Business,290,4,0.006579,0.019,0.051,0.094,-0.023,0.061,-0.005,0.064
+Professional and Business Services,cagr_bus,CAGR -- Business,290,2,0.00163,0.007,0.045,0.019,-0.008,0.011,-0.001,0.032
+Professional and Business Services,cagr_emp,CAGR -- Employment,290,4,0.001874,-0.029,0.044,0.039,-0.008,0.029,-0.004,0.031
