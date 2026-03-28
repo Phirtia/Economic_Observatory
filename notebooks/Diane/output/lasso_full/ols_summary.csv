@@ -1,0 +1,34 @@
+spec,sector,outcome,n,r2,r2_adj,n_sig,n_vars
+FULL_31,Advanced Manufacturing,lq_emp,268,0.502,0.473,6,15
+FULL_31,Advanced Manufacturing,lq_bus,239,0.505,0.47,5,16
+FULL_31,Advanced Manufacturing,growth_emp,283,0.021,0.01,1,3
+FULL_31,Advanced Manufacturing,growth_bus,281,0.151,0.142,3,3
+FULL_31,Advanced Manufacturing,cagr_emp,268,0.072,0.044,1,8
+FULL_31,Advanced Manufacturing,cagr_bus,281,0.215,0.197,3,6
+FULL_31,Creative Industries,lq_emp,239,0.738,0.709,9,24
+FULL_31,Creative Industries,lq_bus,239,0.792,0.766,12,26
+FULL_31,Creative Industries,growth_bus,252,0.143,0.122,2,6
+FULL_31,Creative Industries,cagr_bus,252,0.153,0.132,2,6
+FULL_31,Digital and Technologies,lq_emp,239,0.69,0.666,6,17
+FULL_31,Digital and Technologies,lq_bus,239,0.767,0.736,11,28
+FULL_31,Digital and Technologies,growth_emp,252,0.224,0.174,3,15
+FULL_31,Digital and Technologies,growth_bus,252,0.231,0.175,2,17
+FULL_31,Digital and Technologies,cagr_emp,252,0.237,0.178,3,18
+FULL_31,Digital and Technologies,cagr_bus,252,0.237,0.181,2,17
+FULL_31,Financial Services,lq_emp,288,0.423,0.404,2,9
+FULL_31,Financial Services,lq_bus,275,0.444,0.414,6,14
+FULL_31,Financial Services,growth_emp,278,0.02,0.013,0,2
+FULL_31,Financial Services,growth_bus,291,0.091,0.078,3,4
+FULL_31,Financial Services,cagr_emp,278,0.011,0.008,0,1
+FULL_31,Financial Services,cagr_bus,268,0.156,0.116,7,12
+FULL_31,Life Sciences,lq_emp,219,0.246,0.229,3,5
+FULL_31,Life Sciences,lq_bus,216,0.351,0.32,4,10
+FULL_31,Life Sciences,growth_emp,216,0.071,0.044,1,6
+FULL_31,Life Sciences,growth_bus,205,0.353,0.32,4,10
+FULL_31,Life Sciences,cagr_emp,177,0.171,0.094,3,15
+FULL_31,Life Sciences,cagr_bus,206,0.342,0.319,4,7
+FULL_31,Professional and Business Services,lq_emp,239,0.553,0.519,7,17
+FULL_31,Professional and Business Services,lq_bus,245,0.834,0.824,9,14
+FULL_31,Professional and Business Services,growth_bus,296,0.018,0.015,0,1
+FULL_31,Professional and Business Services,cagr_emp,270,0.066,0.045,1,6
+FULL_31,Professional and Business Services,cagr_bus,292,0.017,0.01,0,2
