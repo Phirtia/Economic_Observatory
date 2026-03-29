@@ -1,25 +1,28 @@
 sector,dep_var,R2_mean_full,R2_mean_theory,RMSE_mean_full,RMSE_mean_theory,R2_winner
-Advanced Manufacturing,lq_bus,0.4265,0.3645,0.3391,0.357,full
-Advanced Manufacturing,lq_emp,0.2353,0.11,1.1394,1.2157,full
-Advanced Manufacturing,trajectory_businesses,0.0961,0.0779,0.0402,0.0407,full
-Advanced Manufacturing,trajectory_employees,-0.1194,-0.0799,0.0574,0.0563,theory
-Creative Industries,lq_bus,0.7471,0.7396,0.2388,0.2439,full
-Creative Industries,lq_emp,0.6436,0.3186,0.3854,0.5075,full
-Creative Industries,trajectory_businesses,0.0595,0.0908,0.0175,0.0172,theory
-Creative Industries,trajectory_employees,0.0103,0.0217,0.039,0.0388,theory
-Digital and Technologies,lq_bus,0.5769,0.5679,0.2282,0.2307,full
-Digital and Technologies,lq_emp,0.5261,0.2819,0.3838,0.4727,full
-Digital and Technologies,trajectory_businesses,0.1178,0.1236,0.0179,0.0178,theory
-Digital and Technologies,trajectory_employees,0.0755,0.0612,0.0322,0.0325,full
-Financial Services,lq_bus,0.0731,0.0787,0.4634,0.4572,theory
-Financial Services,lq_emp,0.0632,-0.0426,0.673,0.7285,full
-Financial Services,trajectory_businesses,0.0633,0.0485,0.032,0.0321,full
-Financial Services,trajectory_employees,-0.0305,-0.0561,0.0562,0.0569,full
-Life Sciences,lq_bus,0.2577,0.1529,0.7188,0.7575,full
-Life Sciences,lq_emp,-0.019,-0.0393,1.683,1.7082,full
-Life Sciences,trajectory_businesses,0.2163,0.2301,0.0711,0.0704,theory
-Life Sciences,trajectory_employees,-0.1006,-0.0508,0.1723,0.1681,theory
-Professional and Business Services,lq_bus,0.6955,0.6932,0.1549,0.1549,full
-Professional and Business Services,lq_emp,0.4524,0.381,0.2772,0.2943,full
-Professional and Business Services,trajectory_businesses,-0.0358,-0.105,0.0193,0.0198,full
-Professional and Business Services,trajectory_employees,-0.0333,-0.0131,0.0387,0.0383,theory
+Advanced Manufacturing,gd_bus,0.0619,0.0301,0.0326,0.0333,full
+Advanced Manufacturing,gd_emp,-0.04,-0.0505,0.0516,0.0519,full
+Advanced Manufacturing,lq_bus,0.5214,0.434,0.2977,0.3238,full
+Advanced Manufacturing,lq_emp,0.3858,0.0682,0.9572,1.2131,full
+Creative Industries,gd_bus,0.1079,0.0426,0.0157,0.0163,full
+Creative Industries,gd_emp,0.0516,0.0482,0.0341,0.0342,full
+Creative Industries,lq_bus,0.757,0.6877,0.2366,0.2676,full
+Creative Industries,lq_emp,0.6341,0.4745,0.3858,0.4607,full
+Defence,gd_emp,-0.5431,-0.6064,0.0706,0.0719,full
+Defence,lq_bus,-0.2215,-0.26,0.7454,0.7529,full
+Defence,lq_emp,-3.0207,-3.0487,6.5715,6.551,full
+Digital and Technologies,gd_bus,0.0564,0.0172,0.018,0.0183,full
+Digital and Technologies,gd_emp,0.0672,0.0351,0.0294,0.0298,full
+Digital and Technologies,lq_bus,0.6281,0.5631,0.2083,0.2263,full
+Digital and Technologies,lq_emp,0.5068,0.2835,0.3919,0.4732,full
+Financial Services,gd_bus,0.1258,0.1257,0.0279,0.0279,full
+Financial Services,gd_emp,-0.0646,-0.0759,0.0507,0.051,full
+Financial Services,lq_bus,0.157,0.0487,0.4605,0.4818,full
+Financial Services,lq_emp,0.0917,-0.3747,0.6465,0.7729,full
+Life Sciences,gd_bus,0.194,0.0193,0.0673,0.0749,full
+Life Sciences,gd_emp,-0.0238,-0.0469,0.1399,0.141,full
+Life Sciences,lq_bus,0.2203,0.1001,0.7864,0.839,full
+Life Sciences,lq_emp,0.0134,-0.0119,1.6503,1.6653,full
+Professional and Business Services,gd_bus,0.0284,0.0045,0.0176,0.0178,full
+Professional and Business Services,gd_emp,0.004,0.0109,0.0337,0.0337,theory
+Professional and Business Services,lq_bus,0.6327,0.5753,0.1611,0.1731,full
+Professional and Business Services,lq_emp,0.4115,0.26,0.2957,0.3307,full

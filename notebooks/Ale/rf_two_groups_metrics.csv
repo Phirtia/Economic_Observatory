@@ -1,97 +1,109 @@
 group,sector,dep_var,model_type,n,R2_mean,R2_std,RMSE_mean,RMSE_std,F1_mean,F1_std,Acc_mean,Acc_std
-full,Advanced Manufacturing,lq_emp,regression,350,0.2353,0.1577,1.1394,0.3169,,,,
-full,Advanced Manufacturing,lq_bus,regression,350,0.4265,0.0618,0.3391,0.036,,,,
-full,Advanced Manufacturing,trajectory_employees,regression,349,-0.1194,0.0833,0.0574,0.0083,,,,
-full,Advanced Manufacturing,trajectory_businesses,regression,349,0.0961,0.1266,0.0402,0.0078,,,,
-full,Advanced Manufacturing,lq_emp_binary,classification,350,,,,,0.6549,0.0513,0.6857,0.0433
-full,Advanced Manufacturing,lq_bus_binary,classification,350,,,,,0.7495,0.0676,0.7686,0.0654
-full,Advanced Manufacturing,trajectory_employees_binary,classification,349,,,,,0.5152,0.0717,0.5014,0.0435
-full,Advanced Manufacturing,trajectory_businesses_binary,classification,349,,,,,0.5655,0.065,0.5759,0.056
-full,Creative Industries,lq_emp,regression,350,0.6436,0.1604,0.3854,0.1364,,,,
-full,Creative Industries,lq_bus,regression,350,0.7471,0.0681,0.2388,0.0253,,,,
-full,Creative Industries,trajectory_employees,regression,350,0.0103,0.0538,0.039,0.006,,,,
-full,Creative Industries,trajectory_businesses,regression,349,0.0595,0.0303,0.0175,0.0026,,,,
-full,Creative Industries,lq_emp_binary,classification,350,,,,,0.5617,0.1418,0.8686,0.0343
-full,Creative Industries,lq_bus_binary,classification,350,,,,,0.7997,0.0259,0.9057,0.0114
-full,Creative Industries,trajectory_employees_binary,classification,350,,,,,0.5931,0.0266,0.6,0.0433
-full,Creative Industries,trajectory_businesses_binary,classification,349,,,,,0.5947,0.0339,0.6075,0.0279
-full,Digital and Technologies,lq_emp,regression,350,0.5261,0.0995,0.3838,0.1063,,,,
-full,Digital and Technologies,lq_bus,regression,350,0.5769,0.0802,0.2282,0.0251,,,,
-full,Digital and Technologies,trajectory_employees,regression,349,0.0755,0.0385,0.0322,0.0035,,,,
-full,Digital and Technologies,trajectory_businesses,regression,349,0.1178,0.1088,0.0179,0.0022,,,,
-full,Digital and Technologies,lq_emp_binary,classification,350,,,,,0.6395,0.0846,0.8371,0.0345
-full,Digital and Technologies,lq_bus_binary,classification,350,,,,,0.7824,0.0827,0.8771,0.041
-full,Digital and Technologies,trajectory_employees_binary,classification,349,,,,,0.5683,0.0466,0.599,0.0308
-full,Digital and Technologies,trajectory_businesses_binary,classification,349,,,,,0.6064,0.0389,0.6216,0.0548
-full,Financial Services,lq_emp,regression,350,0.0632,0.4763,0.673,0.2618,,,,
-full,Financial Services,lq_bus,regression,350,0.0731,0.122,0.4634,0.2173,,,,
-full,Financial Services,trajectory_employees,regression,349,-0.0305,0.0641,0.0562,0.0032,,,,
-full,Financial Services,trajectory_businesses,regression,349,0.0633,0.0706,0.032,0.0065,,,,
-full,Financial Services,lq_emp_binary,classification,350,,,,,0.345,0.1267,0.8629,0.0232
-full,Financial Services,lq_bus_binary,classification,350,,,,,0.139,0.0047,0.8229,0.007
-full,Financial Services,trajectory_employees_binary,classification,349,,,,,0.555,0.0418,0.5358,0.0486
-full,Financial Services,trajectory_businesses_binary,classification,349,,,,,0.6812,0.0735,0.6818,0.0642
-full,Life Sciences,lq_emp,regression,350,-0.019,0.0931,1.683,0.2217,,,,
-full,Life Sciences,lq_bus,regression,350,0.2577,0.2099,0.7188,0.2968,,,,
-full,Life Sciences,trajectory_employees,regression,329,-0.1006,0.0807,0.1723,0.0446,,,,
-full,Life Sciences,trajectory_businesses,regression,265,0.2163,0.1009,0.0711,0.0109,,,,
-full,Life Sciences,lq_emp_binary,classification,350,,,,,0.0563,0.046,0.7171,0.0107
-full,Life Sciences,lq_bus_binary,classification,350,,,,,0.4695,0.1288,0.8371,0.0232
-full,Life Sciences,trajectory_employees_binary,classification,329,,,,,0.5151,0.0533,0.5351,0.0576
-full,Life Sciences,trajectory_businesses_binary,classification,265,,,,,0.8453,0.0051,0.7321,0.0075
-full,Professional and Business Services,lq_emp,regression,350,0.4524,0.1374,0.2772,0.0559,,,,
-full,Professional and Business Services,lq_bus,regression,350,0.6955,0.1334,0.1549,0.0459,,,,
-full,Professional and Business Services,trajectory_employees,regression,350,-0.0333,0.0385,0.0387,0.0057,,,,
-full,Professional and Business Services,trajectory_businesses,regression,350,-0.0358,0.0938,0.0193,0.0054,,,,
-full,Professional and Business Services,lq_emp_binary,classification,350,,,,,0.6144,0.1235,0.8771,0.0345
-full,Professional and Business Services,lq_bus_binary,classification,350,,,,,0.7908,0.061,0.8857,0.0271
-full,Professional and Business Services,trajectory_employees_binary,classification,350,,,,,0.5456,0.0721,0.5629,0.039
-full,Professional and Business Services,trajectory_businesses_binary,classification,350,,,,,0.5971,0.0303,0.5943,0.0508
-theory,Advanced Manufacturing,lq_emp,regression,350,0.11,0.1167,1.2157,0.2802,,,,
-theory,Advanced Manufacturing,lq_bus,regression,350,0.3645,0.0468,0.357,0.0338,,,,
-theory,Advanced Manufacturing,trajectory_employees,regression,349,-0.0799,0.0898,0.0563,0.0075,,,,
-theory,Advanced Manufacturing,trajectory_businesses,regression,349,0.0779,0.084,0.0407,0.0078,,,,
-theory,Advanced Manufacturing,lq_emp_binary,classification,350,,,,,0.602,0.0437,0.6429,0.0511
-theory,Advanced Manufacturing,lq_bus_binary,classification,350,,,,,0.693,0.06,0.7086,0.0583
-theory,Advanced Manufacturing,trajectory_employees_binary,classification,349,,,,,0.4978,0.0678,0.513,0.0347
-theory,Advanced Manufacturing,trajectory_businesses_binary,classification,349,,,,,0.5871,0.0089,0.5931,0.022
-theory,Creative Industries,lq_emp,regression,350,0.3186,0.4561,0.5075,0.1544,,,,
-theory,Creative Industries,lq_bus,regression,350,0.7396,0.0624,0.2439,0.0319,,,,
-theory,Creative Industries,trajectory_employees,regression,350,0.0217,0.0669,0.0388,0.0057,,,,
-theory,Creative Industries,trajectory_businesses,regression,349,0.0908,0.0324,0.0172,0.0026,,,,
-theory,Creative Industries,lq_emp_binary,classification,350,,,,,0.5909,0.117,0.8743,0.0246
-theory,Creative Industries,lq_bus_binary,classification,350,,,,,0.7712,0.0884,0.8914,0.0368
-theory,Creative Industries,trajectory_employees_binary,classification,350,,,,,0.5986,0.0372,0.5771,0.0308
-theory,Creative Industries,trajectory_businesses_binary,classification,349,,,,,0.6148,0.0162,0.6275,0.0174
-theory,Digital and Technologies,lq_emp,regression,350,0.2819,0.0193,0.4727,0.1107,,,,
-theory,Digital and Technologies,lq_bus,regression,350,0.5679,0.0857,0.2307,0.0278,,,,
-theory,Digital and Technologies,trajectory_employees,regression,349,0.0612,0.0401,0.0325,0.0039,,,,
-theory,Digital and Technologies,trajectory_businesses,regression,349,0.1236,0.1172,0.0178,0.0022,,,,
-theory,Digital and Technologies,lq_emp_binary,classification,350,,,,,0.5328,0.0738,0.7914,0.0294
-theory,Digital and Technologies,lq_bus_binary,classification,350,,,,,0.7344,0.0604,0.8486,0.0294
-theory,Digital and Technologies,trajectory_employees_binary,classification,349,,,,,0.5376,0.0407,0.5558,0.0443
-theory,Digital and Technologies,trajectory_businesses_binary,classification,349,,,,,0.5796,0.0531,0.6158,0.0494
-theory,Financial Services,lq_emp,regression,350,-0.0426,0.3745,0.7285,0.2937,,,,
-theory,Financial Services,lq_bus,regression,350,0.0787,0.1887,0.4572,0.2143,,,,
-theory,Financial Services,trajectory_employees,regression,349,-0.0561,0.0414,0.0569,0.0025,,,,
-theory,Financial Services,trajectory_businesses,regression,349,0.0485,0.0512,0.0321,0.0059,,,,
-theory,Financial Services,lq_emp_binary,classification,350,,,,,0.2105,0.1323,0.84,0.021
-theory,Financial Services,lq_bus_binary,classification,350,,,,,0.1336,0.0845,0.8171,0.0167
-theory,Financial Services,trajectory_employees_binary,classification,349,,,,,0.5618,0.0363,0.5588,0.0395
-theory,Financial Services,trajectory_businesses_binary,classification,349,,,,,0.6669,0.0501,0.6762,0.0517
-theory,Life Sciences,lq_emp,regression,350,-0.0393,0.0467,1.7082,0.2657,,,,
-theory,Life Sciences,lq_bus,regression,350,0.1529,0.2562,0.7575,0.2933,,,,
-theory,Life Sciences,trajectory_employees,regression,329,-0.0508,0.0466,0.1681,0.0427,,,,
-theory,Life Sciences,trajectory_businesses,regression,265,0.2301,0.1011,0.0704,0.0107,,,,
-theory,Life Sciences,lq_emp_binary,classification,350,,,,,0.0661,0.0579,0.7,0.0202
-theory,Life Sciences,lq_bus_binary,classification,350,,,,,0.4471,0.0876,0.8314,0.0305
-theory,Life Sciences,trajectory_employees_binary,classification,329,,,,,0.5205,0.028,0.5531,0.0191
-theory,Life Sciences,trajectory_businesses_binary,classification,265,,,,,0.8428,0.0062,0.7283,0.0092
-theory,Professional and Business Services,lq_emp,regression,350,0.381,0.152,0.2943,0.057,,,,
-theory,Professional and Business Services,lq_bus,regression,350,0.6932,0.1694,0.1549,0.0547,,,,
-theory,Professional and Business Services,trajectory_employees,regression,350,-0.0131,0.0304,0.0383,0.0058,,,,
-theory,Professional and Business Services,trajectory_businesses,regression,350,-0.105,0.1622,0.0198,0.0052,,,,
-theory,Professional and Business Services,lq_emp_binary,classification,350,,,,,0.5944,0.1328,0.8657,0.0333
-theory,Professional and Business Services,lq_bus_binary,classification,350,,,,,0.798,0.0536,0.8857,0.0256
-theory,Professional and Business Services,trajectory_employees_binary,classification,350,,,,,0.5855,0.0491,0.5914,0.0524
-theory,Professional and Business Services,trajectory_businesses_binary,classification,350,,,,,0.5865,0.0474,0.5857,0.0619
+full,Advanced Manufacturing,lq_emp,regression,296,0.3858,0.1305,0.9572,0.2579,,,,
+full,Advanced Manufacturing,lq_bus,regression,296,0.5214,0.0586,0.2977,0.0159,,,,
+full,Advanced Manufacturing,gd_emp,regression,295,-0.04,0.1322,0.0516,0.0066,,,,
+full,Advanced Manufacturing,gd_bus,regression,295,0.0619,0.1482,0.0326,0.006,,,,
+full,Advanced Manufacturing,lq_emp_binary,classification,296,,,,,0.7157,0.0386,0.7128,0.0442
+full,Advanced Manufacturing,lq_bus_binary,classification,296,,,,,0.7923,0.0201,0.7871,0.0237
+full,Advanced Manufacturing,gd_emp_binary,classification,295,,,,,0.4878,0.0493,0.5254,0.0442
+full,Advanced Manufacturing,gd_bus_binary,classification,295,,,,,0.572,0.08,0.5966,0.046
+full,Creative Industries,lq_emp,regression,296,0.6341,0.0856,0.3858,0.0627,,,,
+full,Creative Industries,lq_bus,regression,296,0.757,0.0387,0.2366,0.0218,,,,
+full,Creative Industries,gd_emp,regression,296,0.0516,0.0623,0.0341,0.0039,,,,
+full,Creative Industries,gd_bus,regression,295,0.1079,0.1102,0.0157,0.0022,,,,
+full,Creative Industries,lq_emp_binary,classification,296,,,,,0.5911,0.1895,0.8919,0.0348
+full,Creative Industries,lq_bus_binary,classification,296,,,,,0.8098,0.0603,0.8986,0.0263
+full,Creative Industries,gd_emp_binary,classification,296,,,,,0.5986,0.0644,0.6013,0.0502
+full,Creative Industries,gd_bus_binary,classification,295,,,,,0.5933,0.0691,0.5932,0.0514
+full,Defence,lq_emp,regression,296,-3.0207,4.0023,6.5715,4.6294,,,,
+full,Defence,lq_bus,regression,296,-0.2215,0.3922,0.7454,0.5411,,,,
+full,Defence,gd_emp,regression,46,-0.5431,0.6128,0.0706,0.011,,,,
+full,Defence,lq_emp_binary,classification,296,,,,,0.0,0.0,0.9223,0.0081
+full,Defence,lq_bus_binary,classification,296,,,,,0.0,0.0,0.9865,0.0068
+full,Defence,gd_emp_binary,classification,46,,,,,0.7329,0.0467,0.6311,0.0839
+full,Digital and Technologies,lq_emp,regression,296,0.5068,0.0574,0.3919,0.0619,,,,
+full,Digital and Technologies,lq_bus,regression,296,0.6281,0.0726,0.2083,0.0189,,,,
+full,Digital and Technologies,gd_emp,regression,295,0.0672,0.0165,0.0294,0.0042,,,,
+full,Digital and Technologies,gd_bus,regression,295,0.0564,0.0587,0.018,0.0024,,,,
+full,Digital and Technologies,lq_emp_binary,classification,296,,,,,0.5423,0.0788,0.8211,0.0265
+full,Digital and Technologies,lq_bus_binary,classification,296,,,,,0.7271,0.0408,0.8311,0.0356
+full,Digital and Technologies,gd_emp_binary,classification,295,,,,,0.5278,0.1053,0.5559,0.0551
+full,Digital and Technologies,gd_bus_binary,classification,295,,,,,0.6452,0.0844,0.6373,0.0732
+full,Financial Services,lq_emp,regression,296,0.0917,0.2098,0.6465,0.3997,,,,
+full,Financial Services,lq_bus,regression,296,0.157,0.1289,0.4605,0.2248,,,,
+full,Financial Services,gd_emp,regression,295,-0.0646,0.0336,0.0507,0.0062,,,,
+full,Financial Services,gd_bus,regression,295,0.1258,0.0777,0.0279,0.0047,,,,
+full,Financial Services,lq_emp_binary,classification,296,,,,,0.16,0.1497,0.8716,0.0134
+full,Financial Services,lq_bus_binary,classification,296,,,,,0.2105,0.1184,0.8311,0.018
+full,Financial Services,gd_emp_binary,classification,295,,,,,0.5462,0.0736,0.5322,0.0603
+full,Financial Services,gd_bus_binary,classification,295,,,,,0.628,0.0578,0.6169,0.0691
+full,Life Sciences,lq_emp,regression,296,0.0134,0.0615,1.6503,0.2676,,,,
+full,Life Sciences,lq_bus,regression,296,0.2203,0.2239,0.7864,0.3279,,,,
+full,Life Sciences,gd_emp,regression,280,-0.0238,0.0829,0.1399,0.0493,,,,
+full,Life Sciences,gd_bus,regression,235,0.194,0.0932,0.0673,0.0065,,,,
+full,Life Sciences,lq_emp_binary,classification,296,,,,,0.0485,0.0595,0.7364,0.0214
+full,Life Sciences,lq_bus_binary,classification,296,,,,,0.4941,0.1267,0.8412,0.0313
+full,Life Sciences,gd_emp_binary,classification,280,,,,,0.5324,0.0851,0.55,0.0653
+full,Life Sciences,gd_bus_binary,classification,235,,,,,0.8405,0.0169,0.7319,0.0289
+full,Professional and Business Services,lq_emp,regression,296,0.4115,0.1177,0.2957,0.075,,,,
+full,Professional and Business Services,lq_bus,regression,296,0.6327,0.1481,0.1611,0.0501,,,,
+full,Professional and Business Services,gd_emp,regression,296,0.004,0.0485,0.0337,0.0078,,,,
+full,Professional and Business Services,gd_bus,regression,296,0.0284,0.074,0.0176,0.0049,,,,
+full,Professional and Business Services,lq_emp_binary,classification,296,,,,,0.468,0.1761,0.8479,0.0417
+full,Professional and Business Services,lq_bus_binary,classification,296,,,,,0.8056,0.0399,0.8851,0.0165
+full,Professional and Business Services,gd_emp_binary,classification,296,,,,,0.5695,0.0401,0.5843,0.0296
+full,Professional and Business Services,gd_bus_binary,classification,296,,,,,0.6373,0.0925,0.6584,0.0694
+theory,Advanced Manufacturing,lq_emp,regression,296,0.0682,0.081,1.2131,0.3836,,,,
+theory,Advanced Manufacturing,lq_bus,regression,296,0.434,0.0697,0.3238,0.02,,,,
+theory,Advanced Manufacturing,gd_emp,regression,295,-0.0505,0.0972,0.0519,0.0064,,,,
+theory,Advanced Manufacturing,gd_bus,regression,295,0.0301,0.1466,0.0333,0.0065,,,,
+theory,Advanced Manufacturing,lq_emp_binary,classification,296,,,,,0.7068,0.0268,0.6959,0.0416
+theory,Advanced Manufacturing,lq_bus_binary,classification,296,,,,,0.738,0.0367,0.7364,0.024
+theory,Advanced Manufacturing,gd_emp_binary,classification,295,,,,,0.4639,0.0361,0.5017,0.0254
+theory,Advanced Manufacturing,gd_bus_binary,classification,295,,,,,0.5599,0.0504,0.5593,0.0322
+theory,Creative Industries,lq_emp,regression,296,0.4745,0.1141,0.4607,0.0648,,,,
+theory,Creative Industries,lq_bus,regression,296,0.6877,0.0522,0.2676,0.0207,,,,
+theory,Creative Industries,gd_emp,regression,296,0.0482,0.0505,0.0342,0.0038,,,,
+theory,Creative Industries,gd_bus,regression,295,0.0426,0.0808,0.0163,0.0025,,,,
+theory,Creative Industries,lq_emp_binary,classification,296,,,,,0.5651,0.1881,0.8818,0.0413
+theory,Creative Industries,lq_bus_binary,classification,296,,,,,0.7805,0.0573,0.8851,0.0224
+theory,Creative Industries,gd_emp_binary,classification,296,,,,,0.5606,0.0428,0.5676,0.0531
+theory,Creative Industries,gd_bus_binary,classification,295,,,,,0.5365,0.0156,0.5153,0.0314
+theory,Defence,lq_emp,regression,296,-3.0487,4.0151,6.551,4.6122,,,,
+theory,Defence,lq_bus,regression,296,-0.26,0.4743,0.7529,0.5319,,,,
+theory,Defence,gd_emp,regression,46,-0.6064,0.6807,0.0719,0.0116,,,,
+theory,Defence,lq_emp_binary,classification,296,,,,,0.0,0.0,0.9223,0.0081
+theory,Defence,lq_bus_binary,classification,296,,,,,0.0,0.0,0.9865,0.0068
+theory,Defence,gd_emp_binary,classification,46,,,,,0.7477,0.0751,0.6733,0.0715
+theory,Digital and Technologies,lq_emp,regression,296,0.2835,0.0681,0.4732,0.0764,,,,
+theory,Digital and Technologies,lq_bus,regression,296,0.5631,0.062,0.2263,0.0164,,,,
+theory,Digital and Technologies,gd_emp,regression,295,0.0351,0.0536,0.0298,0.004,,,,
+theory,Digital and Technologies,gd_bus,regression,295,0.0172,0.0777,0.0183,0.0022,,,,
+theory,Digital and Technologies,lq_emp_binary,classification,296,,,,,0.4633,0.1385,0.7972,0.0418
+theory,Digital and Technologies,lq_bus_binary,classification,296,,,,,0.7147,0.016,0.8244,0.0162
+theory,Digital and Technologies,gd_emp_binary,classification,295,,,,,0.52,0.0745,0.5186,0.0553
+theory,Digital and Technologies,gd_bus_binary,classification,295,,,,,0.593,0.0428,0.5864,0.041
+theory,Financial Services,lq_emp,regression,296,-0.3747,0.3742,0.7729,0.439,,,,
+theory,Financial Services,lq_bus,regression,296,0.0487,0.1882,0.4818,0.2202,,,,
+theory,Financial Services,gd_emp,regression,295,-0.0759,0.0753,0.051,0.0072,,,,
+theory,Financial Services,gd_bus,regression,295,0.1257,0.08,0.0279,0.0047,,,,
+theory,Financial Services,lq_emp_binary,classification,296,,,,,0.0,0.0,0.8581,0.0077
+theory,Financial Services,lq_bus_binary,classification,296,,,,,0.1629,0.1485,0.8244,0.0131
+theory,Financial Services,gd_emp_binary,classification,295,,,,,0.5366,0.0511,0.4949,0.0392
+theory,Financial Services,gd_bus_binary,classification,295,,,,,0.6198,0.0555,0.6203,0.0657
+theory,Life Sciences,lq_emp,regression,296,-0.0119,0.0677,1.6653,0.2391,,,,
+theory,Life Sciences,lq_bus,regression,296,0.1001,0.1898,0.839,0.3117,,,,
+theory,Life Sciences,gd_emp,regression,280,-0.0469,0.0969,0.141,0.0485,,,,
+theory,Life Sciences,gd_bus,regression,235,0.0193,0.0549,0.0749,0.0103,,,,
+theory,Life Sciences,lq_emp_binary,classification,296,,,,,0.05,0.0612,0.7466,0.0153
+theory,Life Sciences,lq_bus_binary,classification,296,,,,,0.1709,0.1265,0.7804,0.0322
+theory,Life Sciences,gd_emp_binary,classification,280,,,,,0.5254,0.0448,0.5179,0.0452
+theory,Life Sciences,gd_bus_binary,classification,235,,,,,0.823,0.011,0.7021,0.0135
+theory,Professional and Business Services,lq_emp,regression,296,0.26,0.1234,0.3307,0.0779,,,,
+theory,Professional and Business Services,lq_bus,regression,296,0.5753,0.1473,0.1731,0.0456,,,,
+theory,Professional and Business Services,gd_emp,regression,296,0.0109,0.0372,0.0337,0.008,,,,
+theory,Professional and Business Services,gd_bus,regression,296,0.0045,0.0552,0.0178,0.0049,,,,
+theory,Professional and Business Services,lq_emp_binary,classification,296,,,,,0.5046,0.1532,0.8512,0.0437
+theory,Professional and Business Services,lq_bus_binary,classification,296,,,,,0.7792,0.0317,0.8682,0.0201
+theory,Professional and Business Services,gd_emp_binary,classification,296,,,,,0.5854,0.0443,0.5912,0.0286
+theory,Professional and Business Services,gd_bus_binary,classification,296,,,,,0.6082,0.0374,0.6047,0.0352

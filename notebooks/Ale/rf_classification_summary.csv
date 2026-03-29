@@ -1,28 +1,55 @@
 sector,dep_var,n,F1_mean,F1_std,Acc_mean,Acc_std
-Advanced Manufacturing,lq_emp_binary,350,0.6549,0.0513,0.6857,0.0433
-Advanced Manufacturing,lq_bus_binary,350,0.7536,0.0622,0.7714,0.0619
-Advanced Manufacturing,cagr_emp_binary,350,0.5142,0.0597,0.5057,0.0576
-Advanced Manufacturing,cagr_bus_binary,349,0.6914,0.026,0.6102,0.0243
-Creative Industries,lq_emp_binary,350,0.5617,0.1418,0.8686,0.0343
-Creative Industries,lq_bus_binary,350,0.7997,0.0259,0.9057,0.0114
-Creative Industries,cagr_emp_binary,350,0.5703,0.0505,0.5771,0.042
-Creative Industries,cagr_bus_binary,349,0.573,0.0404,0.5761,0.0244
-Defence,lq_emp_binary,350,0.0,0.0,0.9086,0.007
-Defence,lq_bus_binary,350,0.0,0.0,0.9886,0.0057
-Defence,cagr_emp_binary,71,0.7378,0.0706,0.6352,0.0863
-Digital and Technologies,lq_emp_binary,350,0.6395,0.0846,0.8371,0.0345
-Digital and Technologies,lq_bus_binary,350,0.7824,0.0827,0.8771,0.041
-Digital and Technologies,cagr_emp_binary,350,0.5313,0.0583,0.5486,0.0531
-Digital and Technologies,cagr_bus_binary,349,0.6053,0.0461,0.6246,0.0385
-Financial Services,lq_emp_binary,350,0.345,0.1267,0.8629,0.0232
-Financial Services,lq_bus_binary,350,0.139,0.0047,0.8229,0.007
-Financial Services,cagr_emp_binary,349,0.54,0.0309,0.533,0.018
-Financial Services,cagr_bus_binary,349,0.7032,0.04,0.6906,0.0416
-Life Sciences,lq_emp_binary,350,0.0563,0.046,0.7171,0.0107
-Life Sciences,lq_bus_binary,350,0.4848,0.1241,0.84,0.0229
-Life Sciences,cagr_emp_binary,338,0.5343,0.0383,0.5416,0.0366
-Life Sciences,cagr_bus_binary,291,0.8435,0.0087,0.732,0.0163
-Professional and Business Services,lq_emp_binary,350,0.6144,0.1235,0.8771,0.0345
-Professional and Business Services,lq_bus_binary,350,0.7908,0.061,0.8857,0.0271
-Professional and Business Services,cagr_emp_binary,350,0.5805,0.0776,0.6057,0.0379
-Professional and Business Services,cagr_bus_binary,350,0.5972,0.0214,0.6114,0.0418
+Advanced Manufacturing,lq_emp_binary,296,0.7157,0.0386,0.7128,0.0442
+Advanced Manufacturing,lq_bus_binary,296,0.7923,0.0201,0.7871,0.0237
+Advanced Manufacturing,gd_emp_binary,295,0.4878,0.0493,0.5254,0.0442
+Advanced Manufacturing,gd_bus_binary,295,0.572,0.08,0.5966,0.046
+Creative Industries,lq_emp_binary,296,0.5911,0.1895,0.8919,0.0348
+Creative Industries,lq_bus_binary,296,0.8098,0.0603,0.8986,0.0263
+Creative Industries,gd_emp_binary,296,0.5986,0.0644,0.6013,0.0502
+Creative Industries,gd_bus_binary,295,0.5933,0.0691,0.5932,0.0514
+Defence,lq_emp_binary,296,0.0,0.0,0.9223,0.0081
+Defence,lq_bus_binary,296,0.0,0.0,0.9865,0.0068
+Defence,gd_emp_binary,46,0.7329,0.0467,0.6311,0.0839
+Digital and Technologies,lq_emp_binary,296,0.5423,0.0788,0.8211,0.0265
+Digital and Technologies,lq_bus_binary,296,0.7271,0.0408,0.8311,0.0356
+Digital and Technologies,gd_emp_binary,295,0.5278,0.1053,0.5559,0.0551
+Digital and Technologies,gd_bus_binary,295,0.6452,0.0844,0.6373,0.0732
+Financial Services,lq_emp_binary,296,0.16,0.1497,0.8716,0.0134
+Financial Services,lq_bus_binary,296,0.2105,0.1184,0.8311,0.018
+Financial Services,gd_emp_binary,295,0.5462,0.0736,0.5322,0.0603
+Financial Services,gd_bus_binary,295,0.628,0.0578,0.6169,0.0691
+Life Sciences,lq_emp_binary,296,0.0485,0.0595,0.7364,0.0214
+Life Sciences,lq_bus_binary,296,0.4941,0.1267,0.8412,0.0313
+Life Sciences,gd_emp_binary,280,0.5324,0.0851,0.55,0.0653
+Life Sciences,gd_bus_binary,235,0.8405,0.0169,0.7319,0.0289
+Professional and Business Services,lq_emp_binary,296,0.468,0.1761,0.8479,0.0417
+Professional and Business Services,lq_bus_binary,296,0.8056,0.0399,0.8851,0.0165
+Professional and Business Services,gd_emp_binary,296,0.5695,0.0401,0.5843,0.0296
+Professional and Business Services,gd_bus_binary,296,0.6373,0.0925,0.6584,0.0694
+Advanced Manufacturing,lq_emp_binary,296,0.7068,0.0268,0.6959,0.0416
+Advanced Manufacturing,lq_bus_binary,296,0.738,0.0367,0.7364,0.024
+Advanced Manufacturing,gd_emp_binary,295,0.4639,0.0361,0.5017,0.0254
+Advanced Manufacturing,gd_bus_binary,295,0.5599,0.0504,0.5593,0.0322
+Creative Industries,lq_emp_binary,296,0.5651,0.1881,0.8818,0.0413
+Creative Industries,lq_bus_binary,296,0.7805,0.0573,0.8851,0.0224
+Creative Industries,gd_emp_binary,296,0.5606,0.0428,0.5676,0.0531
+Creative Industries,gd_bus_binary,295,0.5365,0.0156,0.5153,0.0314
+Defence,lq_emp_binary,296,0.0,0.0,0.9223,0.0081
+Defence,lq_bus_binary,296,0.0,0.0,0.9865,0.0068
+Defence,gd_emp_binary,46,0.7477,0.0751,0.6733,0.0715
+Digital and Technologies,lq_emp_binary,296,0.4633,0.1385,0.7972,0.0418
+Digital and Technologies,lq_bus_binary,296,0.7147,0.016,0.8244,0.0162
+Digital and Technologies,gd_emp_binary,295,0.52,0.0745,0.5186,0.0553
+Digital and Technologies,gd_bus_binary,295,0.593,0.0428,0.5864,0.041
+Financial Services,lq_emp_binary,296,0.0,0.0,0.8581,0.0077
+Financial Services,lq_bus_binary,296,0.1629,0.1485,0.8244,0.0131
+Financial Services,gd_emp_binary,295,0.5366,0.0511,0.4949,0.0392
+Financial Services,gd_bus_binary,295,0.6198,0.0555,0.6203,0.0657
+Life Sciences,lq_emp_binary,296,0.05,0.0612,0.7466,0.0153
+Life Sciences,lq_bus_binary,296,0.1709,0.1265,0.7804,0.0322
+Life Sciences,gd_emp_binary,280,0.5254,0.0448,0.5179,0.0452
+Life Sciences,gd_bus_binary,235,0.823,0.011,0.7021,0.0135
+Professional and Business Services,lq_emp_binary,296,0.5046,0.1532,0.8512,0.0437
+Professional and Business Services,lq_bus_binary,296,0.7792,0.0317,0.8682,0.0201
+Professional and Business Services,gd_emp_binary,296,0.5854,0.0443,0.5912,0.0286
+Professional and Business Services,gd_bus_binary,296,0.6082,0.0374,0.6047,0.0352
