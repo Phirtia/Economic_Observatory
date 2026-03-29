@@ -1,70 +1,126 @@
 # Variable Codebook
 *PP422 | LSE Growth Co-Lab | Last updated: March 2026*
 
+For methodological assumptions and preprocessing flags, see `assumptions_and_flags.md`.
+
 ---
 
 ## Dependent Variables
 
-| Variable | Label | Definition | Source | Formula | Role |
-|---|---|---|---|---|---|
-| `lq_emp` | Employment LQ | Relative specialisation of LAD in IS8 sector based on employment | Employee counts LAD | (IS8 emp in LAD / total emp in LAD) / (IS8 emp nationally / total emp nationally) | Primary dependent variable |
-| `lq_bus` | Business count LQ | Relative specialisation of LAD in IS8 sector based on business count | Business counts LAD | (IS8 businesses in LAD / total businesses in LAD) / (IS8 businesses nationally / total businesses nationally) | Robustness check |
-| `growth_emp` | Employment growth | Change in IS8 employment over 2015–2024 | Employee counts LAD | (emp_2024 − emp_2015) / emp_2015 | Descriptive only (Steps 7, 9) |
-| `growth_bus` | Business count growth | Change in IS8 business count over 2016–2024 | Business counts LAD | (bus_2024 − bus_2016) / bus_2016 | Descriptive only (Steps 7, 9) |
+Four outcome variables across 2 measures × 2 dimensions, run separately for each of 6 IS8 sectors (Defence excluded). All models run 4 times and interpreted jointly through the quadrant framework below.
+
+### Location Quotient (LQ)
+
+Captures current local specialisation relative to the national benchmark. Measures *where* a sector is concentrated at a point in time.
+
+| Variable | Label | Definition | Source | Formula |
+|---|---|---|---|---|
+| `lq_emp` | Employment LQ | Relative specialisation of LAD in IS8 sector based on employment | Employee counts LAD | (IS8 emp in LAD / total emp in LAD) / (IS8 emp nationally / total emp nationally) |
+| `lq_bus` | Business count LQ | Relative specialisation of LAD in IS8 sector based on business count | Business counts LAD | (IS8 businesses in LAD / total businesses in LAD) / (IS8 businesses nationally / total businesses nationally) |
+
+**Threshold:** LQ = 1 (national average). LQ > 1 = above national specialisation; LQ < 1 = below.
+
+---
+
+### Growth Differential (GD)
+
+Captures LAD sector growth trajectory relative to the national trend. Measures *direction and speed* of change, net of national conditions.
+
+| Variable | Label | Definition | Source | Formula |
+|---|---|---|---|---|
+| `gd_emp` | Employment growth differential | LAD IS8 employment trajectory minus national IS8 employment trajectory | Employee counts LAD | β_LAD_emp − β_national_emp |
+| `gd_bus` | Business count growth differential | LAD IS8 business count trajectory minus national IS8 business count trajectory | Business counts LAD | β_LAD_bus − β_national_bus |
+
+**Method:** Both β coefficients are estimated via log-linear OLS: `log(y_t) ~ α + β·t`, where t = year and y = employment or business count. β approximates the annualised % growth rate (log points per year).
+
+**β_national** is a single fixed value per sector × dimension, computed once at national level from the full 2016–2022 England panel and subtracted from every LAD's β.
+
+**Interpretation:** GD > 0 → LAD growing faster than national trend; GD < 0 → LAD growing slower or declining faster; GD = 0 → same trajectory as national. Units: log points per year ≈ percentage points per year.
+
+**Window:** 2016–2022. OLS fitted on all available years from first appearance of activity in a given LAD × sector, up to 2022.
+
+---
+
+### Diagnostic columns (not used in analysis)
+
+| Variable | Label | Definition |
+|---|---|---|
+| `n_years_emp` | Valid employment years | Count of non-zero, finite employment observations used in LAD slope estimate. GD set to NaN when < 4. |
+| `n_years_bus` | Valid business count years | Count of non-zero, finite business count observations used in LAD slope estimate. GD set to NaN when < 4. |
+| `emp_share` | Employment share | IS8 employment as share of total LAD employment. Used internally for LQ computation. |
+
+---
+
+### Quadrant Framework
+
+Combines LQ (current position) and GD (trajectory) into a 2×2 interpretation matrix. Applied separately for each of the 4 Y combinations. Discrepancies across outputs are analytically meaningful and enrich interpretation — they are not resolved into a single composite score.
+
+| | **GD > 0** (above national trend) | **GD < 0** (below national trend) |
+|---|---|---|
+| **LQ > 1** (above national share) | Anchor & Growing | Established but Slowing |
+| **LQ < 1** (below national share) | Emerging / Catching Up | Weak & Falling Behind |
 
 ---
 
 ## Independent Variables
 
-Variables retained for regression. Grouped by EEG dimension. All ONS indicators are single time-point snapshots (roughly 2021–2024), treated as time-invariant.
+Variables retained for regression. Grouped by EEG dimension. All ONS indicators are single time-point snapshots (roughly 2019–2023), treated as time-invariant.
 
 ### Human capital
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `nvq_level3` | NVQ level 3+ qualifications | ONS | Stock of skilled workers available to IS8 firms |
-| `gcse_age19` | GCSEs by age 19 | ONS | Pipeline of qualified school leavers entering workforce |
-| `apprenticeship_starts` | Apprenticeship starts | ONS | Vocational pipeline — relevant to Advanced Manufacturing, Life Sciences |
-| `apprenticeship_achievements` | Apprenticeship achievements | ONS | Completed vocational training — workforce capability stock |
-| `fe_participation` | FE and skills participation | ONS | Ongoing skills development in working-age population |
+| `nvq_level3` | NVQ level 3+ qualifications | ONS / NOMIS 2021 | Stock of skilled workers available to IS8 firms |
+| `gcse_age19` | GCSEs by age 19 | ONS / DfE 2021/22 | Pipeline of qualified school leavers entering workforce |
+| `apprenticeship_starts` | Apprenticeship starts | ONS / DfE 2022/23 | Vocational pipeline — relevant to Advanced Manufacturing, Life Sciences |
+| `apprenticeship_achievements` | Apprenticeship achievements | ONS / DfE 2022/23 | Completed vocational training — workforce capability stock |
+| `fe_participation` | FE and skills participation | ONS / DfE 2022/23 | Ongoing skills development in working-age population |
 
 ### Entrepreneurial discovery
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `enterprise_births` | New enterprise births | ONS | Rate of new firm formation — entrepreneurial dynamism |
-| `enterprise_deaths` | Enterprise deaths | ONS | Creative destruction — Schumpeterian churn signal |
-| `enterprise_active` | Active enterprises | ONS | Stock of firms — agglomeration base |
-| `enterprise_high_growth` | High growth enterprises | ONS | Presence of scaling firms — IS8 ecosystem depth |
+| `enterprise_birth_rate` | Enterprise birth rate | ONS 2022 | New firm formation as share of active stock — entrepreneurial dynamism net of LAD size |
+| `enterprise_death_rate` | Enterprise death rate | ONS 2022 | Creative destruction rate — Schumpeterian churn signal net of LAD size |
+| `enterprise_high_growth_rate` | High growth enterprise rate | ONS 2022 | Share of active firms that are scaling — IS8 ecosystem depth |
+
+**Derivation:** Raw counts (`enterprise_births`, `enterprise_deaths`, `enterprise_high_growth`) divided by `enterprise_active` to remove LAD size effect. `enterprise_active` dropped after normalisation.
 
 ### Connectivity and accessibility
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `transport_to_employer` | Public transport to employer | ONS | Labour market accessibility — workers can reach IS8 employers |
-| `drive_to_employer` | Drive to employer | ONS | Labour market accessibility — car-dependent areas |
-| `cycle_to_employer` | Cycle to employer | ONS | Local accessibility — urban density signal |
-| `broadband` | Gigabit broadband availability | ONS | Digital infrastructure — prerequisite for Digital and Technologies, Financial Services |
-| `coverage_4g` | 4G coverage | ONS | Mobile connectivity — baseline digital infrastructure |
+| `transport_to_employer` | Public transport to employer | DfT 2019 | Labour market accessibility — workers can reach IS8 employers |
+| `drive_to_employer` | Drive to employer | DfT 2019 | Labour market accessibility — car-dependent areas |
+| `cycle_to_employer` | Cycle to employer | DfT 2019 | Local accessibility — urban density signal |
+| `broadband` | Gigabit broadband availability | Ofcom Sep 2023 | Digital infrastructure — prerequisite for Digital and Technologies, Financial Services |
+| `coverage_4g` | 4G coverage | Ofcom Sep 2023 | Mobile connectivity — baseline digital infrastructure |
 
 ### Labour market conditions
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `unemployment_rate` | Unemployment rate | ONS | Available labour supply — market flexibility for IS8 hiring |
+| `unemployment_rate` | Unemployment rate | ONS 2022/23 | Available labour supply — market flexibility for IS8 hiring |
 
 ### Place conditions
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `housing_net_additions` | Net additions to housing stock | ONS | Housing supply capacity — affects worker attraction and retention |
+| `housing_net_additions` | Net additions to housing stock | DLUHC FY2023 | Housing supply capacity — affects worker attraction and retention |
 
 ### Derived variables (computed in IndicatorBuilder)
 
 | Variable | Label | Source | EEG rationale |
 |---|---|---|---|
-| `related_variety` | Related variety | Business counts LAD + SIC lookup | Core EEG concept — adjacent industries enable IS8 emergence via capability spillovers |
-| `business_density` | Business density | Business counts LAD + ONS population | IS8 firms per 1,000 working-age population — ecosystem density |
+| `related_variety` | Related variety | Business counts LAD | Cross-sector Shannon entropy across IS8 sectors per LAD × year. Approximates EEG related variety — measures how diversified a LAD's business base is across IS8 sectors. Higher entropy = more adjacent industries available for capability spillovers. LAD × year level (same value across all sectors within a LAD × year). |
+| `within_sector_diversity` | Within-sector diversity | Business counts LAD | Shannon entropy across SIC codes within each IS8 sector per LAD × year. Measures internal sectoral complexity. Complements related_variety. |
+
+### Firm structure (computed in IndicatorBuilder)
+
+| Variable | Label | Source | EEG rationale |
+|---|---|---|---|
+| `size_large_share` | Large firm share | Business counts LAD | Share of large firms in IS8 sector per LAD — presence of anchor firms, potential cluster leaders |
+| `size_micro_share` | Micro firm share | Business counts LAD | Share of micro firms in IS8 sector per LAD — entrepreneurial base density, new firm formation potential |
 
 ---
 
@@ -106,10 +162,10 @@ Variables retained for regression. Grouped by EEG dimension. All ONS indicators 
 
 | Variable | Finest geography | Reason |
 |---|---|---|
-| Government R&D | ITL1 only | Key EEG variable — acknowledge as significant limitation in memo |
-| UK exports | ITL1/ITL2 only | Acknowledge as limitation |
-| Inward FDI | ITL1/ITL2 only | Acknowledge as limitation |
-| Outward FDI | ITL1/ITL2 only | Acknowledge as limitation |
+| Government R&D | ITL1 only | Key EEG variable — significant limitation, see assumptions_and_flags.md |
+| UK exports | ITL1/ITL2 only | Significant limitation |
+| Inward FDI | ITL1/ITL2 only | Significant limitation |
+| Outward FDI | ITL1/ITL2 only | Significant limitation |
 | KS2 attainment | County/UA only | Below LAD resolution |
 | Ofsted rating | County/UA only | Below LAD resolution |
 | Persistent absences | County/UA only | Below LAD resolution |
@@ -122,14 +178,6 @@ Variables retained for regression. Grouped by EEG dimension. All ONS indicators 
 
 | Variable | Notes |
 |---|---|
-| University/research intensity | Not in ONS file — key EEG variable. Source: HESA. Acknowledge as significant limitation in memo |
+| University/research intensity | Not in ONS file — key EEG variable. Source: HESA. Significant limitation, see assumptions_and_flags.md |
+| Business density | Working-age population unavailable at LAD level. Stock dimension captured implicitly through enterprise rate denominators. |
 | Clean Energy Industries (sector) | Entirely absent from all source files — one IS8 sector cannot be modelled |
-
----
-
-## Notes
-
-- Growth variables (`growth_emp`, `growth_bus`, `cagr_emp`, `cagr_bus`) are used as descriptive measures only, not as regression outcomes. Running a growth regression with time-invariant independent variables would require strong assumptions about the stability of local conditions over the growth period.
-- `related_variety` is currently a placeholder in `IndicatorBuilder` — SIC adjacency method to be finalised.
-- Expected signs for all independent variables to be documented after Step 8 results.
-- The two most significant data gaps for EEG are university/research intensity and government R&D at LAD level. Both should be prominently acknowledged as limitations.
