@@ -31,7 +31,6 @@ paths:
   iz_boundaries: "data/raw_data/boundaries/SG_IZ_2022.geojson"
   msoa_to_ca: "data/raw_data/boundaries/MSOA_to_English_combined_authorities.csv"
   iz_to_council: "data/raw_data/boundaries/IZ2022_to_council_area.csv"
-  msoa_lookup: "data/raw_data/boundaries/MSOA_(2011)_to_MSOA_(2021)_to_Local_Authority_District_(2022)_Exact_Fit_Lookup_for_EW_(V2).csv"
 
   # Processed files
   analysis_panel: "data/processed_data/analysis_panel.parquet"
@@ -42,10 +41,21 @@ parameters:
   business_counts_years: [2016, 2022]
   employee_counts_years: [2016, 2022]
 
+  # Boundary reconciliation approach:
+  # 0 = no reconciliation (keep obsolete codes as-is)
+  # 1 = drop obsolete LADs (default — acknowledge as limitation)
+  # 2 = remap and aggregate (simple mean for rates, sum for counts)
+  boundary_approach: 2
+
+  # Geography filter:
+  # true  = restrict to English LADs only (E prefix)
+  # false = keep full GB panel (England + Scotland + Wales)
+  england_only: true
+
   # Years to use for growth calculations (start and end)
   growth_start_year_emp: 2016
   growth_start_year_bus: 2016
-  growth_end_year: 2022
+  growth_end_year: 2023
 
   # Primary unit of analysis (confirmed in Step 4)
   primary_geography: "LAD"  # MSOA reserved for mapping only
@@ -80,3 +90,30 @@ parameters:
     - "West of England CA"
     - "Glasgow City Region"
     - "Cardiff-Newport"
+
+  # ONS indicator column mapping
+  # Maps derived sheet names (as they appear after parsing) to codebook variable names
+  # Columns not listed here are excluded from the panel entirely
+  # Excluded variables are documented in the codebook with reasons
+  ons_column_map:
+    # Human capital
+    level_3+_qualifications:       nvq_level3
+    gcse_by_age_19:                gcse_age19
+    apprenticeship_starts:         apprenticeship_starts
+    apprenticeship_achievements:   apprenticeship_achievements
+    fe_and_skills_participation:   fe_participation
+    # Entrepreneurial discovery
+    new_enterprises:               enterprise_births
+    deaths_of_enterprises:         enterprise_deaths
+    active_enterprises:            enterprise_active
+    high_growth_enterprises:       enterprise_high_growth
+    # Connectivity and accessibility
+    public_transport_to_employer:  transport_to_employer
+    drive_to_employer:             drive_to_employer
+    cycle_to_employer:             cycle_to_employer
+    broadband_availability:        broadband
+    4g_area_coverage:              coverage_4g
+    # Labour market
+    unemployment_rate:             unemployment_rate
+    # Place conditions
+    net_additions:                 housing_net_additions
