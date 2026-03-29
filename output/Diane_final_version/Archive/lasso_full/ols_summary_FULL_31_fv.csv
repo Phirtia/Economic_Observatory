@@ -1,0 +1,21 @@
+spec,sector,outcome,n,r2,r2_adj,n_sig,n_vars
+FULL_31,Advanced Manufacturing,lq_emp,283,0.441,0.429,3,6
+FULL_31,Advanced Manufacturing,lq_bus,290,0.537,0.529,5,5
+FULL_31,Advanced Manufacturing,cagr_bus,96,0.417,0.325,7,13
+FULL_31,Creative Industries,lq_emp,283,0.658,0.643,5,12
+FULL_31,Creative Industries,lq_bus,270,0.783,0.772,5,13
+FULL_31,Creative Industries,cagr_emp,290,0.037,0.023,1,4
+FULL_31,Creative Industries,cagr_bus,268,0.14,0.103,2,11
+FULL_31,Digital and Technologies,lq_emp,96,0.753,0.707,3,15
+FULL_31,Digital and Technologies,lq_bus,96,0.818,0.764,3,22
+FULL_31,Digital and Technologies,cagr_emp,270,0.146,0.116,3,9
+FULL_31,Digital and Technologies,cagr_bus,281,0.209,0.161,4,16
+FULL_31,Financial Services,lq_emp,283,0.394,0.385,1,4
+FULL_31,Financial Services,lq_bus,270,0.371,0.35,5,9
+FULL_31,Life Sciences,lq_emp,253,0.088,0.058,2,8
+FULL_31,Life Sciences,lq_bus,203,0.223,0.191,4,8
+FULL_31,Life Sciences,cagr_bus,257,0.156,0.149,1,2
+FULL_31,Professional and Business Services,lq_emp,96,0.664,0.606,4,14
+FULL_31,Professional and Business Services,lq_bus,268,0.851,0.84,10,18
+FULL_31,Professional and Business Services,cagr_emp,283,0.023,0.009,0,4
+FULL_31,Professional and Business Services,cagr_bus,275,0.061,0.04,1,6
