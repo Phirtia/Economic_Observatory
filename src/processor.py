@@ -4,6 +4,7 @@ from pathlib import Path
 from src.loader import DataLoader
 from src.indicators import IndicatorBuilder
 from src.regions import RegionMapper
+from src.universities import UniversityBuilder
 
 
 class DataProcessor:
@@ -158,16 +159,7 @@ class DataProcessor:
     ) -> pd.DataFrame:
         """
         Parse and merge all ONS indicator sheets onto the panel.
-        Boundary remapping is applied to each ONS sheet before merging,
-        so obsolete codes are resolved to LAD23 codes at join time.
-        Two-pass approach:
-          Pass 1 — collect full code_map across all sheets
-          Pass 2 — remap each sheet and merge onto panel
-
-        Boundary reconciliation approaches (controlled by boundary_approach):
-          0 = keep obsolete codes as-is (no reconciliation)
-          1 = drop rows with obsolete codes
-          2 = remap obsolete codes and aggregate (mean for rates, sum for counts)
+        Boundary remapping applied per sheet before merging.
         """
         # pass 1: build full code_map
         full_code_map = {}
@@ -211,13 +203,6 @@ class DataProcessor:
         """
         Normalise enterprise dynamics by active enterprise stock to remove
         LAD size effect and produce theoretically meaningful churn rates.
-
-        enterprise_birth_rate       = enterprise_births / enterprise_active
-        enterprise_death_rate       = enterprise_deaths / enterprise_active
-        enterprise_high_growth_rate = enterprise_high_growth / enterprise_active
-
-        enterprise_active is then dropped after normalisation.
-        Raw counts (births, deaths, high_growth) are dropped after rate computation.
         """
         df = df.copy()
         stock = df["enterprise_active"].replace(0, pd.NA)
@@ -235,8 +220,6 @@ class DataProcessor:
     def filter_england_only(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Restrict panel to English LADs only (GEOGRAPHY_CODE starting with 'E').
-        Removes Scottish (S12) and Welsh (W06) LADs whose ONS indicator
-        coverage is partial or absent for England-focused variables.
         Controlled by england_only parameter in config.
         """
         n_before = df["GEOGRAPHY_CODE"].nunique()
@@ -251,8 +234,7 @@ class DataProcessor:
     def apply_ons_column_map(self, df: pd.DataFrame) -> pd.DataFrame:
         """
         Rename ONS-derived columns to codebook variable names and drop
-        all columns not in the ons_column_map. Excluded variables
-        (reverse causality, wrong geography, etc.) are dropped here.
+        all columns not in the ons_column_map.
         """
         col_map = self.params["ons_column_map"]
         panel_key_cols = ["YEAR", "GEOGRAPHY_CODE", "GEOGRAPHY_NAME", "IS8_SECTOR",
@@ -311,6 +293,10 @@ class DataProcessor:
         # add REGION and COUNTY_UA columns from ONS hierarchy
         region_mapper = RegionMapper(self.config, panel)
         panel = region_mapper.enrich_panel(panel)
+
+        # add university presence (fee-cap HE providers per LAD)
+        uni_builder = UniversityBuilder(self.config)
+        panel = uni_builder.build(panel)
 
         # build indicators (LQ, GD — removes Total rows internally)
         panel = self.indicator_builder.build_indicators(panel)
