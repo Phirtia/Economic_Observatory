@@ -33,11 +33,11 @@ Captures LAD sector growth trajectory relative to the national trend. Measures *
 
 **Method:** Both β coefficients are estimated via log-linear OLS: `log(y_t) ~ α + β·t`, where t = year and y = employment or business count. β approximates the annualised % growth rate (log points per year).
 
-**β_national** is a single fixed value per sector × dimension, computed once at national level from the full 2016–2022 England panel and subtracted from every LAD's β.
+**β_national** is a single fixed value per sector × dimension, computed once at national level from the full 2016–2023 England panel and subtracted from every LAD's β.
 
 **Interpretation:** GD > 0 → LAD growing faster than national trend; GD < 0 → LAD growing slower or declining faster; GD = 0 → same trajectory as national. Units: log points per year ≈ percentage points per year.
 
-**Window:** 2016–2022. OLS fitted on all available years from first appearance of activity in a given LAD × sector, up to 2022.
+**Window:** 2016–2023. OLS fitted on all available years from first appearance of activity in a given LAD × sector, up to 2023.
 
 ---
 
@@ -75,6 +75,7 @@ Variables retained for regression. Grouped by EEG dimension. All ONS indicators 
 | `apprenticeship_starts` | Apprenticeship starts | ONS / DfE 2022/23 | Vocational pipeline — relevant to Advanced Manufacturing, Life Sciences |
 | `apprenticeship_achievements` | Apprenticeship achievements | ONS / DfE 2022/23 | Completed vocational training — workforce capability stock |
 | `fe_participation` | FE and skills participation | ONS / DfE 2022/23 | Ongoing skills development in working-age population |
+| `n_universities_feecap_lad` | Fee-cap HE providers | HESA campus locations + OfS register 2024 | Count of fee-cap registered HE providers with a physical campus in the LAD — institutional thickness, knowledge spillovers, graduate talent pipeline. Directly addresses key EEG gap. Treated as time-invariant structural condition. |
 
 ### Entrepreneurial discovery
 
@@ -174,10 +175,13 @@ Variables retained for regression. Grouped by EEG dimension. All ONS indicators 
 | Homicide offences | Police Force Area | Below LAD resolution |
 | Population under devolution | Region only | Below LAD resolution |
 
-### Excluded: data not available
+### Excluded: data not available or insufficient quality
 
 | Variable | Notes |
 |---|---|
-| University/research intensity | Not in ONS file — key EEG variable. Source: HESA. Significant limitation, see assumptions_and_flags.md |
+| University/research intensity (HESA) | Partially addressed by `n_universities_feecap_lad`. Research income per institution not integrated — acknowledge remaining gap in limitations. |
 | Business density | Working-age population unavailable at LAD level. Stock dimension captured implicitly through enterprise rate denominators. |
 | Clean Energy Industries (sector) | Entirely absent from all source files — one IS8 sector cannot be modelled |
+| OSM research centres | Too sparse (259 of 296 LADs = 0) and tagging inconsistency in OSM — excluded as unreliable |
+| OSM hospitals | Credible counts but no clear EEG mechanism — excluded |
+| OSM FE colleges | Partially overlaps with `fe_participation` — excluded to avoid redundancy |
