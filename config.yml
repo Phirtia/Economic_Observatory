@@ -32,14 +32,18 @@ paths:
   msoa_to_ca: "data/raw_data/boundaries/MSOA_to_English_combined_authorities.csv"
   iz_to_council: "data/raw_data/boundaries/IZ2022_to_council_area.csv"
 
+  # University / HE presence
+  hesa_campuses: "data/raw_data/facilities/hesa_campus_data.csv"
+  ofs_register:  "data/raw_data/facilities/The_Office_for_Students_Register.xlsx"
+
   # Processed files
   analysis_panel: "data/processed_data/analysis_panel.parquet"
 
 # --- Analysis parameters ---
 parameters:
   # Year range available in data
-  business_counts_years: [2016, 2022]
-  employee_counts_years: [2016, 2022]
+  business_counts_years: [2016, 2025]
+  employee_counts_years: [2015, 2024]
 
   # Boundary reconciliation approach:
   # 0 = no reconciliation (keep obsolete codes as-is)
