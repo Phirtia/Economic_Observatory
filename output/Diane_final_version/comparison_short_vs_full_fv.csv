@@ -1,0 +1,25 @@
+sector,outcome,lasso_cv_r2_short,lasso_cv_rmse_short,lasso_n_vars,enet_cv_r2_short,enet_cv_rmse_short,enet_n_vars,best_model_short,best_cv_r2_short,n,lasso_cv_r2_full,lasso_cv_rmse_full,enet_cv_r2_full,enet_cv_rmse_full,best_model_full,best_cv_r2_full,r2_gain_full_vs_short,recommended_spec,quality_short,quality_full
+Advanced Manufacturing,cagr_bus,0.115,0.864,11,0.122,0.859,14,ElasticNet,0.122,126,-0.113,1.011,-0.109,1.009,ElasticNet,-0.109,-0.231,SHORT_12,Marginal,Not recommended
+Advanced Manufacturing,cagr_emp,-0.272,1.063,3,0.006,0.977,3,ElasticNet,0.006,126,-0.015,0.997,-0.015,0.997,LASSO,-0.015,-0.021,SHORT_12,Not recommended,Not recommended
+Advanced Manufacturing,lq_bus,0.436,0.743,3,0.442,0.739,11,ElasticNet,0.442,126,0.453,0.726,0.453,0.726,LASSO,0.453,0.011,SHORT_12,Good,Good
+Advanced Manufacturing,lq_emp,0.193,0.845,5,0.223,0.833,5,ElasticNet,0.223,126,0.431,0.621,0.416,0.639,LASSO,0.431,0.208,FULL_31,Marginal,Good
+Creative Industries,cagr_bus,0.063,0.945,3,0.054,0.95,3,LASSO,0.063,126,0.062,0.954,0.052,0.959,LASSO,0.062,-0.001,SHORT_12,Not recommended,Not recommended
+Creative Industries,cagr_emp,-0.146,1.016,2,-0.148,1.017,2,LASSO,-0.146,126,-0.052,0.991,-0.066,0.998,LASSO,-0.052,0.094,FULL_31,Not recommended,Not recommended
+Creative Industries,lq_bus,0.667,0.569,4,0.667,0.568,4,LASSO,0.667,126,0.71,0.507,0.708,0.511,LASSO,0.71,0.043,FULL_31,Good,Good
+Creative Industries,lq_emp,0.506,0.683,4,0.506,0.683,6,LASSO,0.506,126,0.588,0.575,0.594,0.563,ElasticNet,0.594,0.088,FULL_31,Good,Good
+Digital and Technologies,cagr_bus,0.045,0.928,6,0.051,0.924,9,ElasticNet,0.051,126,-0.076,0.984,-0.067,0.979,ElasticNet,-0.067,-0.118,SHORT_12,Not recommended,Not recommended
+Digital and Technologies,cagr_emp,0.101,0.937,11,0.099,0.937,11,LASSO,0.101,126,-0.127,0.985,0.014,0.929,ElasticNet,0.014,-0.087,SHORT_12,Marginal,Not recommended
+Digital and Technologies,lq_bus,0.462,0.673,6,0.499,0.658,6,ElasticNet,0.499,126,0.583,0.579,0.605,0.57,ElasticNet,0.605,0.106,FULL_31,Good,Good
+Digital and Technologies,lq_emp,0.295,0.826,8,0.326,0.807,12,ElasticNet,0.326,126,0.518,0.629,0.53,0.626,ElasticNet,0.53,0.204,FULL_31,Good,Good
+Financial Services,cagr_bus,-0.106,0.973,3,-0.11,0.98,6,LASSO,-0.106,126,-0.461,1.035,-0.331,1.007,ElasticNet,-0.331,-0.225,SHORT_12,Not recommended,Not recommended
+Financial Services,cagr_emp,-0.075,0.977,0,-0.076,0.978,0,LASSO,-0.075,126,-0.077,1.003,-0.168,1.046,LASSO,-0.077,-0.002,SHORT_12,Not recommended,Not recommended
+Financial Services,lq_bus,-0.06,0.806,8,-0.067,0.807,8,LASSO,-0.06,126,-0.11,0.845,-0.084,0.841,ElasticNet,-0.084,-0.024,SHORT_12,Not recommended,Not recommended
+Financial Services,lq_emp,0.06,0.844,5,0.066,0.843,7,ElasticNet,0.066,126,0.308,0.811,0.288,0.824,LASSO,0.308,0.242,FULL_31,Not recommended,Good
+Life Sciences,cagr_bus,0.024,0.855,2,0.026,0.854,13,ElasticNet,0.026,119,0.104,0.905,0.103,0.905,LASSO,0.104,0.078,FULL_31,Not recommended,Marginal
+Life Sciences,cagr_emp,-0.027,0.9,3,-0.023,0.899,6,ElasticNet,-0.023,126,-0.302,1.012,-0.302,1.012,LASSO,-0.302,-0.279,SHORT_12,Not recommended,Not recommended
+Life Sciences,lq_bus,0.339,0.783,2,0.34,0.783,2,ElasticNet,0.34,126,0.474,0.674,0.461,0.682,LASSO,0.474,0.134,FULL_31,Good,Good
+Life Sciences,lq_emp,-0.201,0.915,9,-0.156,0.902,12,ElasticNet,-0.156,126,0.03,0.976,0.035,0.973,ElasticNet,0.035,0.191,FULL_31,Not recommended,Not recommended
+Professional and Business Services,cagr_bus,0.073,0.867,6,0.09,0.86,13,ElasticNet,0.09,126,0.19,0.88,0.192,0.878,ElasticNet,0.192,0.102,FULL_31,Not recommended,Marginal
+Professional and Business Services,cagr_emp,-0.032,0.999,0,-0.041,1.004,1,LASSO,-0.032,126,-0.062,0.996,-0.126,1.025,LASSO,-0.062,-0.03,SHORT_12,Not recommended,Not recommended
+Professional and Business Services,lq_bus,0.799,0.433,8,0.797,0.435,8,LASSO,0.799,126,0.738,0.487,0.734,0.492,LASSO,0.738,-0.061,SHORT_12,Good,Good
+Professional and Business Services,lq_emp,0.125,0.866,5,0.113,0.867,10,LASSO,0.125,126,0.385,0.685,0.437,0.67,ElasticNet,0.437,0.312,FULL_31,Marginal,Good
