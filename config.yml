@@ -33,7 +33,7 @@ paths:
   iz_to_council: "data/raw_data/boundaries/IZ2022_to_council_area.csv"
 
   # University / HE presence
-  hesa_campuses: "data/raw_data/facilities/hesa_campus_locations.csv"
+  hesa_campuses: "data/raw_data/facilities/hesa_campus_data.csv"
   ofs_register:  "data/raw_data/facilities/The_Office_for_Students_Register.xlsx"
 
   # Processed files
