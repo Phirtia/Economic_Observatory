@@ -1,0 +1,259 @@
+sic5,description,lookup_code,lookup_digits,IS8_sector,frontier_sector
+20110,Manufacture of industrial gases,20,2,Advanced manufacturing,
+20120,Manufacture of dyes and pigments,20,2,Advanced manufacturing,
+20130,Manufacture of other inorganic basic chemicals,20,2,Advanced manufacturing,
+20140,Manufacture of other organic basic chemicals,20,2,Advanced manufacturing,
+20150,Manufacture of fertilisers and nitrogen compounds,20,2,Advanced manufacturing,
+20160,Manufacture of plastics in primary forms,20,2,Advanced manufacturing,
+20170,Manufacture of synthetic rubber in primary forms,20,2,Advanced manufacturing,
+20200,Manufacture of pesticides and other agrochemical products,20,2,Advanced manufacturing,
+20300,"Manufacture of paints, varnishes and similar coatings, printing ink and mastics",20,2,Advanced manufacturing,
+20301,"Manufacture of paints, varnishes and similar coatings, mastics and sealants",20,2,Advanced manufacturing,
+20302,Manufacture of printing ink,20,2,Advanced manufacturing,
+20410,"Manufacture of soap and detergents, cleaning and polishing preparations",20,2,Advanced manufacturing,
+20411,Manufacture of soap and detergents,20,2,Advanced manufacturing,
+20412,Manufacture of cleaning and polishing preparations,20,2,Advanced manufacturing,
+20420,Manufacture of perfumes and toilet preparations,20,2,Advanced manufacturing,
+20510,Manufacture of explosives,20,2,Advanced manufacturing,
+20520,Manufacture of glues,20,2,Advanced manufacturing,
+20530,Manufacture of essential oils,20,2,Advanced manufacturing,
+20590,Manufacture of other chemical products nec,20,2,Advanced manufacturing,
+20600,Manufacture of man-made fibres,20,2,Advanced manufacturing,
+21100,Manufacture of basic pharmaceutical products,21,2,Life Sciences,
+21200,Manufacture of pharmaceutical preparations,21,2,Life Sciences,
+25400,Manufacture of weapons and ammunition,254,3,Defence sector,
+26110,Manufacture of electronic components,261,3,Digital and Technology,
+26120,Manufacture of loaded electronic boards,261,3,Digital and Technology,
+26200,Manufacture of computers and peripheral equipment,262,3,Digital and Technology,
+26300,Manufacture of communication equipment,263,3,Digital and Technology,
+26301,Manufacture of telegraph and telephone apparatus and equipment,263,3,Digital and Technology,
+26309,Manufacture of communication equipment (other than telegraph and telephone apparatus and equipment),263,3,Digital and Technology,
+26400,Manufacture of consumer electronics,264,3,Digital and Technology,
+26510,"Manufacture of instruments and appliances for measuring, testing and navigation",26,2,Advanced manufacturing,
+26511,"Manufacture of electronic instruments and appliances for measuring, testing, and navigation, except industrial process control equipment",26511,5,Digital and Technology,
+26512,Manufacture of electronic industrial process control equipment,26512,5,Digital and Technology,
+26513,"Manufacture of non-electronic instruments and appliances for measuring, testing and navigation, except industrial process control equipment",26513,5,Digital and Technology,
+26514,Manufacture of non-electronic industrial process control equipment,26,2,Advanced manufacturing,
+26520,Manufacture of watches and clocks,26,2,Advanced manufacturing,
+26600,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",266,3,Life Sciences,
+26700,Manufacture of optical instruments and photographic equipment,26,2,Advanced manufacturing,
+26701,Manufacture of optical precision instruments,26701,5,Digital and Technology,
+26702,Manufacture of photographic and cinematographic equipment,26,2,Advanced manufacturing,
+26800,Manufacture of magnetic and optical media,268,3,Digital and Technology,
+27110,"Manufacture of electric motors, generators and transformers",27,2,Advanced manufacturing,
+27120,Manufacture of electricity distribution and control apparatus,27,2,Advanced manufacturing,
+27200,Manufacture of batteries and accumulators,272,3,Advanced manufacturing,Batteries
+27310,Manufacture of fibre optic cables,2731,4,Digital and Technology,
+27320,Manufacture of other electronic and electric wires and cables,2732,4,Digital and Technology,
+27330,Manufacture of wiring devices,27,2,Advanced manufacturing,
+27400,Manufacture of electric lighting equipment,27,2,Advanced manufacturing,
+27510,Manufacture of electric domestic appliances,27,2,Advanced manufacturing,
+27520,Manufacture of non-electric domestic appliances,27,2,Advanced manufacturing,
+27900,Manufacture of other electrical equipment,279,3,Digital and Technology,
+28110,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",28,2,Advanced manufacturing,
+28120,Manufacture of fluid power equipment,28,2,Advanced manufacturing,
+28130,Manufacture of other pumps and compressors,28,2,Advanced manufacturing,
+28131,Manufacture of pumps,28,2,Advanced manufacturing,
+28132,Manufacture of compressors,28,2,Advanced manufacturing,
+28140,Manufacture of other taps and valves,28,2,Advanced manufacturing,
+28150,"Manufacture of bearings, gears, gearing and driving elements",28,2,Advanced manufacturing,
+28210,"Manufacture of ovens, furnaces and furnace burners",28,2,Advanced manufacturing,
+28220,Manufacture of lifting and handling equipment,28,2,Advanced manufacturing,
+28230,Manufacture of office machinery and equipment (except computers and peripheral equipment),28,2,Advanced manufacturing,
+28240,Manufacture of power-driven hand tools,28,2,Advanced manufacturing,
+28250,Manufacture of non-domestic cooling and ventilation equipment,28,2,Advanced manufacturing,
+28290,Manufacture of other general-purpose machinery nec,28,2,Advanced manufacturing,
+28300,Manufacture of agricultural and forestry machinery,283,3,Advanced manufacturing,Agritech
+28301,Manufacture of agricultural tractors,283,3,Advanced manufacturing,Agritech
+28302,Manufacture of agricultural and forestry machinery (other than agricultural tractors),283,3,Advanced manufacturing,Agritech
+28410,Manufacture of metal forming machinery,28,2,Advanced manufacturing,
+28490,Manufacture of other machine tools,28,2,Advanced manufacturing,
+28910,Manufacture of machinery for metallurgy,28,2,Advanced manufacturing,
+28920,"Manufacture of machinery for mining, quarrying and construction",28,2,Advanced manufacturing,
+28921,Manufacture of machinery for mining,28,2,Advanced manufacturing,
+28922,Manufacture of earthmoving equipment,28,2,Advanced manufacturing,
+28923,Manufacture of equipment for concrete crushing and screening roadworks,28,2,Advanced manufacturing,
+28930,"Manufacture of machinery for food, beverage and tobacco processing",28,2,Advanced manufacturing,
+28940,"Manufacture of machinery for textile, apparel and leather production",28,2,Advanced manufacturing,
+28950,Manufacture of machinery for paper and paperboard production,28,2,Advanced manufacturing,
+28960,Manufacture of plastics and rubber machinery,28,2,Advanced manufacturing,
+28990,Manufacture of other special-purpose machinery nec,28,2,Advanced manufacturing,
+29100,Manufacture of motor vehicles,29,2,Advanced manufacturing,Automotive manufacturing
+29200,Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,29,2,Advanced manufacturing,Automotive manufacturing
+29201,Manufacture of bodies (coachwork) for motor vehicles (except caravans),29,2,Advanced manufacturing,Automotive manufacturing
+29202,Manufacture of trailers and semi-trailers,29,2,Advanced manufacturing,Automotive manufacturing
+29203,Manufacture of caravans,29,2,Advanced manufacturing,Automotive manufacturing
+29310,Manufacture of electrical and electronic equipment for motor vehicles,29,2,Advanced manufacturing,Automotive manufacturing
+29320,Manufacture of other parts and accessories for motor vehicles,29,2,Advanced manufacturing,Automotive manufacturing
+30110,Building of ships and floating structures,30,2,Advanced manufacturing,
+30120,Building of pleasure and sporting boats,30,2,Advanced manufacturing,
+30200,Manufacture of railway locomotives and rolling stock,30,2,Advanced manufacturing,
+30300,Manufacture of air and spacecraft and related machinery,303,3,Advanced manufacturing,Aerospace manufacturing
+30400,Manufacture of military fighting vehicles,304,3,Defence sector,
+30910,Manufacture of motorcycles,30,2,Advanced manufacturing,
+30920,Manufacture of bicycles and invalid carriages,30,2,Advanced manufacturing,
+30990,Manufacture of other transport equipment nec,30,2,Advanced manufacturing,
+32120,Manufacture of jewellery and related articles,3212,4,Creative Industries,
+32500,Manufacture of medical and dental instruments and supplies,325,3,Life Sciences,
+33160,Repair and maintenance of aircraft and spacecraft,3316,4,Advanced manufacturing,Aerospace manufacturing
+46510,"Wholesale of computers, computer peripheral equipment and software",465,3,Digital and Technology,
+46520,Wholesale of electronic and telecommunications equipment and parts,465,3,Digital and Technology,
+58110,Book publishing,58,2,Creative Industries,
+58120,Publishing of directories and mailing lists,58,2,Creative Industries,
+58130,Publishing of newspapers,58,2,Creative Industries,
+58140,Publishing of journals and periodicals,58,2,Creative Industries,
+58141,Publishing of learned journals,58,2,Creative Industries,
+58142,"Publishing of consumer, business and professional journals and periodicals",58,2,Creative Industries,
+58190,Other publishing activities,58,2,Creative Industries,
+58210,Publishing of computer games,5821,4,Creative Industries,Video games
+58290,Other software publishing,58,2,Creative Industries,
+59110,"Motion picture, video and television programme production activities",591,3,Creative Industries,Film and TV
+59111,Motion picture production activities,591,3,Creative Industries,Film and TV
+59112,Video production activities,591,3,Creative Industries,Film and TV
+59113,Television programme production activities,591,3,Creative Industries,Film and TV
+59120,"Motion picture, video and television programme post-production activities",591,3,Creative Industries,Film and TV
+59130,"Motion picture, video and television programme distribution activities",591,3,Creative Industries,Film and TV
+59131,Motion picture distribution activities,591,3,Creative Industries,Film and TV
+59132,Video distribution activities,591,3,Creative Industries,Film and TV
+59133,Television programme distribution activities,591,3,Creative Industries,Film and TV
+59140,Motion picture projection activities,591,3,Creative Industries,Film and TV
+59200,Sound recording and music publishing activities,592,3,Creative Industries,"Music, peforming, and visual arts"
+60100,Radio broadcasting,60,2,Creative Industries,
+60200,Television programming and broadcasting activities,602,3,Creative Industries,Film and TV
+61100,Wired telecommunications activities,61,2,Digital and Technology,
+61200,Wireless telecommunications activities,61,2,Digital and Technology,
+61300,Satellite telecommunications activities,61,2,Digital and Technology,
+61900,Other telecommunications activities,61,2,Digital and Technology,
+62010,Computer programming activities,6201,4,Creative Industries,
+62011,Ready-made interactive leisure and entertainment software development,62011,5,Creative Industries,Video games
+62012,Business and domestic software development,6201,4,Creative Industries,
+62020,Computer consultancy activities,6202,4,Creative Industries,
+62030,Computer facilities management activities,62,2,Digital and Technology,
+62090,Other information technology and computer service activities,62,2,Digital and Technology,
+63110,"Data processing, hosting and related activities",63,2,Digital and Technology,
+63120,Web portals,63,2,Digital and Technology,
+63910,News agency activities,63,2,Digital and Technology,
+63990,Other information service activities nec,63,2,Digital and Technology,
+64110,Central banking,64,2,Financial Services,
+64190,Other monetary intermediation,64,2,Financial Services,
+64191,Banks,64191,5,Financial Services,Capital markets and retail investment
+64192,Building societies,64,2,Financial Services,
+64200,Activities of holding companies,642,3,Financial Services,Capital markets and retail investment
+64201,Activities of agricultural holding companies,642,3,Financial Services,Capital markets and retail investment
+64202,Activities of production holding companies,642,3,Financial Services,Capital markets and retail investment
+64203,Activities of construction holding companies,642,3,Financial Services,Capital markets and retail investment
+64204,Activities of distribution holding companies,642,3,Financial Services,Capital markets and retail investment
+64205,Activities of financial services holding companies,642,3,Financial Services,Capital markets and retail investment
+64209,"Activities of other holding companies (not including agricultural, production, construction, distribution and financial services holding companies) nec",642,3,Financial Services,Capital markets and retail investment
+64300,"Trusts, funds and similar financial entities",643,3,Financial Services,Capital markets and retail investment
+64301,Activities of investment trusts,64301,5,Financial Services,Capital markets and retail investment
+64302,Activities of unit trusts,643,3,Financial Services,Capital markets and retail investment
+64303,Activities of venture and development capital companies,643,3,Financial Services,Capital markets and retail investment
+64304,Activities of open-ended investment companies,643,3,Financial Services,Capital markets and retail investment
+64305,Activities of property unit trusts,643,3,Financial Services,Capital markets and retail investment
+64306,Activities of real estate investment trusts,643,3,Financial Services,Capital markets and retail investment
+64910,Financial leasing,64,2,Financial Services,
+64920,Other credit granting,64,2,Financial Services,
+64921,Credit granting by non-deposit taking finance houses and other specialist consumer credit grantors,64,2,Financial Services,
+64922,Activities of mortgage finance companies,64,2,Financial Services,
+64929,Other credit granting (not including credit granting by non-deposit taking finance houses and other specialist consumer credit grantors and activities of mortgage finance companies) nec,64,2,Financial Services,
+64990,"Other financial service activities, except insurance and pension funding, nec",6499,4,Financial Services,Capital markets and retail investment
+64991,Security dealing on own account,6499,4,Financial Services,Capital markets and retail investment
+64992,Factoring,6499,4,Financial Services,Capital markets and retail investment
+64999,"Other financial service activities, except insurance and pension funding, (not including security dealing on own account and factoring) nec",6499,4,Financial Services,Capital markets and retail investment
+65110,Life insurance,65,2,Financial Services,
+65120,Non-life insurance,6512,4,Financial Services,Insurance and reinsurance markets
+65200,Reinsurance,65,2,Financial Services,
+65201,Life reinsurance,65,2,Financial Services,
+65202,Non-life reinsurance,65202,5,Financial Services,Insurance and reinsurance markets
+65300,Pension funding,65,2,Financial Services,
+66110,Administration of financial markets,6611,4,Financial Services,Capital markets and retail investment
+66120,Security and commodity contracts brokerage,6612,4,Financial Services,Capital markets and retail investment
+66190,"Other activities auxiliary to financial services, except insurance and pension funding",66,2,Financial Services,Asset management and wholesale services
+66210,Risk and damage evaluation,6621,4,Financial Services,Insurance and reinsurance markets
+66220,Activities of insurance agents and brokers,6622,4,Financial Services,Insurance and reinsurance markets
+66290,Other activities auxiliary to insurance and pension funding,66,2,Financial Services,Asset management and wholesale services
+66300,Fund management activities,663,3,Financial Services,Asset management and wholesale services
+69100,Legal activities,691,3,Professional and Business Services,Legal services
+69101,Barristers at law,691,3,Professional and Business Services,Legal services
+69102,Solicitors,691,3,Professional and Business Services,Legal services
+69109,Activities of patent and copyright agents; other legal activities (other than those of barristers and solicitors) nec,691,3,Professional and Business Services,Legal services
+69200,"Accounting, bookkeeping and auditing activities; tax consultancy",692,3,Professional and Business Services,"Accounting, audit and tax consultancy"
+69201,"Accounting, and auditing activities",692,3,Professional and Business Services,"Accounting, audit and tax consultancy"
+69202,Bookkeeping activities,692,3,Professional and Business Services,"Accounting, audit and tax consultancy"
+69203,Tax consultancy,692,3,Professional and Business Services,"Accounting, audit and tax consultancy"
+70100,Activities of head offices,70,2,Professional and Business Services,
+70210,Public relations and communication activities,7021,4,Creative Industries,Advertising and marketing
+70220,Business and other management consultancy activities,702,3,Professional and Business Services,Management consultancy
+70221,Financial management,702,3,Professional and Business Services,Management consultancy
+70229,Management consultancy activities (other than financial management),702,3,Professional and Business Services,Management consultancy
+71110,Architectural activities,7111,4,Creative Industries,
+71111,Architectural activities,7111,4,Creative Industries,
+71112,Urban planning and landscape architectural activities,7111,4,Creative Industries,
+71120,Engineering activities and related technical consultancy,7112,4,Digital and Technology,
+71121,Engineering design activities for industrial process and production,7112,4,Digital and Technology,
+71122,Engineering related scientific and technical consulting activities,7112,4,Digital and Technology,
+71129,Other engineering activities (not including engineering design for industrial process and production or engineering related scientific and technical consulting activities),7112,4,Digital and Technology,
+71200,Technical testing and analysis,712,3,Digital and Technology,
+72110,Research and experimental development on biotechnology,7211,4,Life Sciences,
+72190,Other research and experimental development on natural sciences and engineering,721,3,Digital and Technology,
+72200,Research and experimental development on social sciences and humanities,72,2,Professional and Business Services,
+73110,Advertising agencies,731,3,Creative Industries,Advertising and marketing
+73120,Media representation,731,3,Creative Industries,Advertising and marketing
+73200,Market research and public opinion polling,73,2,Professional and Business Services,
+74100,Specialised design activities,741,3,Creative Industries,
+74200,Photographic activities,742,3,Creative Industries,
+74201,Portrait photographic activities,742,3,Creative Industries,
+74202,Other specialist photography (not including portrait photography),742,3,Creative Industries,
+74203,Film processing,742,3,Creative Industries,
+74209,Other photographic activities (not including portrait and other specialist photography and film processing) nec,742,3,Creative Industries,
+74300,Translation and interpretation activities,743,3,Creative Industries,
+74900,"Other professional, scientific and technical activities nec",74,2,Professional and Business Services,
+74901,Environmental consulting activities,74,2,Professional and Business Services,
+74902,Quantity surveying activities,74,2,Professional and Business Services,
+74909,"Other professional, scientific and technical activities (not including environmental consultancy or quantity surveying) nec",74,2,Professional and Business Services,
+77110,Renting and leasing of cars and light motor vehicles,77,2,Professional and Business Services,
+77120,Renting and leasing of trucks,77,2,Professional and Business Services,
+77210,Renting and leasing of recreational and sports goods,77,2,Professional and Business Services,
+77220,Renting of video tapes and disks,77,2,Professional and Business Services,
+77290,Renting and leasing of other personal and household goods,77,2,Professional and Business Services,
+77291,Renting and leasing of media entertainment equipment,77,2,Professional and Business Services,
+77299,Renting and leasing of other personal and household goods (other than media entertainment equipment),77,2,Professional and Business Services,
+77310,Renting and leasing of agricultural machinery and equipment,77,2,Professional and Business Services,
+77320,Renting and leasing of construction and civil engineering machinery and equipment,77,2,Professional and Business Services,
+77330,Renting and leasing of office machinery and equipment (including computers),77,2,Professional and Business Services,
+77340,Renting and leasing of water transport equipment,77,2,Professional and Business Services,
+77341,Renting and leasing of passenger water transport equipment,77,2,Professional and Business Services,
+77342,Renting and leasing of freight water transport equipment,77,2,Professional and Business Services,
+77350,Renting and leasing of air transport equipment,77,2,Professional and Business Services,
+77351,Renting and leasing of passenger air transport equipment,77,2,Professional and Business Services,
+77352,Renting and leasing of freight air transport equipment,77,2,Professional and Business Services,
+77390,"Renting and leasing of other machinery, equipment and tangible goods nec",77,2,Professional and Business Services,
+77400,"Leasing of intellectual property and similar products, except copyrighted works",77,2,Professional and Business Services,
+78100,Activities of employment placement agencies,78,2,Professional and Business Services,
+78101,"Motion picture, television and other theatrical casting",78,2,Professional and Business Services,
+78109,"Activities of employment placement agencies (other than motion picture, television and other theatrical casting) nec",78,2,Professional and Business Services,
+78200,Temporary employment agency activities,78,2,Professional and Business Services,
+78300,Other human resources provision,78,2,Professional and Business Services,
+82110,Combined office administrative service activities,82,2,Professional and Business Services,
+82190,"Photocopying, document preparation and other specialised office support activities",82,2,Professional and Business Services,
+82200,Activities of call centres,82,2,Professional and Business Services,
+82300,Organisation of conventions and trade shows,82,2,Professional and Business Services,
+82301,Activities of exhibition and fair organizers,82,2,Professional and Business Services,
+82302,Activities of conference organizers,82,2,Professional and Business Services,
+82910,Activities of collection agencies and credit bureaus,82,2,Professional and Business Services,
+82911,Activities of collection agencies,82,2,Professional and Business Services,
+82912,Activities of credit bureaus,82,2,Professional and Business Services,
+82920,Packaging activities,82,2,Professional and Business Services,
+82990,Other business support service activities nec,82,2,Professional and Business Services,
+85520,Cultural education,8552,4,Creative Industries,"Music, peforming, and visual arts"
+90010,Performing arts,90,2,Creative Industries,"Music, peforming, and visual arts"
+90020,Support activities to performing arts,90,2,Creative Industries,"Music, peforming, and visual arts"
+90030,Artistic creation,90,2,Creative Industries,"Music, peforming, and visual arts"
+90040,Operation of arts facilities,90,2,Creative Industries,"Music, peforming, and visual arts"
+91010,Library and archive activities,9101,4,Creative Industries,
+91011,Library activities,9101,4,Creative Industries,
+91012,Archive activities,9101,4,Creative Industries,
+91020,Museum activities,9102,4,Creative Industries,
+95110,Repair of computers and peripheral equipment,951,3,Digital and Technology,
+95120,Repair of communication equipment,951,3,Digital and Technology,

@@ -305,6 +305,6 @@ class DataProcessor:
         panel = self.optimise_dtypes(panel)
 
         # save
-        self._save(panel, "analysis_panel")
+        self._save(panel, "analysis_panel_UK")
         print(f"Panel built: {panel.shape[0]:,} rows x {panel.shape[1]} columns")
         return panel

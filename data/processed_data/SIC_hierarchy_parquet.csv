@@ -1,0 +1,85 @@
+parquet_code,digits,div_2digit,div_desc,grp_3digit,grp_desc,cls_4digit,cls_desc,leaf_5digit,leaf_desc,IS8_sector,frontier_sector
+20,2,20,Manufacture of chemicals and chemical products,201,"Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",2011,,20110,Manufacture of industrial gases,Advanced manufacturing,
+21,2,21,Manufacture of basic pharmaceutical products and pharmaceutical preparations,211,Manufacture of basic pharmaceutical products,2110,,21100,Manufacture of basic pharmaceutical products,Life Sciences,
+26,2,26,"Manufacture of computer, electronic and optical products",261,Manufacture of electronic components and boards,2611,,26110,Manufacture of electronic components,Advanced manufacturing,
+27,2,27,Manufacture of electrical equipment,271,"Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",2711,,27110,"Manufacture of electric motors, generators and transformers",Advanced manufacturing,
+28,2,28,Manufacture of machinery and equipment nec,281,Manufacture of general purpose machinery,2811,,28110,"Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",Advanced manufacturing,
+29,2,29,"Manufacture of motor vehicles, trailers and semi-trailers",291,Manufacture of motor vehicles,2910,,29100,Manufacture of motor vehicles,Advanced manufacturing,Automotive manufacturing
+30,2,30,Manufacture of other transport equipment,301,Building of ships and boats,3011,,30110,Building of ships and floating structures,Advanced manufacturing,
+58,2,58,Publishing activities,581,"Publishing of books, periodicals and other publishing activities",5811,,58110,Book publishing,Digital and Technology,
+59,2,59,"Motion picture, video and television programme production, sound recording and music publishing activities",591,"Motion picture, video and television programme activities",5911,,59110,"Motion picture, video and television programme production activities",Digital and Technology,
+60,2,60,Programming and broadcasting activities,601,Radio broadcasting,6010,,60100,Radio broadcasting,Digital and Technology,
+61,2,61,Telecommunications,611,Wired telecommunications activities,6110,,61100,Wired telecommunications activities,Digital and Technology,
+62,2,62,"Computer programming, consultancy and related activities",620,"Computer programming, consultancy and related activities",6201,,62010,Computer programming activities,Digital and Technology,
+63,2,63,Information service activities,631,"Data processing, hosting and related activities; web portals",6311,,63110,"Data processing, hosting and related activities",Digital and Technology,
+64,2,64,"Financial service activities, except insurance and pension funding",641,Monetary intermediation,6411,,64110,Central banking,Financial Services,
+65,2,65,"Insurance, reinsurance and pension funding, except compulsory social security",651,Insurance,6511,,65110,Life insurance,Financial Services,
+66,2,66,Activities auxiliary to financial services and insurance activities,661,"Activities auxiliary to financial services, except insurance and pension funding",6611,,66110,Administration of financial markets,Financial Services,Asset management and wholesale services
+69,2,69,Legal and accounting activities,691,Legal activities,6910,,69100,Legal activities,Professional and Business Services,
+70,2,70,Activities of head offices; management consultancy activities,701,Activities of head offices,7010,,70100,Activities of head offices,Professional and Business Services,
+71,2,71,Architectural and engineering activities; technical testing and analysis,711,Architectural and engineering activities and related technical consultancy,7111,,71110,Architectural activities,Professional and Business Services,
+72,2,72,Scientific research and development,721,Research and experimental development on natural sciences and engineering,7211,,72110,Research and experimental development on biotechnology,Professional and Business Services,
+73,2,73,Advertising and market research,731,Advertising,7311,,73110,Advertising agencies,Professional and Business Services,
+74,2,74,"Other professional, scientific and technical activities",741,Specialised design activities,7410,,74100,Specialised design activities,Professional and Business Services,
+77,2,77,Rental and leasing activities,771,Renting and leasing of motor vehicles,7711,,77110,Renting and leasing of cars and light motor vehicles,Professional and Business Services,
+78,2,78,Employment activities,781,Activities of employment placement agencies,7810,,78100,Activities of employment placement agencies,Professional and Business Services,
+82,2,82,"Office administrative, office support and other business support activities",821,Office administrative and support activities,8211,,82110,Combined office administrative service activities,Professional and Business Services,
+90,2,90,"Creative, arts and entertainment activities",900,"Creative, arts and entertainment activities",9001,,90010,Performing arts,Creative Industries,"Music, peforming, and visual arts"
+254,3,25,"Manufacture of fabricated metal products, except machinery and equipment",254,Manufacture of weapons and ammunition,2540,,25400,Manufacture of weapons and ammunition,Defence sector,
+261,3,26,"Manufacture of computer, electronic and optical products",261,Manufacture of electronic components and boards,2611,,26110,Manufacture of electronic components,Digital and Technology,
+262,3,26,"Manufacture of computer, electronic and optical products",262,Manufacture of computers and peripheral equipment,2620,,26200,Manufacture of computers and peripheral equipment,Digital and Technology,
+263,3,26,"Manufacture of computer, electronic and optical products",263,Manufacture of communication equipment,2630,,26300,Manufacture of communication equipment,Digital and Technology,
+264,3,26,"Manufacture of computer, electronic and optical products",264,Manufacture of consumer electronics,2640,,26400,Manufacture of consumer electronics,Digital and Technology,
+266,3,26,"Manufacture of computer, electronic and optical products",266,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",2660,,26600,"Manufacture of irradiation, electromedical and electrotherapeutic equipment",Life Sciences,
+268,3,26,"Manufacture of computer, electronic and optical products",268,Manufacture of magnetic and optical media,2680,,26800,Manufacture of magnetic and optical media,Digital and Technology,
+272,3,27,Manufacture of electrical equipment,272,Manufacture of batteries and accumulators,2720,,27200,Manufacture of batteries and accumulators,Advanced manufacturing,Batteries
+279,3,27,Manufacture of electrical equipment,279,Manufacture of other electrical equipment,2790,,27900,Manufacture of other electrical equipment,Digital and Technology,
+283,3,28,Manufacture of machinery and equipment nec,283,Manufacture of agricultural and forestry machinery,2830,,28300,Manufacture of agricultural and forestry machinery,Advanced manufacturing,Agritech
+303,3,30,Manufacture of other transport equipment,303,Manufacture of air and spacecraft and related machinery,3030,,30300,Manufacture of air and spacecraft and related machinery,Advanced manufacturing,Aerospace manufacturing
+304,3,30,Manufacture of other transport equipment,304,Manufacture of military fighting vehicles,3040,,30400,Manufacture of military fighting vehicles,Defence sector,
+325,3,32,Other manufacturing,325,Manufacture of medical and dental instruments and supplies,3250,,32500,Manufacture of medical and dental instruments and supplies,Life Sciences,
+465,3,46,"Wholesale trade, except of motor vehicles and motorcycles",465,Wholesale of information and communication equipment,4651,,46510,"Wholesale of computers, computer peripheral equipment and software",Digital and Technology,
+591,3,59,"Motion picture, video and television programme production, sound recording and music publishing activities",591,"Motion picture, video and television programme activities",5911,,59110,"Motion picture, video and television programme production activities",Creative Industries,Film and TV
+592,3,59,"Motion picture, video and television programme production, sound recording and music publishing activities",592,Sound recording and music publishing activities,5920,,59200,Sound recording and music publishing activities,Creative Industries,"Music, peforming, and visual arts"
+602,3,60,Programming and broadcasting activities,602,Television programming and broadcasting activities,6020,,60200,Television programming and broadcasting activities,Creative Industries,Film and TV
+642,3,64,"Financial service activities, except insurance and pension funding",642,Activities of holding companies,6420,,64200,Activities of holding companies,Financial Services,Capital markets and retail investment
+643,3,64,"Financial service activities, except insurance and pension funding",643,"Trusts, funds and similar financial entities",6430,,64300,"Trusts, funds and similar financial entities",Financial Services,Capital markets and retail investment
+663,3,66,Activities auxiliary to financial services and insurance activities,663,Fund management activities,6630,,66300,Fund management activities,Financial Services,Asset management and wholesale services
+691,3,69,Legal and accounting activities,691,Legal activities,6910,,69100,Legal activities,Professional and Business Services,Legal services
+692,3,69,Legal and accounting activities,692,"Accounting, bookkeeping and auditing activities; tax consultancy",6920,,69200,"Accounting, bookkeeping and auditing activities; tax consultancy",Professional and Business Services,"Accounting, audit and tax consultancy"
+702,3,70,Activities of head offices; management consultancy activities,702,Management consultancy activities,7021,,70210,Public relations and communication activities,Professional and Business Services,Management consultancy
+712,3,71,Architectural and engineering activities; technical testing and analysis,712,Technical testing and analysis,7120,,71200,Technical testing and analysis,Digital and Technology,
+721,3,72,Scientific research and development,721,Research and experimental development on natural sciences and engineering,7211,,72110,Research and experimental development on biotechnology,Digital and Technology,
+731,3,73,Advertising and market research,731,Advertising,7311,,73110,Advertising agencies,Creative Industries,Advertising and marketing
+741,3,74,"Other professional, scientific and technical activities",741,Specialised design activities,7410,,74100,Specialised design activities,Creative Industries,
+742,3,74,"Other professional, scientific and technical activities",742,Photographic activities,7420,,74200,Photographic activities,Creative Industries,
+743,3,74,"Other professional, scientific and technical activities",743,Translation and interpretation activities,7430,,74300,Translation and interpretation activities,Creative Industries,
+951,3,95,Repair of computers and personal and household goods,951,Repair of computers and communication equipment,9511,,95110,Repair of computers and peripheral equipment,Digital and Technology,
+2731,4,27,Manufacture of electrical equipment,273,Manufacture of wiring and wiring devices,2731,,27310,Manufacture of fibre optic cables,Digital and Technology,
+2732,4,27,Manufacture of electrical equipment,273,Manufacture of wiring and wiring devices,2732,,27320,Manufacture of other electronic and electric wires and cables,Digital and Technology,
+3212,4,32,Other manufacturing,321,"Manufacture of jewellery, bijouterie and related articles",3212,,32120,Manufacture of jewellery and related articles,Creative Industries,
+3316,4,33,Repair and installation of machinery and equipment,331,"Repair of fabricated metal products, machinery and equipment",3316,,33160,Repair and maintenance of aircraft and spacecraft,Advanced manufacturing,Aerospace manufacturing
+5821,4,58,Publishing activities,582,Software publishing,5821,,58210,Publishing of computer games,Creative Industries,Video games
+6201,4,62,"Computer programming, consultancy and related activities",620,"Computer programming, consultancy and related activities",6201,,62010,Computer programming activities,Creative Industries,
+6202,4,62,"Computer programming, consultancy and related activities",620,"Computer programming, consultancy and related activities",6202,,62020,Computer consultancy activities,Creative Industries,
+6499,4,64,"Financial service activities, except insurance and pension funding",649,"Other financial service activities, except insurance and pension funding",6499,,64990,"Other financial service activities, except insurance and pension funding, nec",Financial Services,Capital markets and retail investment
+6512,4,65,"Insurance, reinsurance and pension funding, except compulsory social security",651,Insurance,6512,,65120,Non-life insurance,Financial Services,Insurance and reinsurance markets
+6611,4,66,Activities auxiliary to financial services and insurance activities,661,"Activities auxiliary to financial services, except insurance and pension funding",6611,,66110,Administration of financial markets,Financial Services,Capital markets and retail investment
+6612,4,66,Activities auxiliary to financial services and insurance activities,661,"Activities auxiliary to financial services, except insurance and pension funding",6612,,66120,Security and commodity contracts brokerage,Financial Services,Capital markets and retail investment
+6621,4,66,Activities auxiliary to financial services and insurance activities,662,Activities auxiliary to insurance and pension funding,6621,,66210,Risk and damage evaluation,Financial Services,Insurance and reinsurance markets
+6622,4,66,Activities auxiliary to financial services and insurance activities,662,Activities auxiliary to insurance and pension funding,6622,,66220,Activities of insurance agents and brokers,Financial Services,Insurance and reinsurance markets
+7021,4,70,Activities of head offices; management consultancy activities,702,Management consultancy activities,7021,,70210,Public relations and communication activities,Creative Industries,Advertising and marketing
+7111,4,71,Architectural and engineering activities; technical testing and analysis,711,Architectural and engineering activities and related technical consultancy,7111,,71110,Architectural activities,Creative Industries,
+7112,4,71,Architectural and engineering activities; technical testing and analysis,711,Architectural and engineering activities and related technical consultancy,7112,,71120,Engineering activities and related technical consultancy,Digital and Technology,
+7211,4,72,Scientific research and development,721,Research and experimental development on natural sciences and engineering,7211,,72110,Research and experimental development on biotechnology,Life Sciences,
+8552,4,85,Education,855,Other education,8552,,85520,Cultural education,Creative Industries,"Music, peforming, and visual arts"
+9101,4,91,"Libraries, archives, museums and other cultural activities",910,"Libraries, archives, museums and other cultural activities",9101,,91010,Library and archive activities,Creative Industries,
+9102,4,91,"Libraries, archives, museums and other cultural activities",910,"Libraries, archives, museums and other cultural activities",9102,,91020,Museum activities,Creative Industries,
+26511,5,,,,,,,,,,
+26512,5,,,,,,,,,,
+26513,5,,,,,,,,,,
+26701,5,,,,,,,,,,
+62011,5,,,,,,,,,,
+64191,5,,,,,,,,,,
+64301,5,,,,,,,,,,
+65202,5,,,,,,,,,,
