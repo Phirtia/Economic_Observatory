@@ -1025,651 +1025,759 @@ full,Professional and Business Services,gd_bus_binary,classification,size_large_
 full,Professional and Business Services,gd_bus_binary,classification,size_micro_share,0.08019935795731709
 full,Professional and Business Services,gd_bus_binary,classification,related_variety,0.02538944061636885
 full,Professional and Business Services,gd_bus_binary,classification,within_sector_diversity,0.13077425749180688
-theory,Advanced Manufacturing,lq_emp,regression,nvq_level3,0.024824890864680413
-theory,Advanced Manufacturing,lq_emp,regression,gcse_age19,0.04520808145689769
-theory,Advanced Manufacturing,lq_emp,regression,apprenticeship_starts,0.14638716127804127
-theory,Advanced Manufacturing,lq_emp,regression,apprenticeship_achievements,0.2553117191417094
-theory,Advanced Manufacturing,lq_emp,regression,fe_participation,0.09534893716541022
-theory,Advanced Manufacturing,lq_emp,regression,enterprise_birth_rate,0.03919536539238686
-theory,Advanced Manufacturing,lq_emp,regression,enterprise_death_rate,0.012851223174025253
-theory,Advanced Manufacturing,lq_emp,regression,enterprise_high_growth_rate,0.06712398329488613
-theory,Advanced Manufacturing,lq_emp,regression,broadband,0.028625819946327232
-theory,Advanced Manufacturing,lq_emp,regression,coverage_4g,0.048720435004839135
-theory,Advanced Manufacturing,lq_emp,regression,housing_net_additions,0.2008925660652776
-theory,Advanced Manufacturing,lq_emp,regression,related_variety,0.03550981721551894
-theory,Advanced Manufacturing,lq_bus,regression,nvq_level3,0.04519799730170349
-theory,Advanced Manufacturing,lq_bus,regression,gcse_age19,0.015616030567862354
-theory,Advanced Manufacturing,lq_bus,regression,apprenticeship_starts,0.33310306149638663
-theory,Advanced Manufacturing,lq_bus,regression,apprenticeship_achievements,0.20902110993142128
-theory,Advanced Manufacturing,lq_bus,regression,fe_participation,0.021262059887710096
-theory,Advanced Manufacturing,lq_bus,regression,enterprise_birth_rate,0.021695010404146585
-theory,Advanced Manufacturing,lq_bus,regression,enterprise_death_rate,0.01488519754162399
-theory,Advanced Manufacturing,lq_bus,regression,enterprise_high_growth_rate,0.01196684308834529
-theory,Advanced Manufacturing,lq_bus,regression,broadband,0.02434568639133488
-theory,Advanced Manufacturing,lq_bus,regression,coverage_4g,0.01001599180414119
-theory,Advanced Manufacturing,lq_bus,regression,housing_net_additions,0.014344458497818508
-theory,Advanced Manufacturing,lq_bus,regression,related_variety,0.2785465530875059
-theory,Advanced Manufacturing,gd_emp,regression,nvq_level3,0.13049862742149618
-theory,Advanced Manufacturing,gd_emp,regression,gcse_age19,0.08188329450433321
-theory,Advanced Manufacturing,gd_emp,regression,apprenticeship_starts,0.11474162767987751
-theory,Advanced Manufacturing,gd_emp,regression,apprenticeship_achievements,0.14854170114890475
-theory,Advanced Manufacturing,gd_emp,regression,fe_participation,0.1388873650866188
-theory,Advanced Manufacturing,gd_emp,regression,enterprise_birth_rate,0.05147421527116725
-theory,Advanced Manufacturing,gd_emp,regression,enterprise_death_rate,0.03792252699354553
-theory,Advanced Manufacturing,gd_emp,regression,enterprise_high_growth_rate,0.1047800781812887
-theory,Advanced Manufacturing,gd_emp,regression,broadband,0.04715235120595325
-theory,Advanced Manufacturing,gd_emp,regression,coverage_4g,0.01410898800249715
-theory,Advanced Manufacturing,gd_emp,regression,housing_net_additions,0.057973091403955034
-theory,Advanced Manufacturing,gd_emp,regression,related_variety,0.07203613310036268
-theory,Advanced Manufacturing,gd_bus,regression,nvq_level3,0.02824679506375548
-theory,Advanced Manufacturing,gd_bus,regression,gcse_age19,0.06700420989291858
-theory,Advanced Manufacturing,gd_bus,regression,apprenticeship_starts,0.09097541215486066
-theory,Advanced Manufacturing,gd_bus,regression,apprenticeship_achievements,0.1490330413840204
-theory,Advanced Manufacturing,gd_bus,regression,fe_participation,0.11975656874441967
-theory,Advanced Manufacturing,gd_bus,regression,enterprise_birth_rate,0.052676712861150325
-theory,Advanced Manufacturing,gd_bus,regression,enterprise_death_rate,0.019848375970123972
-theory,Advanced Manufacturing,gd_bus,regression,enterprise_high_growth_rate,0.2927507578019765
-theory,Advanced Manufacturing,gd_bus,regression,broadband,0.06265068794672772
-theory,Advanced Manufacturing,gd_bus,regression,coverage_4g,0.011812797429600102
-theory,Advanced Manufacturing,gd_bus,regression,housing_net_additions,0.03169097732750732
-theory,Advanced Manufacturing,gd_bus,regression,related_variety,0.07355366342293926
-theory,Advanced Manufacturing,lq_emp_binary,classification,nvq_level3,0.05960448633717053
-theory,Advanced Manufacturing,lq_emp_binary,classification,gcse_age19,0.067777393002123
-theory,Advanced Manufacturing,lq_emp_binary,classification,apprenticeship_starts,0.2391149689297056
-theory,Advanced Manufacturing,lq_emp_binary,classification,apprenticeship_achievements,0.19066738297541128
-theory,Advanced Manufacturing,lq_emp_binary,classification,fe_participation,0.07123908395492168
-theory,Advanced Manufacturing,lq_emp_binary,classification,enterprise_birth_rate,0.05880448461128791
-theory,Advanced Manufacturing,lq_emp_binary,classification,enterprise_death_rate,0.04546041434092316
-theory,Advanced Manufacturing,lq_emp_binary,classification,enterprise_high_growth_rate,0.04639855745211251
-theory,Advanced Manufacturing,lq_emp_binary,classification,broadband,0.04797411498992907
-theory,Advanced Manufacturing,lq_emp_binary,classification,coverage_4g,0.04084732160632219
-theory,Advanced Manufacturing,lq_emp_binary,classification,housing_net_additions,0.038111204697390176
-theory,Advanced Manufacturing,lq_emp_binary,classification,related_variety,0.09400058710270304
-theory,Advanced Manufacturing,lq_bus_binary,classification,nvq_level3,0.08091053076901658
-theory,Advanced Manufacturing,lq_bus_binary,classification,gcse_age19,0.0476739505995304
-theory,Advanced Manufacturing,lq_bus_binary,classification,apprenticeship_starts,0.24107147529368617
-theory,Advanced Manufacturing,lq_bus_binary,classification,apprenticeship_achievements,0.1952134905427057
-theory,Advanced Manufacturing,lq_bus_binary,classification,fe_participation,0.03637472195819569
-theory,Advanced Manufacturing,lq_bus_binary,classification,enterprise_birth_rate,0.038011469511933495
-theory,Advanced Manufacturing,lq_bus_binary,classification,enterprise_death_rate,0.037859146498843047
-theory,Advanced Manufacturing,lq_bus_binary,classification,enterprise_high_growth_rate,0.03910280116988155
-theory,Advanced Manufacturing,lq_bus_binary,classification,broadband,0.032744110569277424
-theory,Advanced Manufacturing,lq_bus_binary,classification,coverage_4g,0.039847112994067846
-theory,Advanced Manufacturing,lq_bus_binary,classification,housing_net_additions,0.03809415941411193
-theory,Advanced Manufacturing,lq_bus_binary,classification,related_variety,0.17309703067875024
-theory,Advanced Manufacturing,gd_emp_binary,classification,nvq_level3,0.12930897392359708
-theory,Advanced Manufacturing,gd_emp_binary,classification,gcse_age19,0.07012712864912467
-theory,Advanced Manufacturing,gd_emp_binary,classification,apprenticeship_starts,0.07418977615896985
-theory,Advanced Manufacturing,gd_emp_binary,classification,apprenticeship_achievements,0.0945614891289109
-theory,Advanced Manufacturing,gd_emp_binary,classification,fe_participation,0.06951795786155966
-theory,Advanced Manufacturing,gd_emp_binary,classification,enterprise_birth_rate,0.06905377761636715
-theory,Advanced Manufacturing,gd_emp_binary,classification,enterprise_death_rate,0.07240054127368474
-theory,Advanced Manufacturing,gd_emp_binary,classification,enterprise_high_growth_rate,0.08357917888947015
-theory,Advanced Manufacturing,gd_emp_binary,classification,broadband,0.06886778640761389
-theory,Advanced Manufacturing,gd_emp_binary,classification,coverage_4g,0.044951426871477136
-theory,Advanced Manufacturing,gd_emp_binary,classification,housing_net_additions,0.08305067132237122
-theory,Advanced Manufacturing,gd_emp_binary,classification,related_variety,0.1403912918968535
-theory,Advanced Manufacturing,gd_bus_binary,classification,nvq_level3,0.06903872754805356
-theory,Advanced Manufacturing,gd_bus_binary,classification,gcse_age19,0.10902259099087937
-theory,Advanced Manufacturing,gd_bus_binary,classification,apprenticeship_starts,0.06908866411657977
-theory,Advanced Manufacturing,gd_bus_binary,classification,apprenticeship_achievements,0.07456956766494413
-theory,Advanced Manufacturing,gd_bus_binary,classification,fe_participation,0.09596902829296063
-theory,Advanced Manufacturing,gd_bus_binary,classification,enterprise_birth_rate,0.09042644498610651
-theory,Advanced Manufacturing,gd_bus_binary,classification,enterprise_death_rate,0.06180275571415858
-theory,Advanced Manufacturing,gd_bus_binary,classification,enterprise_high_growth_rate,0.21444296854157138
-theory,Advanced Manufacturing,gd_bus_binary,classification,broadband,0.07291172049036794
-theory,Advanced Manufacturing,gd_bus_binary,classification,coverage_4g,0.03913606495398523
-theory,Advanced Manufacturing,gd_bus_binary,classification,housing_net_additions,0.047879246054440196
-theory,Advanced Manufacturing,gd_bus_binary,classification,related_variety,0.05571222064595269
-theory,Creative Industries,lq_emp,regression,nvq_level3,0.19525657838689855
-theory,Creative Industries,lq_emp,regression,gcse_age19,0.028346119052343327
-theory,Creative Industries,lq_emp,regression,apprenticeship_starts,0.25775806375785093
-theory,Creative Industries,lq_emp,regression,apprenticeship_achievements,0.3219988053577837
-theory,Creative Industries,lq_emp,regression,fe_participation,0.00677736177793509
-theory,Creative Industries,lq_emp,regression,enterprise_birth_rate,0.005502157783238059
-theory,Creative Industries,lq_emp,regression,enterprise_death_rate,0.01680678445854172
-theory,Creative Industries,lq_emp,regression,enterprise_high_growth_rate,0.11731284272512058
-theory,Creative Industries,lq_emp,regression,broadband,0.003237129781262689
-theory,Creative Industries,lq_emp,regression,coverage_4g,6.729878066348507e-05
-theory,Creative Industries,lq_emp,regression,housing_net_additions,0.008414250496538465
-theory,Creative Industries,lq_emp,regression,related_variety,0.038522607641823525
-theory,Creative Industries,lq_bus,regression,nvq_level3,0.11930788760437779
-theory,Creative Industries,lq_bus,regression,gcse_age19,0.03573934978753663
-theory,Creative Industries,lq_bus,regression,apprenticeship_starts,0.4402187096966787
-theory,Creative Industries,lq_bus,regression,apprenticeship_achievements,0.30649408928831345
-theory,Creative Industries,lq_bus,regression,fe_participation,0.03514261101649869
-theory,Creative Industries,lq_bus,regression,enterprise_birth_rate,0.007058036814968364
-theory,Creative Industries,lq_bus,regression,enterprise_death_rate,0.007213239982837222
-theory,Creative Industries,lq_bus,regression,enterprise_high_growth_rate,0.028711709803759245
-theory,Creative Industries,lq_bus,regression,broadband,0.006291341819056307
-theory,Creative Industries,lq_bus,regression,coverage_4g,0.000771059363337902
-theory,Creative Industries,lq_bus,regression,housing_net_additions,0.003712393601392359
-theory,Creative Industries,lq_bus,regression,related_variety,0.009339571221243568
-theory,Creative Industries,gd_emp,regression,nvq_level3,0.051595770641811436
-theory,Creative Industries,gd_emp,regression,gcse_age19,0.05900011629892886
-theory,Creative Industries,gd_emp,regression,apprenticeship_starts,0.046938219531850955
-theory,Creative Industries,gd_emp,regression,apprenticeship_achievements,0.05803727946842684
-theory,Creative Industries,gd_emp,regression,fe_participation,0.09429368360656105
-theory,Creative Industries,gd_emp,regression,enterprise_birth_rate,0.0589882510822835
-theory,Creative Industries,gd_emp,regression,enterprise_death_rate,0.032240168585794225
-theory,Creative Industries,gd_emp,regression,enterprise_high_growth_rate,0.28787761117548516
-theory,Creative Industries,gd_emp,regression,broadband,0.04898086670539682
-theory,Creative Industries,gd_emp,regression,coverage_4g,0.046454603036619524
-theory,Creative Industries,gd_emp,regression,housing_net_additions,0.14221157687982555
-theory,Creative Industries,gd_emp,regression,related_variety,0.07338185298701606
-theory,Creative Industries,gd_bus,regression,nvq_level3,0.07194122020285881
-theory,Creative Industries,gd_bus,regression,gcse_age19,0.10044165042105889
-theory,Creative Industries,gd_bus,regression,apprenticeship_starts,0.047760212541668456
-theory,Creative Industries,gd_bus,regression,apprenticeship_achievements,0.036688137102999764
-theory,Creative Industries,gd_bus,regression,fe_participation,0.22600207054776
-theory,Creative Industries,gd_bus,regression,enterprise_birth_rate,0.03374242295576451
-theory,Creative Industries,gd_bus,regression,enterprise_death_rate,0.21906759981159724
-theory,Creative Industries,gd_bus,regression,enterprise_high_growth_rate,0.08115623782102901
-theory,Creative Industries,gd_bus,regression,broadband,0.07401047030767226
-theory,Creative Industries,gd_bus,regression,coverage_4g,0.020604393872486672
-theory,Creative Industries,gd_bus,regression,housing_net_additions,0.02813508884486759
-theory,Creative Industries,gd_bus,regression,related_variety,0.06045049557023662
-theory,Creative Industries,lq_emp_binary,classification,nvq_level3,0.23999102841137496
-theory,Creative Industries,lq_emp_binary,classification,gcse_age19,0.13034615206389916
-theory,Creative Industries,lq_emp_binary,classification,apprenticeship_starts,0.1912680136321961
-theory,Creative Industries,lq_emp_binary,classification,apprenticeship_achievements,0.13961211595576808
-theory,Creative Industries,lq_emp_binary,classification,fe_participation,0.045436433486091145
-theory,Creative Industries,lq_emp_binary,classification,enterprise_birth_rate,0.024085608143357317
-theory,Creative Industries,lq_emp_binary,classification,enterprise_death_rate,0.031706160566851646
-theory,Creative Industries,lq_emp_binary,classification,enterprise_high_growth_rate,0.1051335177907919
-theory,Creative Industries,lq_emp_binary,classification,broadband,0.03781257128465875
-theory,Creative Industries,lq_emp_binary,classification,coverage_4g,0.014855666988377375
-theory,Creative Industries,lq_emp_binary,classification,housing_net_additions,0.015052302798488045
-theory,Creative Industries,lq_emp_binary,classification,related_variety,0.024700428878145598
-theory,Creative Industries,lq_bus_binary,classification,nvq_level3,0.1722883638306509
-theory,Creative Industries,lq_bus_binary,classification,gcse_age19,0.11638659815082397
-theory,Creative Industries,lq_bus_binary,classification,apprenticeship_starts,0.33194522718378244
-theory,Creative Industries,lq_bus_binary,classification,apprenticeship_achievements,0.1950250429216168
-theory,Creative Industries,lq_bus_binary,classification,fe_participation,0.03216526486838343
-theory,Creative Industries,lq_bus_binary,classification,enterprise_birth_rate,0.02506249707994628
-theory,Creative Industries,lq_bus_binary,classification,enterprise_death_rate,0.020642629899067004
-theory,Creative Industries,lq_bus_binary,classification,enterprise_high_growth_rate,0.03774045272339027
-theory,Creative Industries,lq_bus_binary,classification,broadband,0.038354834005262836
-theory,Creative Industries,lq_bus_binary,classification,coverage_4g,0.006867968169082916
-theory,Creative Industries,lq_bus_binary,classification,housing_net_additions,0.00763435900702118
-theory,Creative Industries,lq_bus_binary,classification,related_variety,0.015886762160971905
-theory,Creative Industries,gd_emp_binary,classification,nvq_level3,0.04615499015152338
-theory,Creative Industries,gd_emp_binary,classification,gcse_age19,0.08139898283186166
-theory,Creative Industries,gd_emp_binary,classification,apprenticeship_starts,0.08143873526037845
-theory,Creative Industries,gd_emp_binary,classification,apprenticeship_achievements,0.07026795523610992
-theory,Creative Industries,gd_emp_binary,classification,fe_participation,0.08231818318817667
-theory,Creative Industries,gd_emp_binary,classification,enterprise_birth_rate,0.0730094459489008
-theory,Creative Industries,gd_emp_binary,classification,enterprise_death_rate,0.05154943173600059
-theory,Creative Industries,gd_emp_binary,classification,enterprise_high_growth_rate,0.18386520931435799
-theory,Creative Industries,gd_emp_binary,classification,broadband,0.0727728205757291
-theory,Creative Industries,gd_emp_binary,classification,coverage_4g,0.048164188509102174
-theory,Creative Industries,gd_emp_binary,classification,housing_net_additions,0.1392525714746162
-theory,Creative Industries,gd_emp_binary,classification,related_variety,0.06980748577324324
-theory,Creative Industries,gd_bus_binary,classification,nvq_level3,0.05475811360550961
-theory,Creative Industries,gd_bus_binary,classification,gcse_age19,0.14455330072250408
-theory,Creative Industries,gd_bus_binary,classification,apprenticeship_starts,0.07387249795188328
-theory,Creative Industries,gd_bus_binary,classification,apprenticeship_achievements,0.05283891374716492
-theory,Creative Industries,gd_bus_binary,classification,fe_participation,0.10648170366139206
-theory,Creative Industries,gd_bus_binary,classification,enterprise_birth_rate,0.06095782310579241
-theory,Creative Industries,gd_bus_binary,classification,enterprise_death_rate,0.12699804476927623
-theory,Creative Industries,gd_bus_binary,classification,enterprise_high_growth_rate,0.10016204136972996
-theory,Creative Industries,gd_bus_binary,classification,broadband,0.08050147362113005
-theory,Creative Industries,gd_bus_binary,classification,coverage_4g,0.06217715495161946
-theory,Creative Industries,gd_bus_binary,classification,housing_net_additions,0.042253689147546326
-theory,Creative Industries,gd_bus_binary,classification,related_variety,0.09444524334645164
-theory,Defence,lq_emp,regression,nvq_level3,0.04049699247838337
-theory,Defence,lq_emp,regression,gcse_age19,0.012008885792649322
-theory,Defence,lq_emp,regression,apprenticeship_starts,0.08469031551290161
-theory,Defence,lq_emp,regression,apprenticeship_achievements,0.029887701092764892
-theory,Defence,lq_emp,regression,fe_participation,0.014517750578181046
-theory,Defence,lq_emp,regression,enterprise_birth_rate,0.12314031745024995
-theory,Defence,lq_emp,regression,enterprise_death_rate,0.061338856021612924
-theory,Defence,lq_emp,regression,enterprise_high_growth_rate,0.10101667656691742
-theory,Defence,lq_emp,regression,broadband,0.027620382090391773
-theory,Defence,lq_emp,regression,coverage_4g,0.00336057674416881
-theory,Defence,lq_emp,regression,housing_net_additions,0.04695101252627165
-theory,Defence,lq_emp,regression,related_variety,0.45497053314550734
-theory,Defence,lq_bus,regression,nvq_level3,0.0052428069336983634
-theory,Defence,lq_bus,regression,gcse_age19,0.06199267704747644
-theory,Defence,lq_bus,regression,apprenticeship_starts,0.26836479307995426
-theory,Defence,lq_bus,regression,apprenticeship_achievements,0.035536814227829096
-theory,Defence,lq_bus,regression,fe_participation,0.03303825971042784
-theory,Defence,lq_bus,regression,enterprise_birth_rate,0.07396352289994786
-theory,Defence,lq_bus,regression,enterprise_death_rate,0.0024085109458611494
-theory,Defence,lq_bus,regression,enterprise_high_growth_rate,0.011630472620943764
-theory,Defence,lq_bus,regression,broadband,0.36367998514726274
-theory,Defence,lq_bus,regression,coverage_4g,0.02768103691876466
-theory,Defence,lq_bus,regression,housing_net_additions,0.11170507704947083
-theory,Defence,lq_bus,regression,related_variety,0.004756043418362945
-theory,Defence,gd_emp,regression,nvq_level3,0.07493400737718627
-theory,Defence,gd_emp,regression,gcse_age19,0.26259568660615196
-theory,Defence,gd_emp,regression,apprenticeship_starts,0.12457387275062881
-theory,Defence,gd_emp,regression,apprenticeship_achievements,0.074065968536984
-theory,Defence,gd_emp,regression,fe_participation,0.04167386915465579
-theory,Defence,gd_emp,regression,enterprise_birth_rate,0.04170333843953075
-theory,Defence,gd_emp,regression,enterprise_death_rate,0.02502557545738575
-theory,Defence,gd_emp,regression,enterprise_high_growth_rate,0.042301459950408286
-theory,Defence,gd_emp,regression,broadband,0.07291270372747646
-theory,Defence,gd_emp,regression,coverage_4g,0.034649883110599994
-theory,Defence,gd_emp,regression,housing_net_additions,0.02285919929837683
-theory,Defence,gd_emp,regression,related_variety,0.18270443559061508
-theory,Defence,lq_emp_binary,classification,nvq_level3,0.050150937636699144
-theory,Defence,lq_emp_binary,classification,gcse_age19,0.05720128993768589
-theory,Defence,lq_emp_binary,classification,apprenticeship_starts,0.12902179238682768
-theory,Defence,lq_emp_binary,classification,apprenticeship_achievements,0.10809161676339951
-theory,Defence,lq_emp_binary,classification,fe_participation,0.0777821128111965
-theory,Defence,lq_emp_binary,classification,enterprise_birth_rate,0.08116708068168554
-theory,Defence,lq_emp_binary,classification,enterprise_death_rate,0.02479323265599329
-theory,Defence,lq_emp_binary,classification,enterprise_high_growth_rate,0.0758196836098141
-theory,Defence,lq_emp_binary,classification,broadband,0.10578855354581386
-theory,Defence,lq_emp_binary,classification,coverage_4g,0.03497314318104437
-theory,Defence,lq_emp_binary,classification,housing_net_additions,0.07530664702211404
-theory,Defence,lq_emp_binary,classification,related_variety,0.17990390976772616
-theory,Defence,lq_bus_binary,classification,nvq_level3,0.02768729306694691
-theory,Defence,lq_bus_binary,classification,gcse_age19,0.0875612657222112
-theory,Defence,lq_bus_binary,classification,apprenticeship_starts,0.1499529474358775
-theory,Defence,lq_bus_binary,classification,apprenticeship_achievements,0.10180353891357546
-theory,Defence,lq_bus_binary,classification,fe_participation,0.1450068508842997
-theory,Defence,lq_bus_binary,classification,enterprise_birth_rate,0.06997876686931594
-theory,Defence,lq_bus_binary,classification,enterprise_death_rate,0.03679265214880109
-theory,Defence,lq_bus_binary,classification,enterprise_high_growth_rate,0.051345003368731115
-theory,Defence,lq_bus_binary,classification,broadband,0.13259497207853696
-theory,Defence,lq_bus_binary,classification,coverage_4g,0.08100332681501568
-theory,Defence,lq_bus_binary,classification,housing_net_additions,0.09346003743506062
-theory,Defence,lq_bus_binary,classification,related_variety,0.022813345261627958
-theory,Defence,gd_emp_binary,classification,nvq_level3,0.09651632608892707
-theory,Defence,gd_emp_binary,classification,gcse_age19,0.3046747202056028
-theory,Defence,gd_emp_binary,classification,apprenticeship_starts,0.08043962425112404
-theory,Defence,gd_emp_binary,classification,apprenticeship_achievements,0.027687824212850206
-theory,Defence,gd_emp_binary,classification,fe_participation,0.060817095632765245
-theory,Defence,gd_emp_binary,classification,enterprise_birth_rate,0.06572607873466532
-theory,Defence,gd_emp_binary,classification,enterprise_death_rate,0.0361255627766043
-theory,Defence,gd_emp_binary,classification,enterprise_high_growth_rate,0.08195890700630869
-theory,Defence,gd_emp_binary,classification,broadband,0.04329247584778748
-theory,Defence,gd_emp_binary,classification,coverage_4g,0.02243138919616291
-theory,Defence,gd_emp_binary,classification,housing_net_additions,0.06559688106796731
-theory,Defence,gd_emp_binary,classification,related_variety,0.1147331149792346
-theory,Digital and Technologies,lq_emp,regression,nvq_level3,0.3422514375155232
-theory,Digital and Technologies,lq_emp,regression,gcse_age19,0.09745644821003939
-theory,Digital and Technologies,lq_emp,regression,apprenticeship_starts,0.02985471248208119
-theory,Digital and Technologies,lq_emp,regression,apprenticeship_achievements,0.027070163619481048
-theory,Digital and Technologies,lq_emp,regression,fe_participation,0.06196776252443227
-theory,Digital and Technologies,lq_emp,regression,enterprise_birth_rate,0.010445789130501744
-theory,Digital and Technologies,lq_emp,regression,enterprise_death_rate,0.012261313298578972
-theory,Digital and Technologies,lq_emp,regression,enterprise_high_growth_rate,0.24614883927526993
-theory,Digital and Technologies,lq_emp,regression,broadband,0.029128288508726435
-theory,Digital and Technologies,lq_emp,regression,coverage_4g,0.00818822192125115
-theory,Digital and Technologies,lq_emp,regression,housing_net_additions,0.027022977389723167
-theory,Digital and Technologies,lq_emp,regression,related_variety,0.10820404612439162
-theory,Digital and Technologies,lq_bus,regression,nvq_level3,0.25957850273448996
-theory,Digital and Technologies,lq_bus,regression,gcse_age19,0.06756565233420832
-theory,Digital and Technologies,lq_bus,regression,apprenticeship_starts,0.27235993819994536
-theory,Digital and Technologies,lq_bus,regression,apprenticeship_achievements,0.19179874044347742
-theory,Digital and Technologies,lq_bus,regression,fe_participation,0.026078676476166917
-theory,Digital and Technologies,lq_bus,regression,enterprise_birth_rate,0.009432844907328364
-theory,Digital and Technologies,lq_bus,regression,enterprise_death_rate,0.024800894017734016
-theory,Digital and Technologies,lq_bus,regression,enterprise_high_growth_rate,0.053623875438262296
-theory,Digital and Technologies,lq_bus,regression,broadband,0.044988465092180935
-theory,Digital and Technologies,lq_bus,regression,coverage_4g,0.021041258250890853
-theory,Digital and Technologies,lq_bus,regression,housing_net_additions,0.003250517511048083
-theory,Digital and Technologies,lq_bus,regression,related_variety,0.025480634594267495
-theory,Digital and Technologies,gd_emp,regression,nvq_level3,0.08215295823880814
-theory,Digital and Technologies,gd_emp,regression,gcse_age19,0.08805397219105253
-theory,Digital and Technologies,gd_emp,regression,apprenticeship_starts,0.030880384706924308
-theory,Digital and Technologies,gd_emp,regression,apprenticeship_achievements,0.04698066194038394
-theory,Digital and Technologies,gd_emp,regression,fe_participation,0.04671412091543314
-theory,Digital and Technologies,gd_emp,regression,enterprise_birth_rate,0.06149231605194496
-theory,Digital and Technologies,gd_emp,regression,enterprise_death_rate,0.04376251120176449
-theory,Digital and Technologies,gd_emp,regression,enterprise_high_growth_rate,0.3322055943025754
-theory,Digital and Technologies,gd_emp,regression,broadband,0.033226173728565706
-theory,Digital and Technologies,gd_emp,regression,coverage_4g,0.00942617446206836
-theory,Digital and Technologies,gd_emp,regression,housing_net_additions,0.15374987961118608
-theory,Digital and Technologies,gd_emp,regression,related_variety,0.07135525264929278
-theory,Digital and Technologies,gd_bus,regression,nvq_level3,0.05431861507962738
-theory,Digital and Technologies,gd_bus,regression,gcse_age19,0.03260689140236082
-theory,Digital and Technologies,gd_bus,regression,apprenticeship_starts,0.12492033869401596
-theory,Digital and Technologies,gd_bus,regression,apprenticeship_achievements,0.03704103800451295
-theory,Digital and Technologies,gd_bus,regression,fe_participation,0.23250421275767832
-theory,Digital and Technologies,gd_bus,regression,enterprise_birth_rate,0.031201755590665254
-theory,Digital and Technologies,gd_bus,regression,enterprise_death_rate,0.0843000465367485
-theory,Digital and Technologies,gd_bus,regression,enterprise_high_growth_rate,0.23211575790587693
-theory,Digital and Technologies,gd_bus,regression,broadband,0.053807926193013784
-theory,Digital and Technologies,gd_bus,regression,coverage_4g,0.024595811884528244
-theory,Digital and Technologies,gd_bus,regression,housing_net_additions,0.020708841736272982
-theory,Digital and Technologies,gd_bus,regression,related_variety,0.07187876421469895
-theory,Digital and Technologies,lq_emp_binary,classification,nvq_level3,0.14902022709498308
-theory,Digital and Technologies,lq_emp_binary,classification,gcse_age19,0.16931990719823364
-theory,Digital and Technologies,lq_emp_binary,classification,apprenticeship_starts,0.0800331170792818
-theory,Digital and Technologies,lq_emp_binary,classification,apprenticeship_achievements,0.05195243397859807
-theory,Digital and Technologies,lq_emp_binary,classification,fe_participation,0.15298762167629368
-theory,Digital and Technologies,lq_emp_binary,classification,enterprise_birth_rate,0.047347697098960244
-theory,Digital and Technologies,lq_emp_binary,classification,enterprise_death_rate,0.05221461665564815
-theory,Digital and Technologies,lq_emp_binary,classification,enterprise_high_growth_rate,0.14286728079745584
-theory,Digital and Technologies,lq_emp_binary,classification,broadband,0.058495071481053235
-theory,Digital and Technologies,lq_emp_binary,classification,coverage_4g,0.011088185060772757
-theory,Digital and Technologies,lq_emp_binary,classification,housing_net_additions,0.03461854787309873
-theory,Digital and Technologies,lq_emp_binary,classification,related_variety,0.05005529400562073
-theory,Digital and Technologies,lq_bus_binary,classification,nvq_level3,0.21840060114609303
-theory,Digital and Technologies,lq_bus_binary,classification,gcse_age19,0.14291053430905606
-theory,Digital and Technologies,lq_bus_binary,classification,apprenticeship_starts,0.21197894050288818
-theory,Digital and Technologies,lq_bus_binary,classification,apprenticeship_achievements,0.14769041637453034
-theory,Digital and Technologies,lq_bus_binary,classification,fe_participation,0.05757319950768124
-theory,Digital and Technologies,lq_bus_binary,classification,enterprise_birth_rate,0.0205282893705772
-theory,Digital and Technologies,lq_bus_binary,classification,enterprise_death_rate,0.03645898171178197
-theory,Digital and Technologies,lq_bus_binary,classification,enterprise_high_growth_rate,0.023379182501994673
-theory,Digital and Technologies,lq_bus_binary,classification,broadband,0.08550799715667143
-theory,Digital and Technologies,lq_bus_binary,classification,coverage_4g,0.014616000405355885
-theory,Digital and Technologies,lq_bus_binary,classification,housing_net_additions,0.014929937142314238
-theory,Digital and Technologies,lq_bus_binary,classification,related_variety,0.026025919871055708
-theory,Digital and Technologies,gd_emp_binary,classification,nvq_level3,0.09699177191572353
-theory,Digital and Technologies,gd_emp_binary,classification,gcse_age19,0.10695176589604896
-theory,Digital and Technologies,gd_emp_binary,classification,apprenticeship_starts,0.0922331197403656
-theory,Digital and Technologies,gd_emp_binary,classification,apprenticeship_achievements,0.056859567474210934
-theory,Digital and Technologies,gd_emp_binary,classification,fe_participation,0.0635265382809688
-theory,Digital and Technologies,gd_emp_binary,classification,enterprise_birth_rate,0.09597918807526751
-theory,Digital and Technologies,gd_emp_binary,classification,enterprise_death_rate,0.07357102361385912
-theory,Digital and Technologies,gd_emp_binary,classification,enterprise_high_growth_rate,0.15056047287264476
-theory,Digital and Technologies,gd_emp_binary,classification,broadband,0.08159331443952379
-theory,Digital and Technologies,gd_emp_binary,classification,coverage_4g,0.029932220069197456
-theory,Digital and Technologies,gd_emp_binary,classification,housing_net_additions,0.08319202397277733
-theory,Digital and Technologies,gd_emp_binary,classification,related_variety,0.06860899364941211
-theory,Digital and Technologies,gd_bus_binary,classification,nvq_level3,0.04596166183822947
-theory,Digital and Technologies,gd_bus_binary,classification,gcse_age19,0.119873786493078
-theory,Digital and Technologies,gd_bus_binary,classification,apprenticeship_starts,0.07930433194719724
-theory,Digital and Technologies,gd_bus_binary,classification,apprenticeship_achievements,0.0630167116613607
-theory,Digital and Technologies,gd_bus_binary,classification,fe_participation,0.10451491516825656
-theory,Digital and Technologies,gd_bus_binary,classification,enterprise_birth_rate,0.08760706510087474
-theory,Digital and Technologies,gd_bus_binary,classification,enterprise_death_rate,0.09524613320747871
-theory,Digital and Technologies,gd_bus_binary,classification,enterprise_high_growth_rate,0.1426526295812479
-theory,Digital and Technologies,gd_bus_binary,classification,broadband,0.07626395864083073
-theory,Digital and Technologies,gd_bus_binary,classification,coverage_4g,0.056341503697020484
-theory,Digital and Technologies,gd_bus_binary,classification,housing_net_additions,0.054208425281735195
-theory,Digital and Technologies,gd_bus_binary,classification,related_variety,0.07500887738269026
-theory,Financial Services,lq_emp,regression,nvq_level3,0.0873511041453223
-theory,Financial Services,lq_emp,regression,gcse_age19,0.03629493134634517
-theory,Financial Services,lq_emp,regression,apprenticeship_starts,0.048098219261799996
-theory,Financial Services,lq_emp,regression,apprenticeship_achievements,0.08496459809062679
-theory,Financial Services,lq_emp,regression,fe_participation,0.08525450927910622
-theory,Financial Services,lq_emp,regression,enterprise_birth_rate,0.04637522111694374
-theory,Financial Services,lq_emp,regression,enterprise_death_rate,0.07177247070233679
-theory,Financial Services,lq_emp,regression,enterprise_high_growth_rate,0.31847429027184
-theory,Financial Services,lq_emp,regression,broadband,0.06278107730366475
-theory,Financial Services,lq_emp,regression,coverage_4g,0.007641831242797091
-theory,Financial Services,lq_emp,regression,housing_net_additions,0.031037583341753085
-theory,Financial Services,lq_emp,regression,related_variety,0.11995416389746408
-theory,Financial Services,lq_bus,regression,nvq_level3,0.07668468017910494
-theory,Financial Services,lq_bus,regression,gcse_age19,0.020887608651083682
-theory,Financial Services,lq_bus,regression,apprenticeship_starts,0.022127807430984067
-theory,Financial Services,lq_bus,regression,apprenticeship_achievements,0.04634098320642186
-theory,Financial Services,lq_bus,regression,fe_participation,0.033776354969613086
-theory,Financial Services,lq_bus,regression,enterprise_birth_rate,0.0061273885768343165
-theory,Financial Services,lq_bus,regression,enterprise_death_rate,0.016210504881673377
-theory,Financial Services,lq_bus,regression,enterprise_high_growth_rate,0.375168443288917
-theory,Financial Services,lq_bus,regression,broadband,0.03882832908154578
-theory,Financial Services,lq_bus,regression,coverage_4g,0.011442908164357755
-theory,Financial Services,lq_bus,regression,housing_net_additions,0.009359402137025987
-theory,Financial Services,lq_bus,regression,related_variety,0.34304558943243824
-theory,Financial Services,gd_emp,regression,nvq_level3,0.07026897425585237
-theory,Financial Services,gd_emp,regression,gcse_age19,0.0751660152622532
-theory,Financial Services,gd_emp,regression,apprenticeship_starts,0.09494199279499002
-theory,Financial Services,gd_emp,regression,apprenticeship_achievements,0.06758894934466932
-theory,Financial Services,gd_emp,regression,fe_participation,0.0905058646699153
-theory,Financial Services,gd_emp,regression,enterprise_birth_rate,0.08106300248084873
-theory,Financial Services,gd_emp,regression,enterprise_death_rate,0.04495701352945666
-theory,Financial Services,gd_emp,regression,enterprise_high_growth_rate,0.18921512760893808
-theory,Financial Services,gd_emp,regression,broadband,0.12157188788923566
-theory,Financial Services,gd_emp,regression,coverage_4g,0.04503859403993897
-theory,Financial Services,gd_emp,regression,housing_net_additions,0.06914454340414075
-theory,Financial Services,gd_emp,regression,related_variety,0.05053803471976103
-theory,Financial Services,gd_bus,regression,nvq_level3,0.033706655714734926
-theory,Financial Services,gd_bus,regression,gcse_age19,0.07548278375256319
-theory,Financial Services,gd_bus,regression,apprenticeship_starts,0.036361098039481565
-theory,Financial Services,gd_bus,regression,apprenticeship_achievements,0.03191550454071604
-theory,Financial Services,gd_bus,regression,fe_participation,0.03088832793431987
-theory,Financial Services,gd_bus,regression,enterprise_birth_rate,0.1831552242503463
-theory,Financial Services,gd_bus,regression,enterprise_death_rate,0.04053508271863085
-theory,Financial Services,gd_bus,regression,enterprise_high_growth_rate,0.027811913783923812
-theory,Financial Services,gd_bus,regression,broadband,0.04551522048842404
-theory,Financial Services,gd_bus,regression,coverage_4g,0.07544371601303014
-theory,Financial Services,gd_bus,regression,housing_net_additions,0.06656747263972228
-theory,Financial Services,gd_bus,regression,related_variety,0.35261700012410707
-theory,Financial Services,lq_emp_binary,classification,nvq_level3,0.11343617724757626
-theory,Financial Services,lq_emp_binary,classification,gcse_age19,0.10045378111165013
-theory,Financial Services,lq_emp_binary,classification,apprenticeship_starts,0.07545528696292636
-theory,Financial Services,lq_emp_binary,classification,apprenticeship_achievements,0.05482126131530262
-theory,Financial Services,lq_emp_binary,classification,fe_participation,0.0726646081594941
-theory,Financial Services,lq_emp_binary,classification,enterprise_birth_rate,0.07287883368872482
-theory,Financial Services,lq_emp_binary,classification,enterprise_death_rate,0.060912882350138614
-theory,Financial Services,lq_emp_binary,classification,enterprise_high_growth_rate,0.12230386018835299
-theory,Financial Services,lq_emp_binary,classification,broadband,0.09067506266827255
-theory,Financial Services,lq_emp_binary,classification,coverage_4g,0.012707388495680996
-theory,Financial Services,lq_emp_binary,classification,housing_net_additions,0.0490647951802761
-theory,Financial Services,lq_emp_binary,classification,related_variety,0.1746260626316045
-theory,Financial Services,lq_bus_binary,classification,nvq_level3,0.10152903945894291
-theory,Financial Services,lq_bus_binary,classification,gcse_age19,0.06477670967658597
-theory,Financial Services,lq_bus_binary,classification,apprenticeship_starts,0.07479980371332567
-theory,Financial Services,lq_bus_binary,classification,apprenticeship_achievements,0.08522571877712629
-theory,Financial Services,lq_bus_binary,classification,fe_participation,0.04621556503028131
-theory,Financial Services,lq_bus_binary,classification,enterprise_birth_rate,0.04984034819327434
-theory,Financial Services,lq_bus_binary,classification,enterprise_death_rate,0.06973548327420337
-theory,Financial Services,lq_bus_binary,classification,enterprise_high_growth_rate,0.22628139106167314
-theory,Financial Services,lq_bus_binary,classification,broadband,0.08023981739831569
-theory,Financial Services,lq_bus_binary,classification,coverage_4g,0.02989516456936197
-theory,Financial Services,lq_bus_binary,classification,housing_net_additions,0.03687329314326207
-theory,Financial Services,lq_bus_binary,classification,related_variety,0.13458766570364727
-theory,Financial Services,gd_emp_binary,classification,nvq_level3,0.04330298439926863
-theory,Financial Services,gd_emp_binary,classification,gcse_age19,0.049469314772462095
-theory,Financial Services,gd_emp_binary,classification,apprenticeship_starts,0.06082213016209373
-theory,Financial Services,gd_emp_binary,classification,apprenticeship_achievements,0.0408960081595188
-theory,Financial Services,gd_emp_binary,classification,fe_participation,0.0804759261242102
-theory,Financial Services,gd_emp_binary,classification,enterprise_birth_rate,0.08693887140038421
-theory,Financial Services,gd_emp_binary,classification,enterprise_death_rate,0.08480506634577999
-theory,Financial Services,gd_emp_binary,classification,enterprise_high_growth_rate,0.23853540045296517
-theory,Financial Services,gd_emp_binary,classification,broadband,0.10064245303825035
-theory,Financial Services,gd_emp_binary,classification,coverage_4g,0.04195232995419498
-theory,Financial Services,gd_emp_binary,classification,housing_net_additions,0.07487086368536977
-theory,Financial Services,gd_emp_binary,classification,related_variety,0.09728865150550219
-theory,Financial Services,gd_bus_binary,classification,nvq_level3,0.04486743752935467
-theory,Financial Services,gd_bus_binary,classification,gcse_age19,0.12234884637502605
-theory,Financial Services,gd_bus_binary,classification,apprenticeship_starts,0.05919281387581185
-theory,Financial Services,gd_bus_binary,classification,apprenticeship_achievements,0.05093031487145475
-theory,Financial Services,gd_bus_binary,classification,fe_participation,0.10723612423537987
-theory,Financial Services,gd_bus_binary,classification,enterprise_birth_rate,0.176258399937281
-theory,Financial Services,gd_bus_binary,classification,enterprise_death_rate,0.08524528677040116
-theory,Financial Services,gd_bus_binary,classification,enterprise_high_growth_rate,0.061696368248155366
-theory,Financial Services,gd_bus_binary,classification,broadband,0.10702475004012772
-theory,Financial Services,gd_bus_binary,classification,coverage_4g,0.06656933043689836
-theory,Financial Services,gd_bus_binary,classification,housing_net_additions,0.05032614508587112
-theory,Financial Services,gd_bus_binary,classification,related_variety,0.0683041825942379
-theory,Life Sciences,lq_emp,regression,nvq_level3,0.11301250175378619
-theory,Life Sciences,lq_emp,regression,gcse_age19,0.16468403368388232
-theory,Life Sciences,lq_emp,regression,apprenticeship_starts,0.029669245105279626
-theory,Life Sciences,lq_emp,regression,apprenticeship_achievements,0.017833286811029248
-theory,Life Sciences,lq_emp,regression,fe_participation,0.20081057510054817
-theory,Life Sciences,lq_emp,regression,enterprise_birth_rate,0.035853278629684196
-theory,Life Sciences,lq_emp,regression,enterprise_death_rate,0.012983945308670216
-theory,Life Sciences,lq_emp,regression,enterprise_high_growth_rate,0.04554798718566034
-theory,Life Sciences,lq_emp,regression,broadband,0.11079204368612554
-theory,Life Sciences,lq_emp,regression,coverage_4g,0.064784961665673
-theory,Life Sciences,lq_emp,regression,housing_net_additions,0.02861083296960424
-theory,Life Sciences,lq_emp,regression,related_variety,0.17541730810005696
-theory,Life Sciences,lq_bus,regression,nvq_level3,0.1697112780501523
-theory,Life Sciences,lq_bus,regression,gcse_age19,0.01459618349516193
-theory,Life Sciences,lq_bus,regression,apprenticeship_starts,0.04243392384494204
-theory,Life Sciences,lq_bus,regression,apprenticeship_achievements,0.014628334575332231
-theory,Life Sciences,lq_bus,regression,fe_participation,0.33554946130713825
-theory,Life Sciences,lq_bus,regression,enterprise_birth_rate,0.004176679386000489
-theory,Life Sciences,lq_bus,regression,enterprise_death_rate,0.005735225172348795
-theory,Life Sciences,lq_bus,regression,enterprise_high_growth_rate,0.17401597653389744
-theory,Life Sciences,lq_bus,regression,broadband,0.014019671474017115
-theory,Life Sciences,lq_bus,regression,coverage_4g,0.0016829816272365178
-theory,Life Sciences,lq_bus,regression,housing_net_additions,0.016725503468683015
-theory,Life Sciences,lq_bus,regression,related_variety,0.20672478106508993
-theory,Life Sciences,gd_emp,regression,nvq_level3,0.11839437406665484
-theory,Life Sciences,gd_emp,regression,gcse_age19,0.11746411026809073
-theory,Life Sciences,gd_emp,regression,apprenticeship_starts,0.06444502227901834
-theory,Life Sciences,gd_emp,regression,apprenticeship_achievements,0.05589687769731102
-theory,Life Sciences,gd_emp,regression,fe_participation,0.13276444782530633
-theory,Life Sciences,gd_emp,regression,enterprise_birth_rate,0.0715710043390372
-theory,Life Sciences,gd_emp,regression,enterprise_death_rate,0.04477425350274042
-theory,Life Sciences,gd_emp,regression,enterprise_high_growth_rate,0.10855691631523176
-theory,Life Sciences,gd_emp,regression,broadband,0.07075741117832594
-theory,Life Sciences,gd_emp,regression,coverage_4g,0.014397274872419432
-theory,Life Sciences,gd_emp,regression,housing_net_additions,0.14581296913763095
-theory,Life Sciences,gd_emp,regression,related_variety,0.055165338518232916
-theory,Life Sciences,gd_bus,regression,nvq_level3,0.10547023896958913
-theory,Life Sciences,gd_bus,regression,gcse_age19,0.03930622193005082
-theory,Life Sciences,gd_bus,regression,apprenticeship_starts,0.03311127508129604
-theory,Life Sciences,gd_bus,regression,apprenticeship_achievements,0.02187797215130048
-theory,Life Sciences,gd_bus,regression,fe_participation,0.05015137435898425
-theory,Life Sciences,gd_bus,regression,enterprise_birth_rate,0.09336468075356893
-theory,Life Sciences,gd_bus,regression,enterprise_death_rate,0.06457643796518811
-theory,Life Sciences,gd_bus,regression,enterprise_high_growth_rate,0.3839688251873808
-theory,Life Sciences,gd_bus,regression,broadband,0.07700162585263447
-theory,Life Sciences,gd_bus,regression,coverage_4g,0.012342240969785461
-theory,Life Sciences,gd_bus,regression,housing_net_additions,0.04378707471515936
-theory,Life Sciences,gd_bus,regression,related_variety,0.07504203206506217
-theory,Life Sciences,lq_emp_binary,classification,nvq_level3,0.0660704269632202
-theory,Life Sciences,lq_emp_binary,classification,gcse_age19,0.10202770182967329
-theory,Life Sciences,lq_emp_binary,classification,apprenticeship_starts,0.07458846729696704
-theory,Life Sciences,lq_emp_binary,classification,apprenticeship_achievements,0.06545814050531411
-theory,Life Sciences,lq_emp_binary,classification,fe_participation,0.17010812269896622
-theory,Life Sciences,lq_emp_binary,classification,enterprise_birth_rate,0.0816751172825553
-theory,Life Sciences,lq_emp_binary,classification,enterprise_death_rate,0.07433979019727624
-theory,Life Sciences,lq_emp_binary,classification,enterprise_high_growth_rate,0.07114990752385873
-theory,Life Sciences,lq_emp_binary,classification,broadband,0.062350481745469824
-theory,Life Sciences,lq_emp_binary,classification,coverage_4g,0.01971591465745598
-theory,Life Sciences,lq_emp_binary,classification,housing_net_additions,0.04811138453659898
-theory,Life Sciences,lq_emp_binary,classification,related_variety,0.1644045447626439
-theory,Life Sciences,lq_bus_binary,classification,nvq_level3,0.12173335414764902
-theory,Life Sciences,lq_bus_binary,classification,gcse_age19,0.07626797716431413
-theory,Life Sciences,lq_bus_binary,classification,apprenticeship_starts,0.0820286923316168
-theory,Life Sciences,lq_bus_binary,classification,apprenticeship_achievements,0.04473329848838788
-theory,Life Sciences,lq_bus_binary,classification,fe_participation,0.10060975674896128
-theory,Life Sciences,lq_bus_binary,classification,enterprise_birth_rate,0.03844078915482129
-theory,Life Sciences,lq_bus_binary,classification,enterprise_death_rate,0.04346457195322885
-theory,Life Sciences,lq_bus_binary,classification,enterprise_high_growth_rate,0.22736600527451245
-theory,Life Sciences,lq_bus_binary,classification,broadband,0.03279870441484562
-theory,Life Sciences,lq_bus_binary,classification,coverage_4g,0.016983355477369236
-theory,Life Sciences,lq_bus_binary,classification,housing_net_additions,0.0856423986595959
-theory,Life Sciences,lq_bus_binary,classification,related_variety,0.12993109618469745
-theory,Life Sciences,gd_emp_binary,classification,nvq_level3,0.12828269297624592
-theory,Life Sciences,gd_emp_binary,classification,gcse_age19,0.09999304412378626
-theory,Life Sciences,gd_emp_binary,classification,apprenticeship_starts,0.07972039975640598
-theory,Life Sciences,gd_emp_binary,classification,apprenticeship_achievements,0.08212460697203489
-theory,Life Sciences,gd_emp_binary,classification,fe_participation,0.08423459250154364
-theory,Life Sciences,gd_emp_binary,classification,enterprise_birth_rate,0.07300070557108405
-theory,Life Sciences,gd_emp_binary,classification,enterprise_death_rate,0.08419260999825057
-theory,Life Sciences,gd_emp_binary,classification,enterprise_high_growth_rate,0.10907939298777773
-theory,Life Sciences,gd_emp_binary,classification,broadband,0.07666799789409359
-theory,Life Sciences,gd_emp_binary,classification,coverage_4g,0.05137376674312571
-theory,Life Sciences,gd_emp_binary,classification,housing_net_additions,0.04875979417395466
-theory,Life Sciences,gd_emp_binary,classification,related_variety,0.0825703963016969
-theory,Life Sciences,gd_bus_binary,classification,nvq_level3,0.06873566708849395
-theory,Life Sciences,gd_bus_binary,classification,gcse_age19,0.07303224444715224
-theory,Life Sciences,gd_bus_binary,classification,apprenticeship_starts,0.07272161932657173
-theory,Life Sciences,gd_bus_binary,classification,apprenticeship_achievements,0.035684470848734266
-theory,Life Sciences,gd_bus_binary,classification,fe_participation,0.06846710451394664
-theory,Life Sciences,gd_bus_binary,classification,enterprise_birth_rate,0.15813858883161616
-theory,Life Sciences,gd_bus_binary,classification,enterprise_death_rate,0.06872171817900655
-theory,Life Sciences,gd_bus_binary,classification,enterprise_high_growth_rate,0.15206007995142395
-theory,Life Sciences,gd_bus_binary,classification,broadband,0.14404473939048773
-theory,Life Sciences,gd_bus_binary,classification,coverage_4g,0.020312833486738263
-theory,Life Sciences,gd_bus_binary,classification,housing_net_additions,0.05367852677341452
-theory,Life Sciences,gd_bus_binary,classification,related_variety,0.08440240716241394
-theory,Professional and Business Services,lq_emp,regression,nvq_level3,0.07271237925550245
-theory,Professional and Business Services,lq_emp,regression,gcse_age19,0.14342959079741968
-theory,Professional and Business Services,lq_emp,regression,apprenticeship_starts,0.22863492435692584
-theory,Professional and Business Services,lq_emp,regression,apprenticeship_achievements,0.025652894650929795
-theory,Professional and Business Services,lq_emp,regression,fe_participation,0.05781539609550878
-theory,Professional and Business Services,lq_emp,regression,enterprise_birth_rate,0.021762113936724514
-theory,Professional and Business Services,lq_emp,regression,enterprise_death_rate,0.07970132057828361
-theory,Professional and Business Services,lq_emp,regression,enterprise_high_growth_rate,0.26389138074119733
-theory,Professional and Business Services,lq_emp,regression,broadband,0.04602498097725983
-theory,Professional and Business Services,lq_emp,regression,coverage_4g,0.012080405057960358
-theory,Professional and Business Services,lq_emp,regression,housing_net_additions,0.021462273090729702
-theory,Professional and Business Services,lq_emp,regression,related_variety,0.0268323404615581
-theory,Professional and Business Services,lq_bus,regression,nvq_level3,0.4168563799440214
-theory,Professional and Business Services,lq_bus,regression,gcse_age19,0.10268216960851126
-theory,Professional and Business Services,lq_bus,regression,apprenticeship_starts,0.26653878020432986
-theory,Professional and Business Services,lq_bus,regression,apprenticeship_achievements,0.051317492455570254
-theory,Professional and Business Services,lq_bus,regression,fe_participation,0.02541705010767556
-theory,Professional and Business Services,lq_bus,regression,enterprise_birth_rate,0.020824246538389424
-theory,Professional and Business Services,lq_bus,regression,enterprise_death_rate,0.009345471703322478
-theory,Professional and Business Services,lq_bus,regression,enterprise_high_growth_rate,0.040276702561645374
-theory,Professional and Business Services,lq_bus,regression,broadband,0.015133208309980608
-theory,Professional and Business Services,lq_bus,regression,coverage_4g,0.019410654462202685
-theory,Professional and Business Services,lq_bus,regression,housing_net_additions,0.011968812404822003
-theory,Professional and Business Services,lq_bus,regression,related_variety,0.020229031699529113
-theory,Professional and Business Services,gd_emp,regression,nvq_level3,0.13440650362626827
-theory,Professional and Business Services,gd_emp,regression,gcse_age19,0.0827051114246716
-theory,Professional and Business Services,gd_emp,regression,apprenticeship_starts,0.06917799486526563
-theory,Professional and Business Services,gd_emp,regression,apprenticeship_achievements,0.07243329810729417
-theory,Professional and Business Services,gd_emp,regression,fe_participation,0.09493809362000563
-theory,Professional and Business Services,gd_emp,regression,enterprise_birth_rate,0.040289000383133544
-theory,Professional and Business Services,gd_emp,regression,enterprise_death_rate,0.14467027326322912
-theory,Professional and Business Services,gd_emp,regression,enterprise_high_growth_rate,0.16122088365062598
-theory,Professional and Business Services,gd_emp,regression,broadband,0.06676763623415441
-theory,Professional and Business Services,gd_emp,regression,coverage_4g,0.04707389538753962
-theory,Professional and Business Services,gd_emp,regression,housing_net_additions,0.04313534298719552
-theory,Professional and Business Services,gd_emp,regression,related_variety,0.0431819664506165
-theory,Professional and Business Services,gd_bus,regression,nvq_level3,0.10736738918554048
-theory,Professional and Business Services,gd_bus,regression,gcse_age19,0.15067278033673853
-theory,Professional and Business Services,gd_bus,regression,apprenticeship_starts,0.1537051174958243
-theory,Professional and Business Services,gd_bus,regression,apprenticeship_achievements,0.026943628842824183
-theory,Professional and Business Services,gd_bus,regression,fe_participation,0.058742736927343775
-theory,Professional and Business Services,gd_bus,regression,enterprise_birth_rate,0.10339286638190938
-theory,Professional and Business Services,gd_bus,regression,enterprise_death_rate,0.13496904608048174
-theory,Professional and Business Services,gd_bus,regression,enterprise_high_growth_rate,0.05195112634178538
-theory,Professional and Business Services,gd_bus,regression,broadband,0.07240653332329108
-theory,Professional and Business Services,gd_bus,regression,coverage_4g,0.02814294752519651
-theory,Professional and Business Services,gd_bus,regression,housing_net_additions,0.01874311141114031
-theory,Professional and Business Services,gd_bus,regression,related_variety,0.09296271614792438
-theory,Professional and Business Services,lq_emp_binary,classification,nvq_level3,0.11859784170222187
-theory,Professional and Business Services,lq_emp_binary,classification,gcse_age19,0.17448632402151137
-theory,Professional and Business Services,lq_emp_binary,classification,apprenticeship_starts,0.17410877833514196
-theory,Professional and Business Services,lq_emp_binary,classification,apprenticeship_achievements,0.07836467445960718
-theory,Professional and Business Services,lq_emp_binary,classification,fe_participation,0.07902388844793967
-theory,Professional and Business Services,lq_emp_binary,classification,enterprise_birth_rate,0.046102164221658894
-theory,Professional and Business Services,lq_emp_binary,classification,enterprise_death_rate,0.07041407628888567
-theory,Professional and Business Services,lq_emp_binary,classification,enterprise_high_growth_rate,0.13989483215245407
-theory,Professional and Business Services,lq_emp_binary,classification,broadband,0.06196794930234703
-theory,Professional and Business Services,lq_emp_binary,classification,coverage_4g,0.00824354192102326
-theory,Professional and Business Services,lq_emp_binary,classification,housing_net_additions,0.01498513402842202
-theory,Professional and Business Services,lq_emp_binary,classification,related_variety,0.03381079511878707
-theory,Professional and Business Services,lq_bus_binary,classification,nvq_level3,0.24564230596276385
-theory,Professional and Business Services,lq_bus_binary,classification,gcse_age19,0.20683748580181258
-theory,Professional and Business Services,lq_bus_binary,classification,apprenticeship_starts,0.1932947929861407
-theory,Professional and Business Services,lq_bus_binary,classification,apprenticeship_achievements,0.1062313228271194
-theory,Professional and Business Services,lq_bus_binary,classification,fe_participation,0.08739684418587389
-theory,Professional and Business Services,lq_bus_binary,classification,enterprise_birth_rate,0.027988238180303077
-theory,Professional and Business Services,lq_bus_binary,classification,enterprise_death_rate,0.0196364903834956
-theory,Professional and Business Services,lq_bus_binary,classification,enterprise_high_growth_rate,0.03746510643598266
-theory,Professional and Business Services,lq_bus_binary,classification,broadband,0.031163565679627574
-theory,Professional and Business Services,lq_bus_binary,classification,coverage_4g,0.006932803605742089
-theory,Professional and Business Services,lq_bus_binary,classification,housing_net_additions,0.009661106106911892
-theory,Professional and Business Services,lq_bus_binary,classification,related_variety,0.027749937844226847
-theory,Professional and Business Services,gd_emp_binary,classification,nvq_level3,0.09964653691828601
-theory,Professional and Business Services,gd_emp_binary,classification,gcse_age19,0.05632612777120714
-theory,Professional and Business Services,gd_emp_binary,classification,apprenticeship_starts,0.0849825882877167
-theory,Professional and Business Services,gd_emp_binary,classification,apprenticeship_achievements,0.07563845420732696
-theory,Professional and Business Services,gd_emp_binary,classification,fe_participation,0.05402942725372205
-theory,Professional and Business Services,gd_emp_binary,classification,enterprise_birth_rate,0.06792328511266253
-theory,Professional and Business Services,gd_emp_binary,classification,enterprise_death_rate,0.08886062682042789
-theory,Professional and Business Services,gd_emp_binary,classification,enterprise_high_growth_rate,0.22067245315966696
-theory,Professional and Business Services,gd_emp_binary,classification,broadband,0.08281803050397404
-theory,Professional and Business Services,gd_emp_binary,classification,coverage_4g,0.0415731678180257
-theory,Professional and Business Services,gd_emp_binary,classification,housing_net_additions,0.0637944921719711
-theory,Professional and Business Services,gd_emp_binary,classification,related_variety,0.06373480997501299
-theory,Professional and Business Services,gd_bus_binary,classification,nvq_level3,0.09375733506737341
-theory,Professional and Business Services,gd_bus_binary,classification,gcse_age19,0.16534988971765946
-theory,Professional and Business Services,gd_bus_binary,classification,apprenticeship_starts,0.09007648037344981
-theory,Professional and Business Services,gd_bus_binary,classification,apprenticeship_achievements,0.06277217919980807
-theory,Professional and Business Services,gd_bus_binary,classification,fe_participation,0.09368779463411125
-theory,Professional and Business Services,gd_bus_binary,classification,enterprise_birth_rate,0.07074430041889818
-theory,Professional and Business Services,gd_bus_binary,classification,enterprise_death_rate,0.11943355134012473
-theory,Professional and Business Services,gd_bus_binary,classification,enterprise_high_growth_rate,0.0689591885256173
-theory,Professional and Business Services,gd_bus_binary,classification,broadband,0.1061898556085777
-theory,Professional and Business Services,gd_bus_binary,classification,coverage_4g,0.03813652503172197
-theory,Professional and Business Services,gd_bus_binary,classification,housing_net_additions,0.04442352625264779
-theory,Professional and Business Services,gd_bus_binary,classification,related_variety,0.04646937383001042
+theory,Advanced Manufacturing,lq_emp,regression,unemployment_rate,0.0930570738204331
+theory,Advanced Manufacturing,lq_emp,regression,transport_to_employer,0.022715632518552034
+theory,Advanced Manufacturing,lq_emp,regression,drive_to_employer,0.02103474227921225
+theory,Advanced Manufacturing,lq_emp,regression,cycle_to_employer,0.011822524263373532
+theory,Advanced Manufacturing,lq_emp,regression,broadband,0.0158607464487832
+theory,Advanced Manufacturing,lq_emp,regression,gcse_age19,0.032344109382615074
+theory,Advanced Manufacturing,lq_emp,regression,apprenticeship_achievements,0.24181680137582542
+theory,Advanced Manufacturing,lq_emp,regression,nvq_level3,0.04279991041670046
+theory,Advanced Manufacturing,lq_emp,regression,fe_participation,0.03738183626614854
+theory,Advanced Manufacturing,lq_emp,regression,housing_net_additions,0.15523481818617907
+theory,Advanced Manufacturing,lq_emp,regression,enterprise_birth_rate,0.03427726365373439
+theory,Advanced Manufacturing,lq_emp,regression,enterprise_death_rate,0.016718680626346606
+theory,Advanced Manufacturing,lq_emp,regression,n_universities_feecap_lad,0.011702118974161492
+theory,Advanced Manufacturing,lq_emp,regression,size_micro_share,0.26323374178793474
+theory,Advanced Manufacturing,lq_bus,regression,unemployment_rate,0.006988999178242458
+theory,Advanced Manufacturing,lq_bus,regression,transport_to_employer,0.019806857586848144
+theory,Advanced Manufacturing,lq_bus,regression,drive_to_employer,0.026972072526931297
+theory,Advanced Manufacturing,lq_bus,regression,cycle_to_employer,0.05036768173612546
+theory,Advanced Manufacturing,lq_bus,regression,broadband,0.018591278464879533
+theory,Advanced Manufacturing,lq_bus,regression,gcse_age19,0.0053909618121451355
+theory,Advanced Manufacturing,lq_bus,regression,apprenticeship_achievements,0.3558601528963219
+theory,Advanced Manufacturing,lq_bus,regression,nvq_level3,0.0347017647308354
+theory,Advanced Manufacturing,lq_bus,regression,fe_participation,0.027059510018517297
+theory,Advanced Manufacturing,lq_bus,regression,housing_net_additions,0.01765376764568374
+theory,Advanced Manufacturing,lq_bus,regression,enterprise_birth_rate,0.01805220461439065
+theory,Advanced Manufacturing,lq_bus,regression,enterprise_death_rate,0.021008872108176316
+theory,Advanced Manufacturing,lq_bus,regression,n_universities_feecap_lad,0.008003200077007737
+theory,Advanced Manufacturing,lq_bus,regression,size_micro_share,0.3895426766038952
+theory,Advanced Manufacturing,gd_emp,regression,unemployment_rate,0.08710278348997753
+theory,Advanced Manufacturing,gd_emp,regression,transport_to_employer,0.05127440620880952
+theory,Advanced Manufacturing,gd_emp,regression,drive_to_employer,0.04143804179789377
+theory,Advanced Manufacturing,gd_emp,regression,cycle_to_employer,0.14410646177976158
+theory,Advanced Manufacturing,gd_emp,regression,broadband,0.06394132669734129
+theory,Advanced Manufacturing,gd_emp,regression,gcse_age19,0.06087801516733511
+theory,Advanced Manufacturing,gd_emp,regression,apprenticeship_achievements,0.15250615642239715
+theory,Advanced Manufacturing,gd_emp,regression,nvq_level3,0.11481255296128647
+theory,Advanced Manufacturing,gd_emp,regression,fe_participation,0.08649173537823257
+theory,Advanced Manufacturing,gd_emp,regression,housing_net_additions,0.0381543796500503
+theory,Advanced Manufacturing,gd_emp,regression,enterprise_birth_rate,0.02991046763786614
+theory,Advanced Manufacturing,gd_emp,regression,enterprise_death_rate,0.035272655244190064
+theory,Advanced Manufacturing,gd_emp,regression,n_universities_feecap_lad,0.01078379207624385
+theory,Advanced Manufacturing,gd_emp,regression,size_micro_share,0.08332722548861465
+theory,Advanced Manufacturing,gd_bus,regression,unemployment_rate,0.016066556070851595
+theory,Advanced Manufacturing,gd_bus,regression,transport_to_employer,0.13725818499189252
+theory,Advanced Manufacturing,gd_bus,regression,drive_to_employer,0.044355050208567025
+theory,Advanced Manufacturing,gd_bus,regression,cycle_to_employer,0.22994528321001512
+theory,Advanced Manufacturing,gd_bus,regression,broadband,0.08760598133976899
+theory,Advanced Manufacturing,gd_bus,regression,gcse_age19,0.11172544195481415
+theory,Advanced Manufacturing,gd_bus,regression,apprenticeship_achievements,0.04461223084198
+theory,Advanced Manufacturing,gd_bus,regression,nvq_level3,0.049068259148264605
+theory,Advanced Manufacturing,gd_bus,regression,fe_participation,0.08839405667229232
+theory,Advanced Manufacturing,gd_bus,regression,housing_net_additions,0.015209285925804053
+theory,Advanced Manufacturing,gd_bus,regression,enterprise_birth_rate,0.04958422480265665
+theory,Advanced Manufacturing,gd_bus,regression,enterprise_death_rate,0.026801146144568817
+theory,Advanced Manufacturing,gd_bus,regression,n_universities_feecap_lad,0.048846460490489185
+theory,Advanced Manufacturing,gd_bus,regression,size_micro_share,0.05052783819803477
+theory,Advanced Manufacturing,lq_emp_binary,classification,unemployment_rate,0.03950632342640249
+theory,Advanced Manufacturing,lq_emp_binary,classification,transport_to_employer,0.08611952970565076
+theory,Advanced Manufacturing,lq_emp_binary,classification,drive_to_employer,0.0699223043325363
+theory,Advanced Manufacturing,lq_emp_binary,classification,cycle_to_employer,0.08419545090814805
+theory,Advanced Manufacturing,lq_emp_binary,classification,broadband,0.02896001801229612
+theory,Advanced Manufacturing,lq_emp_binary,classification,gcse_age19,0.05316592691242964
+theory,Advanced Manufacturing,lq_emp_binary,classification,apprenticeship_achievements,0.1652061522289699
+theory,Advanced Manufacturing,lq_emp_binary,classification,nvq_level3,0.05211415948605141
+theory,Advanced Manufacturing,lq_emp_binary,classification,fe_participation,0.048039499592785515
+theory,Advanced Manufacturing,lq_emp_binary,classification,housing_net_additions,0.03232419782873054
+theory,Advanced Manufacturing,lq_emp_binary,classification,enterprise_birth_rate,0.04253537278771592
+theory,Advanced Manufacturing,lq_emp_binary,classification,enterprise_death_rate,0.02964083874617309
+theory,Advanced Manufacturing,lq_emp_binary,classification,n_universities_feecap_lad,0.03048391586901132
+theory,Advanced Manufacturing,lq_emp_binary,classification,size_micro_share,0.23778631016309898
+theory,Advanced Manufacturing,lq_bus_binary,classification,unemployment_rate,0.020802623040659985
+theory,Advanced Manufacturing,lq_bus_binary,classification,transport_to_employer,0.07438090067990795
+theory,Advanced Manufacturing,lq_bus_binary,classification,drive_to_employer,0.06912984029377241
+theory,Advanced Manufacturing,lq_bus_binary,classification,cycle_to_employer,0.10433087897125728
+theory,Advanced Manufacturing,lq_bus_binary,classification,broadband,0.024841788281968247
+theory,Advanced Manufacturing,lq_bus_binary,classification,gcse_age19,0.03555280510082999
+theory,Advanced Manufacturing,lq_bus_binary,classification,apprenticeship_achievements,0.18192810671867377
+theory,Advanced Manufacturing,lq_bus_binary,classification,nvq_level3,0.061500186375411714
+theory,Advanced Manufacturing,lq_bus_binary,classification,fe_participation,0.034908516829165744
+theory,Advanced Manufacturing,lq_bus_binary,classification,housing_net_additions,0.02833398876218964
+theory,Advanced Manufacturing,lq_bus_binary,classification,enterprise_birth_rate,0.024238493380145422
+theory,Advanced Manufacturing,lq_bus_binary,classification,enterprise_death_rate,0.0259845678206578
+theory,Advanced Manufacturing,lq_bus_binary,classification,n_universities_feecap_lad,0.04526164421617143
+theory,Advanced Manufacturing,lq_bus_binary,classification,size_micro_share,0.2688056595291887
+theory,Advanced Manufacturing,gd_emp_binary,classification,unemployment_rate,0.061734694635376994
+theory,Advanced Manufacturing,gd_emp_binary,classification,transport_to_employer,0.09643186569265422
+theory,Advanced Manufacturing,gd_emp_binary,classification,drive_to_employer,0.0770245527349009
+theory,Advanced Manufacturing,gd_emp_binary,classification,cycle_to_employer,0.0884032665590844
+theory,Advanced Manufacturing,gd_emp_binary,classification,broadband,0.05208443749497021
+theory,Advanced Manufacturing,gd_emp_binary,classification,gcse_age19,0.06046305470131935
+theory,Advanced Manufacturing,gd_emp_binary,classification,apprenticeship_achievements,0.08171468047331716
+theory,Advanced Manufacturing,gd_emp_binary,classification,nvq_level3,0.10771557751449323
+theory,Advanced Manufacturing,gd_emp_binary,classification,fe_participation,0.06051695227566235
+theory,Advanced Manufacturing,gd_emp_binary,classification,housing_net_additions,0.0713310036614639
+theory,Advanced Manufacturing,gd_emp_binary,classification,enterprise_birth_rate,0.053653241493872884
+theory,Advanced Manufacturing,gd_emp_binary,classification,enterprise_death_rate,0.07771331632490792
+theory,Advanced Manufacturing,gd_emp_binary,classification,n_universities_feecap_lad,0.024288770838273174
+theory,Advanced Manufacturing,gd_emp_binary,classification,size_micro_share,0.08692458559970344
+theory,Advanced Manufacturing,gd_bus_binary,classification,unemployment_rate,0.03881078938169914
+theory,Advanced Manufacturing,gd_bus_binary,classification,transport_to_employer,0.1429434195438746
+theory,Advanced Manufacturing,gd_bus_binary,classification,drive_to_employer,0.11895965569453795
+theory,Advanced Manufacturing,gd_bus_binary,classification,cycle_to_employer,0.10717321012791105
+theory,Advanced Manufacturing,gd_bus_binary,classification,broadband,0.05692544378930835
+theory,Advanced Manufacturing,gd_bus_binary,classification,gcse_age19,0.08681004687633175
+theory,Advanced Manufacturing,gd_bus_binary,classification,apprenticeship_achievements,0.035629407233507465
+theory,Advanced Manufacturing,gd_bus_binary,classification,nvq_level3,0.05549171433358779
+theory,Advanced Manufacturing,gd_bus_binary,classification,fe_participation,0.07227361839704587
+theory,Advanced Manufacturing,gd_bus_binary,classification,housing_net_additions,0.04381414194897122
+theory,Advanced Manufacturing,gd_bus_binary,classification,enterprise_birth_rate,0.07015141288530838
+theory,Advanced Manufacturing,gd_bus_binary,classification,enterprise_death_rate,0.04755230819897304
+theory,Advanced Manufacturing,gd_bus_binary,classification,n_universities_feecap_lad,0.034951681740612944
+theory,Advanced Manufacturing,gd_bus_binary,classification,size_micro_share,0.08851314984833043
+theory,Creative Industries,lq_emp,regression,unemployment_rate,0.0016936727872511328
+theory,Creative Industries,lq_emp,regression,transport_to_employer,0.42178278523316404
+theory,Creative Industries,lq_emp,regression,drive_to_employer,0.011506474627353295
+theory,Creative Industries,lq_emp,regression,cycle_to_employer,0.1575299525030728
+theory,Creative Industries,lq_emp,regression,broadband,0.0011285019193310731
+theory,Creative Industries,lq_emp,regression,gcse_age19,0.045571704548349086
+theory,Creative Industries,lq_emp,regression,apprenticeship_achievements,0.0724457339441573
+theory,Creative Industries,lq_emp,regression,nvq_level3,0.1418824886902562
+theory,Creative Industries,lq_emp,regression,fe_participation,0.0032006998731168683
+theory,Creative Industries,lq_emp,regression,housing_net_additions,0.005049556765750137
+theory,Creative Industries,lq_emp,regression,enterprise_birth_rate,0.005901799150242987
+theory,Creative Industries,lq_emp,regression,enterprise_death_rate,0.014219049367635666
+theory,Creative Industries,lq_emp,regression,n_universities_feecap_lad,0.0005611618372960811
+theory,Creative Industries,lq_emp,regression,size_micro_share,0.11752641875302344
+theory,Creative Industries,lq_bus,regression,unemployment_rate,0.004468561871214497
+theory,Creative Industries,lq_bus,regression,transport_to_employer,0.09381834664326263
+theory,Creative Industries,lq_bus,regression,drive_to_employer,0.010461650905116698
+theory,Creative Industries,lq_bus,regression,cycle_to_employer,0.06076069481228146
+theory,Creative Industries,lq_bus,regression,broadband,0.0035620881570557657
+theory,Creative Industries,lq_bus,regression,gcse_age19,0.048271224229376
+theory,Creative Industries,lq_bus,regression,apprenticeship_achievements,0.624609827946127
+theory,Creative Industries,lq_bus,regression,nvq_level3,0.11496033194635329
+theory,Creative Industries,lq_bus,regression,fe_participation,0.018295496943067462
+theory,Creative Industries,lq_bus,regression,housing_net_additions,0.0022496154174614044
+theory,Creative Industries,lq_bus,regression,enterprise_birth_rate,0.004821322257712973
+theory,Creative Industries,lq_bus,regression,enterprise_death_rate,0.004150738176184876
+theory,Creative Industries,lq_bus,regression,n_universities_feecap_lad,0.001395750624353966
+theory,Creative Industries,lq_bus,regression,size_micro_share,0.00817435007043207
+theory,Creative Industries,gd_emp,regression,unemployment_rate,0.039483221730319366
+theory,Creative Industries,gd_emp,regression,transport_to_employer,0.04160799139308864
+theory,Creative Industries,gd_emp,regression,drive_to_employer,0.028685236665753067
+theory,Creative Industries,gd_emp,regression,cycle_to_employer,0.0368573320970888
+theory,Creative Industries,gd_emp,regression,broadband,0.05602727573077277
+theory,Creative Industries,gd_emp,regression,gcse_age19,0.059277473960903354
+theory,Creative Industries,gd_emp,regression,apprenticeship_achievements,0.08992597814436461
+theory,Creative Industries,gd_emp,regression,nvq_level3,0.05192236377791356
+theory,Creative Industries,gd_emp,regression,fe_participation,0.11612392063873919
+theory,Creative Industries,gd_emp,regression,housing_net_additions,0.15260726978353673
+theory,Creative Industries,gd_emp,regression,enterprise_birth_rate,0.060001567246604125
+theory,Creative Industries,gd_emp,regression,enterprise_death_rate,0.03512630660684398
+theory,Creative Industries,gd_emp,regression,n_universities_feecap_lad,0.057535364963996055
+theory,Creative Industries,gd_emp,regression,size_micro_share,0.17481869726007576
+theory,Creative Industries,gd_bus,regression,unemployment_rate,0.059448311688384985
+theory,Creative Industries,gd_bus,regression,transport_to_employer,0.042375346643568464
+theory,Creative Industries,gd_bus,regression,drive_to_employer,0.05782560827505692
+theory,Creative Industries,gd_bus,regression,cycle_to_employer,0.05716027966635859
+theory,Creative Industries,gd_bus,regression,broadband,0.07571117081412462
+theory,Creative Industries,gd_bus,regression,gcse_age19,0.10306962337808384
+theory,Creative Industries,gd_bus,regression,apprenticeship_achievements,0.04214211502897564
+theory,Creative Industries,gd_bus,regression,nvq_level3,0.042849114904243875
+theory,Creative Industries,gd_bus,regression,fe_participation,0.15834553695312212
+theory,Creative Industries,gd_bus,regression,housing_net_additions,0.020790971597872857
+theory,Creative Industries,gd_bus,regression,enterprise_birth_rate,0.026511897185297766
+theory,Creative Industries,gd_bus,regression,enterprise_death_rate,0.17170786108852043
+theory,Creative Industries,gd_bus,regression,n_universities_feecap_lad,0.08184789227910336
+theory,Creative Industries,gd_bus,regression,size_micro_share,0.06021427049728653
+theory,Creative Industries,lq_emp_binary,classification,unemployment_rate,0.024003352517998008
+theory,Creative Industries,lq_emp_binary,classification,transport_to_employer,0.09424912699505417
+theory,Creative Industries,lq_emp_binary,classification,drive_to_employer,0.05795520559069222
+theory,Creative Industries,lq_emp_binary,classification,cycle_to_employer,0.09535013600150676
+theory,Creative Industries,lq_emp_binary,classification,broadband,0.014470572576268938
+theory,Creative Industries,lq_emp_binary,classification,gcse_age19,0.08681638840713658
+theory,Creative Industries,lq_emp_binary,classification,apprenticeship_achievements,0.15538179457528511
+theory,Creative Industries,lq_emp_binary,classification,nvq_level3,0.21627920562388808
+theory,Creative Industries,lq_emp_binary,classification,fe_participation,0.05272007988683118
+theory,Creative Industries,lq_emp_binary,classification,housing_net_additions,0.019130592216532547
+theory,Creative Industries,lq_emp_binary,classification,enterprise_birth_rate,0.031336469850509745
+theory,Creative Industries,lq_emp_binary,classification,enterprise_death_rate,0.022031586416735336
+theory,Creative Industries,lq_emp_binary,classification,n_universities_feecap_lad,0.043378971206241436
+theory,Creative Industries,lq_emp_binary,classification,size_micro_share,0.08689651813531998
+theory,Creative Industries,lq_bus_binary,classification,unemployment_rate,0.01627520916327372
+theory,Creative Industries,lq_bus_binary,classification,transport_to_employer,0.07811735816104806
+theory,Creative Industries,lq_bus_binary,classification,drive_to_employer,0.06557321921073848
+theory,Creative Industries,lq_bus_binary,classification,cycle_to_employer,0.10849549426621537
+theory,Creative Industries,lq_bus_binary,classification,broadband,0.012142234742728967
+theory,Creative Industries,lq_bus_binary,classification,gcse_age19,0.11013055470705907
+theory,Creative Industries,lq_bus_binary,classification,apprenticeship_achievements,0.2590901704156512
+theory,Creative Industries,lq_bus_binary,classification,nvq_level3,0.21766133731846915
+theory,Creative Industries,lq_bus_binary,classification,fe_participation,0.05501829174257526
+theory,Creative Industries,lq_bus_binary,classification,housing_net_additions,0.008748796709776964
+theory,Creative Industries,lq_bus_binary,classification,enterprise_birth_rate,0.030116089079495964
+theory,Creative Industries,lq_bus_binary,classification,enterprise_death_rate,0.01072568656185423
+theory,Creative Industries,lq_bus_binary,classification,n_universities_feecap_lad,0.006140430122157759
+theory,Creative Industries,lq_bus_binary,classification,size_micro_share,0.02176512779895573
+theory,Creative Industries,gd_emp_binary,classification,unemployment_rate,0.055575799450987534
+theory,Creative Industries,gd_emp_binary,classification,transport_to_employer,0.049614792967627094
+theory,Creative Industries,gd_emp_binary,classification,drive_to_employer,0.057185296265669434
+theory,Creative Industries,gd_emp_binary,classification,cycle_to_employer,0.0541695413700191
+theory,Creative Industries,gd_emp_binary,classification,broadband,0.06211545622192494
+theory,Creative Industries,gd_emp_binary,classification,gcse_age19,0.06478806447485633
+theory,Creative Industries,gd_emp_binary,classification,apprenticeship_achievements,0.08176071504165394
+theory,Creative Industries,gd_emp_binary,classification,nvq_level3,0.04156615798302843
+theory,Creative Industries,gd_emp_binary,classification,fe_participation,0.07032256855562248
+theory,Creative Industries,gd_emp_binary,classification,housing_net_additions,0.11518003097858066
+theory,Creative Industries,gd_emp_binary,classification,enterprise_birth_rate,0.06670170312804653
+theory,Creative Industries,gd_emp_binary,classification,enterprise_death_rate,0.0526973038217211
+theory,Creative Industries,gd_emp_binary,classification,n_universities_feecap_lad,0.05973894564977141
+theory,Creative Industries,gd_emp_binary,classification,size_micro_share,0.16858362409049105
+theory,Creative Industries,gd_bus_binary,classification,unemployment_rate,0.04140080426539033
+theory,Creative Industries,gd_bus_binary,classification,transport_to_employer,0.0546641885570477
+theory,Creative Industries,gd_bus_binary,classification,drive_to_employer,0.06924826528692397
+theory,Creative Industries,gd_bus_binary,classification,cycle_to_employer,0.06385111914941645
+theory,Creative Industries,gd_bus_binary,classification,broadband,0.0844932118775053
+theory,Creative Industries,gd_bus_binary,classification,gcse_age19,0.149865533222573
+theory,Creative Industries,gd_bus_binary,classification,apprenticeship_achievements,0.06496586416903088
+theory,Creative Industries,gd_bus_binary,classification,nvq_level3,0.05207100172458513
+theory,Creative Industries,gd_bus_binary,classification,fe_participation,0.10099517110125168
+theory,Creative Industries,gd_bus_binary,classification,housing_net_additions,0.045593452192066494
+theory,Creative Industries,gd_bus_binary,classification,enterprise_birth_rate,0.05262668999451546
+theory,Creative Industries,gd_bus_binary,classification,enterprise_death_rate,0.11253621281054514
+theory,Creative Industries,gd_bus_binary,classification,n_universities_feecap_lad,0.045866862617644305
+theory,Creative Industries,gd_bus_binary,classification,size_micro_share,0.06182162303150413
+theory,Defence,lq_emp,regression,unemployment_rate,0.03994098904043201
+theory,Defence,lq_emp,regression,transport_to_employer,0.10273251651938131
+theory,Defence,lq_emp,regression,drive_to_employer,0.07614394851301756
+theory,Defence,lq_emp,regression,cycle_to_employer,0.050814333413237905
+theory,Defence,lq_emp,regression,broadband,0.17055507463886177
+theory,Defence,lq_emp,regression,gcse_age19,0.02390064812443377
+theory,Defence,lq_emp,regression,apprenticeship_achievements,0.09023549093957563
+theory,Defence,lq_emp,regression,nvq_level3,0.06606882161280571
+theory,Defence,lq_emp,regression,fe_participation,0.018109906712672708
+theory,Defence,lq_emp,regression,housing_net_additions,0.07522039987223524
+theory,Defence,lq_emp,regression,enterprise_birth_rate,0.20656789730850206
+theory,Defence,lq_emp,regression,enterprise_death_rate,0.07666524097581677
+theory,Defence,lq_emp,regression,n_universities_feecap_lad,0.003044732329027442
+theory,Defence,lq_emp,regression,size_micro_share,0.0
+theory,Defence,lq_bus,regression,unemployment_rate,0.04638841173180936
+theory,Defence,lq_bus,regression,transport_to_employer,0.031623250281269145
+theory,Defence,lq_bus,regression,drive_to_employer,0.019305395705200845
+theory,Defence,lq_bus,regression,cycle_to_employer,0.02394089775523635
+theory,Defence,lq_bus,regression,broadband,0.3635711189673251
+theory,Defence,lq_bus,regression,gcse_age19,0.00793787364537134
+theory,Defence,lq_bus,regression,apprenticeship_achievements,0.2374072816650522
+theory,Defence,lq_bus,regression,nvq_level3,0.009332062778896474
+theory,Defence,lq_bus,regression,fe_participation,0.0005231783921413582
+theory,Defence,lq_bus,regression,housing_net_additions,0.10822045987741599
+theory,Defence,lq_bus,regression,enterprise_birth_rate,0.00658855905623343
+theory,Defence,lq_bus,regression,enterprise_death_rate,0.007727559358057649
+theory,Defence,lq_bus,regression,n_universities_feecap_lad,0.13743395078599074
+theory,Defence,lq_bus,regression,size_micro_share,0.0
+theory,Defence,gd_emp,regression,unemployment_rate,0.13184488573390854
+theory,Defence,gd_emp,regression,transport_to_employer,0.018912773121099923
+theory,Defence,gd_emp,regression,drive_to_employer,0.007479178039758569
+theory,Defence,gd_emp,regression,cycle_to_employer,0.04326385175842808
+theory,Defence,gd_emp,regression,broadband,0.10417105039716228
+theory,Defence,gd_emp,regression,gcse_age19,0.3504153620283861
+theory,Defence,gd_emp,regression,apprenticeship_achievements,0.10692227519865172
+theory,Defence,gd_emp,regression,nvq_level3,0.08970770609053198
+theory,Defence,gd_emp,regression,fe_participation,0.03356036278924107
+theory,Defence,gd_emp,regression,housing_net_additions,0.031106160689822634
+theory,Defence,gd_emp,regression,enterprise_birth_rate,0.041540772076745454
+theory,Defence,gd_emp,regression,enterprise_death_rate,0.008572026700498584
+theory,Defence,gd_emp,regression,n_universities_feecap_lad,0.03250359537576505
+theory,Defence,gd_emp,regression,size_micro_share,0.0
+theory,Defence,lq_emp_binary,classification,unemployment_rate,0.05367045033198777
+theory,Defence,lq_emp_binary,classification,transport_to_employer,0.06873668682149937
+theory,Defence,lq_emp_binary,classification,drive_to_employer,0.07666101543877867
+theory,Defence,lq_emp_binary,classification,cycle_to_employer,0.04747678268484874
+theory,Defence,lq_emp_binary,classification,broadband,0.1285993567840579
+theory,Defence,lq_emp_binary,classification,gcse_age19,0.04850740279319133
+theory,Defence,lq_emp_binary,classification,apprenticeship_achievements,0.1350397603038451
+theory,Defence,lq_emp_binary,classification,nvq_level3,0.07647728590075853
+theory,Defence,lq_emp_binary,classification,fe_participation,0.07133120050141371
+theory,Defence,lq_emp_binary,classification,housing_net_additions,0.06292995489485854
+theory,Defence,lq_emp_binary,classification,enterprise_birth_rate,0.12455370397405112
+theory,Defence,lq_emp_binary,classification,enterprise_death_rate,0.06905691745395315
+theory,Defence,lq_emp_binary,classification,n_universities_feecap_lad,0.03695948211675611
+theory,Defence,lq_emp_binary,classification,size_micro_share,0.0
+theory,Defence,lq_bus_binary,classification,unemployment_rate,0.08002110715392471
+theory,Defence,lq_bus_binary,classification,transport_to_employer,0.07271733166492317
+theory,Defence,lq_bus_binary,classification,drive_to_employer,0.06892118150330881
+theory,Defence,lq_bus_binary,classification,cycle_to_employer,0.05064573484077045
+theory,Defence,lq_bus_binary,classification,broadband,0.07060178241376838
+theory,Defence,lq_bus_binary,classification,gcse_age19,0.07628530251065554
+theory,Defence,lq_bus_binary,classification,apprenticeship_achievements,0.1400933316209211
+theory,Defence,lq_bus_binary,classification,nvq_level3,0.031363399808642424
+theory,Defence,lq_bus_binary,classification,fe_participation,0.06665146146596775
+theory,Defence,lq_bus_binary,classification,housing_net_additions,0.11497171020610913
+theory,Defence,lq_bus_binary,classification,enterprise_birth_rate,0.05018757727223466
+theory,Defence,lq_bus_binary,classification,enterprise_death_rate,0.04627448070640782
+theory,Defence,lq_bus_binary,classification,n_universities_feecap_lad,0.13126559883236597
+theory,Defence,lq_bus_binary,classification,size_micro_share,0.0
+theory,Defence,gd_emp_binary,classification,unemployment_rate,0.040714760305031544
+theory,Defence,gd_emp_binary,classification,transport_to_employer,0.07134975829087495
+theory,Defence,gd_emp_binary,classification,drive_to_employer,0.06910306118526229
+theory,Defence,gd_emp_binary,classification,cycle_to_employer,0.04662600617986537
+theory,Defence,gd_emp_binary,classification,broadband,0.0836179298449542
+theory,Defence,gd_emp_binary,classification,gcse_age19,0.24894326209814652
+theory,Defence,gd_emp_binary,classification,apprenticeship_achievements,0.050171818421209415
+theory,Defence,gd_emp_binary,classification,nvq_level3,0.12439692297011679
+theory,Defence,gd_emp_binary,classification,fe_participation,0.06397442876624565
+theory,Defence,gd_emp_binary,classification,housing_net_additions,0.06754319271605885
+theory,Defence,gd_emp_binary,classification,enterprise_birth_rate,0.05829321266314222
+theory,Defence,gd_emp_binary,classification,enterprise_death_rate,0.0638980296369978
+theory,Defence,gd_emp_binary,classification,n_universities_feecap_lad,0.011367616922094507
+theory,Defence,gd_emp_binary,classification,size_micro_share,0.0
+theory,Digital and Technologies,lq_emp,regression,unemployment_rate,0.005217969984071147
+theory,Digital and Technologies,lq_emp,regression,transport_to_employer,0.023317892762170205
+theory,Digital and Technologies,lq_emp,regression,drive_to_employer,0.01127876749294921
+theory,Digital and Technologies,lq_emp,regression,cycle_to_employer,0.007147992027682355
+theory,Digital and Technologies,lq_emp,regression,broadband,0.011486350716354801
+theory,Digital and Technologies,lq_emp,regression,gcse_age19,0.14326257009077561
+theory,Digital and Technologies,lq_emp,regression,apprenticeship_achievements,0.05148007763850026
+theory,Digital and Technologies,lq_emp,regression,nvq_level3,0.17674363703600363
+theory,Digital and Technologies,lq_emp,regression,fe_participation,0.03711599018437941
+theory,Digital and Technologies,lq_emp,regression,housing_net_additions,0.016884990354120184
+theory,Digital and Technologies,lq_emp,regression,enterprise_birth_rate,0.031135460077837136
+theory,Digital and Technologies,lq_emp,regression,enterprise_death_rate,0.023689053615874665
+theory,Digital and Technologies,lq_emp,regression,n_universities_feecap_lad,0.0028055418450741755
+theory,Digital and Technologies,lq_emp,regression,size_micro_share,0.4584337061742072
+theory,Digital and Technologies,lq_bus,regression,unemployment_rate,0.01980622581397372
+theory,Digital and Technologies,lq_bus,regression,transport_to_employer,0.012653571728631177
+theory,Digital and Technologies,lq_bus,regression,drive_to_employer,0.01873779503532693
+theory,Digital and Technologies,lq_bus,regression,cycle_to_employer,0.02841492979737037
+theory,Digital and Technologies,lq_bus,regression,broadband,0.026727710737328762
+theory,Digital and Technologies,lq_bus,regression,gcse_age19,0.0982184652134824
+theory,Digital and Technologies,lq_bus,regression,apprenticeship_achievements,0.37075429727860465
+theory,Digital and Technologies,lq_bus,regression,nvq_level3,0.2899567124198547
+theory,Digital and Technologies,lq_bus,regression,fe_participation,0.02580657170827411
+theory,Digital and Technologies,lq_bus,regression,housing_net_additions,0.004105315506522775
+theory,Digital and Technologies,lq_bus,regression,enterprise_birth_rate,0.008083390501083565
+theory,Digital and Technologies,lq_bus,regression,enterprise_death_rate,0.018878065173619295
+theory,Digital and Technologies,lq_bus,regression,n_universities_feecap_lad,0.0017710793356245853
+theory,Digital and Technologies,lq_bus,regression,size_micro_share,0.07608586975030268
+theory,Digital and Technologies,gd_emp,regression,unemployment_rate,0.02294031320998822
+theory,Digital and Technologies,gd_emp,regression,transport_to_employer,0.03584983499327997
+theory,Digital and Technologies,gd_emp,regression,drive_to_employer,0.024694031995847205
+theory,Digital and Technologies,gd_emp,regression,cycle_to_employer,0.019510183154532002
+theory,Digital and Technologies,gd_emp,regression,broadband,0.019588014639699655
+theory,Digital and Technologies,gd_emp,regression,gcse_age19,0.06473032304831511
+theory,Digital and Technologies,gd_emp,regression,apprenticeship_achievements,0.034597740609958544
+theory,Digital and Technologies,gd_emp,regression,nvq_level3,0.05492468864132219
+theory,Digital and Technologies,gd_emp,regression,fe_participation,0.036722718907705884
+theory,Digital and Technologies,gd_emp,regression,housing_net_additions,0.12528482401993934
+theory,Digital and Technologies,gd_emp,regression,enterprise_birth_rate,0.03256656028940301
+theory,Digital and Technologies,gd_emp,regression,enterprise_death_rate,0.034678505878917035
+theory,Digital and Technologies,gd_emp,regression,n_universities_feecap_lad,0.2291194377415625
+theory,Digital and Technologies,gd_emp,regression,size_micro_share,0.2647928228695293
+theory,Digital and Technologies,gd_bus,regression,unemployment_rate,0.015216205805990595
+theory,Digital and Technologies,gd_bus,regression,transport_to_employer,0.02690285026053333
+theory,Digital and Technologies,gd_bus,regression,drive_to_employer,0.01765566040986095
+theory,Digital and Technologies,gd_bus,regression,cycle_to_employer,0.03912535079080634
+theory,Digital and Technologies,gd_bus,regression,broadband,0.046047125265076844
+theory,Digital and Technologies,gd_bus,regression,gcse_age19,0.05213890132787904
+theory,Digital and Technologies,gd_bus,regression,apprenticeship_achievements,0.04343481396424084
+theory,Digital and Technologies,gd_bus,regression,nvq_level3,0.045345193595743495
+theory,Digital and Technologies,gd_bus,regression,fe_participation,0.18907133110565502
+theory,Digital and Technologies,gd_bus,regression,housing_net_additions,0.02407012480825164
+theory,Digital and Technologies,gd_bus,regression,enterprise_birth_rate,0.02285290824025886
+theory,Digital and Technologies,gd_bus,regression,enterprise_death_rate,0.06288965944249206
+theory,Digital and Technologies,gd_bus,regression,n_universities_feecap_lad,0.3534179056971986
+theory,Digital and Technologies,gd_bus,regression,size_micro_share,0.061831969286012284
+theory,Digital and Technologies,lq_emp_binary,classification,unemployment_rate,0.039104521606397595
+theory,Digital and Technologies,lq_emp_binary,classification,transport_to_employer,0.0586460076107074
+theory,Digital and Technologies,lq_emp_binary,classification,drive_to_employer,0.04214973276852649
+theory,Digital and Technologies,lq_emp_binary,classification,cycle_to_employer,0.046186124502151704
+theory,Digital and Technologies,lq_emp_binary,classification,broadband,0.03101972001466767
+theory,Digital and Technologies,lq_emp_binary,classification,gcse_age19,0.13840319774664356
+theory,Digital and Technologies,lq_emp_binary,classification,apprenticeship_achievements,0.06693101657318232
+theory,Digital and Technologies,lq_emp_binary,classification,nvq_level3,0.12246658560332309
+theory,Digital and Technologies,lq_emp_binary,classification,fe_participation,0.11650895502391817
+theory,Digital and Technologies,lq_emp_binary,classification,housing_net_additions,0.034829042397584865
+theory,Digital and Technologies,lq_emp_binary,classification,enterprise_birth_rate,0.035484018799944554
+theory,Digital and Technologies,lq_emp_binary,classification,enterprise_death_rate,0.0325743597696036
+theory,Digital and Technologies,lq_emp_binary,classification,n_universities_feecap_lad,0.02971402948674289
+theory,Digital and Technologies,lq_emp_binary,classification,size_micro_share,0.20598268809660603
+theory,Digital and Technologies,lq_bus_binary,classification,unemployment_rate,0.017421850070548
+theory,Digital and Technologies,lq_bus_binary,classification,transport_to_employer,0.060265925429176755
+theory,Digital and Technologies,lq_bus_binary,classification,drive_to_employer,0.05803907606173075
+theory,Digital and Technologies,lq_bus_binary,classification,cycle_to_employer,0.08068265317715678
+theory,Digital and Technologies,lq_bus_binary,classification,broadband,0.055585422655501426
+theory,Digital and Technologies,lq_bus_binary,classification,gcse_age19,0.15460869352788675
+theory,Digital and Technologies,lq_bus_binary,classification,apprenticeship_achievements,0.17590599643629354
+theory,Digital and Technologies,lq_bus_binary,classification,nvq_level3,0.22261920029644006
+theory,Digital and Technologies,lq_bus_binary,classification,fe_participation,0.06063580605560113
+theory,Digital and Technologies,lq_bus_binary,classification,housing_net_additions,0.010864245379277208
+theory,Digital and Technologies,lq_bus_binary,classification,enterprise_birth_rate,0.029158843286295307
+theory,Digital and Technologies,lq_bus_binary,classification,enterprise_death_rate,0.024281089658660163
+theory,Digital and Technologies,lq_bus_binary,classification,n_universities_feecap_lad,0.005716406532707756
+theory,Digital and Technologies,lq_bus_binary,classification,size_micro_share,0.04421479143272424
+theory,Digital and Technologies,gd_emp_binary,classification,unemployment_rate,0.03607916713596325
+theory,Digital and Technologies,gd_emp_binary,classification,transport_to_employer,0.0914419044556456
+theory,Digital and Technologies,gd_emp_binary,classification,drive_to_employer,0.08433104152349535
+theory,Digital and Technologies,gd_emp_binary,classification,cycle_to_employer,0.05116606630318381
+theory,Digital and Technologies,gd_emp_binary,classification,broadband,0.05359730254019968
+theory,Digital and Technologies,gd_emp_binary,classification,gcse_age19,0.07020944979062907
+theory,Digital and Technologies,gd_emp_binary,classification,apprenticeship_achievements,0.05081315771355184
+theory,Digital and Technologies,gd_emp_binary,classification,nvq_level3,0.05927014625850379
+theory,Digital and Technologies,gd_emp_binary,classification,fe_participation,0.06499092441502326
+theory,Digital and Technologies,gd_emp_binary,classification,housing_net_additions,0.07256849557334763
+theory,Digital and Technologies,gd_emp_binary,classification,enterprise_birth_rate,0.06475360394005364
+theory,Digital and Technologies,gd_emp_binary,classification,enterprise_death_rate,0.05333503196995536
+theory,Digital and Technologies,gd_emp_binary,classification,n_universities_feecap_lad,0.07403475189593793
+theory,Digital and Technologies,gd_emp_binary,classification,size_micro_share,0.17340895648450982
+theory,Digital and Technologies,gd_bus_binary,classification,unemployment_rate,0.04689960065793322
+theory,Digital and Technologies,gd_bus_binary,classification,transport_to_employer,0.0943161418392265
+theory,Digital and Technologies,gd_bus_binary,classification,drive_to_employer,0.07726762547968048
+theory,Digital and Technologies,gd_bus_binary,classification,cycle_to_employer,0.07594206324211115
+theory,Digital and Technologies,gd_bus_binary,classification,broadband,0.06647376425502058
+theory,Digital and Technologies,gd_bus_binary,classification,gcse_age19,0.10549420458224461
+theory,Digital and Technologies,gd_bus_binary,classification,apprenticeship_achievements,0.0647048562182306
+theory,Digital and Technologies,gd_bus_binary,classification,nvq_level3,0.04338151410493193
+theory,Digital and Technologies,gd_bus_binary,classification,fe_participation,0.07219952465670483
+theory,Digital and Technologies,gd_bus_binary,classification,housing_net_additions,0.05097534943928001
+theory,Digital and Technologies,gd_bus_binary,classification,enterprise_birth_rate,0.07084737886218505
+theory,Digital and Technologies,gd_bus_binary,classification,enterprise_death_rate,0.07358310695464404
+theory,Digital and Technologies,gd_bus_binary,classification,n_universities_feecap_lad,0.07091969558375912
+theory,Digital and Technologies,gd_bus_binary,classification,size_micro_share,0.08699517412404806
+theory,Financial Services,lq_emp,regression,unemployment_rate,0.022689831534501
+theory,Financial Services,lq_emp,regression,transport_to_employer,0.02069669947884879
+theory,Financial Services,lq_emp,regression,drive_to_employer,0.005277606876256207
+theory,Financial Services,lq_emp,regression,cycle_to_employer,0.012994265625865883
+theory,Financial Services,lq_emp,regression,broadband,0.0294046071556153
+theory,Financial Services,lq_emp,regression,gcse_age19,0.025045751750126157
+theory,Financial Services,lq_emp,regression,apprenticeship_achievements,0.01980421996723652
+theory,Financial Services,lq_emp,regression,nvq_level3,0.03432211667366
+theory,Financial Services,lq_emp,regression,fe_participation,0.03103422782059322
+theory,Financial Services,lq_emp,regression,housing_net_additions,0.004157426297422551
+theory,Financial Services,lq_emp,regression,enterprise_birth_rate,0.07474081502927403
+theory,Financial Services,lq_emp,regression,enterprise_death_rate,0.004586293505472659
+theory,Financial Services,lq_emp,regression,n_universities_feecap_lad,0.500154020232378
+theory,Financial Services,lq_emp,regression,size_micro_share,0.21509211805274964
+theory,Financial Services,lq_bus,regression,unemployment_rate,0.04038669965412994
+theory,Financial Services,lq_bus,regression,transport_to_employer,0.015575656604237613
+theory,Financial Services,lq_bus,regression,drive_to_employer,0.05641894939201706
+theory,Financial Services,lq_bus,regression,cycle_to_employer,0.03496970709337492
+theory,Financial Services,lq_bus,regression,broadband,0.03464073784495525
+theory,Financial Services,lq_bus,regression,gcse_age19,0.06487981796330627
+theory,Financial Services,lq_bus,regression,apprenticeship_achievements,0.018591378671447615
+theory,Financial Services,lq_bus,regression,nvq_level3,0.019284470059820612
+theory,Financial Services,lq_bus,regression,fe_participation,0.06031577469132067
+theory,Financial Services,lq_bus,regression,housing_net_additions,0.0412733434809388
+theory,Financial Services,lq_bus,regression,enterprise_birth_rate,0.03013524177520009
+theory,Financial Services,lq_bus,regression,enterprise_death_rate,0.026077136322176623
+theory,Financial Services,lq_bus,regression,n_universities_feecap_lad,0.50398400435694
+theory,Financial Services,lq_bus,regression,size_micro_share,0.05346708209013437
+theory,Financial Services,gd_emp,regression,unemployment_rate,0.020213765877335973
+theory,Financial Services,gd_emp,regression,transport_to_employer,0.06879499771970148
+theory,Financial Services,gd_emp,regression,drive_to_employer,0.07926741523719263
+theory,Financial Services,gd_emp,regression,cycle_to_employer,0.06846553721640987
+theory,Financial Services,gd_emp,regression,broadband,0.1358499244684274
+theory,Financial Services,gd_emp,regression,gcse_age19,0.09079924489762119
+theory,Financial Services,gd_emp,regression,apprenticeship_achievements,0.05742457892186866
+theory,Financial Services,gd_emp,regression,nvq_level3,0.054327025584679896
+theory,Financial Services,gd_emp,regression,fe_participation,0.10956984442661186
+theory,Financial Services,gd_emp,regression,housing_net_additions,0.09012833567530645
+theory,Financial Services,gd_emp,regression,enterprise_birth_rate,0.07107245754745956
+theory,Financial Services,gd_emp,regression,enterprise_death_rate,0.044882567732090234
+theory,Financial Services,gd_emp,regression,n_universities_feecap_lad,0.05336786836446594
+theory,Financial Services,gd_emp,regression,size_micro_share,0.055836436330829
+theory,Financial Services,gd_bus,regression,unemployment_rate,0.036050866066566864
+theory,Financial Services,gd_bus,regression,transport_to_employer,0.03520604851801862
+theory,Financial Services,gd_bus,regression,drive_to_employer,0.030070266025131492
+theory,Financial Services,gd_bus,regression,cycle_to_employer,0.035523410701847856
+theory,Financial Services,gd_bus,regression,broadband,0.04516896387911894
+theory,Financial Services,gd_bus,regression,gcse_age19,0.1287070144479589
+theory,Financial Services,gd_bus,regression,apprenticeship_achievements,0.03619420117204433
+theory,Financial Services,gd_bus,regression,nvq_level3,0.054564796471207745
+theory,Financial Services,gd_bus,regression,fe_participation,0.07019408501233927
+theory,Financial Services,gd_bus,regression,housing_net_additions,0.0966578769195843
+theory,Financial Services,gd_bus,regression,enterprise_birth_rate,0.17050901378902558
+theory,Financial Services,gd_bus,regression,enterprise_death_rate,0.08727449330421899
+theory,Financial Services,gd_bus,regression,n_universities_feecap_lad,0.04709632522788336
+theory,Financial Services,gd_bus,regression,size_micro_share,0.12678263846505375
+theory,Financial Services,lq_emp_binary,classification,unemployment_rate,0.08393040953816662
+theory,Financial Services,lq_emp_binary,classification,transport_to_employer,0.06389675778948849
+theory,Financial Services,lq_emp_binary,classification,drive_to_employer,0.06489862397743822
+theory,Financial Services,lq_emp_binary,classification,cycle_to_employer,0.045891219204733075
+theory,Financial Services,lq_emp_binary,classification,broadband,0.0472596871364839
+theory,Financial Services,lq_emp_binary,classification,gcse_age19,0.06329942563628262
+theory,Financial Services,lq_emp_binary,classification,apprenticeship_achievements,0.04116327188378889
+theory,Financial Services,lq_emp_binary,classification,nvq_level3,0.046578066108632486
+theory,Financial Services,lq_emp_binary,classification,fe_participation,0.04141091021829603
+theory,Financial Services,lq_emp_binary,classification,housing_net_additions,0.03523486859078211
+theory,Financial Services,lq_emp_binary,classification,enterprise_birth_rate,0.059552112500168675
+theory,Financial Services,lq_emp_binary,classification,enterprise_death_rate,0.05875806224696368
+theory,Financial Services,lq_emp_binary,classification,n_universities_feecap_lad,0.16019334552667833
+theory,Financial Services,lq_emp_binary,classification,size_micro_share,0.18793323964209702
+theory,Financial Services,lq_bus_binary,classification,unemployment_rate,0.06386298436845729
+theory,Financial Services,lq_bus_binary,classification,transport_to_employer,0.09401055239934726
+theory,Financial Services,lq_bus_binary,classification,drive_to_employer,0.09707441578032608
+theory,Financial Services,lq_bus_binary,classification,cycle_to_employer,0.10378421406234734
+theory,Financial Services,lq_bus_binary,classification,broadband,0.04015110386380758
+theory,Financial Services,lq_bus_binary,classification,gcse_age19,0.03648228640906158
+theory,Financial Services,lq_bus_binary,classification,apprenticeship_achievements,0.06021182863992837
+theory,Financial Services,lq_bus_binary,classification,nvq_level3,0.0700233178065131
+theory,Financial Services,lq_bus_binary,classification,fe_participation,0.05373435599366484
+theory,Financial Services,lq_bus_binary,classification,housing_net_additions,0.030831277518659418
+theory,Financial Services,lq_bus_binary,classification,enterprise_birth_rate,0.05240064289470372
+theory,Financial Services,lq_bus_binary,classification,enterprise_death_rate,0.07462174467609929
+theory,Financial Services,lq_bus_binary,classification,n_universities_feecap_lad,0.17189648309203387
+theory,Financial Services,lq_bus_binary,classification,size_micro_share,0.05091479249505024
+theory,Financial Services,gd_emp_binary,classification,unemployment_rate,0.04114043530943497
+theory,Financial Services,gd_emp_binary,classification,transport_to_employer,0.10800896059560207
+theory,Financial Services,gd_emp_binary,classification,drive_to_employer,0.11358225532277158
+theory,Financial Services,gd_emp_binary,classification,cycle_to_employer,0.08889603631280166
+theory,Financial Services,gd_emp_binary,classification,broadband,0.0671180878711017
+theory,Financial Services,gd_emp_binary,classification,gcse_age19,0.055582516242896556
+theory,Financial Services,gd_emp_binary,classification,apprenticeship_achievements,0.04414393507101642
+theory,Financial Services,gd_emp_binary,classification,nvq_level3,0.04741638197607516
+theory,Financial Services,gd_emp_binary,classification,fe_participation,0.0816387721497957
+theory,Financial Services,gd_emp_binary,classification,housing_net_additions,0.056985131514972275
+theory,Financial Services,gd_emp_binary,classification,enterprise_birth_rate,0.05778494979536985
+theory,Financial Services,gd_emp_binary,classification,enterprise_death_rate,0.07391328526566053
+theory,Financial Services,gd_emp_binary,classification,n_universities_feecap_lad,0.11018465506597433
+theory,Financial Services,gd_emp_binary,classification,size_micro_share,0.05360459750652723
+theory,Financial Services,gd_bus_binary,classification,unemployment_rate,0.09688555207576606
+theory,Financial Services,gd_bus_binary,classification,transport_to_employer,0.0668851600601222
+theory,Financial Services,gd_bus_binary,classification,drive_to_employer,0.05684025686986587
+theory,Financial Services,gd_bus_binary,classification,cycle_to_employer,0.05934403905966773
+theory,Financial Services,gd_bus_binary,classification,broadband,0.06359086916236419
+theory,Financial Services,gd_bus_binary,classification,gcse_age19,0.09254828942478603
+theory,Financial Services,gd_bus_binary,classification,apprenticeship_achievements,0.045737512520807315
+theory,Financial Services,gd_bus_binary,classification,nvq_level3,0.03703458325913196
+theory,Financial Services,gd_bus_binary,classification,fe_participation,0.08697683357366344
+theory,Financial Services,gd_bus_binary,classification,housing_net_additions,0.05104743980050596
+theory,Financial Services,gd_bus_binary,classification,enterprise_birth_rate,0.14295953829039051
+theory,Financial Services,gd_bus_binary,classification,enterprise_death_rate,0.06773334010301797
+theory,Financial Services,gd_bus_binary,classification,n_universities_feecap_lad,0.04603413266048254
+theory,Financial Services,gd_bus_binary,classification,size_micro_share,0.08638245313942831
+theory,Life Sciences,lq_emp,regression,unemployment_rate,0.06808278274716414
+theory,Life Sciences,lq_emp,regression,transport_to_employer,0.03308018662997932
+theory,Life Sciences,lq_emp,regression,drive_to_employer,0.013989863121019665
+theory,Life Sciences,lq_emp,regression,cycle_to_employer,0.013565613527254662
+theory,Life Sciences,lq_emp,regression,broadband,0.11403588924460292
+theory,Life Sciences,lq_emp,regression,gcse_age19,0.11919339248347645
+theory,Life Sciences,lq_emp,regression,apprenticeship_achievements,0.020045474740447836
+theory,Life Sciences,lq_emp,regression,nvq_level3,0.10322525706138308
+theory,Life Sciences,lq_emp,regression,fe_participation,0.15109325723073008
+theory,Life Sciences,lq_emp,regression,housing_net_additions,0.04288091268577921
+theory,Life Sciences,lq_emp,regression,enterprise_birth_rate,0.08482157968085424
+theory,Life Sciences,lq_emp,regression,enterprise_death_rate,0.02227626354484675
+theory,Life Sciences,lq_emp,regression,n_universities_feecap_lad,0.016585086448667005
+theory,Life Sciences,lq_emp,regression,size_micro_share,0.1971244408537947
+theory,Life Sciences,lq_bus,regression,unemployment_rate,0.0078958021063743
+theory,Life Sciences,lq_bus,regression,transport_to_employer,0.018285045676236913
+theory,Life Sciences,lq_bus,regression,drive_to_employer,0.01667370760552107
+theory,Life Sciences,lq_bus,regression,cycle_to_employer,0.014427725109488762
+theory,Life Sciences,lq_bus,regression,broadband,0.01873980058598673
+theory,Life Sciences,lq_bus,regression,gcse_age19,0.022448450491273753
+theory,Life Sciences,lq_bus,regression,apprenticeship_achievements,0.017969098252440256
+theory,Life Sciences,lq_bus,regression,nvq_level3,0.12553374477794196
+theory,Life Sciences,lq_bus,regression,fe_participation,0.42862212181457937
+theory,Life Sciences,lq_bus,regression,housing_net_additions,0.019462647925346657
+theory,Life Sciences,lq_bus,regression,enterprise_birth_rate,0.009550798563491173
+theory,Life Sciences,lq_bus,regression,enterprise_death_rate,0.017253610524116517
+theory,Life Sciences,lq_bus,regression,n_universities_feecap_lad,0.005474357810332203
+theory,Life Sciences,lq_bus,regression,size_micro_share,0.2776630887568704
+theory,Life Sciences,gd_emp,regression,unemployment_rate,0.04323819143263228
+theory,Life Sciences,gd_emp,regression,transport_to_employer,0.058565190310645804
+theory,Life Sciences,gd_emp,regression,drive_to_employer,0.05246740051825956
+theory,Life Sciences,gd_emp,regression,cycle_to_employer,0.12737669964392329
+theory,Life Sciences,gd_emp,regression,broadband,0.046667654447389566
+theory,Life Sciences,gd_emp,regression,gcse_age19,0.12547306306367223
+theory,Life Sciences,gd_emp,regression,apprenticeship_achievements,0.06985023718242205
+theory,Life Sciences,gd_emp,regression,nvq_level3,0.11171542735103084
+theory,Life Sciences,gd_emp,regression,fe_participation,0.12366007433123898
+theory,Life Sciences,gd_emp,regression,housing_net_additions,0.11898624047771321
+theory,Life Sciences,gd_emp,regression,enterprise_birth_rate,0.047258879753819184
+theory,Life Sciences,gd_emp,regression,enterprise_death_rate,0.04137747002786849
+theory,Life Sciences,gd_emp,regression,n_universities_feecap_lad,0.0261713947315798
+theory,Life Sciences,gd_emp,regression,size_micro_share,0.0071920767278048
+theory,Life Sciences,gd_bus,regression,unemployment_rate,0.052427052743809904
+theory,Life Sciences,gd_bus,regression,transport_to_employer,0.029114211090786688
+theory,Life Sciences,gd_bus,regression,drive_to_employer,0.048004771115940176
+theory,Life Sciences,gd_bus,regression,cycle_to_employer,0.02377286586816365
+theory,Life Sciences,gd_bus,regression,broadband,0.06565492548346387
+theory,Life Sciences,gd_bus,regression,gcse_age19,0.047403385758071
+theory,Life Sciences,gd_bus,regression,apprenticeship_achievements,0.040634320269867144
+theory,Life Sciences,gd_bus,regression,nvq_level3,0.25364578580583597
+theory,Life Sciences,gd_bus,regression,fe_participation,0.09680515185082145
+theory,Life Sciences,gd_bus,regression,housing_net_additions,0.0353529334729715
+theory,Life Sciences,gd_bus,regression,enterprise_birth_rate,0.11171426361366642
+theory,Life Sciences,gd_bus,regression,enterprise_death_rate,0.061005664364257015
+theory,Life Sciences,gd_bus,regression,n_universities_feecap_lad,0.05122792168767826
+theory,Life Sciences,gd_bus,regression,size_micro_share,0.08323674687466714
+theory,Life Sciences,lq_emp_binary,classification,unemployment_rate,0.04533817599900856
+theory,Life Sciences,lq_emp_binary,classification,transport_to_employer,0.04003861989847546
+theory,Life Sciences,lq_emp_binary,classification,drive_to_employer,0.04572182286833092
+theory,Life Sciences,lq_emp_binary,classification,cycle_to_employer,0.03620063214228631
+theory,Life Sciences,lq_emp_binary,classification,broadband,0.06431065641683217
+theory,Life Sciences,lq_emp_binary,classification,gcse_age19,0.0881733929462278
+theory,Life Sciences,lq_emp_binary,classification,apprenticeship_achievements,0.07057557282717637
+theory,Life Sciences,lq_emp_binary,classification,nvq_level3,0.058265702060781584
+theory,Life Sciences,lq_emp_binary,classification,fe_participation,0.1301579510995298
+theory,Life Sciences,lq_emp_binary,classification,housing_net_additions,0.04470435615102925
+theory,Life Sciences,lq_emp_binary,classification,enterprise_birth_rate,0.07403179750981996
+theory,Life Sciences,lq_emp_binary,classification,enterprise_death_rate,0.0651903945251431
+theory,Life Sciences,lq_emp_binary,classification,n_universities_feecap_lad,0.020447675743784956
+theory,Life Sciences,lq_emp_binary,classification,size_micro_share,0.21684324981157385
+theory,Life Sciences,lq_bus_binary,classification,unemployment_rate,0.03877931800346253
+theory,Life Sciences,lq_bus_binary,classification,transport_to_employer,0.0395217790844389
+theory,Life Sciences,lq_bus_binary,classification,drive_to_employer,0.042749107619691654
+theory,Life Sciences,lq_bus_binary,classification,cycle_to_employer,0.03464856573731106
+theory,Life Sciences,lq_bus_binary,classification,broadband,0.033879439852267657
+theory,Life Sciences,lq_bus_binary,classification,gcse_age19,0.057707542822259573
+theory,Life Sciences,lq_bus_binary,classification,apprenticeship_achievements,0.05801352674734717
+theory,Life Sciences,lq_bus_binary,classification,nvq_level3,0.12699924995791517
+theory,Life Sciences,lq_bus_binary,classification,fe_participation,0.085064887461349
+theory,Life Sciences,lq_bus_binary,classification,housing_net_additions,0.06022269151065527
+theory,Life Sciences,lq_bus_binary,classification,enterprise_birth_rate,0.04646963775548028
+theory,Life Sciences,lq_bus_binary,classification,enterprise_death_rate,0.05177860575235356
+theory,Life Sciences,lq_bus_binary,classification,n_universities_feecap_lad,0.05297049556656433
+theory,Life Sciences,lq_bus_binary,classification,size_micro_share,0.2711951521289038
+theory,Life Sciences,gd_emp_binary,classification,unemployment_rate,0.04612346293601951
+theory,Life Sciences,gd_emp_binary,classification,transport_to_employer,0.08676040038474722
+theory,Life Sciences,gd_emp_binary,classification,drive_to_employer,0.06905986323868227
+theory,Life Sciences,gd_emp_binary,classification,cycle_to_employer,0.07734407526482122
+theory,Life Sciences,gd_emp_binary,classification,broadband,0.05404188374302231
+theory,Life Sciences,gd_emp_binary,classification,gcse_age19,0.07061559181316092
+theory,Life Sciences,gd_emp_binary,classification,apprenticeship_achievements,0.11078271824412153
+theory,Life Sciences,gd_emp_binary,classification,nvq_level3,0.11150275980293824
+theory,Life Sciences,gd_emp_binary,classification,fe_participation,0.10209344865542323
+theory,Life Sciences,gd_emp_binary,classification,housing_net_additions,0.049190262322983125
+theory,Life Sciences,gd_emp_binary,classification,enterprise_birth_rate,0.07491133961760119
+theory,Life Sciences,gd_emp_binary,classification,enterprise_death_rate,0.06657120830643752
+theory,Life Sciences,gd_emp_binary,classification,n_universities_feecap_lad,0.04901893603586776
+theory,Life Sciences,gd_emp_binary,classification,size_micro_share,0.031984049634174117
+theory,Life Sciences,gd_bus_binary,classification,unemployment_rate,0.04588674851928194
+theory,Life Sciences,gd_bus_binary,classification,transport_to_employer,0.055406227958279694
+theory,Life Sciences,gd_bus_binary,classification,drive_to_employer,0.08263176530177799
+theory,Life Sciences,gd_bus_binary,classification,cycle_to_employer,0.05122711497863154
+theory,Life Sciences,gd_bus_binary,classification,broadband,0.09940703038496287
+theory,Life Sciences,gd_bus_binary,classification,gcse_age19,0.07724455982413277
+theory,Life Sciences,gd_bus_binary,classification,apprenticeship_achievements,0.042057297931186184
+theory,Life Sciences,gd_bus_binary,classification,nvq_level3,0.04907337408145941
+theory,Life Sciences,gd_bus_binary,classification,fe_participation,0.055619597952430225
+theory,Life Sciences,gd_bus_binary,classification,housing_net_additions,0.05529189889082949
+theory,Life Sciences,gd_bus_binary,classification,enterprise_birth_rate,0.13268584174284107
+theory,Life Sciences,gd_bus_binary,classification,enterprise_death_rate,0.07299394043790743
+theory,Life Sciences,gd_bus_binary,classification,n_universities_feecap_lad,0.03449018389072492
+theory,Life Sciences,gd_bus_binary,classification,size_micro_share,0.14598441810555443
+theory,Professional and Business Services,lq_emp,regression,unemployment_rate,0.015188344303655626
+theory,Professional and Business Services,lq_emp,regression,transport_to_employer,0.00923174108500498
+theory,Professional and Business Services,lq_emp,regression,drive_to_employer,0.012936021628716505
+theory,Professional and Business Services,lq_emp,regression,cycle_to_employer,0.021591992210878975
+theory,Professional and Business Services,lq_emp,regression,broadband,0.04987027126741474
+theory,Professional and Business Services,lq_emp,regression,gcse_age19,0.24774499342142808
+theory,Professional and Business Services,lq_emp,regression,apprenticeship_achievements,0.06666324625138761
+theory,Professional and Business Services,lq_emp,regression,nvq_level3,0.0556354469727308
+theory,Professional and Business Services,lq_emp,regression,fe_participation,0.07334064604351666
+theory,Professional and Business Services,lq_emp,regression,housing_net_additions,0.01666811642198822
+theory,Professional and Business Services,lq_emp,regression,enterprise_birth_rate,0.007194117638643274
+theory,Professional and Business Services,lq_emp,regression,enterprise_death_rate,0.04343541107862814
+theory,Professional and Business Services,lq_emp,regression,n_universities_feecap_lad,0.24895968131522533
+theory,Professional and Business Services,lq_emp,regression,size_micro_share,0.13153997036078122
+theory,Professional and Business Services,lq_bus,regression,unemployment_rate,0.0037518707365075165
+theory,Professional and Business Services,lq_bus,regression,transport_to_employer,0.02762339091981517
+theory,Professional and Business Services,lq_bus,regression,drive_to_employer,0.017819934791700843
+theory,Professional and Business Services,lq_bus,regression,cycle_to_employer,0.04418313740651003
+theory,Professional and Business Services,lq_bus,regression,broadband,0.010030503683825154
+theory,Professional and Business Services,lq_bus,regression,gcse_age19,0.14260159332661898
+theory,Professional and Business Services,lq_bus,regression,apprenticeship_achievements,0.1466862486148742
+theory,Professional and Business Services,lq_bus,regression,nvq_level3,0.5142206942186501
+theory,Professional and Business Services,lq_bus,regression,fe_participation,0.024620221594452308
+theory,Professional and Business Services,lq_bus,regression,housing_net_additions,0.012084958000934806
+theory,Professional and Business Services,lq_bus,regression,enterprise_birth_rate,0.019944156121074967
+theory,Professional and Business Services,lq_bus,regression,enterprise_death_rate,0.007170330143349813
+theory,Professional and Business Services,lq_bus,regression,n_universities_feecap_lad,0.023704387425218014
+theory,Professional and Business Services,lq_bus,regression,size_micro_share,0.005558573016468322
+theory,Professional and Business Services,gd_emp,regression,unemployment_rate,0.025145739058552413
+theory,Professional and Business Services,gd_emp,regression,transport_to_employer,0.05436007324214044
+theory,Professional and Business Services,gd_emp,regression,drive_to_employer,0.03750957360452015
+theory,Professional and Business Services,gd_emp,regression,cycle_to_employer,0.0425701591425161
+theory,Professional and Business Services,gd_emp,regression,broadband,0.07403709772783672
+theory,Professional and Business Services,gd_emp,regression,gcse_age19,0.10318445134802648
+theory,Professional and Business Services,gd_emp,regression,apprenticeship_achievements,0.06936403753259689
+theory,Professional and Business Services,gd_emp,regression,nvq_level3,0.11363452410592673
+theory,Professional and Business Services,gd_emp,regression,fe_participation,0.11902095011309607
+theory,Professional and Business Services,gd_emp,regression,housing_net_additions,0.030177672930228605
+theory,Professional and Business Services,gd_emp,regression,enterprise_birth_rate,0.046615075888823666
+theory,Professional and Business Services,gd_emp,regression,enterprise_death_rate,0.14059305397546723
+theory,Professional and Business Services,gd_emp,regression,n_universities_feecap_lad,0.07233320525861324
+theory,Professional and Business Services,gd_emp,regression,size_micro_share,0.07145438607165523
+theory,Professional and Business Services,gd_bus,regression,unemployment_rate,0.0290297296949195
+theory,Professional and Business Services,gd_bus,regression,transport_to_employer,0.01737153973589924
+theory,Professional and Business Services,gd_bus,regression,drive_to_employer,0.10282355290309467
+theory,Professional and Business Services,gd_bus,regression,cycle_to_employer,0.10100968016622308
+theory,Professional and Business Services,gd_bus,regression,broadband,0.05179437082156728
+theory,Professional and Business Services,gd_bus,regression,gcse_age19,0.13242422388877859
+theory,Professional and Business Services,gd_bus,regression,apprenticeship_achievements,0.04875682033920548
+theory,Professional and Business Services,gd_bus,regression,nvq_level3,0.06898212583746911
+theory,Professional and Business Services,gd_bus,regression,fe_participation,0.06938148636080181
+theory,Professional and Business Services,gd_bus,regression,housing_net_additions,0.015408947043609391
+theory,Professional and Business Services,gd_bus,regression,enterprise_birth_rate,0.09235022697877344
+theory,Professional and Business Services,gd_bus,regression,enterprise_death_rate,0.16369885789915636
+theory,Professional and Business Services,gd_bus,regression,n_universities_feecap_lad,0.02555058618224094
+theory,Professional and Business Services,gd_bus,regression,size_micro_share,0.08141785214826096
+theory,Professional and Business Services,lq_emp_binary,classification,unemployment_rate,0.01861154796550132
+theory,Professional and Business Services,lq_emp_binary,classification,transport_to_employer,0.07362055187082087
+theory,Professional and Business Services,lq_emp_binary,classification,drive_to_employer,0.04645151069579315
+theory,Professional and Business Services,lq_emp_binary,classification,cycle_to_employer,0.07897209419018614
+theory,Professional and Business Services,lq_emp_binary,classification,broadband,0.030449009770211637
+theory,Professional and Business Services,lq_emp_binary,classification,gcse_age19,0.1545357988408995
+theory,Professional and Business Services,lq_emp_binary,classification,apprenticeship_achievements,0.09607281298930066
+theory,Professional and Business Services,lq_emp_binary,classification,nvq_level3,0.14559807687915996
+theory,Professional and Business Services,lq_emp_binary,classification,fe_participation,0.11799000675487796
+theory,Professional and Business Services,lq_emp_binary,classification,housing_net_additions,0.012094309337014188
+theory,Professional and Business Services,lq_emp_binary,classification,enterprise_birth_rate,0.042372827662141184
+theory,Professional and Business Services,lq_emp_binary,classification,enterprise_death_rate,0.059408442822975055
+theory,Professional and Business Services,lq_emp_binary,classification,n_universities_feecap_lad,0.08631351142601387
+theory,Professional and Business Services,lq_emp_binary,classification,size_micro_share,0.037509498795104665
+theory,Professional and Business Services,lq_bus_binary,classification,unemployment_rate,0.026103702406960316
+theory,Professional and Business Services,lq_bus_binary,classification,transport_to_employer,0.04107702184755199
+theory,Professional and Business Services,lq_bus_binary,classification,drive_to_employer,0.04917907073774805
+theory,Professional and Business Services,lq_bus_binary,classification,cycle_to_employer,0.04269619046584971
+theory,Professional and Business Services,lq_bus_binary,classification,broadband,0.014418412040827644
+theory,Professional and Business Services,lq_bus_binary,classification,gcse_age19,0.1949182505327292
+theory,Professional and Business Services,lq_bus_binary,classification,apprenticeship_achievements,0.16570511540436234
+theory,Professional and Business Services,lq_bus_binary,classification,nvq_level3,0.25488053580965825
+theory,Professional and Business Services,lq_bus_binary,classification,fe_participation,0.10650024152986987
+theory,Professional and Business Services,lq_bus_binary,classification,housing_net_additions,0.01059442409457738
+theory,Professional and Business Services,lq_bus_binary,classification,enterprise_birth_rate,0.025147369152452352
+theory,Professional and Business Services,lq_bus_binary,classification,enterprise_death_rate,0.023284369869852776
+theory,Professional and Business Services,lq_bus_binary,classification,n_universities_feecap_lad,0.020619465910050136
+theory,Professional and Business Services,lq_bus_binary,classification,size_micro_share,0.02487583019750974
+theory,Professional and Business Services,gd_emp_binary,classification,unemployment_rate,0.047073909705977815
+theory,Professional and Business Services,gd_emp_binary,classification,transport_to_employer,0.08234107411698106
+theory,Professional and Business Services,gd_emp_binary,classification,drive_to_employer,0.07778239984042193
+theory,Professional and Business Services,gd_emp_binary,classification,cycle_to_employer,0.08123518878051283
+theory,Professional and Business Services,gd_emp_binary,classification,broadband,0.06496432835559092
+theory,Professional and Business Services,gd_emp_binary,classification,gcse_age19,0.05832605826800546
+theory,Professional and Business Services,gd_emp_binary,classification,apprenticeship_achievements,0.07295572738261862
+theory,Professional and Business Services,gd_emp_binary,classification,nvq_level3,0.08510181227096099
+theory,Professional and Business Services,gd_emp_binary,classification,fe_participation,0.05036742554775846
+theory,Professional and Business Services,gd_emp_binary,classification,housing_net_additions,0.05504930497814988
+theory,Professional and Business Services,gd_emp_binary,classification,enterprise_birth_rate,0.0606529454034823
+theory,Professional and Business Services,gd_emp_binary,classification,enterprise_death_rate,0.07051216870646694
+theory,Professional and Business Services,gd_emp_binary,classification,n_universities_feecap_lad,0.08583408970624401
+theory,Professional and Business Services,gd_emp_binary,classification,size_micro_share,0.10780356693682894
+theory,Professional and Business Services,gd_bus_binary,classification,unemployment_rate,0.039590281907525796
+theory,Professional and Business Services,gd_bus_binary,classification,transport_to_employer,0.08717661908275068
+theory,Professional and Business Services,gd_bus_binary,classification,drive_to_employer,0.07199232824534267
+theory,Professional and Business Services,gd_bus_binary,classification,cycle_to_employer,0.05524510887563365
+theory,Professional and Business Services,gd_bus_binary,classification,broadband,0.05407402914177287
+theory,Professional and Business Services,gd_bus_binary,classification,gcse_age19,0.1058005572925498
+theory,Professional and Business Services,gd_bus_binary,classification,apprenticeship_achievements,0.061016242669415785
+theory,Professional and Business Services,gd_bus_binary,classification,nvq_level3,0.08041204983826902
+theory,Professional and Business Services,gd_bus_binary,classification,fe_participation,0.06834162499641155
+theory,Professional and Business Services,gd_bus_binary,classification,housing_net_additions,0.02931010310399608
+theory,Professional and Business Services,gd_bus_binary,classification,enterprise_birth_rate,0.07534905113916955
+theory,Professional and Business Services,gd_bus_binary,classification,enterprise_death_rate,0.09367917820536999
+theory,Professional and Business Services,gd_bus_binary,classification,n_universities_feecap_lad,0.031132207857631492
+theory,Professional and Business Services,gd_bus_binary,classification,size_micro_share,0.14688061764416094

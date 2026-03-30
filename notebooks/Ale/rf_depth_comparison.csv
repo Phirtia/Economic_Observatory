@@ -1,43 +1,43 @@
 max_depth,sector,R2_mean,R2_std
-2,Advanced Manufacturing,0.4221,0.0796
-2,Creative Industries,0.6225,0.0596
-2,Defence,-0.2472,0.4491
-2,Digital and Technologies,0.4694,0.0505
-2,Financial Services,0.0465,0.1677
-2,Life Sciences,0.0784,0.1682
-2,Professional and Business Services,0.5022,0.1007
-3,Advanced Manufacturing,0.4356,0.0761
-3,Creative Industries,0.6708,0.0537
-3,Defence,-0.2598,0.474
-3,Digital and Technologies,0.5279,0.0682
-3,Financial Services,0.0338,0.1812
-3,Life Sciences,0.0987,0.1769
-3,Professional and Business Services,0.5492,0.134
-4,Advanced Manufacturing,0.434,0.0697
-4,Creative Industries,0.6877,0.0522
-4,Defence,-0.26,0.4743
-4,Digital and Technologies,0.5631,0.062
-4,Financial Services,0.0487,0.1882
-4,Life Sciences,0.1001,0.1898
-4,Professional and Business Services,0.5753,0.1473
-5,Advanced Manufacturing,0.435,0.0731
-5,Creative Industries,0.695,0.0489
-5,Defence,-0.26,0.4743
-5,Digital and Technologies,0.5766,0.059
-5,Financial Services,0.0508,0.1962
-5,Life Sciences,0.0996,0.1991
-5,Professional and Business Services,0.5846,0.1522
-6,Advanced Manufacturing,0.4335,0.0762
-6,Creative Industries,0.696,0.0481
-6,Defence,-0.26,0.4743
-6,Digital and Technologies,0.5822,0.0597
-6,Financial Services,0.0566,0.1953
-6,Life Sciences,0.1002,0.202
-6,Professional and Business Services,0.5892,0.152
-None,Advanced Manufacturing,0.4343,0.0768
-None,Creative Industries,0.6971,0.0475
-None,Defence,-0.26,0.4743
-None,Digital and Technologies,0.5847,0.0597
-None,Financial Services,0.0637,0.1947
-None,Life Sciences,0.0936,0.2069
-None,Professional and Business Services,0.5905,0.1532
+2,Advanced Manufacturing,0.4194,0.0583
+2,Creative Industries,0.6767,0.0466
+2,Defence,-0.2097,0.3843
+2,Digital and Technologies,0.4895,0.0151
+2,Financial Services,-0.0242,0.2602
+2,Life Sciences,0.1464,0.2422
+2,Professional and Business Services,0.4922,0.0901
+3,Advanced Manufacturing,0.4237,0.0758
+3,Creative Industries,0.7431,0.0253
+3,Defence,-0.2177,0.3983
+3,Digital and Technologies,0.5655,0.0236
+3,Financial Services,0.0044,0.2465
+3,Life Sciences,0.128,0.2443
+3,Professional and Business Services,0.5675,0.1133
+4,Advanced Manufacturing,0.4368,0.0884
+4,Creative Industries,0.7662,0.028
+4,Defence,-0.2177,0.3983
+4,Digital and Technologies,0.6052,0.0236
+4,Financial Services,0.017,0.2402
+4,Life Sciences,0.1178,0.2418
+4,Professional and Business Services,0.6086,0.1299
+5,Advanced Manufacturing,0.4424,0.098
+5,Creative Industries,0.7743,0.0318
+5,Defence,-0.2177,0.3983
+5,Digital and Technologies,0.6243,0.026
+5,Financial Services,0.025,0.2385
+5,Life Sciences,0.1157,0.2388
+5,Professional and Business Services,0.6249,0.1274
+6,Advanced Manufacturing,0.4451,0.1022
+6,Creative Industries,0.7771,0.0324
+6,Defence,-0.2177,0.3983
+6,Digital and Technologies,0.6283,0.0273
+6,Financial Services,0.0314,0.2407
+6,Life Sciences,0.1101,0.237
+6,Professional and Business Services,0.6289,0.1265
+None,Advanced Manufacturing,0.4451,0.1067
+None,Creative Industries,0.7771,0.0326
+None,Defence,-0.2177,0.3983
+None,Digital and Technologies,0.6304,0.0282
+None,Financial Services,0.0323,0.2429
+None,Life Sciences,0.1034,0.2351
+None,Professional and Business Services,0.6307,0.1266

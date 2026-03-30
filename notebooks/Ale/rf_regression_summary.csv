@@ -26,30 +26,30 @@ Professional and Business Services,lq_emp,296,0.4115,0.1177,0.2957,0.075
 Professional and Business Services,lq_bus,296,0.6327,0.1481,0.1611,0.0501
 Professional and Business Services,gd_emp,296,0.004,0.0485,0.0337,0.0078
 Professional and Business Services,gd_bus,296,0.0284,0.074,0.0176,0.0049
-Advanced Manufacturing,lq_emp,296,0.0682,0.081,1.2131,0.3836
-Advanced Manufacturing,lq_bus,296,0.434,0.0697,0.3238,0.02
-Advanced Manufacturing,gd_emp,295,-0.0505,0.0972,0.0519,0.0064
-Advanced Manufacturing,gd_bus,295,0.0301,0.1466,0.0333,0.0065
-Creative Industries,lq_emp,296,0.4745,0.1141,0.4607,0.0648
-Creative Industries,lq_bus,296,0.6877,0.0522,0.2676,0.0207
-Creative Industries,gd_emp,296,0.0482,0.0505,0.0342,0.0038
-Creative Industries,gd_bus,295,0.0426,0.0808,0.0163,0.0025
-Defence,lq_emp,296,-3.0487,4.0151,6.551,4.6122
-Defence,lq_bus,296,-0.26,0.4743,0.7529,0.5319
-Defence,gd_emp,46,-0.6064,0.6807,0.0719,0.0116
-Digital and Technologies,lq_emp,296,0.2835,0.0681,0.4732,0.0764
-Digital and Technologies,lq_bus,296,0.5631,0.062,0.2263,0.0164
-Digital and Technologies,gd_emp,295,0.0351,0.0536,0.0298,0.004
-Digital and Technologies,gd_bus,295,0.0172,0.0777,0.0183,0.0022
-Financial Services,lq_emp,296,-0.3747,0.3742,0.7729,0.439
-Financial Services,lq_bus,296,0.0487,0.1882,0.4818,0.2202
-Financial Services,gd_emp,295,-0.0759,0.0753,0.051,0.0072
-Financial Services,gd_bus,295,0.1257,0.08,0.0279,0.0047
-Life Sciences,lq_emp,296,-0.0119,0.0677,1.6653,0.2391
-Life Sciences,lq_bus,296,0.1001,0.1898,0.839,0.3117
-Life Sciences,gd_emp,280,-0.0469,0.0969,0.141,0.0485
-Life Sciences,gd_bus,235,0.0193,0.0549,0.0749,0.0103
-Professional and Business Services,lq_emp,296,0.26,0.1234,0.3307,0.0779
-Professional and Business Services,lq_bus,296,0.5753,0.1473,0.1731,0.0456
-Professional and Business Services,gd_emp,296,0.0109,0.0372,0.0337,0.008
-Professional and Business Services,gd_bus,296,0.0045,0.0552,0.0178,0.0049
+Advanced Manufacturing,lq_emp,296,0.1682,0.0676,1.1469,0.3637
+Advanced Manufacturing,lq_bus,296,0.4368,0.0884,0.3227,0.0254
+Advanced Manufacturing,gd_emp,295,-0.0447,0.1172,0.0518,0.0068
+Advanced Manufacturing,gd_bus,295,0.0142,0.1566,0.0334,0.0059
+Creative Industries,lq_emp,296,0.557,0.0959,0.4251,0.0685
+Creative Industries,lq_bus,296,0.7662,0.028,0.2329,0.023
+Creative Industries,gd_emp,296,0.0304,0.0645,0.0345,0.0035
+Creative Industries,gd_bus,295,0.0522,0.0719,0.0163,0.0025
+Defence,lq_emp,296,-5.7961,10.6637,6.4952,4.6904
+Defence,lq_bus,296,-0.2177,0.3983,0.7537,0.5268
+Defence,gd_emp,46,-0.4986,0.6411,0.07,0.0131
+Digital and Technologies,lq_emp,296,0.4397,0.0757,0.4183,0.0725
+Digital and Technologies,lq_bus,296,0.6052,0.0236,0.2161,0.0174
+Digital and Technologies,gd_emp,295,0.0598,0.0298,0.0295,0.004
+Digital and Technologies,gd_bus,295,0.1023,0.0801,0.0175,0.0024
+Financial Services,lq_emp,296,-0.0746,0.1837,0.6885,0.3915
+Financial Services,lq_bus,296,0.017,0.2402,0.481,0.1979
+Financial Services,gd_emp,295,-0.0496,0.0848,0.0504,0.0073
+Financial Services,gd_bus,295,-0.0008,0.0341,0.0298,0.0044
+Life Sciences,lq_emp,296,-0.0058,0.0824,1.6672,0.2785
+Life Sciences,lq_bus,296,0.1178,0.2418,0.825,0.3051
+Life Sciences,gd_emp,280,-0.0421,0.1387,0.1406,0.0495
+Life Sciences,gd_bus,235,-0.0448,0.084,0.077,0.0092
+Professional and Business Services,lq_emp,296,0.3479,0.1003,0.3115,0.0764
+Professional and Business Services,lq_bus,296,0.6086,0.1299,0.1671,0.0478
+Professional and Business Services,gd_emp,296,-0.0144,0.0215,0.0341,0.008
+Professional and Business Services,gd_bus,296,-0.0216,0.0422,0.0179,0.0047
