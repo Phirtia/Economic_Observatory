@@ -1,0 +1,31 @@
+sector,model_type,dep_var,metric,metric_value,quality,top_features
+Advanced Manufacturing,Classification,gd_bus_binary,F1,0.6111,⚠️ Marginal,apprenticeship_achievements | fe_participation | related_variety | apprenticeship_starts | n_universities_feecap_lad
+Advanced Manufacturing,Classification,gd_emp_binary,F1,0.5109,⚠️ Marginal,apprenticeship_achievements | nvq_level3 | fe_participation | apprenticeship_starts | gcse_age19
+Advanced Manufacturing,Classification,lq_bus_binary,F1,0.7791,✅ Recommended,apprenticeship_starts | related_variety | apprenticeship_achievements
+Advanced Manufacturing,Classification,lq_emp_binary,F1,0.7283,✅ Recommended,apprenticeship_achievements | housing_net_additions | apprenticeship_starts | fe_participation | gcse_age19
+Advanced Manufacturing,Regression,lq_bus,R2,0.5246,✅ Recommended,apprenticeship_starts | related_variety | apprenticeship_achievements
+Advanced Manufacturing,Regression,lq_emp,R2,0.3882,✅ Recommended,apprenticeship_achievements | housing_net_additions | apprenticeship_starts | fe_participation | gcse_age19
+Creative Industries,Classification,gd_bus_binary,F1,0.621,⚠️ Marginal,enterprise_death_rate | fe_participation | gcse_age19 | n_universities_feecap_lad | related_variety
+Creative Industries,Classification,gd_emp_binary,F1,0.5829,⚠️ Marginal,housing_net_additions | fe_participation | n_universities_feecap_lad | apprenticeship_achievements | apprenticeship_starts
+Creative Industries,Classification,lq_bus_binary,F1,0.8053,✅ Recommended,apprenticeship_starts | apprenticeship_achievements | nvq_level3
+Creative Industries,Classification,lq_emp_binary,F1,0.5784,⚠️ Marginal,apprenticeship_achievements | apprenticeship_starts | nvq_level3
+Creative Industries,Regression,lq_bus,R2,0.7581,✅ Recommended,apprenticeship_starts | apprenticeship_achievements | nvq_level3
+Creative Industries,Regression,lq_emp,R2,0.6381,✅ Recommended,apprenticeship_achievements | apprenticeship_starts | nvq_level3
+Defence,Classification,gd_emp_binary,F1,0.7526,✅ Recommended,gcse_age19 | related_variety | apprenticeship_starts | apprenticeship_achievements | nvq_level3
+Digital and Technologies,Classification,gd_bus_binary,F1,0.5858,⚠️ Marginal,n_universities_feecap_lad | fe_participation | enterprise_death_rate | related_variety | gcse_age19
+Digital and Technologies,Classification,gd_emp_binary,F1,0.524,⚠️ Marginal,n_universities_feecap_lad | housing_net_additions | gcse_age19 | nvq_level3 | related_variety
+Digital and Technologies,Classification,lq_bus_binary,F1,0.7414,✅ Recommended,apprenticeship_starts | nvq_level3 | apprenticeship_achievements | gcse_age19
+Digital and Technologies,Classification,lq_emp_binary,F1,0.5576,⚠️ Marginal,nvq_level3 | related_variety | gcse_age19 | fe_participation | apprenticeship_starts
+Digital and Technologies,Regression,lq_bus,R2,0.6271,✅ Recommended,apprenticeship_starts | nvq_level3 | apprenticeship_achievements | gcse_age19
+Digital and Technologies,Regression,lq_emp,R2,0.5016,✅ Recommended,nvq_level3 | related_variety | gcse_age19 | fe_participation | apprenticeship_starts
+Financial Services,Classification,gd_bus_binary,F1,0.6285,⚠️ Marginal,related_variety | enterprise_birth_rate | gcse_age19 | coverage_4g | housing_net_additions
+Financial Services,Regression,lq_bus,R2,0.137,⚠️ Marginal,n_universities_feecap_lad | related_variety | nvq_level3 | broadband
+Life Sciences,Classification,gd_bus_binary,F1,0.8424,✅ Recommended,nvq_level3 | related_variety | fe_participation | enterprise_birth_rate | enterprise_death_rate
+Life Sciences,Classification,gd_emp_binary,F1,0.5554,⚠️ Marginal,housing_net_additions | fe_participation | gcse_age19 | nvq_level3 | broadband
+Life Sciences,Regression,lq_bus,R2,0.1956,⚠️ Marginal,fe_participation | related_variety | nvq_level3
+Professional and Business Services,Classification,gd_bus_binary,F1,0.6343,⚠️ Marginal,apprenticeship_starts | gcse_age19 | enterprise_death_rate | enterprise_birth_rate | nvq_level3
+Professional and Business Services,Classification,gd_emp_binary,F1,0.5506,⚠️ Marginal,enterprise_death_rate | nvq_level3 | fe_participation | gcse_age19 | n_universities_feecap_lad
+Professional and Business Services,Classification,lq_bus_binary,F1,0.8163,✅ Recommended,nvq_level3 | apprenticeship_starts | gcse_age19 | apprenticeship_achievements
+Professional and Business Services,Classification,lq_emp_binary,F1,0.515,⚠️ Marginal,n_universities_feecap_lad | gcse_age19 | apprenticeship_starts | fe_participation | enterprise_death_rate
+Professional and Business Services,Regression,lq_bus,R2,0.6337,✅ Recommended,nvq_level3 | apprenticeship_starts | gcse_age19 | apprenticeship_achievements
+Professional and Business Services,Regression,lq_emp,R2,0.412,✅ Recommended,n_universities_feecap_lad | gcse_age19 | apprenticeship_starts | fe_participation | enterprise_death_rate
