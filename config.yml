@@ -38,6 +38,7 @@ paths:
 
   # Processed files
   analysis_panel: "data/processed_data/analysis_panel.parquet"
+  analysis_panel_UK: "data/processed_data/analysis_panel_UK.parquet"
 
 # --- Analysis parameters ---
 parameters:
@@ -121,3 +122,38 @@ parameters:
     unemployment_rate:             unemployment_rate
     # Place conditions
     net_additions:                 housing_net_additions
+
+  # South Yorkshire MCA constituent LADs
+  sy_lad_codes:
+    - "E08000016"  # Barnsley
+    - "E08000017"  # Doncaster
+    - "E08000018"  # Rotherham
+    - "E08000019"  # Sheffield
+  sy_lad_names:
+    - "Barnsley"
+    - "Doncaster"
+    - "Rotherham"
+    - "Sheffield"
+
+  # EEG variable groupings for clustering and scorecard
+  # Spearman correlation check (2023): removed drive_to_employer and cycle_to_employer
+  # (r=0.97-0.98 with transport_to_employer) and apprenticeship_achievements
+  # (r=0.93 with apprenticeship_starts)
+  eeg_groups:
+    Knowledge Base:
+      - nvq_level3
+      - gcse_age19
+      - apprenticeship_starts
+      - fe_participation
+      - n_universities_feecap_lad
+    Entrepreneurial Discovery:
+      - enterprise_birth_rate
+      - enterprise_death_rate
+      - enterprise_high_growth_rate
+    Connectivity and Agglomeration Potential:
+      - transport_to_employer
+      - broadband
+    Labour Market Conditions:
+      - unemployment_rate
+    Place Attractiveness:
+      - housing_net_additions
