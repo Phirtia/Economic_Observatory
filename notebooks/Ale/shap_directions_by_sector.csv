@@ -1,505 +1,433 @@
 sector,model,feature,corr_shap,direction,imp_share
-Advanced Manufacturing,LQ_reg_bus,apprenticeship_achievements,0.71,Positive ↑,0.3667
-Advanced Manufacturing,LQ_reg_bus,unemployment_rate,0.652,Positive ↑,0.0047
-Advanced Manufacturing,LQ_reg_bus,housing_net_additions,0.515,Positive ↑,0.0129
-Advanced Manufacturing,LQ_reg_bus,cycle_to_employer,0.408,Positive ↑,0.0558
-Advanced Manufacturing,LQ_reg_bus,broadband,0.094,Ambiguous,0.0115
-Advanced Manufacturing,LQ_reg_bus,drive_to_employer,-0.198,Negative ↓,0.0202
-Advanced Manufacturing,LQ_reg_bus,transport_to_employer,-0.444,Negative ↓,0.0158
-Advanced Manufacturing,LQ_reg_bus,gcse_age19,-0.556,Negative ↓,0.0036
-Advanced Manufacturing,LQ_reg_bus,enterprise_death_rate,-0.656,Negative ↓,0.0212
-Advanced Manufacturing,LQ_reg_bus,n_universities_feecap_lad,-0.657,Negative ↓,0.0131
-Advanced Manufacturing,LQ_reg_bus,nvq_level3,-0.682,Negative ↓,0.0382
-Advanced Manufacturing,LQ_reg_bus,enterprise_birth_rate,-0.746,Negative ↓,0.019
-Advanced Manufacturing,LQ_reg_bus,fe_participation,-0.85,Negative ↓,0.0327
-Advanced Manufacturing,LQ_reg_bus,size_micro_share,-0.92,Negative ↓,0.3847
-Creative Industries,LQ_reg_bus,nvq_level3,0.909,Positive ↑,0.1661
-Creative Industries,LQ_reg_bus,gcse_age19,0.849,Positive ↑,0.1045
-Creative Industries,LQ_reg_bus,n_universities_feecap_lad,0.674,Positive ↑,0.0017
-Creative Industries,LQ_reg_bus,broadband,0.572,Positive ↑,0.0052
-Creative Industries,LQ_reg_bus,housing_net_additions,0.107,Positive ↑,0.0025
-Creative Industries,LQ_reg_bus,enterprise_death_rate,-0.045,Ambiguous,0.0054
-Creative Industries,LQ_reg_bus,enterprise_birth_rate,-0.158,Negative ↓,0.0051
-Creative Industries,LQ_reg_bus,transport_to_employer,-0.315,Negative ↓,0.0663
-Creative Industries,LQ_reg_bus,cycle_to_employer,-0.317,Negative ↓,0.0373
-Creative Industries,LQ_reg_bus,drive_to_employer,-0.343,Negative ↓,0.01
-Creative Industries,LQ_reg_bus,unemployment_rate,-0.64,Negative ↓,0.0081
-Creative Industries,LQ_reg_bus,apprenticeship_achievements,-0.77,Negative ↓,0.5326
-Creative Industries,LQ_reg_bus,fe_participation,-0.806,Negative ↓,0.0417
-Creative Industries,LQ_reg_bus,size_micro_share,-0.847,Negative ↓,0.0134
-Digital and Technologies,LQ_reg_bus,nvq_level3,0.926,Positive ↑,0.2347
-Digital and Technologies,LQ_reg_bus,gcse_age19,0.869,Positive ↑,0.1295
-Digital and Technologies,LQ_reg_bus,broadband,0.856,Positive ↑,0.0317
-Digital and Technologies,LQ_reg_bus,housing_net_additions,0.811,Positive ↑,0.0068
-Digital and Technologies,LQ_reg_bus,enterprise_death_rate,0.66,Positive ↑,0.0206
-Digital and Technologies,LQ_reg_bus,n_universities_feecap_lad,0.444,Positive ↑,0.0011
-Digital and Technologies,LQ_reg_bus,drive_to_employer,-0.588,Negative ↓,0.0225
-Digital and Technologies,LQ_reg_bus,unemployment_rate,-0.598,Negative ↓,0.0188
-Digital and Technologies,LQ_reg_bus,enterprise_birth_rate,-0.662,Negative ↓,0.0086
-Digital and Technologies,LQ_reg_bus,apprenticeship_achievements,-0.745,Negative ↓,0.3357
-Digital and Technologies,LQ_reg_bus,fe_participation,-0.76,Negative ↓,0.046
-Digital and Technologies,LQ_reg_bus,transport_to_employer,-0.775,Negative ↓,0.017
-Digital and Technologies,LQ_reg_bus,cycle_to_employer,-0.784,Negative ↓,0.0389
-Digital and Technologies,LQ_reg_bus,size_micro_share,-0.893,Negative ↓,0.0882
-Financial Services,LQ_reg_bus,n_universities_feecap_lad,0.828,Positive ↑,0.3874
-Financial Services,LQ_reg_bus,broadband,0.809,Positive ↑,0.0439
-Financial Services,LQ_reg_bus,nvq_level3,0.752,Positive ↑,0.0336
-Financial Services,LQ_reg_bus,housing_net_additions,0.563,Positive ↑,0.0303
-Financial Services,LQ_reg_bus,enterprise_death_rate,0.341,Positive ↑,0.0432
-Financial Services,LQ_reg_bus,size_micro_share,-0.016,Ambiguous,0.0416
-Financial Services,LQ_reg_bus,enterprise_birth_rate,-0.242,Negative ↓,0.0203
-Financial Services,LQ_reg_bus,gcse_age19,-0.431,Negative ↓,0.044
-Financial Services,LQ_reg_bus,apprenticeship_achievements,-0.494,Negative ↓,0.0153
-Financial Services,LQ_reg_bus,drive_to_employer,-0.531,Negative ↓,0.048
-Financial Services,LQ_reg_bus,unemployment_rate,-0.68,Negative ↓,0.0535
-Financial Services,LQ_reg_bus,transport_to_employer,-0.728,Negative ↓,0.0167
-Financial Services,LQ_reg_bus,cycle_to_employer,-0.787,Negative ↓,0.0363
-Financial Services,LQ_reg_bus,fe_participation,-0.839,Negative ↓,0.1859
-Life Sciences,LQ_reg_bus,broadband,0.773,Positive ↑,0.0191
-Life Sciences,LQ_reg_bus,gcse_age19,0.759,Positive ↑,0.0243
-Life Sciences,LQ_reg_bus,nvq_level3,0.745,Positive ↑,0.1052
-Life Sciences,LQ_reg_bus,housing_net_additions,0.713,Positive ↑,0.0135
-Life Sciences,LQ_reg_bus,n_universities_feecap_lad,0.588,Positive ↑,0.0075
-Life Sciences,LQ_reg_bus,unemployment_rate,0.333,Positive ↑,0.0094
-Life Sciences,LQ_reg_bus,transport_to_employer,0.278,Positive ↑,0.0119
-Life Sciences,LQ_reg_bus,enterprise_death_rate,0.221,Positive ↑,0.0207
-Life Sciences,LQ_reg_bus,drive_to_employer,0.165,Positive ↑,0.0099
-Life Sciences,LQ_reg_bus,fe_participation,-0.421,Negative ↓,0.2421
-Life Sciences,LQ_reg_bus,enterprise_birth_rate,-0.47,Negative ↓,0.006
-Life Sciences,LQ_reg_bus,apprenticeship_achievements,-0.535,Negative ↓,0.0371
-Life Sciences,LQ_reg_bus,cycle_to_employer,-0.721,Negative ↓,0.0234
-Life Sciences,LQ_reg_bus,size_micro_share,-0.769,Negative ↓,0.4701
-Professional and Business Services,LQ_reg_bus,nvq_level3,0.94,Positive ↑,0.4161
-Professional and Business Services,LQ_reg_bus,gcse_age19,0.85,Positive ↑,0.2042
-Professional and Business Services,LQ_reg_bus,n_universities_feecap_lad,0.754,Positive ↑,0.0159
-Professional and Business Services,LQ_reg_bus,broadband,0.392,Positive ↑,0.01
-Professional and Business Services,LQ_reg_bus,enterprise_death_rate,-0.025,Ambiguous,0.0062
-Professional and Business Services,LQ_reg_bus,housing_net_additions,-0.125,Negative ↓,0.008
-Professional and Business Services,LQ_reg_bus,drive_to_employer,-0.535,Negative ↓,0.0192
-Professional and Business Services,LQ_reg_bus,size_micro_share,-0.644,Negative ↓,0.0049
-Professional and Business Services,LQ_reg_bus,cycle_to_employer,-0.659,Negative ↓,0.0352
-Professional and Business Services,LQ_reg_bus,fe_participation,-0.687,Negative ↓,0.0402
-Professional and Business Services,LQ_reg_bus,unemployment_rate,-0.756,Negative ↓,0.0049
-Professional and Business Services,LQ_reg_bus,enterprise_birth_rate,-0.779,Negative ↓,0.0302
-Professional and Business Services,LQ_reg_bus,transport_to_employer,-0.782,Negative ↓,0.0259
-Professional and Business Services,LQ_reg_bus,apprenticeship_achievements,-0.804,Negative ↓,0.1791
-Advanced Manufacturing,LQ_clf_bus,housing_net_additions,0.77,Positive ↑,0.0279
-Advanced Manufacturing,LQ_clf_bus,apprenticeship_achievements,0.654,Positive ↑,0.2011
-Advanced Manufacturing,LQ_clf_bus,transport_to_employer,0.52,Positive ↑,0.06
-Advanced Manufacturing,LQ_clf_bus,cycle_to_employer,0.497,Positive ↑,0.094
-Advanced Manufacturing,LQ_clf_bus,drive_to_employer,0.272,Positive ↑,0.0583
-Advanced Manufacturing,LQ_clf_bus,unemployment_rate,0.114,Positive ↑,0.0154
-Advanced Manufacturing,LQ_clf_bus,broadband,-0.052,Ambiguous,0.0118
-Advanced Manufacturing,LQ_clf_bus,enterprise_birth_rate,-0.24,Negative ↓,0.015
-Advanced Manufacturing,LQ_clf_bus,enterprise_death_rate,-0.356,Negative ↓,0.0162
-Advanced Manufacturing,LQ_clf_bus,fe_participation,-0.367,Negative ↓,0.0284
-Advanced Manufacturing,LQ_clf_bus,n_universities_feecap_lad,-0.676,Negative ↓,0.0602
-Advanced Manufacturing,LQ_clf_bus,size_micro_share,-0.84,Negative ↓,0.3164
-Advanced Manufacturing,LQ_clf_bus,gcse_age19,-0.893,Negative ↓,0.0337
-Advanced Manufacturing,LQ_clf_bus,nvq_level3,-0.894,Negative ↓,0.0615
-Creative Industries,LQ_clf_bus,nvq_level3,0.846,Positive ↑,0.2207
-Creative Industries,LQ_clf_bus,n_universities_feecap_lad,0.835,Positive ↑,0.0079
-Creative Industries,LQ_clf_bus,gcse_age19,0.825,Positive ↑,0.1185
-Creative Industries,LQ_clf_bus,broadband,0.724,Positive ↑,0.0154
-Creative Industries,LQ_clf_bus,housing_net_additions,0.606,Positive ↑,0.0091
-Creative Industries,LQ_clf_bus,unemployment_rate,0.339,Positive ↑,0.0119
-Creative Industries,LQ_clf_bus,drive_to_employer,-0.369,Negative ↓,0.0584
-Creative Industries,LQ_clf_bus,enterprise_death_rate,-0.418,Negative ↓,0.009
-Creative Industries,LQ_clf_bus,cycle_to_employer,-0.555,Negative ↓,0.0987
-Creative Industries,LQ_clf_bus,fe_participation,-0.642,Negative ↓,0.065
-Creative Industries,LQ_clf_bus,transport_to_employer,-0.646,Negative ↓,0.0627
-Creative Industries,LQ_clf_bus,apprenticeship_achievements,-0.716,Negative ↓,0.2664
-Creative Industries,LQ_clf_bus,enterprise_birth_rate,-0.747,Negative ↓,0.0378
-Creative Industries,LQ_clf_bus,size_micro_share,-0.794,Negative ↓,0.0186
-Digital and Technologies,LQ_clf_bus,nvq_level3,0.882,Positive ↑,0.2278
-Digital and Technologies,LQ_clf_bus,gcse_age19,0.876,Positive ↑,0.1647
-Digital and Technologies,LQ_clf_bus,broadband,0.868,Positive ↑,0.0653
-Digital and Technologies,LQ_clf_bus,housing_net_additions,0.857,Positive ↑,0.0127
-Digital and Technologies,LQ_clf_bus,enterprise_death_rate,0.819,Positive ↑,0.0205
-Digital and Technologies,LQ_clf_bus,n_universities_feecap_lad,0.762,Positive ↑,0.0043
-Digital and Technologies,LQ_clf_bus,drive_to_employer,-0.41,Negative ↓,0.0439
-Digital and Technologies,LQ_clf_bus,cycle_to_employer,-0.679,Negative ↓,0.0668
-Digital and Technologies,LQ_clf_bus,transport_to_employer,-0.698,Negative ↓,0.0411
-Digital and Technologies,LQ_clf_bus,fe_participation,-0.724,Negative ↓,0.0711
-Digital and Technologies,LQ_clf_bus,apprenticeship_achievements,-0.752,Negative ↓,0.1904
-Digital and Technologies,LQ_clf_bus,enterprise_birth_rate,-0.785,Negative ↓,0.025
-Digital and Technologies,LQ_clf_bus,unemployment_rate,-0.788,Negative ↓,0.0156
-Digital and Technologies,LQ_clf_bus,size_micro_share,-0.814,Negative ↓,0.0508
-Financial Services,LQ_clf_bus,n_universities_feecap_lad,0.824,Positive ↑,0.1413
-Financial Services,LQ_clf_bus,broadband,0.749,Positive ↑,0.0397
-Financial Services,LQ_clf_bus,nvq_level3,0.731,Positive ↑,0.0864
-Financial Services,LQ_clf_bus,gcse_age19,0.687,Positive ↑,0.0403
-Financial Services,LQ_clf_bus,housing_net_additions,-0.09,Ambiguous,0.0184
-Financial Services,LQ_clf_bus,drive_to_employer,-0.324,Negative ↓,0.1237
-Financial Services,LQ_clf_bus,enterprise_death_rate,-0.38,Negative ↓,0.0673
-Financial Services,LQ_clf_bus,size_micro_share,-0.412,Negative ↓,0.0388
-Financial Services,LQ_clf_bus,cycle_to_employer,-0.601,Negative ↓,0.0945
-Financial Services,LQ_clf_bus,apprenticeship_achievements,-0.615,Negative ↓,0.0697
-Financial Services,LQ_clf_bus,fe_participation,-0.624,Negative ↓,0.0614
-Financial Services,LQ_clf_bus,unemployment_rate,-0.663,Negative ↓,0.0915
-Financial Services,LQ_clf_bus,enterprise_birth_rate,-0.685,Negative ↓,0.0489
-Financial Services,LQ_clf_bus,transport_to_employer,-0.711,Negative ↓,0.0779
-Life Sciences,LQ_clf_bus,nvq_level3,0.871,Positive ↑,0.1146
-Life Sciences,LQ_clf_bus,housing_net_additions,0.867,Positive ↑,0.0671
-Life Sciences,LQ_clf_bus,n_universities_feecap_lad,0.85,Positive ↑,0.0499
-Life Sciences,LQ_clf_bus,gcse_age19,0.802,Positive ↑,0.0396
-Life Sciences,LQ_clf_bus,broadband,0.067,Ambiguous,0.0166
-Life Sciences,LQ_clf_bus,unemployment_rate,-0.005,Ambiguous,0.0236
-Life Sciences,LQ_clf_bus,enterprise_death_rate,-0.111,Negative ↓,0.042
-Life Sciences,LQ_clf_bus,drive_to_employer,-0.272,Negative ↓,0.0272
-Life Sciences,LQ_clf_bus,cycle_to_employer,-0.538,Negative ↓,0.025
-Life Sciences,LQ_clf_bus,fe_participation,-0.595,Negative ↓,0.0845
-Life Sciences,LQ_clf_bus,transport_to_employer,-0.71,Negative ↓,0.0329
-Life Sciences,LQ_clf_bus,apprenticeship_achievements,-0.712,Negative ↓,0.0557
-Life Sciences,LQ_clf_bus,enterprise_birth_rate,-0.744,Negative ↓,0.0461
-Life Sciences,LQ_clf_bus,size_micro_share,-0.814,Negative ↓,0.3752
-Professional and Business Services,LQ_clf_bus,nvq_level3,0.87,Positive ↑,0.2604
-Professional and Business Services,LQ_clf_bus,n_universities_feecap_lad,0.869,Positive ↑,0.02
-Professional and Business Services,LQ_clf_bus,gcse_age19,0.843,Positive ↑,0.1915
-Professional and Business Services,LQ_clf_bus,broadband,0.768,Positive ↑,0.0122
-Professional and Business Services,LQ_clf_bus,size_micro_share,0.422,Positive ↑,0.0141
-Professional and Business Services,LQ_clf_bus,housing_net_additions,-0.01,Ambiguous,0.0061
-Professional and Business Services,LQ_clf_bus,enterprise_death_rate,-0.274,Negative ↓,0.0147
-Professional and Business Services,LQ_clf_bus,drive_to_employer,-0.386,Negative ↓,0.0372
-Professional and Business Services,LQ_clf_bus,cycle_to_employer,-0.55,Negative ↓,0.0363
-Professional and Business Services,LQ_clf_bus,transport_to_employer,-0.599,Negative ↓,0.0284
-Professional and Business Services,LQ_clf_bus,fe_participation,-0.673,Negative ↓,0.1272
-Professional and Business Services,LQ_clf_bus,apprenticeship_achievements,-0.753,Negative ↓,0.1883
-Professional and Business Services,LQ_clf_bus,enterprise_birth_rate,-0.798,Negative ↓,0.0404
-Professional and Business Services,LQ_clf_bus,unemployment_rate,-0.859,Negative ↓,0.0232
-Advanced Manufacturing,gd_clf_bus,enterprise_birth_rate,0.916,Positive ↑,0.0772
-Advanced Manufacturing,gd_clf_bus,unemployment_rate,0.864,Positive ↑,0.0487
-Advanced Manufacturing,gd_clf_bus,n_universities_feecap_lad,0.832,Positive ↑,0.0638
-Advanced Manufacturing,gd_clf_bus,housing_net_additions,0.816,Positive ↑,0.0474
-Advanced Manufacturing,gd_clf_bus,fe_participation,0.666,Positive ↑,0.0835
-Advanced Manufacturing,gd_clf_bus,enterprise_death_rate,0.492,Positive ↑,0.0351
-Advanced Manufacturing,gd_clf_bus,cycle_to_employer,0.277,Positive ↑,0.1074
-Advanced Manufacturing,gd_clf_bus,size_micro_share,0.158,Positive ↑,0.0891
-Advanced Manufacturing,gd_clf_bus,drive_to_employer,-0.026,Ambiguous,0.0999
-Advanced Manufacturing,gd_clf_bus,apprenticeship_achievements,-0.177,Negative ↓,0.0293
-Advanced Manufacturing,gd_clf_bus,nvq_level3,-0.249,Negative ↓,0.0481
-Advanced Manufacturing,gd_clf_bus,transport_to_employer,-0.263,Negative ↓,0.1259
-Advanced Manufacturing,gd_clf_bus,gcse_age19,-0.475,Negative ↓,0.1002
-Advanced Manufacturing,gd_clf_bus,broadband,-0.761,Negative ↓,0.0444
-Creative Industries,gd_clf_bus,fe_participation,0.898,Positive ↑,0.1343
-Creative Industries,gd_clf_bus,n_universities_feecap_lad,0.789,Positive ↑,0.0439
-Creative Industries,gd_clf_bus,cycle_to_employer,0.729,Positive ↑,0.0552
-Creative Industries,gd_clf_bus,apprenticeship_achievements,0.413,Positive ↑,0.051
-Creative Industries,gd_clf_bus,enterprise_birth_rate,0.374,Positive ↑,0.0392
-Creative Industries,gd_clf_bus,unemployment_rate,0.1,Positive ↑,0.0255
-Creative Industries,gd_clf_bus,drive_to_employer,-0.009,Ambiguous,0.0456
-Creative Industries,gd_clf_bus,nvq_level3,-0.031,Ambiguous,0.0322
-Creative Industries,gd_clf_bus,housing_net_additions,-0.216,Negative ↓,0.0311
-Creative Industries,gd_clf_bus,transport_to_employer,-0.267,Negative ↓,0.034
-Creative Industries,gd_clf_bus,size_micro_share,-0.527,Negative ↓,0.0414
-Creative Industries,gd_clf_bus,enterprise_death_rate,-0.7,Negative ↓,0.1372
-Creative Industries,gd_clf_bus,broadband,-0.783,Negative ↓,0.0909
-Creative Industries,gd_clf_bus,gcse_age19,-0.798,Negative ↓,0.2383
-Digital and Technologies,gd_clf_bus,housing_net_additions,0.906,Positive ↑,0.0652
-Digital and Technologies,gd_clf_bus,enterprise_birth_rate,0.885,Positive ↑,0.0613
-Digital and Technologies,gd_clf_bus,n_universities_feecap_lad,0.82,Positive ↑,0.0799
-Digital and Technologies,gd_clf_bus,cycle_to_employer,0.735,Positive ↑,0.081
-Digital and Technologies,gd_clf_bus,fe_participation,0.677,Positive ↑,0.0955
-Digital and Technologies,gd_clf_bus,drive_to_employer,0.483,Positive ↑,0.057
-Digital and Technologies,gd_clf_bus,unemployment_rate,0.413,Positive ↑,0.0304
-Digital and Technologies,gd_clf_bus,nvq_level3,0.339,Positive ↑,0.0325
-Digital and Technologies,gd_clf_bus,transport_to_employer,0.276,Positive ↑,0.0736
-Digital and Technologies,gd_clf_bus,apprenticeship_achievements,-0.708,Negative ↓,0.0658
-Digital and Technologies,gd_clf_bus,enterprise_death_rate,-0.711,Negative ↓,0.0798
-Digital and Technologies,gd_clf_bus,broadband,-0.781,Negative ↓,0.0707
-Digital and Technologies,gd_clf_bus,gcse_age19,-0.834,Negative ↓,0.1443
-Digital and Technologies,gd_clf_bus,size_micro_share,-0.913,Negative ↓,0.0631
-Financial Services,gd_clf_bus,housing_net_additions,0.887,Positive ↑,0.0651
-Financial Services,gd_clf_bus,gcse_age19,0.783,Positive ↑,0.1025
-Financial Services,gd_clf_bus,nvq_level3,0.702,Positive ↑,0.0166
-Financial Services,gd_clf_bus,size_micro_share,0.641,Positive ↑,0.0894
-Financial Services,gd_clf_bus,apprenticeship_achievements,0.485,Positive ↑,0.0212
-Financial Services,gd_clf_bus,transport_to_employer,0.313,Positive ↑,0.0564
-Financial Services,gd_clf_bus,n_universities_feecap_lad,0.241,Positive ↑,0.0498
-Financial Services,gd_clf_bus,drive_to_employer,0.183,Positive ↑,0.0385
-Financial Services,gd_clf_bus,enterprise_death_rate,0.105,Positive ↑,0.0547
-Financial Services,gd_clf_bus,cycle_to_employer,0.052,Ambiguous,0.0346
-Financial Services,gd_clf_bus,broadband,-0.513,Negative ↓,0.0623
-Financial Services,gd_clf_bus,enterprise_birth_rate,-0.779,Negative ↓,0.1931
-Financial Services,gd_clf_bus,unemployment_rate,-0.82,Negative ↓,0.1206
-Financial Services,gd_clf_bus,fe_participation,-0.848,Negative ↓,0.0952
-Life Sciences,gd_clf_bus,housing_net_additions,0.88,Positive ↑,0.0554
-Life Sciences,gd_clf_bus,size_micro_share,0.77,Positive ↑,0.1741
-Life Sciences,gd_clf_bus,apprenticeship_achievements,0.733,Positive ↑,0.0428
-Life Sciences,gd_clf_bus,nvq_level3,0.681,Positive ↑,0.0562
-Life Sciences,gd_clf_bus,drive_to_employer,0.327,Positive ↑,0.0613
-Life Sciences,gd_clf_bus,cycle_to_employer,0.269,Positive ↑,0.0415
-Life Sciences,gd_clf_bus,n_universities_feecap_lad,-0.065,Ambiguous,0.0308
-Life Sciences,gd_clf_bus,broadband,-0.352,Negative ↓,0.104
-Life Sciences,gd_clf_bus,transport_to_employer,-0.406,Negative ↓,0.0339
-Life Sciences,gd_clf_bus,unemployment_rate,-0.511,Negative ↓,0.0332
-Life Sciences,gd_clf_bus,fe_participation,-0.529,Negative ↓,0.0381
-Life Sciences,gd_clf_bus,gcse_age19,-0.715,Negative ↓,0.0663
-Life Sciences,gd_clf_bus,enterprise_birth_rate,-0.85,Negative ↓,0.1747
-Life Sciences,gd_clf_bus,enterprise_death_rate,-0.882,Negative ↓,0.0877
-Professional and Business Services,gd_clf_bus,unemployment_rate,0.916,Positive ↑,0.0518
-Professional and Business Services,gd_clf_bus,n_universities_feecap_lad,0.802,Positive ↑,0.0274
-Professional and Business Services,gd_clf_bus,housing_net_additions,0.754,Positive ↑,0.02
-Professional and Business Services,gd_clf_bus,cycle_to_employer,0.653,Positive ↑,0.0438
-Professional and Business Services,gd_clf_bus,transport_to_employer,0.646,Positive ↑,0.0747
-Professional and Business Services,gd_clf_bus,enterprise_birth_rate,0.55,Positive ↑,0.0648
-Professional and Business Services,gd_clf_bus,apprenticeship_achievements,0.546,Positive ↑,0.0463
-Professional and Business Services,gd_clf_bus,fe_participation,0.465,Positive ↑,0.0662
-Professional and Business Services,gd_clf_bus,drive_to_employer,0.395,Positive ↑,0.0419
-Professional and Business Services,gd_clf_bus,enterprise_death_rate,-0.736,Negative ↓,0.1083
-Professional and Business Services,gd_clf_bus,nvq_level3,-0.803,Negative ↓,0.1009
-Professional and Business Services,gd_clf_bus,gcse_age19,-0.874,Negative ↓,0.1257
-Professional and Business Services,gd_clf_bus,size_micro_share,-0.889,Negative ↓,0.1834
-Professional and Business Services,gd_clf_bus,broadband,-0.898,Negative ↓,0.0448
-Advanced Manufacturing,LQ_reg_emp,apprenticeship_achievements,0.829,Positive ↑,0.298
-Advanced Manufacturing,LQ_reg_emp,cycle_to_employer,0.625,Positive ↑,0.0243
-Advanced Manufacturing,LQ_reg_emp,housing_net_additions,0.591,Positive ↑,0.0752
-Advanced Manufacturing,LQ_reg_emp,gcse_age19,0.424,Positive ↑,0.025
-Advanced Manufacturing,LQ_reg_emp,transport_to_employer,0.417,Positive ↑,0.0175
-Advanced Manufacturing,LQ_reg_emp,broadband,0.417,Positive ↑,0.0117
-Advanced Manufacturing,LQ_reg_emp,fe_participation,0.37,Positive ↑,0.036
-Advanced Manufacturing,LQ_reg_emp,drive_to_employer,0.12,Positive ↑,0.0193
-Advanced Manufacturing,LQ_reg_emp,enterprise_death_rate,-0.356,Negative ↓,0.0093
-Advanced Manufacturing,LQ_reg_emp,n_universities_feecap_lad,-0.365,Negative ↓,0.0101
-Advanced Manufacturing,LQ_reg_emp,enterprise_birth_rate,-0.422,Negative ↓,0.0336
-Advanced Manufacturing,LQ_reg_emp,unemployment_rate,-0.458,Negative ↓,0.0924
-Advanced Manufacturing,LQ_reg_emp,nvq_level3,-0.558,Negative ↓,0.0223
-Advanced Manufacturing,LQ_reg_emp,size_micro_share,-0.933,Negative ↓,0.3253
-Creative Industries,LQ_reg_emp,nvq_level3,0.911,Positive ↑,0.239
-Creative Industries,LQ_reg_emp,gcse_age19,0.797,Positive ↑,0.1031
-Creative Industries,LQ_reg_emp,housing_net_additions,0.64,Positive ↑,0.0088
-Creative Industries,LQ_reg_emp,n_universities_feecap_lad,0.625,Positive ↑,0.002
-Creative Industries,LQ_reg_emp,broadband,0.217,Positive ↑,0.0011
-Creative Industries,LQ_reg_emp,unemployment_rate,0.011,Ambiguous,0.0018
-Creative Industries,LQ_reg_emp,enterprise_death_rate,-0.083,Ambiguous,0.0096
-Creative Industries,LQ_reg_emp,drive_to_employer,-0.229,Negative ↓,0.0085
-Creative Industries,LQ_reg_emp,cycle_to_employer,-0.312,Negative ↓,0.0801
-Creative Industries,LQ_reg_emp,transport_to_employer,-0.379,Negative ↓,0.2419
-Creative Industries,LQ_reg_emp,enterprise_birth_rate,-0.638,Negative ↓,0.008
-Creative Industries,LQ_reg_emp,fe_participation,-0.641,Negative ↓,0.006
-Creative Industries,LQ_reg_emp,apprenticeship_achievements,-0.727,Negative ↓,0.1463
-Creative Industries,LQ_reg_emp,size_micro_share,-0.854,Negative ↓,0.1439
-Digital and Technologies,LQ_reg_emp,nvq_level3,0.921,Positive ↑,0.2286
-Digital and Technologies,LQ_reg_emp,broadband,0.872,Positive ↑,0.0128
-Digital and Technologies,LQ_reg_emp,gcse_age19,0.816,Positive ↑,0.1973
-Digital and Technologies,LQ_reg_emp,housing_net_additions,0.686,Positive ↑,0.014
-Digital and Technologies,LQ_reg_emp,enterprise_death_rate,0.595,Positive ↑,0.0199
-Digital and Technologies,LQ_reg_emp,unemployment_rate,0.092,Ambiguous,0.0027
-Digital and Technologies,LQ_reg_emp,transport_to_employer,-0.474,Negative ↓,0.0143
-Digital and Technologies,LQ_reg_emp,enterprise_birth_rate,-0.487,Negative ↓,0.0203
-Digital and Technologies,LQ_reg_emp,drive_to_employer,-0.536,Negative ↓,0.013
-Digital and Technologies,LQ_reg_emp,cycle_to_employer,-0.628,Negative ↓,0.0084
-Digital and Technologies,LQ_reg_emp,fe_participation,-0.639,Negative ↓,0.042
-Digital and Technologies,LQ_reg_emp,apprenticeship_achievements,-0.674,Negative ↓,0.0501
-Digital and Technologies,LQ_reg_emp,n_universities_feecap_lad,-0.675,Negative ↓,0.0032
-Digital and Technologies,LQ_reg_emp,size_micro_share,-0.916,Negative ↓,0.3735
-Financial Services,LQ_reg_emp,nvq_level3,0.887,Positive ↑,0.0484
-Financial Services,LQ_reg_emp,n_universities_feecap_lad,0.822,Positive ↑,0.242
-Financial Services,LQ_reg_emp,gcse_age19,0.706,Positive ↑,0.033
-Financial Services,LQ_reg_emp,drive_to_employer,-0.325,Negative ↓,0.0062
-Financial Services,LQ_reg_emp,enterprise_birth_rate,-0.588,Negative ↓,0.084
-Financial Services,LQ_reg_emp,transport_to_employer,-0.606,Negative ↓,0.0104
-Financial Services,LQ_reg_emp,unemployment_rate,-0.611,Negative ↓,0.0353
-Financial Services,LQ_reg_emp,broadband,-0.641,Negative ↓,0.0235
-Financial Services,LQ_reg_emp,fe_participation,-0.675,Negative ↓,0.0617
-Financial Services,LQ_reg_emp,apprenticeship_achievements,-0.676,Negative ↓,0.0352
-Financial Services,LQ_reg_emp,cycle_to_employer,-0.728,Negative ↓,0.0262
-Financial Services,LQ_reg_emp,enterprise_death_rate,-0.762,Negative ↓,0.0071
-Financial Services,LQ_reg_emp,housing_net_additions,-0.807,Negative ↓,0.008
-Financial Services,LQ_reg_emp,size_micro_share,-0.862,Negative ↓,0.3788
-Life Sciences,LQ_reg_emp,gcse_age19,0.789,Positive ↑,0.1674
-Life Sciences,LQ_reg_emp,apprenticeship_achievements,0.695,Positive ↑,0.0187
-Life Sciences,LQ_reg_emp,transport_to_employer,0.598,Positive ↑,0.021
-Life Sciences,LQ_reg_emp,housing_net_additions,0.512,Positive ↑,0.025
-Life Sciences,LQ_reg_emp,broadband,0.328,Positive ↑,0.1009
-Life Sciences,LQ_reg_emp,nvq_level3,0.291,Positive ↑,0.0477
-Life Sciences,LQ_reg_emp,drive_to_employer,0.176,Positive ↑,0.0117
-Life Sciences,LQ_reg_emp,enterprise_death_rate,0.135,Positive ↑,0.0148
-Life Sciences,LQ_reg_emp,cycle_to_employer,0.025,Ambiguous,0.0079
-Life Sciences,LQ_reg_emp,n_universities_feecap_lad,-0.139,Negative ↓,0.0135
-Life Sciences,LQ_reg_emp,enterprise_birth_rate,-0.239,Negative ↓,0.05
-Life Sciences,LQ_reg_emp,fe_participation,-0.587,Negative ↓,0.1281
-Life Sciences,LQ_reg_emp,unemployment_rate,-0.673,Negative ↓,0.0764
-Life Sciences,LQ_reg_emp,size_micro_share,-0.872,Negative ↓,0.3168
-Professional and Business Services,LQ_reg_emp,nvq_level3,0.903,Positive ↑,0.0708
-Professional and Business Services,LQ_reg_emp,gcse_age19,0.872,Positive ↑,0.318
-Professional and Business Services,LQ_reg_emp,housing_net_additions,0.872,Positive ↑,0.0168
-Professional and Business Services,LQ_reg_emp,broadband,0.853,Positive ↑,0.0588
-Professional and Business Services,LQ_reg_emp,n_universities_feecap_lad,0.763,Positive ↑,0.1393
-Professional and Business Services,LQ_reg_emp,enterprise_death_rate,0.615,Positive ↑,0.0471
-Professional and Business Services,LQ_reg_emp,enterprise_birth_rate,0.416,Positive ↑,0.0051
-Professional and Business Services,LQ_reg_emp,unemployment_rate,-0.395,Negative ↓,0.0073
-Professional and Business Services,LQ_reg_emp,drive_to_employer,-0.405,Negative ↓,0.0147
-Professional and Business Services,LQ_reg_emp,transport_to_employer,-0.433,Negative ↓,0.0033
-Professional and Business Services,LQ_reg_emp,apprenticeship_achievements,-0.699,Negative ↓,0.0785
-Professional and Business Services,LQ_reg_emp,cycle_to_employer,-0.731,Negative ↓,0.0159
-Professional and Business Services,LQ_reg_emp,fe_participation,-0.883,Negative ↓,0.0908
-Professional and Business Services,LQ_reg_emp,size_micro_share,-0.9,Negative ↓,0.1335
-Advanced Manufacturing,LQ_clf_emp,housing_net_additions,0.794,Positive ↑,0.0361
-Advanced Manufacturing,LQ_clf_emp,transport_to_employer,0.715,Positive ↑,0.0885
-Advanced Manufacturing,LQ_clf_emp,apprenticeship_achievements,0.711,Positive ↑,0.1893
-Advanced Manufacturing,LQ_clf_emp,cycle_to_employer,0.59,Positive ↑,0.0806
-Advanced Manufacturing,LQ_clf_emp,fe_participation,0.37,Positive ↑,0.0354
-Advanced Manufacturing,LQ_clf_emp,drive_to_employer,0.296,Positive ↑,0.0511
-Advanced Manufacturing,LQ_clf_emp,broadband,-0.521,Negative ↓,0.0122
-Advanced Manufacturing,LQ_clf_emp,enterprise_death_rate,-0.674,Negative ↓,0.0194
-Advanced Manufacturing,LQ_clf_emp,enterprise_birth_rate,-0.704,Negative ↓,0.0451
-Advanced Manufacturing,LQ_clf_emp,n_universities_feecap_lad,-0.748,Negative ↓,0.0412
-Advanced Manufacturing,LQ_clf_emp,unemployment_rate,-0.83,Negative ↓,0.0398
-Advanced Manufacturing,LQ_clf_emp,gcse_age19,-0.844,Negative ↓,0.0475
-Advanced Manufacturing,LQ_clf_emp,nvq_level3,-0.852,Negative ↓,0.0522
-Advanced Manufacturing,LQ_clf_emp,size_micro_share,-0.893,Negative ↓,0.2616
-Creative Industries,LQ_clf_emp,n_universities_feecap_lad,0.856,Positive ↑,0.035
-Creative Industries,LQ_clf_emp,nvq_level3,0.82,Positive ↑,0.2259
-Creative Industries,LQ_clf_emp,housing_net_additions,0.813,Positive ↑,0.0175
-Creative Industries,LQ_clf_emp,broadband,0.806,Positive ↑,0.0173
-Creative Industries,LQ_clf_emp,gcse_age19,0.778,Positive ↑,0.1154
-Creative Industries,LQ_clf_emp,enterprise_death_rate,0.07,Ambiguous,0.0132
-Creative Industries,LQ_clf_emp,drive_to_employer,-0.281,Negative ↓,0.0616
-Creative Industries,LQ_clf_emp,unemployment_rate,-0.344,Negative ↓,0.0159
-Creative Industries,LQ_clf_emp,cycle_to_employer,-0.486,Negative ↓,0.0913
-Creative Industries,LQ_clf_emp,fe_participation,-0.534,Negative ↓,0.0495
-Creative Industries,LQ_clf_emp,transport_to_employer,-0.608,Negative ↓,0.0921
-Creative Industries,LQ_clf_emp,apprenticeship_achievements,-0.672,Negative ↓,0.1364
-Creative Industries,LQ_clf_emp,enterprise_birth_rate,-0.835,Negative ↓,0.0354
-Creative Industries,LQ_clf_emp,size_micro_share,-0.883,Negative ↓,0.0935
-Digital and Technologies,LQ_clf_emp,housing_net_additions,0.914,Positive ↑,0.0331
-Digital and Technologies,LQ_clf_emp,nvq_level3,0.889,Positive ↑,0.1387
-Digital and Technologies,LQ_clf_emp,gcse_age19,0.857,Positive ↑,0.1495
-Digital and Technologies,LQ_clf_emp,broadband,0.831,Positive ↑,0.0239
-Digital and Technologies,LQ_clf_emp,n_universities_feecap_lad,0.796,Positive ↑,0.0225
-Digital and Technologies,LQ_clf_emp,enterprise_death_rate,-0.028,Ambiguous,0.0243
-Digital and Technologies,LQ_clf_emp,drive_to_employer,-0.37,Negative ↓,0.0344
-Digital and Technologies,LQ_clf_emp,fe_participation,-0.565,Negative ↓,0.1099
-Digital and Technologies,LQ_clf_emp,cycle_to_employer,-0.593,Negative ↓,0.0352
-Digital and Technologies,LQ_clf_emp,transport_to_employer,-0.646,Negative ↓,0.0443
-Digital and Technologies,LQ_clf_emp,apprenticeship_achievements,-0.743,Negative ↓,0.0811
-Digital and Technologies,LQ_clf_emp,enterprise_birth_rate,-0.824,Negative ↓,0.0536
-Digital and Technologies,LQ_clf_emp,unemployment_rate,-0.848,Negative ↓,0.0313
-Digital and Technologies,LQ_clf_emp,size_micro_share,-0.911,Negative ↓,0.2183
-Financial Services,LQ_clf_emp,n_universities_feecap_lad,0.821,Positive ↑,0.1108
-Financial Services,LQ_clf_emp,gcse_age19,0.801,Positive ↑,0.0694
-Financial Services,LQ_clf_emp,nvq_level3,0.586,Positive ↑,0.045
-Financial Services,LQ_clf_emp,housing_net_additions,0.195,Positive ↑,0.0197
-Financial Services,LQ_clf_emp,enterprise_death_rate,-0.01,Ambiguous,0.0282
-Financial Services,LQ_clf_emp,broadband,-0.069,Ambiguous,0.0315
-Financial Services,LQ_clf_emp,drive_to_employer,-0.307,Negative ↓,0.0634
-Financial Services,LQ_clf_emp,enterprise_birth_rate,-0.376,Negative ↓,0.0386
-Financial Services,LQ_clf_emp,apprenticeship_achievements,-0.421,Negative ↓,0.0261
-Financial Services,LQ_clf_emp,unemployment_rate,-0.638,Negative ↓,0.1364
-Financial Services,LQ_clf_emp,cycle_to_employer,-0.666,Negative ↓,0.0377
-Financial Services,LQ_clf_emp,fe_participation,-0.681,Negative ↓,0.0628
-Financial Services,LQ_clf_emp,transport_to_employer,-0.72,Negative ↓,0.0395
-Financial Services,LQ_clf_emp,size_micro_share,-0.856,Negative ↓,0.2909
-Life Sciences,LQ_clf_emp,gcse_age19,0.795,Positive ↑,0.1211
-Life Sciences,LQ_clf_emp,broadband,0.459,Positive ↑,0.0555
-Life Sciences,LQ_clf_emp,transport_to_employer,0.414,Positive ↑,0.022
-Life Sciences,LQ_clf_emp,housing_net_additions,0.335,Positive ↑,0.0332
-Life Sciences,LQ_clf_emp,enterprise_birth_rate,0.271,Positive ↑,0.0663
-Life Sciences,LQ_clf_emp,apprenticeship_achievements,0.173,Positive ↑,0.0654
-Life Sciences,LQ_clf_emp,drive_to_employer,0.148,Positive ↑,0.0348
-Life Sciences,LQ_clf_emp,nvq_level3,0.077,Ambiguous,0.0309
-Life Sciences,LQ_clf_emp,n_universities_feecap_lad,-0.279,Negative ↓,0.024
-Life Sciences,LQ_clf_emp,cycle_to_employer,-0.294,Negative ↓,0.0197
-Life Sciences,LQ_clf_emp,fe_participation,-0.54,Negative ↓,0.1029
-Life Sciences,LQ_clf_emp,enterprise_death_rate,-0.602,Negative ↓,0.0716
-Life Sciences,LQ_clf_emp,unemployment_rate,-0.851,Negative ↓,0.0349
-Life Sciences,LQ_clf_emp,size_micro_share,-0.897,Negative ↓,0.3177
-Professional and Business Services,LQ_clf_emp,nvq_level3,0.911,Positive ↑,0.1368
-Professional and Business Services,LQ_clf_emp,housing_net_additions,0.885,Positive ↑,0.0148
-Professional and Business Services,LQ_clf_emp,n_universities_feecap_lad,0.805,Positive ↑,0.0645
-Professional and Business Services,LQ_clf_emp,gcse_age19,0.794,Positive ↑,0.1838
-Professional and Business Services,LQ_clf_emp,broadband,0.79,Positive ↑,0.0418
-Professional and Business Services,LQ_clf_emp,enterprise_death_rate,0.285,Positive ↑,0.045
-Professional and Business Services,LQ_clf_emp,drive_to_employer,-0.377,Negative ↓,0.0413
-Professional and Business Services,LQ_clf_emp,transport_to_employer,-0.56,Negative ↓,0.0481
-Professional and Business Services,LQ_clf_emp,cycle_to_employer,-0.574,Negative ↓,0.0686
-Professional and Business Services,LQ_clf_emp,fe_participation,-0.668,Negative ↓,0.1525
-Professional and Business Services,LQ_clf_emp,apprenticeship_achievements,-0.685,Negative ↓,0.1101
-Professional and Business Services,LQ_clf_emp,enterprise_birth_rate,-0.722,Negative ↓,0.0428
-Professional and Business Services,LQ_clf_emp,unemployment_rate,-0.815,Negative ↓,0.0161
-Professional and Business Services,LQ_clf_emp,size_micro_share,-0.921,Negative ↓,0.0338
-Advanced Manufacturing,gd_clf_emp,nvq_level3,0.86,Positive ↑,0.1481
-Advanced Manufacturing,gd_clf_emp,n_universities_feecap_lad,0.734,Positive ↑,0.0232
-Advanced Manufacturing,gd_clf_emp,size_micro_share,0.716,Positive ↑,0.0743
-Advanced Manufacturing,gd_clf_emp,gcse_age19,0.551,Positive ↑,0.056
-Advanced Manufacturing,gd_clf_emp,enterprise_birth_rate,0.314,Positive ↑,0.0328
-Advanced Manufacturing,gd_clf_emp,housing_net_additions,0.066,Ambiguous,0.0834
-Advanced Manufacturing,gd_clf_emp,drive_to_employer,-0.145,Negative ↓,0.0613
-Advanced Manufacturing,gd_clf_emp,cycle_to_employer,-0.305,Negative ↓,0.0901
-Advanced Manufacturing,gd_clf_emp,fe_participation,-0.314,Negative ↓,0.0441
-Advanced Manufacturing,gd_clf_emp,transport_to_employer,-0.364,Negative ↓,0.0819
-Advanced Manufacturing,gd_clf_emp,apprenticeship_achievements,-0.667,Negative ↓,0.0865
-Advanced Manufacturing,gd_clf_emp,broadband,-0.709,Negative ↓,0.0468
-Advanced Manufacturing,gd_clf_emp,enterprise_death_rate,-0.735,Negative ↓,0.1118
-Advanced Manufacturing,gd_clf_emp,unemployment_rate,-0.798,Negative ↓,0.0596
-Creative Industries,gd_clf_emp,housing_net_additions,0.749,Positive ↑,0.2186
-Creative Industries,gd_clf_emp,apprenticeship_achievements,0.746,Positive ↑,0.0837
-Creative Industries,gd_clf_emp,n_universities_feecap_lad,0.721,Positive ↑,0.0443
-Creative Industries,gd_clf_emp,fe_participation,0.677,Positive ↑,0.0477
-Creative Industries,gd_clf_emp,transport_to_employer,0.352,Positive ↑,0.0334
-Creative Industries,gd_clf_emp,drive_to_employer,0.317,Positive ↑,0.0323
-Creative Industries,gd_clf_emp,cycle_to_employer,0.222,Positive ↑,0.0253
-Creative Industries,gd_clf_emp,nvq_level3,0.092,Ambiguous,0.0231
-Creative Industries,gd_clf_emp,broadband,-0.387,Negative ↓,0.0489
-Creative Industries,gd_clf_emp,enterprise_birth_rate,-0.496,Negative ↓,0.0563
-Creative Industries,gd_clf_emp,gcse_age19,-0.501,Negative ↓,0.0295
-Creative Industries,gd_clf_emp,enterprise_death_rate,-0.614,Negative ↓,0.0285
-Creative Industries,gd_clf_emp,size_micro_share,-0.829,Negative ↓,0.2565
-Creative Industries,gd_clf_emp,unemployment_rate,-0.901,Negative ↓,0.0718
-Digital and Technologies,gd_clf_emp,housing_net_additions,0.85,Positive ↑,0.1254
-Digital and Technologies,gd_clf_emp,n_universities_feecap_lad,0.842,Positive ↑,0.0703
-Digital and Technologies,gd_clf_emp,enterprise_death_rate,0.751,Positive ↑,0.0289
-Digital and Technologies,gd_clf_emp,fe_participation,0.694,Positive ↑,0.0667
-Digital and Technologies,gd_clf_emp,apprenticeship_achievements,0.681,Positive ↑,0.0758
-Digital and Technologies,gd_clf_emp,cycle_to_employer,0.666,Positive ↑,0.0381
-Digital and Technologies,gd_clf_emp,nvq_level3,0.639,Positive ↑,0.0642
-Digital and Technologies,gd_clf_emp,enterprise_birth_rate,0.594,Positive ↑,0.0563
-Digital and Technologies,gd_clf_emp,transport_to_employer,0.369,Positive ↑,0.0973
-Digital and Technologies,gd_clf_emp,drive_to_employer,0.331,Positive ↑,0.0534
-Digital and Technologies,gd_clf_emp,unemployment_rate,0.013,Ambiguous,0.0246
-Digital and Technologies,gd_clf_emp,broadband,-0.645,Negative ↓,0.0351
-Digital and Technologies,gd_clf_emp,size_micro_share,-0.878,Negative ↓,0.1947
-Digital and Technologies,gd_clf_emp,gcse_age19,-0.921,Negative ↓,0.0694
-Financial Services,gd_clf_emp,n_universities_feecap_lad,0.801,Positive ↑,0.1126
-Financial Services,gd_clf_emp,enterprise_birth_rate,0.68,Positive ↑,0.0625
-Financial Services,gd_clf_emp,housing_net_additions,0.626,Positive ↑,0.0609
-Financial Services,gd_clf_emp,broadband,0.491,Positive ↑,0.0618
-Financial Services,gd_clf_emp,drive_to_employer,0.403,Positive ↑,0.1447
-Financial Services,gd_clf_emp,cycle_to_employer,0.346,Positive ↑,0.0898
-Financial Services,gd_clf_emp,apprenticeship_achievements,0.063,Ambiguous,0.0362
-Financial Services,gd_clf_emp,transport_to_employer,-0.008,Ambiguous,0.1035
-Financial Services,gd_clf_emp,enterprise_death_rate,-0.108,Negative ↓,0.0643
-Financial Services,gd_clf_emp,size_micro_share,-0.41,Negative ↓,0.0498
-Financial Services,gd_clf_emp,gcse_age19,-0.417,Negative ↓,0.0593
-Financial Services,gd_clf_emp,fe_participation,-0.635,Negative ↓,0.0631
-Financial Services,gd_clf_emp,nvq_level3,-0.65,Negative ↓,0.0476
-Financial Services,gd_clf_emp,unemployment_rate,-0.654,Negative ↓,0.0437
-Life Sciences,gd_clf_emp,nvq_level3,0.811,Positive ↑,0.1413
-Life Sciences,gd_clf_emp,n_universities_feecap_lad,0.802,Positive ↑,0.0739
-Life Sciences,gd_clf_emp,broadband,0.627,Positive ↑,0.0324
-Life Sciences,gd_clf_emp,enterprise_birth_rate,0.521,Positive ↑,0.0726
-Life Sciences,gd_clf_emp,unemployment_rate,0.445,Positive ↑,0.0424
-Life Sciences,gd_clf_emp,enterprise_death_rate,0.416,Positive ↑,0.079
-Life Sciences,gd_clf_emp,gcse_age19,0.393,Positive ↑,0.0565
-Life Sciences,gd_clf_emp,transport_to_employer,-0.341,Negative ↓,0.0904
-Life Sciences,gd_clf_emp,fe_participation,-0.498,Negative ↓,0.0896
-Life Sciences,gd_clf_emp,cycle_to_employer,-0.517,Negative ↓,0.0648
-Life Sciences,gd_clf_emp,drive_to_employer,-0.585,Negative ↓,0.0542
-Life Sciences,gd_clf_emp,size_micro_share,-0.664,Negative ↓,0.0542
-Life Sciences,gd_clf_emp,housing_net_additions,-0.739,Negative ↓,0.059
-Life Sciences,gd_clf_emp,apprenticeship_achievements,-0.772,Negative ↓,0.0896
-Professional and Business Services,gd_clf_emp,apprenticeship_achievements,0.825,Positive ↑,0.0986
-Professional and Business Services,gd_clf_emp,n_universities_feecap_lad,0.738,Positive ↑,0.0737
-Professional and Business Services,gd_clf_emp,transport_to_employer,0.713,Positive ↑,0.1229
-Professional and Business Services,gd_clf_emp,nvq_level3,0.703,Positive ↑,0.0896
-Professional and Business Services,gd_clf_emp,fe_participation,0.669,Positive ↑,0.0302
-Professional and Business Services,gd_clf_emp,housing_net_additions,0.617,Positive ↑,0.0521
-Professional and Business Services,gd_clf_emp,gcse_age19,0.493,Positive ↑,0.0478
-Professional and Business Services,gd_clf_emp,cycle_to_employer,0.425,Positive ↑,0.0765
-Professional and Business Services,gd_clf_emp,drive_to_employer,0.292,Positive ↑,0.0878
-Professional and Business Services,gd_clf_emp,broadband,-0.128,Negative ↓,0.0393
-Professional and Business Services,gd_clf_emp,enterprise_death_rate,-0.574,Negative ↓,0.048
-Professional and Business Services,gd_clf_emp,enterprise_birth_rate,-0.62,Negative ↓,0.0511
-Professional and Business Services,gd_clf_emp,unemployment_rate,-0.729,Negative ↓,0.0712
-Professional and Business Services,gd_clf_emp,size_micro_share,-0.908,Negative ↓,0.1112
+Advanced Manufacturing,LQ_reg_bus,apprenticeship_starts,0.744,Positive ↑,0.6097
+Advanced Manufacturing,LQ_reg_bus,enterprise_high_growth_rate,0.719,Positive ↑,0.0239
+Advanced Manufacturing,LQ_reg_bus,unemployment_rate,0.424,Positive ↑,0.0208
+Advanced Manufacturing,LQ_reg_bus,transport_to_employer,0.357,Positive ↑,0.0673
+Advanced Manufacturing,LQ_reg_bus,housing_net_additions,0.079,Ambiguous,0.0126
+Advanced Manufacturing,LQ_reg_bus,broadband,0.024,Ambiguous,0.0135
+Advanced Manufacturing,LQ_reg_bus,fe_participation,-0.355,Negative ↓,0.043
+Advanced Manufacturing,LQ_reg_bus,gcse_age19,-0.36,Negative ↓,0.0101
+Advanced Manufacturing,LQ_reg_bus,enterprise_birth_rate,-0.583,Negative ↓,0.0405
+Advanced Manufacturing,LQ_reg_bus,nvq_level3,-0.649,Negative ↓,0.1022
+Advanced Manufacturing,LQ_reg_bus,n_universities_feecap_lad,-0.688,Negative ↓,0.0174
+Advanced Manufacturing,LQ_reg_bus,enterprise_death_rate,-0.752,Negative ↓,0.0392
+Creative Industries,LQ_reg_bus,nvq_level3,0.911,Positive ↑,0.1696
+Creative Industries,LQ_reg_bus,gcse_age19,0.854,Positive ↑,0.0533
+Creative Industries,LQ_reg_bus,broadband,0.847,Positive ↑,0.0171
+Creative Industries,LQ_reg_bus,enterprise_high_growth_rate,0.766,Positive ↑,0.0158
+Creative Industries,LQ_reg_bus,n_universities_feecap_lad,0.681,Positive ↑,0.0032
+Creative Industries,LQ_reg_bus,enterprise_death_rate,0.528,Positive ↑,0.0071
+Creative Industries,LQ_reg_bus,housing_net_additions,0.188,Positive ↑,0.0031
+Creative Industries,LQ_reg_bus,enterprise_birth_rate,-0.074,Ambiguous,0.0063
+Creative Industries,LQ_reg_bus,transport_to_employer,-0.395,Negative ↓,0.1352
+Creative Industries,LQ_reg_bus,unemployment_rate,-0.686,Negative ↓,0.011
+Creative Industries,LQ_reg_bus,fe_participation,-0.774,Negative ↓,0.0373
+Creative Industries,LQ_reg_bus,apprenticeship_starts,-0.79,Negative ↓,0.5411
+Digital and Technologies,LQ_reg_bus,nvq_level3,0.938,Positive ↑,0.255
+Digital and Technologies,LQ_reg_bus,broadband,0.918,Positive ↑,0.071
+Digital and Technologies,LQ_reg_bus,gcse_age19,0.879,Positive ↑,0.0891
+Digital and Technologies,LQ_reg_bus,housing_net_additions,0.859,Positive ↑,0.0077
+Digital and Technologies,LQ_reg_bus,enterprise_high_growth_rate,0.784,Positive ↑,0.061
+Digital and Technologies,LQ_reg_bus,enterprise_death_rate,0.733,Positive ↑,0.0335
+Digital and Technologies,LQ_reg_bus,n_universities_feecap_lad,0.643,Positive ↑,0.0026
+Digital and Technologies,LQ_reg_bus,unemployment_rate,-0.686,Negative ↓,0.0159
+Digital and Technologies,LQ_reg_bus,fe_participation,-0.764,Negative ↓,0.0448
+Digital and Technologies,LQ_reg_bus,transport_to_employer,-0.766,Negative ↓,0.066
+Digital and Technologies,LQ_reg_bus,apprenticeship_starts,-0.767,Negative ↓,0.3458
+Digital and Technologies,LQ_reg_bus,enterprise_birth_rate,-0.856,Negative ↓,0.0075
+Financial Services,LQ_reg_bus,enterprise_high_growth_rate,0.841,Positive ↑,0.2435
+Financial Services,LQ_reg_bus,n_universities_feecap_lad,0.832,Positive ↑,0.2675
+Financial Services,LQ_reg_bus,nvq_level3,0.831,Positive ↑,0.0565
+Financial Services,LQ_reg_bus,broadband,0.781,Positive ↑,0.0436
+Financial Services,LQ_reg_bus,housing_net_additions,0.623,Positive ↑,0.03
+Financial Services,LQ_reg_bus,enterprise_death_rate,0.541,Positive ↑,0.046
+Financial Services,LQ_reg_bus,gcse_age19,-0.203,Negative ↓,0.0317
+Financial Services,LQ_reg_bus,apprenticeship_starts,-0.313,Negative ↓,0.0172
+Financial Services,LQ_reg_bus,unemployment_rate,-0.624,Negative ↓,0.0564
+Financial Services,LQ_reg_bus,enterprise_birth_rate,-0.746,Negative ↓,0.022
+Financial Services,LQ_reg_bus,fe_participation,-0.842,Negative ↓,0.1151
+Financial Services,LQ_reg_bus,transport_to_employer,-0.854,Negative ↓,0.0704
+Life Sciences,LQ_reg_bus,gcse_age19,0.821,Positive ↑,0.0311
+Life Sciences,LQ_reg_bus,housing_net_additions,0.809,Positive ↑,0.0292
+Life Sciences,LQ_reg_bus,broadband,0.785,Positive ↑,0.0206
+Life Sciences,LQ_reg_bus,nvq_level3,0.761,Positive ↑,0.1602
+Life Sciences,LQ_reg_bus,enterprise_high_growth_rate,0.759,Positive ↑,0.3131
+Life Sciences,LQ_reg_bus,n_universities_feecap_lad,0.712,Positive ↑,0.0127
+Life Sciences,LQ_reg_bus,enterprise_death_rate,0.526,Positive ↑,0.0225
+Life Sciences,LQ_reg_bus,unemployment_rate,0.486,Positive ↑,0.0332
+Life Sciences,LQ_reg_bus,enterprise_birth_rate,-0.248,Negative ↓,0.0071
+Life Sciences,LQ_reg_bus,fe_participation,-0.386,Negative ↓,0.2368
+Life Sciences,LQ_reg_bus,transport_to_employer,-0.465,Negative ↓,0.0274
+Life Sciences,LQ_reg_bus,apprenticeship_starts,-0.567,Negative ↓,0.1061
+Professional and Business Services,LQ_reg_bus,nvq_level3,0.94,Positive ↑,0.3375
+Professional and Business Services,LQ_reg_bus,gcse_age19,0.854,Positive ↑,0.1732
+Professional and Business Services,LQ_reg_bus,enterprise_high_growth_rate,0.832,Positive ↑,0.03
+Professional and Business Services,LQ_reg_bus,broadband,0.811,Positive ↑,0.0124
+Professional and Business Services,LQ_reg_bus,n_universities_feecap_lad,0.809,Positive ↑,0.015
+Professional and Business Services,LQ_reg_bus,enterprise_death_rate,0.194,Positive ↑,0.0069
+Professional and Business Services,LQ_reg_bus,housing_net_additions,-0.135,Negative ↓,0.0097
+Professional and Business Services,LQ_reg_bus,fe_participation,-0.724,Negative ↓,0.0534
+Professional and Business Services,LQ_reg_bus,apprenticeship_starts,-0.762,Negative ↓,0.2717
+Professional and Business Services,LQ_reg_bus,unemployment_rate,-0.764,Negative ↓,0.0111
+Professional and Business Services,LQ_reg_bus,enterprise_birth_rate,-0.78,Negative ↓,0.0244
+Professional and Business Services,LQ_reg_bus,transport_to_employer,-0.824,Negative ↓,0.0546
+Advanced Manufacturing,LQ_clf_bus,housing_net_additions,0.782,Positive ↑,0.0426
+Advanced Manufacturing,LQ_clf_bus,apprenticeship_starts,0.668,Positive ↑,0.3711
+Advanced Manufacturing,LQ_clf_bus,transport_to_employer,0.596,Positive ↑,0.1565
+Advanced Manufacturing,LQ_clf_bus,enterprise_high_growth_rate,0.134,Positive ↑,0.0145
+Advanced Manufacturing,LQ_clf_bus,unemployment_rate,-0.045,Ambiguous,0.0246
+Advanced Manufacturing,LQ_clf_bus,broadband,-0.286,Negative ↓,0.0229
+Advanced Manufacturing,LQ_clf_bus,enterprise_birth_rate,-0.469,Negative ↓,0.0421
+Advanced Manufacturing,LQ_clf_bus,fe_participation,-0.555,Negative ↓,0.0479
+Advanced Manufacturing,LQ_clf_bus,enterprise_death_rate,-0.695,Negative ↓,0.0424
+Advanced Manufacturing,LQ_clf_bus,n_universities_feecap_lad,-0.707,Negative ↓,0.0736
+Advanced Manufacturing,LQ_clf_bus,nvq_level3,-0.82,Negative ↓,0.0873
+Advanced Manufacturing,LQ_clf_bus,gcse_age19,-0.894,Negative ↓,0.0746
+Creative Industries,LQ_clf_bus,gcse_age19,0.841,Positive ↑,0.1472
+Creative Industries,LQ_clf_bus,nvq_level3,0.838,Positive ↑,0.1904
+Creative Industries,LQ_clf_bus,n_universities_feecap_lad,0.792,Positive ↑,0.0202
+Creative Industries,LQ_clf_bus,broadband,0.773,Positive ↑,0.0407
+Creative Industries,LQ_clf_bus,enterprise_high_growth_rate,0.741,Positive ↑,0.0312
+Creative Industries,LQ_clf_bus,unemployment_rate,0.563,Positive ↑,0.013
+Creative Industries,LQ_clf_bus,housing_net_additions,0.544,Positive ↑,0.0057
+Creative Industries,LQ_clf_bus,enterprise_death_rate,0.216,Positive ↑,0.0092
+Creative Industries,LQ_clf_bus,fe_participation,-0.621,Negative ↓,0.0526
+Creative Industries,LQ_clf_bus,enterprise_birth_rate,-0.66,Negative ↓,0.0286
+Creative Industries,LQ_clf_bus,transport_to_employer,-0.669,Negative ↓,0.1076
+Creative Industries,LQ_clf_bus,apprenticeship_starts,-0.735,Negative ↓,0.3535
+Digital and Technologies,LQ_clf_bus,nvq_level3,0.89,Positive ↑,0.2352
+Digital and Technologies,LQ_clf_bus,broadband,0.887,Positive ↑,0.0927
+Digital and Technologies,LQ_clf_bus,gcse_age19,0.885,Positive ↑,0.1917
+Digital and Technologies,LQ_clf_bus,housing_net_additions,0.882,Positive ↑,0.0149
+Digital and Technologies,LQ_clf_bus,enterprise_death_rate,0.828,Positive ↑,0.0292
+Digital and Technologies,LQ_clf_bus,enterprise_high_growth_rate,0.76,Positive ↑,0.016
+Digital and Technologies,LQ_clf_bus,n_universities_feecap_lad,0.749,Positive ↑,0.0115
+Digital and Technologies,LQ_clf_bus,unemployment_rate,-0.403,Negative ↓,0.0082
+Digital and Technologies,LQ_clf_bus,enterprise_birth_rate,-0.468,Negative ↓,0.0086
+Digital and Technologies,LQ_clf_bus,fe_participation,-0.677,Negative ↓,0.0767
+Digital and Technologies,LQ_clf_bus,apprenticeship_starts,-0.77,Negative ↓,0.2268
+Digital and Technologies,LQ_clf_bus,transport_to_employer,-0.77,Negative ↓,0.0884
+Financial Services,LQ_clf_bus,broadband,0.838,Positive ↑,0.0733
+Financial Services,LQ_clf_bus,n_universities_feecap_lad,0.836,Positive ↑,0.1145
+Financial Services,LQ_clf_bus,enterprise_high_growth_rate,0.801,Positive ↑,0.2431
+Financial Services,LQ_clf_bus,nvq_level3,0.765,Positive ↑,0.098
+Financial Services,LQ_clf_bus,gcse_age19,0.706,Positive ↑,0.0471
+Financial Services,LQ_clf_bus,enterprise_death_rate,0.101,Positive ↑,0.0577
+Financial Services,LQ_clf_bus,housing_net_additions,-0.524,Negative ↓,0.015
+Financial Services,LQ_clf_bus,unemployment_rate,-0.634,Negative ↓,0.0808
+Financial Services,LQ_clf_bus,apprenticeship_starts,-0.671,Negative ↓,0.0464
+Financial Services,LQ_clf_bus,transport_to_employer,-0.723,Negative ↓,0.1283
+Financial Services,LQ_clf_bus,enterprise_birth_rate,-0.738,Negative ↓,0.0539
+Financial Services,LQ_clf_bus,fe_participation,-0.739,Negative ↓,0.042
+Life Sciences,LQ_clf_bus,nvq_level3,0.89,Positive ↑,0.1483
+Life Sciences,LQ_clf_bus,housing_net_additions,0.863,Positive ↑,0.083
+Life Sciences,LQ_clf_bus,gcse_age19,0.799,Positive ↑,0.0725
+Life Sciences,LQ_clf_bus,n_universities_feecap_lad,0.774,Positive ↑,0.0678
+Life Sciences,LQ_clf_bus,enterprise_high_growth_rate,0.711,Positive ↑,0.2452
+Life Sciences,LQ_clf_bus,unemployment_rate,0.554,Positive ↑,0.0467
+Life Sciences,LQ_clf_bus,broadband,0.263,Positive ↑,0.0338
+Life Sciences,LQ_clf_bus,enterprise_death_rate,0.033,Ambiguous,0.0386
+Life Sciences,LQ_clf_bus,fe_participation,-0.485,Negative ↓,0.0883
+Life Sciences,LQ_clf_bus,transport_to_employer,-0.513,Negative ↓,0.0313
+Life Sciences,LQ_clf_bus,apprenticeship_starts,-0.602,Negative ↓,0.1181
+Life Sciences,LQ_clf_bus,enterprise_birth_rate,-0.693,Negative ↓,0.0264
+Professional and Business Services,LQ_clf_bus,nvq_level3,0.877,Positive ↑,0.2554
+Professional and Business Services,LQ_clf_bus,gcse_age19,0.856,Positive ↑,0.1977
+Professional and Business Services,LQ_clf_bus,n_universities_feecap_lad,0.844,Positive ↑,0.0144
+Professional and Business Services,LQ_clf_bus,broadband,0.826,Positive ↑,0.0237
+Professional and Business Services,LQ_clf_bus,enterprise_high_growth_rate,0.819,Positive ↑,0.0463
+Professional and Business Services,LQ_clf_bus,housing_net_additions,0.763,Positive ↑,0.007
+Professional and Business Services,LQ_clf_bus,enterprise_death_rate,0.17,Positive ↑,0.0134
+Professional and Business Services,LQ_clf_bus,fe_participation,-0.67,Negative ↓,0.0969
+Professional and Business Services,LQ_clf_bus,transport_to_employer,-0.686,Negative ↓,0.0423
+Professional and Business Services,LQ_clf_bus,apprenticeship_starts,-0.76,Negative ↓,0.2391
+Professional and Business Services,LQ_clf_bus,enterprise_birth_rate,-0.848,Negative ↓,0.0431
+Professional and Business Services,LQ_clf_bus,unemployment_rate,-0.85,Negative ↓,0.0206
+Advanced Manufacturing,gd_clf_bus,enterprise_birth_rate,0.907,Positive ↑,0.0839
+Advanced Manufacturing,gd_clf_bus,housing_net_additions,0.89,Positive ↑,0.0407
+Advanced Manufacturing,gd_clf_bus,unemployment_rate,0.817,Positive ↑,0.0378
+Advanced Manufacturing,gd_clf_bus,enterprise_high_growth_rate,0.801,Positive ↑,0.2871
+Advanced Manufacturing,gd_clf_bus,n_universities_feecap_lad,0.799,Positive ↑,0.0656
+Advanced Manufacturing,gd_clf_bus,fe_participation,0.619,Positive ↑,0.0554
+Advanced Manufacturing,gd_clf_bus,apprenticeship_starts,0.521,Positive ↑,0.0742
+Advanced Manufacturing,gd_clf_bus,enterprise_death_rate,0.067,Ambiguous,0.0227
+Advanced Manufacturing,gd_clf_bus,nvq_level3,0.005,Ambiguous,0.0436
+Advanced Manufacturing,gd_clf_bus,transport_to_employer,-0.084,Ambiguous,0.1181
+Advanced Manufacturing,gd_clf_bus,gcse_age19,-0.401,Negative ↓,0.1142
+Advanced Manufacturing,gd_clf_bus,broadband,-0.88,Negative ↓,0.0569
+Creative Industries,gd_clf_bus,fe_participation,0.887,Positive ↑,0.111
+Creative Industries,gd_clf_bus,n_universities_feecap_lad,0.822,Positive ↑,0.0662
+Creative Industries,gd_clf_bus,enterprise_high_growth_rate,0.783,Positive ↑,0.0919
+Creative Industries,gd_clf_bus,apprenticeship_starts,0.717,Positive ↑,0.0573
+Creative Industries,gd_clf_bus,enterprise_birth_rate,0.569,Positive ↑,0.0404
+Creative Industries,gd_clf_bus,unemployment_rate,0.009,Ambiguous,0.0327
+Creative Industries,gd_clf_bus,transport_to_employer,-0.147,Negative ↓,0.0577
+Creative Industries,gd_clf_bus,nvq_level3,-0.21,Negative ↓,0.029
+Creative Industries,gd_clf_bus,housing_net_additions,-0.254,Negative ↓,0.0215
+Creative Industries,gd_clf_bus,enterprise_death_rate,-0.638,Negative ↓,0.1338
+Creative Industries,gd_clf_bus,gcse_age19,-0.78,Negative ↓,0.2514
+Creative Industries,gd_clf_bus,broadband,-0.883,Negative ↓,0.1071
+Digital and Technologies,gd_clf_bus,housing_net_additions,0.919,Positive ↑,0.0637
+Digital and Technologies,gd_clf_bus,enterprise_birth_rate,0.888,Positive ↑,0.0739
+Digital and Technologies,gd_clf_bus,n_universities_feecap_lad,0.812,Positive ↑,0.0864
+Digital and Technologies,gd_clf_bus,enterprise_high_growth_rate,0.69,Positive ↑,0.1938
+Digital and Technologies,gd_clf_bus,unemployment_rate,0.644,Positive ↑,0.0216
+Digital and Technologies,gd_clf_bus,transport_to_employer,0.396,Positive ↑,0.0895
+Digital and Technologies,gd_clf_bus,fe_participation,0.329,Positive ↑,0.0732
+Digital and Technologies,gd_clf_bus,nvq_level3,0.261,Positive ↑,0.0235
+Digital and Technologies,gd_clf_bus,apprenticeship_starts,-0.475,Negative ↓,0.046
+Digital and Technologies,gd_clf_bus,enterprise_death_rate,-0.672,Negative ↓,0.0794
+Digital and Technologies,gd_clf_bus,gcse_age19,-0.817,Negative ↓,0.1539
+Digital and Technologies,gd_clf_bus,broadband,-0.825,Negative ↓,0.0952
+Financial Services,gd_clf_bus,housing_net_additions,0.905,Positive ↑,0.0654
+Financial Services,gd_clf_bus,gcse_age19,0.804,Positive ↑,0.1411
+Financial Services,gd_clf_bus,enterprise_high_growth_rate,0.68,Positive ↑,0.0431
+Financial Services,gd_clf_bus,nvq_level3,0.632,Positive ↑,0.0285
+Financial Services,gd_clf_bus,apprenticeship_starts,0.481,Positive ↑,0.0374
+Financial Services,gd_clf_bus,transport_to_employer,0.149,Positive ↑,0.0721
+Financial Services,gd_clf_bus,n_universities_feecap_lad,-0.036,Ambiguous,0.0672
+Financial Services,gd_clf_bus,enterprise_death_rate,-0.071,Ambiguous,0.0543
+Financial Services,gd_clf_bus,broadband,-0.384,Negative ↓,0.0786
+Financial Services,gd_clf_bus,fe_participation,-0.762,Negative ↓,0.0753
+Financial Services,gd_clf_bus,enterprise_birth_rate,-0.794,Negative ↓,0.2339
+Financial Services,gd_clf_bus,unemployment_rate,-0.808,Negative ↓,0.1031
+Life Sciences,gd_clf_bus,housing_net_additions,0.805,Positive ↑,0.0448
+Life Sciences,gd_clf_bus,enterprise_high_growth_rate,0.764,Positive ↑,0.2031
+Life Sciences,gd_clf_bus,nvq_level3,0.512,Positive ↑,0.0689
+Life Sciences,gd_clf_bus,apprenticeship_starts,0.22,Positive ↑,0.0587
+Life Sciences,gd_clf_bus,transport_to_employer,-0.212,Negative ↓,0.0423
+Life Sciences,gd_clf_bus,unemployment_rate,-0.232,Negative ↓,0.0355
+Life Sciences,gd_clf_bus,n_universities_feecap_lad,-0.333,Negative ↓,0.0207
+Life Sciences,gd_clf_bus,broadband,-0.508,Negative ↓,0.135
+Life Sciences,gd_clf_bus,fe_participation,-0.574,Negative ↓,0.0294
+Life Sciences,gd_clf_bus,gcse_age19,-0.644,Negative ↓,0.0713
+Life Sciences,gd_clf_bus,enterprise_death_rate,-0.841,Negative ↓,0.0809
+Life Sciences,gd_clf_bus,enterprise_birth_rate,-0.845,Negative ↓,0.2092
+Professional and Business Services,gd_clf_bus,unemployment_rate,0.907,Positive ↑,0.0413
+Professional and Business Services,gd_clf_bus,n_universities_feecap_lad,0.786,Positive ↑,0.0362
+Professional and Business Services,gd_clf_bus,housing_net_additions,0.729,Positive ↑,0.0265
+Professional and Business Services,gd_clf_bus,enterprise_high_growth_rate,0.663,Positive ↑,0.0538
+Professional and Business Services,gd_clf_bus,enterprise_birth_rate,0.607,Positive ↑,0.0563
+Professional and Business Services,gd_clf_bus,transport_to_employer,0.571,Positive ↑,0.0909
+Professional and Business Services,gd_clf_bus,fe_participation,0.411,Positive ↑,0.0857
+Professional and Business Services,gd_clf_bus,apprenticeship_starts,0.272,Positive ↑,0.0791
+Professional and Business Services,gd_clf_bus,nvq_level3,-0.76,Negative ↓,0.1124
+Professional and Business Services,gd_clf_bus,enterprise_death_rate,-0.823,Negative ↓,0.1288
+Professional and Business Services,gd_clf_bus,broadband,-0.857,Negative ↓,0.0653
+Professional and Business Services,gd_clf_bus,gcse_age19,-0.882,Negative ↓,0.2237
+Advanced Manufacturing,LQ_reg_emp,apprenticeship_starts,0.81,Positive ↑,0.4518
+Advanced Manufacturing,LQ_reg_emp,enterprise_high_growth_rate,0.601,Positive ↑,0.0636
+Advanced Manufacturing,LQ_reg_emp,housing_net_additions,0.579,Positive ↑,0.101
+Advanced Manufacturing,LQ_reg_emp,transport_to_employer,0.555,Positive ↑,0.0358
+Advanced Manufacturing,LQ_reg_emp,fe_participation,0.348,Positive ↑,0.1127
+Advanced Manufacturing,LQ_reg_emp,gcse_age19,0.191,Positive ↑,0.0324
+Advanced Manufacturing,LQ_reg_emp,broadband,0.088,Ambiguous,0.0168
+Advanced Manufacturing,LQ_reg_emp,nvq_level3,-0.385,Negative ↓,0.0242
+Advanced Manufacturing,LQ_reg_emp,unemployment_rate,-0.472,Negative ↓,0.1044
+Advanced Manufacturing,LQ_reg_emp,enterprise_death_rate,-0.573,Negative ↓,0.0054
+Advanced Manufacturing,LQ_reg_emp,n_universities_feecap_lad,-0.6,Negative ↓,0.0036
+Advanced Manufacturing,LQ_reg_emp,enterprise_birth_rate,-0.657,Negative ↓,0.0484
+Creative Industries,LQ_reg_emp,nvq_level3,0.915,Positive ↑,0.2125
+Creative Industries,LQ_reg_emp,enterprise_high_growth_rate,0.77,Positive ↑,0.0626
+Creative Industries,LQ_reg_emp,broadband,0.767,Positive ↑,0.0075
+Creative Industries,LQ_reg_emp,gcse_age19,0.755,Positive ↑,0.0652
+Creative Industries,LQ_reg_emp,housing_net_additions,0.639,Positive ↑,0.0156
+Creative Industries,LQ_reg_emp,n_universities_feecap_lad,0.626,Positive ↑,0.0147
+Creative Industries,LQ_reg_emp,enterprise_death_rate,-0.218,Negative ↓,0.01
+Creative Industries,LQ_reg_emp,transport_to_employer,-0.412,Negative ↓,0.3162
+Creative Industries,LQ_reg_emp,apprenticeship_starts,-0.704,Negative ↓,0.2713
+Creative Industries,LQ_reg_emp,unemployment_rate,-0.717,Negative ↓,0.0044
+Creative Industries,LQ_reg_emp,enterprise_birth_rate,-0.741,Negative ↓,0.0113
+Creative Industries,LQ_reg_emp,fe_participation,-0.756,Negative ↓,0.0087
+Digital and Technologies,LQ_reg_emp,nvq_level3,0.912,Positive ↑,0.3403
+Digital and Technologies,LQ_reg_emp,broadband,0.909,Positive ↑,0.0557
+Digital and Technologies,LQ_reg_emp,n_universities_feecap_lad,0.821,Positive ↑,0.0078
+Digital and Technologies,LQ_reg_emp,enterprise_high_growth_rate,0.796,Positive ↑,0.2058
+Digital and Technologies,LQ_reg_emp,housing_net_additions,0.776,Positive ↑,0.0244
+Digital and Technologies,LQ_reg_emp,gcse_age19,0.758,Positive ↑,0.1234
+Digital and Technologies,LQ_reg_emp,enterprise_death_rate,0.686,Positive ↑,0.0191
+Digital and Technologies,LQ_reg_emp,unemployment_rate,-0.34,Negative ↓,0.0083
+Digital and Technologies,LQ_reg_emp,transport_to_employer,-0.645,Negative ↓,0.0415
+Digital and Technologies,LQ_reg_emp,fe_participation,-0.689,Negative ↓,0.1085
+Digital and Technologies,LQ_reg_emp,apprenticeship_starts,-0.715,Negative ↓,0.0408
+Digital and Technologies,LQ_reg_emp,enterprise_birth_rate,-0.875,Negative ↓,0.0244
+Financial Services,LQ_reg_emp,n_universities_feecap_lad,0.837,Positive ↑,0.4343
+Financial Services,LQ_reg_emp,broadband,0.697,Positive ↑,0.0489
+Financial Services,LQ_reg_emp,gcse_age19,0.679,Positive ↑,0.0378
+Financial Services,LQ_reg_emp,nvq_level3,0.653,Positive ↑,0.0756
+Financial Services,LQ_reg_emp,enterprise_high_growth_rate,0.57,Positive ↑,0.0188
+Financial Services,LQ_reg_emp,enterprise_birth_rate,0.366,Positive ↑,0.0169
+Financial Services,LQ_reg_emp,enterprise_death_rate,0.194,Positive ↑,0.021
+Financial Services,LQ_reg_emp,unemployment_rate,-0.521,Negative ↓,0.0665
+Financial Services,LQ_reg_emp,apprenticeship_starts,-0.629,Negative ↓,0.0921
+Financial Services,LQ_reg_emp,fe_participation,-0.761,Negative ↓,0.1031
+Financial Services,LQ_reg_emp,housing_net_additions,-0.831,Negative ↓,0.026
+Financial Services,LQ_reg_emp,transport_to_employer,-0.836,Negative ↓,0.0589
+Life Sciences,LQ_reg_emp,gcse_age19,0.794,Positive ↑,0.2384
+Life Sciences,LQ_reg_emp,enterprise_high_growth_rate,0.718,Positive ↑,0.0718
+Life Sciences,LQ_reg_emp,n_universities_feecap_lad,0.707,Positive ↑,0.0225
+Life Sciences,LQ_reg_emp,transport_to_employer,0.637,Positive ↑,0.0245
+Life Sciences,LQ_reg_emp,apprenticeship_starts,0.565,Positive ↑,0.0348
+Life Sciences,LQ_reg_emp,housing_net_additions,0.516,Positive ↑,0.0179
+Life Sciences,LQ_reg_emp,broadband,0.399,Positive ↑,0.1414
+Life Sciences,LQ_reg_emp,nvq_level3,0.204,Positive ↑,0.0769
+Life Sciences,LQ_reg_emp,enterprise_birth_rate,-0.19,Negative ↓,0.0428
+Life Sciences,LQ_reg_emp,enterprise_death_rate,-0.192,Negative ↓,0.0104
+Life Sciences,LQ_reg_emp,unemployment_rate,-0.515,Negative ↓,0.094
+Life Sciences,LQ_reg_emp,fe_participation,-0.549,Negative ↓,0.2247
+Professional and Business Services,LQ_reg_emp,broadband,0.889,Positive ↑,0.0576
+Professional and Business Services,LQ_reg_emp,gcse_age19,0.859,Positive ↑,0.2005
+Professional and Business Services,LQ_reg_emp,enterprise_high_growth_rate,0.846,Positive ↑,0.1135
+Professional and Business Services,LQ_reg_emp,nvq_level3,0.818,Positive ↑,0.0776
+Professional and Business Services,LQ_reg_emp,housing_net_additions,0.817,Positive ↑,0.0207
+Professional and Business Services,LQ_reg_emp,n_universities_feecap_lad,0.776,Positive ↑,0.1056
+Professional and Business Services,LQ_reg_emp,enterprise_death_rate,0.655,Positive ↑,0.0809
+Professional and Business Services,LQ_reg_emp,enterprise_birth_rate,0.638,Positive ↑,0.0111
+Professional and Business Services,LQ_reg_emp,transport_to_employer,-0.531,Negative ↓,0.0096
+Professional and Business Services,LQ_reg_emp,apprenticeship_starts,-0.69,Negative ↓,0.217
+Professional and Business Services,LQ_reg_emp,unemployment_rate,-0.753,Negative ↓,0.0132
+Professional and Business Services,LQ_reg_emp,fe_participation,-0.872,Negative ↓,0.0927
+Advanced Manufacturing,LQ_clf_emp,apprenticeship_starts,0.771,Positive ↑,0.2871
+Advanced Manufacturing,LQ_clf_emp,housing_net_additions,0.761,Positive ↑,0.0395
+Advanced Manufacturing,LQ_clf_emp,transport_to_employer,0.722,Positive ↑,0.1617
+Advanced Manufacturing,LQ_clf_emp,fe_participation,0.287,Positive ↑,0.0486
+Advanced Manufacturing,LQ_clf_emp,enterprise_high_growth_rate,-0.423,Negative ↓,0.0269
+Advanced Manufacturing,LQ_clf_emp,broadband,-0.499,Negative ↓,0.02
+Advanced Manufacturing,LQ_clf_emp,enterprise_birth_rate,-0.732,Negative ↓,0.0749
+Advanced Manufacturing,LQ_clf_emp,n_universities_feecap_lad,-0.743,Negative ↓,0.0445
+Advanced Manufacturing,LQ_clf_emp,enterprise_death_rate,-0.797,Negative ↓,0.0507
+Advanced Manufacturing,LQ_clf_emp,unemployment_rate,-0.832,Negative ↓,0.0762
+Advanced Manufacturing,LQ_clf_emp,gcse_age19,-0.834,Negative ↓,0.0676
+Advanced Manufacturing,LQ_clf_emp,nvq_level3,-0.843,Negative ↓,0.1022
+Creative Industries,LQ_clf_emp,n_universities_feecap_lad,0.855,Positive ↑,0.046
+Creative Industries,LQ_clf_emp,enterprise_high_growth_rate,0.826,Positive ↑,0.0888
+Creative Industries,LQ_clf_emp,nvq_level3,0.821,Positive ↑,0.2422
+Creative Industries,LQ_clf_emp,broadband,0.819,Positive ↑,0.0294
+Creative Industries,LQ_clf_emp,housing_net_additions,0.801,Positive ↑,0.0197
+Creative Industries,LQ_clf_emp,gcse_age19,0.788,Positive ↑,0.1732
+Creative Industries,LQ_clf_emp,enterprise_death_rate,0.394,Positive ↑,0.0135
+Creative Industries,LQ_clf_emp,unemployment_rate,-0.088,Ambiguous,0.0194
+Creative Industries,LQ_clf_emp,fe_participation,-0.516,Negative ↓,0.0371
+Creative Industries,LQ_clf_emp,transport_to_employer,-0.602,Negative ↓,0.1317
+Creative Industries,LQ_clf_emp,apprenticeship_starts,-0.741,Negative ↓,0.1878
+Creative Industries,LQ_clf_emp,enterprise_birth_rate,-0.777,Negative ↓,0.0111
+Digital and Technologies,LQ_clf_emp,broadband,0.902,Positive ↑,0.0681
+Digital and Technologies,LQ_clf_emp,nvq_level3,0.891,Positive ↑,0.1598
+Digital and Technologies,LQ_clf_emp,housing_net_additions,0.888,Positive ↑,0.0335
+Digital and Technologies,LQ_clf_emp,gcse_age19,0.861,Positive ↑,0.1942
+Digital and Technologies,LQ_clf_emp,n_universities_feecap_lad,0.856,Positive ↑,0.0324
+Digital and Technologies,LQ_clf_emp,enterprise_high_growth_rate,0.816,Positive ↑,0.133
+Digital and Technologies,LQ_clf_emp,enterprise_death_rate,-0.104,Negative ↓,0.0216
+Digital and Technologies,LQ_clf_emp,fe_participation,-0.583,Negative ↓,0.1306
+Digital and Technologies,LQ_clf_emp,transport_to_employer,-0.643,Negative ↓,0.0582
+Digital and Technologies,LQ_clf_emp,enterprise_birth_rate,-0.723,Negative ↓,0.0373
+Digital and Technologies,LQ_clf_emp,apprenticeship_starts,-0.743,Negative ↓,0.0993
+Digital and Technologies,LQ_clf_emp,unemployment_rate,-0.778,Negative ↓,0.0319
+Financial Services,LQ_clf_emp,n_universities_feecap_lad,0.852,Positive ↑,0.1695
+Financial Services,LQ_clf_emp,gcse_age19,0.809,Positive ↑,0.1051
+Financial Services,LQ_clf_emp,enterprise_high_growth_rate,0.769,Positive ↑,0.1035
+Financial Services,LQ_clf_emp,nvq_level3,0.59,Positive ↑,0.1109
+Financial Services,LQ_clf_emp,enterprise_birth_rate,0.505,Positive ↑,0.0496
+Financial Services,LQ_clf_emp,broadband,0.446,Positive ↑,0.0614
+Financial Services,LQ_clf_emp,housing_net_additions,0.371,Positive ↑,0.0288
+Financial Services,LQ_clf_emp,enterprise_death_rate,-0.225,Negative ↓,0.0399
+Financial Services,LQ_clf_emp,apprenticeship_starts,-0.589,Negative ↓,0.0336
+Financial Services,LQ_clf_emp,unemployment_rate,-0.611,Negative ↓,0.1489
+Financial Services,LQ_clf_emp,fe_participation,-0.682,Negative ↓,0.0655
+Financial Services,LQ_clf_emp,transport_to_employer,-0.788,Negative ↓,0.0834
+Life Sciences,LQ_clf_emp,gcse_age19,0.726,Positive ↑,0.1799
+Life Sciences,LQ_clf_emp,enterprise_high_growth_rate,0.687,Positive ↑,0.1046
+Life Sciences,LQ_clf_emp,nvq_level3,0.578,Positive ↑,0.0637
+Life Sciences,LQ_clf_emp,enterprise_birth_rate,0.543,Positive ↑,0.1091
+Life Sciences,LQ_clf_emp,apprenticeship_starts,0.515,Positive ↑,0.0844
+Life Sciences,LQ_clf_emp,broadband,0.476,Positive ↑,0.0849
+Life Sciences,LQ_clf_emp,transport_to_employer,0.224,Positive ↑,0.055
+Life Sciences,LQ_clf_emp,n_universities_feecap_lad,0.06,Ambiguous,0.0207
+Life Sciences,LQ_clf_emp,housing_net_additions,-0.212,Negative ↓,0.0345
+Life Sciences,LQ_clf_emp,enterprise_death_rate,-0.246,Negative ↓,0.0829
+Life Sciences,LQ_clf_emp,fe_participation,-0.547,Negative ↓,0.1212
+Life Sciences,LQ_clf_emp,unemployment_rate,-0.744,Negative ↓,0.059
+Professional and Business Services,LQ_clf_emp,nvq_level3,0.917,Positive ↑,0.1036
+Professional and Business Services,LQ_clf_emp,gcse_age19,0.841,Positive ↑,0.1952
+Professional and Business Services,LQ_clf_emp,housing_net_additions,0.836,Positive ↑,0.0135
+Professional and Business Services,LQ_clf_emp,enterprise_high_growth_rate,0.818,Positive ↑,0.1104
+Professional and Business Services,LQ_clf_emp,broadband,0.818,Positive ↑,0.0583
+Professional and Business Services,LQ_clf_emp,n_universities_feecap_lad,0.798,Positive ↑,0.0461
+Professional and Business Services,LQ_clf_emp,enterprise_death_rate,0.391,Positive ↑,0.0545
+Professional and Business Services,LQ_clf_emp,transport_to_employer,-0.531,Negative ↓,0.0532
+Professional and Business Services,LQ_clf_emp,enterprise_birth_rate,-0.63,Negative ↓,0.0245
+Professional and Business Services,LQ_clf_emp,fe_participation,-0.636,Negative ↓,0.0993
+Professional and Business Services,LQ_clf_emp,apprenticeship_starts,-0.717,Negative ↓,0.221
+Professional and Business Services,LQ_clf_emp,unemployment_rate,-0.79,Negative ↓,0.0205
+Advanced Manufacturing,gd_clf_emp,nvq_level3,0.887,Positive ↑,0.2106
+Advanced Manufacturing,gd_clf_emp,n_universities_feecap_lad,0.45,Positive ↑,0.0365
+Advanced Manufacturing,gd_clf_emp,gcse_age19,0.418,Positive ↑,0.071
+Advanced Manufacturing,gd_clf_emp,fe_participation,0.383,Positive ↑,0.051
+Advanced Manufacturing,gd_clf_emp,housing_net_additions,0.231,Positive ↑,0.0946
+Advanced Manufacturing,gd_clf_emp,enterprise_birth_rate,-0.15,Negative ↓,0.0466
+Advanced Manufacturing,gd_clf_emp,enterprise_high_growth_rate,-0.175,Negative ↓,0.0583
+Advanced Manufacturing,gd_clf_emp,transport_to_employer,-0.467,Negative ↓,0.0992
+Advanced Manufacturing,gd_clf_emp,broadband,-0.507,Negative ↓,0.0364
+Advanced Manufacturing,gd_clf_emp,apprenticeship_starts,-0.66,Negative ↓,0.0874
+Advanced Manufacturing,gd_clf_emp,enterprise_death_rate,-0.692,Negative ↓,0.1538
+Advanced Manufacturing,gd_clf_emp,unemployment_rate,-0.74,Negative ↓,0.0546
+Creative Industries,gd_clf_emp,apprenticeship_starts,0.825,Positive ↑,0.069
+Creative Industries,gd_clf_emp,n_universities_feecap_lad,0.761,Positive ↑,0.048
+Creative Industries,gd_clf_emp,housing_net_additions,0.756,Positive ↑,0.2394
+Creative Industries,gd_clf_emp,enterprise_high_growth_rate,0.71,Positive ↑,0.2586
+Creative Industries,gd_clf_emp,fe_participation,0.643,Positive ↑,0.0346
+Creative Industries,gd_clf_emp,transport_to_employer,0.472,Positive ↑,0.0429
+Creative Industries,gd_clf_emp,nvq_level3,0.093,Ambiguous,0.0216
+Creative Industries,gd_clf_emp,broadband,-0.17,Negative ↓,0.0582
+Creative Industries,gd_clf_emp,enterprise_death_rate,-0.387,Negative ↓,0.0239
+Creative Industries,gd_clf_emp,enterprise_birth_rate,-0.532,Negative ↓,0.0661
+Creative Industries,gd_clf_emp,gcse_age19,-0.553,Negative ↓,0.0465
+Creative Industries,gd_clf_emp,unemployment_rate,-0.926,Negative ↓,0.0913
+Digital and Technologies,gd_clf_emp,housing_net_additions,0.879,Positive ↑,0.1356
+Digital and Technologies,gd_clf_emp,n_universities_feecap_lad,0.827,Positive ↑,0.0883
+Digital and Technologies,gd_clf_emp,enterprise_high_growth_rate,0.81,Positive ↑,0.1271
+Digital and Technologies,gd_clf_emp,enterprise_death_rate,0.761,Positive ↑,0.036
+Digital and Technologies,gd_clf_emp,apprenticeship_starts,0.755,Positive ↑,0.1193
+Digital and Technologies,gd_clf_emp,nvq_level3,0.726,Positive ↑,0.0752
+Digital and Technologies,gd_clf_emp,enterprise_birth_rate,0.678,Positive ↑,0.0791
+Digital and Technologies,gd_clf_emp,fe_participation,0.595,Positive ↑,0.0446
+Digital and Technologies,gd_clf_emp,transport_to_employer,0.262,Positive ↑,0.1055
+Digital and Technologies,gd_clf_emp,unemployment_rate,-0.568,Negative ↓,0.0419
+Digital and Technologies,gd_clf_emp,broadband,-0.674,Negative ↓,0.0516
+Digital and Technologies,gd_clf_emp,gcse_age19,-0.898,Negative ↓,0.0957
+Financial Services,gd_clf_emp,n_universities_feecap_lad,0.797,Positive ↑,0.0953
+Financial Services,gd_clf_emp,housing_net_additions,0.76,Positive ↑,0.0629
+Financial Services,gd_clf_emp,enterprise_high_growth_rate,0.653,Positive ↑,0.2878
+Financial Services,gd_clf_emp,enterprise_birth_rate,0.423,Positive ↑,0.0861
+Financial Services,gd_clf_emp,broadband,0.366,Positive ↑,0.0656
+Financial Services,gd_clf_emp,enterprise_death_rate,0.3,Positive ↑,0.0714
+Financial Services,gd_clf_emp,transport_to_employer,0.202,Positive ↑,0.0953
+Financial Services,gd_clf_emp,unemployment_rate,-0.087,Ambiguous,0.0357
+Financial Services,gd_clf_emp,gcse_age19,-0.353,Negative ↓,0.0518
+Financial Services,gd_clf_emp,nvq_level3,-0.467,Negative ↓,0.0358
+Financial Services,gd_clf_emp,apprenticeship_starts,-0.487,Negative ↓,0.0439
+Financial Services,gd_clf_emp,fe_participation,-0.608,Negative ↓,0.0685
+Life Sciences,gd_clf_emp,enterprise_high_growth_rate,0.883,Positive ↑,0.1185
+Life Sciences,gd_clf_emp,nvq_level3,0.826,Positive ↑,0.175
+Life Sciences,gd_clf_emp,broadband,0.8,Positive ↑,0.0509
+Life Sciences,gd_clf_emp,n_universities_feecap_lad,0.751,Positive ↑,0.0724
+Life Sciences,gd_clf_emp,enterprise_death_rate,0.641,Positive ↑,0.0735
+Life Sciences,gd_clf_emp,unemployment_rate,0.601,Positive ↑,0.06
+Life Sciences,gd_clf_emp,enterprise_birth_rate,0.497,Positive ↑,0.0733
+Life Sciences,gd_clf_emp,gcse_age19,0.135,Positive ↑,0.0626
+Life Sciences,gd_clf_emp,transport_to_employer,-0.386,Negative ↓,0.0931
+Life Sciences,gd_clf_emp,fe_participation,-0.559,Negative ↓,0.0695
+Life Sciences,gd_clf_emp,housing_net_additions,-0.62,Negative ↓,0.0596
+Life Sciences,gd_clf_emp,apprenticeship_starts,-0.799,Negative ↓,0.0918
+Professional and Business Services,gd_clf_emp,apprenticeship_starts,0.823,Positive ↑,0.1358
+Professional and Business Services,gd_clf_emp,enterprise_high_growth_rate,0.777,Positive ↑,0.249
+Professional and Business Services,gd_clf_emp,nvq_level3,0.718,Positive ↑,0.0999
+Professional and Business Services,gd_clf_emp,housing_net_additions,0.674,Positive ↑,0.0591
+Professional and Business Services,gd_clf_emp,n_universities_feecap_lad,0.661,Positive ↑,0.0695
+Professional and Business Services,gd_clf_emp,transport_to_employer,0.646,Positive ↑,0.1122
+Professional and Business Services,gd_clf_emp,gcse_age19,0.49,Positive ↑,0.0357
+Professional and Business Services,gd_clf_emp,fe_participation,0.019,Ambiguous,0.028
+Professional and Business Services,gd_clf_emp,broadband,-0.22,Negative ↓,0.0374
+Professional and Business Services,gd_clf_emp,enterprise_death_rate,-0.442,Negative ↓,0.0644
+Professional and Business Services,gd_clf_emp,unemployment_rate,-0.718,Negative ↓,0.0422
+Professional and Business Services,gd_clf_emp,enterprise_birth_rate,-0.747,Negative ↓,0.0669
