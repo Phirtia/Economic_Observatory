@@ -1,22 +1,22 @@
 spec,sector,outcome,n,r2,r2_adj,n_sig,n_vars
-FULL_31,Advanced Manufacturing,lq_emp,294,0.535,0.518,3,10
-FULL_31,Advanced Manufacturing,lq_bus,279,0.6,0.575,4,16
-FULL_31,Advanced Manufacturing,gd_bus,294,0.18,0.154,4,9
-FULL_31,Creative Industries,lq_emp,293,0.633,0.613,6,15
-FULL_31,Creative Industries,lq_bus,293,0.703,0.692,3,10
-FULL_31,Creative Industries,gd_emp,279,0.148,0.122,3,8
-FULL_31,Creative Industries,gd_bus,279,0.226,0.191,3,12
-FULL_31,Digital and Technologies,lq_emp,293,0.629,0.612,7,13
-FULL_31,Digital and Technologies,lq_bus,279,0.708,0.693,9,14
-FULL_31,Digital and Technologies,gd_emp,279,0.229,0.188,6,14
-FULL_31,Digital and Technologies,gd_bus,295,0.193,0.182,4,4
-FULL_31,Financial Services,lq_emp,294,0.392,0.373,5,9
-FULL_31,Financial Services,lq_bus,293,0.372,0.343,4,13
-FULL_31,Financial Services,gd_emp,295,0.053,0.04,1,4
-FULL_31,Financial Services,gd_bus,295,0.127,0.115,2,4
-FULL_31,Life Sciences,lq_emp,201,0.298,0.241,5,15
-FULL_31,Life Sciences,lq_bus,215,0.386,0.353,5,11
-FULL_31,Life Sciences,gd_emp,279,0.086,0.076,3,3
-FULL_31,Life Sciences,gd_bus,210,0.302,0.289,2,4
-FULL_31,Professional and Business Services,lq_emp,293,0.536,0.515,6,13
-FULL_31,Professional and Business Services,lq_bus,279,0.82,0.809,10,16
+FULL_31,Advanced Manufacturing,lq_emp,294,0.545,0.529,4,10
+FULL_31,Advanced Manufacturing,lq_bus,293,0.608,0.587,5,15
+FULL_31,Advanced Manufacturing,gd_bus,294,0.16,0.139,5,7
+FULL_31,Creative Industries,lq_emp,279,0.638,0.616,6,16
+FULL_31,Creative Industries,lq_bus,279,0.719,0.703,4,15
+FULL_31,Creative Industries,gd_emp,279,0.139,0.11,4,9
+FULL_31,Creative Industries,gd_bus,279,0.218,0.189,3,10
+FULL_31,Digital and Technologies,lq_emp,293,0.631,0.614,7,13
+FULL_31,Digital and Technologies,lq_bus,279,0.706,0.692,10,13
+FULL_31,Digital and Technologies,gd_emp,279,0.225,0.184,4,14
+FULL_31,Digital and Technologies,gd_bus,295,0.185,0.171,3,5
+FULL_31,Financial Services,lq_emp,279,0.376,0.345,3,13
+FULL_31,Financial Services,lq_bus,279,0.423,0.39,5,15
+FULL_31,Financial Services,gd_emp,295,0.051,0.035,1,5
+FULL_31,Financial Services,gd_bus,295,0.139,0.124,4,5
+FULL_31,Life Sciences,lq_emp,201,0.305,0.249,5,15
+FULL_31,Life Sciences,lq_bus,215,0.367,0.336,5,10
+FULL_31,Life Sciences,gd_emp,279,0.076,0.066,2,3
+FULL_31,Life Sciences,gd_bus,208,0.292,0.275,3,5
+FULL_31,Professional and Business Services,lq_emp,279,0.525,0.494,8,17
+FULL_31,Professional and Business Services,lq_bus,279,0.837,0.826,12,17

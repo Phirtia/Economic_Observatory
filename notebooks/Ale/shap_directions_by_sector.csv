@@ -1,0 +1,217 @@
+sector,model,feature,corr_shap,direction
+Advanced Manufacturing,LQ_reg,housing_net_additions,0.786,Positive ↑
+Advanced Manufacturing,LQ_reg,apprenticeship_starts,0.726,Positive ↑
+Advanced Manufacturing,LQ_reg,apprenticeship_achievements,0.698,Positive ↑
+Advanced Manufacturing,LQ_reg,gcse_age19,0.695,Positive ↑
+Advanced Manufacturing,LQ_reg,related_variety,0.588,Positive ↑
+Advanced Manufacturing,LQ_reg,enterprise_high_growth_rate,0.563,Positive ↑
+Advanced Manufacturing,LQ_reg,coverage_4g,0.496,Positive ↑
+Advanced Manufacturing,LQ_reg,enterprise_death_rate,-0.506,Negative ↓
+Advanced Manufacturing,LQ_reg,nvq_level3,-0.584,Negative ↓
+Advanced Manufacturing,LQ_reg,fe_participation,-0.682,Negative ↓
+Advanced Manufacturing,LQ_reg,enterprise_birth_rate,-0.722,Negative ↓
+Advanced Manufacturing,LQ_reg,broadband,-0.739,Negative ↓
+Creative Industries,LQ_reg,nvq_level3,0.902,Positive ↑
+Creative Industries,LQ_reg,gcse_age19,0.836,Positive ↑
+Creative Industries,LQ_reg,broadband,0.827,Positive ↑
+Creative Industries,LQ_reg,enterprise_high_growth_rate,0.734,Positive ↑
+Creative Industries,LQ_reg,coverage_4g,0.689,Positive ↑
+Creative Industries,LQ_reg,related_variety,0.622,Positive ↑
+Creative Industries,LQ_reg,enterprise_death_rate,0.423,Positive ↑
+Creative Industries,LQ_reg,housing_net_additions,0.115,Positive ↑
+Creative Industries,LQ_reg,fe_participation,-0.276,Negative ↓
+Creative Industries,LQ_reg,enterprise_birth_rate,-0.325,Negative ↓
+Creative Industries,LQ_reg,apprenticeship_achievements,-0.732,Negative ↓
+Creative Industries,LQ_reg,apprenticeship_starts,-0.795,Negative ↓
+Digital and Technologies,LQ_reg,broadband,0.937,Positive ↑
+Digital and Technologies,LQ_reg,nvq_level3,0.935,Positive ↑
+Digital and Technologies,LQ_reg,gcse_age19,0.872,Positive ↑
+Digital and Technologies,LQ_reg,housing_net_additions,0.851,Positive ↑
+Digital and Technologies,LQ_reg,enterprise_high_growth_rate,0.797,Positive ↑
+Digital and Technologies,LQ_reg,enterprise_death_rate,0.742,Positive ↑
+Digital and Technologies,LQ_reg,coverage_4g,0.727,Positive ↑
+Digital and Technologies,LQ_reg,related_variety,0.529,Positive ↑
+Digital and Technologies,LQ_reg,apprenticeship_starts,-0.753,Negative ↓
+Digital and Technologies,LQ_reg,apprenticeship_achievements,-0.757,Negative ↓
+Digital and Technologies,LQ_reg,fe_participation,-0.764,Negative ↓
+Digital and Technologies,LQ_reg,enterprise_birth_rate,-0.805,Negative ↓
+Financial Services,LQ_reg,nvq_level3,0.815,Positive ↑
+Financial Services,LQ_reg,gcse_age19,0.811,Positive ↑
+Financial Services,LQ_reg,broadband,0.803,Positive ↑
+Financial Services,LQ_reg,coverage_4g,0.709,Positive ↑
+Financial Services,LQ_reg,enterprise_high_growth_rate,0.696,Positive ↑
+Financial Services,LQ_reg,related_variety,0.454,Positive ↑
+Financial Services,LQ_reg,enterprise_death_rate,0.372,Positive ↑
+Financial Services,LQ_reg,housing_net_additions,-0.037,Ambiguous
+Financial Services,LQ_reg,apprenticeship_achievements,-0.569,Negative ↓
+Financial Services,LQ_reg,apprenticeship_starts,-0.599,Negative ↓
+Financial Services,LQ_reg,fe_participation,-0.76,Negative ↓
+Financial Services,LQ_reg,enterprise_birth_rate,-0.77,Negative ↓
+Life Sciences,LQ_reg,gcse_age19,0.824,Positive ↑
+Life Sciences,LQ_reg,nvq_level3,0.801,Positive ↑
+Life Sciences,LQ_reg,housing_net_additions,0.782,Positive ↑
+Life Sciences,LQ_reg,enterprise_high_growth_rate,0.768,Positive ↑
+Life Sciences,LQ_reg,enterprise_death_rate,0.765,Positive ↑
+Life Sciences,LQ_reg,broadband,0.675,Positive ↑
+Life Sciences,LQ_reg,related_variety,0.571,Positive ↑
+Life Sciences,LQ_reg,enterprise_birth_rate,0.17,Positive ↑
+Life Sciences,LQ_reg,apprenticeship_achievements,0.053,Ambiguous
+Life Sciences,LQ_reg,fe_participation,-0.362,Negative ↓
+Life Sciences,LQ_reg,coverage_4g,-0.59,Negative ↓
+Life Sciences,LQ_reg,apprenticeship_starts,-0.681,Negative ↓
+Professional and Business Services,LQ_reg,nvq_level3,0.942,Positive ↑
+Professional and Business Services,LQ_reg,enterprise_high_growth_rate,0.845,Positive ↑
+Professional and Business Services,LQ_reg,gcse_age19,0.844,Positive ↑
+Professional and Business Services,LQ_reg,coverage_4g,0.755,Positive ↑
+Professional and Business Services,LQ_reg,broadband,0.721,Positive ↑
+Professional and Business Services,LQ_reg,enterprise_death_rate,0.348,Positive ↑
+Professional and Business Services,LQ_reg,housing_net_additions,-0.042,Ambiguous
+Professional and Business Services,LQ_reg,related_variety,-0.498,Negative ↓
+Professional and Business Services,LQ_reg,fe_participation,-0.697,Negative ↓
+Professional and Business Services,LQ_reg,apprenticeship_starts,-0.741,Negative ↓
+Professional and Business Services,LQ_reg,enterprise_birth_rate,-0.79,Negative ↓
+Professional and Business Services,LQ_reg,apprenticeship_achievements,-0.807,Negative ↓
+Advanced Manufacturing,LQ_clf,housing_net_additions,0.828,Positive ↑
+Advanced Manufacturing,LQ_clf,apprenticeship_achievements,0.667,Positive ↑
+Advanced Manufacturing,LQ_clf,apprenticeship_starts,0.647,Positive ↑
+Advanced Manufacturing,LQ_clf,coverage_4g,0.603,Positive ↑
+Advanced Manufacturing,LQ_clf,related_variety,0.543,Positive ↑
+Advanced Manufacturing,LQ_clf,enterprise_high_growth_rate,-0.487,Negative ↓
+Advanced Manufacturing,LQ_clf,broadband,-0.518,Negative ↓
+Advanced Manufacturing,LQ_clf,enterprise_death_rate,-0.584,Negative ↓
+Advanced Manufacturing,LQ_clf,fe_participation,-0.652,Negative ↓
+Advanced Manufacturing,LQ_clf,enterprise_birth_rate,-0.712,Negative ↓
+Advanced Manufacturing,LQ_clf,nvq_level3,-0.839,Negative ↓
+Advanced Manufacturing,LQ_clf,gcse_age19,-0.854,Negative ↓
+Creative Industries,LQ_clf,gcse_age19,0.84,Positive ↑
+Creative Industries,LQ_clf,nvq_level3,0.831,Positive ↑
+Creative Industries,LQ_clf,enterprise_high_growth_rate,0.739,Positive ↑
+Creative Industries,LQ_clf,broadband,0.73,Positive ↑
+Creative Industries,LQ_clf,enterprise_death_rate,0.469,Positive ↑
+Creative Industries,LQ_clf,related_variety,0.435,Positive ↑
+Creative Industries,LQ_clf,housing_net_additions,0.393,Positive ↑
+Creative Industries,LQ_clf,coverage_4g,0.29,Positive ↑
+Creative Industries,LQ_clf,fe_participation,-0.614,Negative ↓
+Creative Industries,LQ_clf,enterprise_birth_rate,-0.667,Negative ↓
+Creative Industries,LQ_clf,apprenticeship_achievements,-0.728,Negative ↓
+Creative Industries,LQ_clf,apprenticeship_starts,-0.738,Negative ↓
+Digital and Technologies,LQ_clf,broadband,0.898,Positive ↑
+Digital and Technologies,LQ_clf,nvq_level3,0.892,Positive ↑
+Digital and Technologies,LQ_clf,gcse_age19,0.886,Positive ↑
+Digital and Technologies,LQ_clf,housing_net_additions,0.808,Positive ↑
+Digital and Technologies,LQ_clf,enterprise_death_rate,0.744,Positive ↑
+Digital and Technologies,LQ_clf,enterprise_high_growth_rate,0.717,Positive ↑
+Digital and Technologies,LQ_clf,related_variety,0.481,Positive ↑
+Digital and Technologies,LQ_clf,coverage_4g,0.43,Positive ↑
+Digital and Technologies,LQ_clf,enterprise_birth_rate,-0.452,Negative ↓
+Digital and Technologies,LQ_clf,fe_participation,-0.655,Negative ↓
+Digital and Technologies,LQ_clf,apprenticeship_starts,-0.76,Negative ↓
+Digital and Technologies,LQ_clf,apprenticeship_achievements,-0.771,Negative ↓
+Financial Services,LQ_clf,nvq_level3,0.813,Positive ↑
+Financial Services,LQ_clf,enterprise_high_growth_rate,0.809,Positive ↑
+Financial Services,LQ_clf,broadband,0.796,Positive ↑
+Financial Services,LQ_clf,gcse_age19,0.761,Positive ↑
+Financial Services,LQ_clf,related_variety,0.483,Positive ↑
+Financial Services,LQ_clf,coverage_4g,0.284,Positive ↑
+Financial Services,LQ_clf,enterprise_death_rate,-0.197,Negative ↓
+Financial Services,LQ_clf,housing_net_additions,-0.51,Negative ↓
+Financial Services,LQ_clf,fe_participation,-0.616,Negative ↓
+Financial Services,LQ_clf,enterprise_birth_rate,-0.623,Negative ↓
+Financial Services,LQ_clf,apprenticeship_achievements,-0.682,Negative ↓
+Financial Services,LQ_clf,apprenticeship_starts,-0.713,Negative ↓
+Life Sciences,LQ_clf,nvq_level3,0.905,Positive ↑
+Life Sciences,LQ_clf,housing_net_additions,0.852,Positive ↑
+Life Sciences,LQ_clf,gcse_age19,0.773,Positive ↑
+Life Sciences,LQ_clf,enterprise_high_growth_rate,0.729,Positive ↑
+Life Sciences,LQ_clf,related_variety,0.589,Positive ↑
+Life Sciences,LQ_clf,broadband,0.441,Positive ↑
+Life Sciences,LQ_clf,coverage_4g,0.356,Positive ↑
+Life Sciences,LQ_clf,enterprise_death_rate,0.137,Positive ↑
+Life Sciences,LQ_clf,enterprise_birth_rate,0.086,Ambiguous
+Life Sciences,LQ_clf,apprenticeship_achievements,-0.551,Negative ↓
+Life Sciences,LQ_clf,fe_participation,-0.557,Negative ↓
+Life Sciences,LQ_clf,apprenticeship_starts,-0.676,Negative ↓
+Professional and Business Services,LQ_clf,nvq_level3,0.88,Positive ↑
+Professional and Business Services,LQ_clf,housing_net_additions,0.863,Positive ↑
+Professional and Business Services,LQ_clf,gcse_age19,0.841,Positive ↑
+Professional and Business Services,LQ_clf,enterprise_high_growth_rate,0.811,Positive ↑
+Professional and Business Services,LQ_clf,broadband,0.737,Positive ↑
+Professional and Business Services,LQ_clf,coverage_4g,0.546,Positive ↑
+Professional and Business Services,LQ_clf,enterprise_death_rate,-0.445,Negative ↓
+Professional and Business Services,LQ_clf,related_variety,-0.576,Negative ↓
+Professional and Business Services,LQ_clf,fe_participation,-0.695,Negative ↓
+Professional and Business Services,LQ_clf,apprenticeship_starts,-0.757,Negative ↓
+Professional and Business Services,LQ_clf,apprenticeship_achievements,-0.766,Negative ↓
+Professional and Business Services,LQ_clf,enterprise_birth_rate,-0.843,Negative ↓
+Advanced Manufacturing,gd_clf,enterprise_birth_rate,0.918,Positive ↑
+Advanced Manufacturing,gd_clf,housing_net_additions,0.879,Positive ↑
+Advanced Manufacturing,gd_clf,enterprise_high_growth_rate,0.801,Positive ↑
+Advanced Manufacturing,gd_clf,enterprise_death_rate,0.615,Positive ↑
+Advanced Manufacturing,gd_clf,fe_participation,0.589,Positive ↑
+Advanced Manufacturing,gd_clf,related_variety,0.321,Positive ↑
+Advanced Manufacturing,gd_clf,apprenticeship_starts,0.101,Positive ↑
+Advanced Manufacturing,gd_clf,nvq_level3,-0.302,Negative ↓
+Advanced Manufacturing,gd_clf,apprenticeship_achievements,-0.439,Negative ↓
+Advanced Manufacturing,gd_clf,gcse_age19,-0.454,Negative ↓
+Advanced Manufacturing,gd_clf,coverage_4g,-0.863,Negative ↓
+Advanced Manufacturing,gd_clf,broadband,-0.9,Negative ↓
+Creative Industries,gd_clf,fe_participation,0.831,Positive ↑
+Creative Industries,gd_clf,enterprise_high_growth_rate,0.765,Positive ↑
+Creative Industries,gd_clf,related_variety,0.759,Positive ↑
+Creative Industries,gd_clf,enterprise_birth_rate,0.441,Positive ↑
+Creative Industries,gd_clf,apprenticeship_achievements,0.436,Positive ↑
+Creative Industries,gd_clf,apprenticeship_starts,0.391,Positive ↑
+Creative Industries,gd_clf,nvq_level3,0.16,Positive ↑
+Creative Industries,gd_clf,housing_net_additions,0.043,Ambiguous
+Creative Industries,gd_clf,enterprise_death_rate,-0.583,Negative ↓
+Creative Industries,gd_clf,coverage_4g,-0.757,Negative ↓
+Creative Industries,gd_clf,gcse_age19,-0.797,Negative ↓
+Creative Industries,gd_clf,broadband,-0.844,Negative ↓
+Digital and Technologies,gd_clf,enterprise_birth_rate,0.925,Positive ↑
+Digital and Technologies,gd_clf,housing_net_additions,0.913,Positive ↑
+Digital and Technologies,gd_clf,related_variety,0.832,Positive ↑
+Digital and Technologies,gd_clf,enterprise_high_growth_rate,0.691,Positive ↑
+Digital and Technologies,gd_clf,fe_participation,0.469,Positive ↑
+Digital and Technologies,gd_clf,nvq_level3,0.347,Positive ↑
+Digital and Technologies,gd_clf,apprenticeship_starts,-0.538,Negative ↓
+Digital and Technologies,gd_clf,enterprise_death_rate,-0.632,Negative ↓
+Digital and Technologies,gd_clf,coverage_4g,-0.686,Negative ↓
+Digital and Technologies,gd_clf,apprenticeship_achievements,-0.711,Negative ↓
+Digital and Technologies,gd_clf,gcse_age19,-0.817,Negative ↓
+Digital and Technologies,gd_clf,broadband,-0.854,Negative ↓
+Financial Services,gd_clf,housing_net_additions,0.924,Positive ↑
+Financial Services,gd_clf,related_variety,0.79,Positive ↑
+Financial Services,gd_clf,gcse_age19,0.767,Positive ↑
+Financial Services,gd_clf,enterprise_high_growth_rate,0.747,Positive ↑
+Financial Services,gd_clf,apprenticeship_starts,0.727,Positive ↑
+Financial Services,gd_clf,apprenticeship_achievements,0.594,Positive ↑
+Financial Services,gd_clf,coverage_4g,0.591,Positive ↑
+Financial Services,gd_clf,nvq_level3,0.586,Positive ↑
+Financial Services,gd_clf,enterprise_death_rate,-0.133,Negative ↓
+Financial Services,gd_clf,broadband,-0.659,Negative ↓
+Financial Services,gd_clf,fe_participation,-0.795,Negative ↓
+Financial Services,gd_clf,enterprise_birth_rate,-0.816,Negative ↓
+Life Sciences,gd_clf,housing_net_additions,0.867,Positive ↑
+Life Sciences,gd_clf,enterprise_high_growth_rate,0.752,Positive ↑
+Life Sciences,gd_clf,apprenticeship_achievements,0.553,Positive ↑
+Life Sciences,gd_clf,nvq_level3,0.435,Positive ↑
+Life Sciences,gd_clf,related_variety,0.29,Positive ↑
+Life Sciences,gd_clf,apprenticeship_starts,0.239,Positive ↑
+Life Sciences,gd_clf,coverage_4g,0.194,Positive ↑
+Life Sciences,gd_clf,broadband,-0.269,Negative ↓
+Life Sciences,gd_clf,fe_participation,-0.536,Negative ↓
+Life Sciences,gd_clf,gcse_age19,-0.684,Negative ↓
+Life Sciences,gd_clf,enterprise_birth_rate,-0.811,Negative ↓
+Life Sciences,gd_clf,enterprise_death_rate,-0.854,Negative ↓
+Professional and Business Services,gd_clf,enterprise_high_growth_rate,0.726,Positive ↑
+Professional and Business Services,gd_clf,enterprise_birth_rate,0.62,Positive ↑
+Professional and Business Services,gd_clf,apprenticeship_achievements,0.603,Positive ↑
+Professional and Business Services,gd_clf,fe_participation,0.593,Positive ↑
+Professional and Business Services,gd_clf,housing_net_additions,0.535,Positive ↑
+Professional and Business Services,gd_clf,apprenticeship_starts,0.07,Ambiguous
+Professional and Business Services,gd_clf,related_variety,-0.358,Negative ↓
+Professional and Business Services,gd_clf,coverage_4g,-0.665,Negative ↓
+Professional and Business Services,gd_clf,enterprise_death_rate,-0.749,Negative ↓
+Professional and Business Services,gd_clf,nvq_level3,-0.76,Negative ↓
+Professional and Business Services,gd_clf,broadband,-0.844,Negative ↓
+Professional and Business Services,gd_clf,gcse_age19,-0.895,Negative ↓

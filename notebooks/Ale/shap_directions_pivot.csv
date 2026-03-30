@@ -1,0 +1,37 @@
+model,feature,Advanced Manufacturing,Creative Industries,Digital and Technologies,Financial Services,Life Sciences,Professional and Business Services
+LQ_clf,apprenticeship_achievements,Positive ↑,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+LQ_clf,apprenticeship_starts,Positive ↑,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+LQ_clf,broadband,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_clf,coverage_4g,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_clf,enterprise_birth_rate,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Ambiguous,Negative ↓
+LQ_clf,enterprise_death_rate,Negative ↓,Positive ↑,Positive ↑,Negative ↓,Positive ↑,Negative ↓
+LQ_clf,enterprise_high_growth_rate,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_clf,fe_participation,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+LQ_clf,gcse_age19,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_clf,housing_net_additions,Positive ↑,Positive ↑,Positive ↑,Negative ↓,Positive ↑,Positive ↑
+LQ_clf,nvq_level3,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_clf,related_variety,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Negative ↓
+LQ_reg,apprenticeship_achievements,Positive ↑,Negative ↓,Negative ↓,Negative ↓,Ambiguous,Negative ↓
+LQ_reg,apprenticeship_starts,Positive ↑,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+LQ_reg,broadband,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_reg,coverage_4g,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Negative ↓,Positive ↑
+LQ_reg,enterprise_birth_rate,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Positive ↑,Negative ↓
+LQ_reg,enterprise_death_rate,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_reg,enterprise_high_growth_rate,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_reg,fe_participation,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+LQ_reg,gcse_age19,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_reg,housing_net_additions,Positive ↑,Positive ↑,Positive ↑,Ambiguous,Positive ↑,Ambiguous
+LQ_reg,nvq_level3,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+LQ_reg,related_variety,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Negative ↓
+gd_clf,apprenticeship_achievements,Negative ↓,Positive ↑,Negative ↓,Positive ↑,Positive ↑,Positive ↑
+gd_clf,apprenticeship_starts,Positive ↑,Positive ↑,Negative ↓,Positive ↑,Positive ↑,Ambiguous
+gd_clf,broadband,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+gd_clf,coverage_4g,Negative ↓,Negative ↓,Negative ↓,Positive ↑,Positive ↑,Negative ↓
+gd_clf,enterprise_birth_rate,Positive ↑,Positive ↑,Positive ↑,Negative ↓,Negative ↓,Positive ↑
+gd_clf,enterprise_death_rate,Positive ↑,Negative ↓,Negative ↓,Negative ↓,Negative ↓,Negative ↓
+gd_clf,enterprise_high_growth_rate,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+gd_clf,fe_participation,Positive ↑,Positive ↑,Positive ↑,Negative ↓,Negative ↓,Positive ↑
+gd_clf,gcse_age19,Negative ↓,Negative ↓,Negative ↓,Positive ↑,Negative ↓,Negative ↓
+gd_clf,housing_net_additions,Positive ↑,Ambiguous,Positive ↑,Positive ↑,Positive ↑,Positive ↑
+gd_clf,nvq_level3,Negative ↓,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Negative ↓
+gd_clf,related_variety,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Positive ↑,Negative ↓
