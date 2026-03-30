@@ -1,0 +1,28 @@
+sector,dep_var,Acc_mean_full,Acc_mean_theory,F1_mean_full,F1_mean_theory,F1_winner
+Advanced Manufacturing,gd_bus_binary_median,0.5966,0.5593,0.572,0.5599,full
+Advanced Manufacturing,gd_emp_binary_median,0.5254,0.5017,0.4878,0.4639,full
+Advanced Manufacturing,lq_bus_binary_median,0.7871,0.7364,0.7923,0.738,full
+Advanced Manufacturing,lq_emp_binary_median,0.7128,0.6959,0.7157,0.7068,full
+Creative Industries,gd_bus_binary_median,0.5932,0.5153,0.5933,0.5365,full
+Creative Industries,gd_emp_binary_median,0.6013,0.5676,0.5986,0.5606,full
+Creative Industries,lq_bus_binary_median,0.8986,0.8851,0.8098,0.7805,full
+Creative Industries,lq_emp_binary_median,0.8919,0.8818,0.5911,0.5651,full
+Defence,gd_emp_binary_median,0.6311,0.6733,0.7329,0.7477,theory
+Defence,lq_bus_binary_median,0.9865,0.9865,0.0,0.0,full
+Defence,lq_emp_binary_median,0.9223,0.9223,0.0,0.0,full
+Digital and Technologies,gd_bus_binary_median,0.6373,0.5864,0.6452,0.593,full
+Digital and Technologies,gd_emp_binary_median,0.5559,0.5186,0.5278,0.52,full
+Digital and Technologies,lq_bus_binary_median,0.8311,0.8244,0.7271,0.7147,full
+Digital and Technologies,lq_emp_binary_median,0.8211,0.7972,0.5423,0.4633,full
+Financial Services,gd_bus_binary_median,0.6169,0.6203,0.628,0.6198,full
+Financial Services,gd_emp_binary_median,0.5322,0.4949,0.5462,0.5366,full
+Financial Services,lq_bus_binary_median,0.8311,0.8244,0.2105,0.1629,full
+Financial Services,lq_emp_binary_median,0.8716,0.8581,0.16,0.0,full
+Life Sciences,gd_bus_binary_median,0.7319,0.7021,0.8405,0.823,full
+Life Sciences,gd_emp_binary_median,0.55,0.5179,0.5324,0.5254,full
+Life Sciences,lq_bus_binary_median,0.8412,0.7804,0.4941,0.1709,full
+Life Sciences,lq_emp_binary_median,0.7364,0.7466,0.0485,0.05,theory
+Professional and Business Services,gd_bus_binary_median,0.6584,0.6047,0.6373,0.6082,full
+Professional and Business Services,gd_emp_binary_median,0.5843,0.5912,0.5695,0.5854,theory
+Professional and Business Services,lq_bus_binary_median,0.8851,0.8682,0.8056,0.7792,full
+Professional and Business Services,lq_emp_binary_median,0.8479,0.8512,0.468,0.5046,theory
